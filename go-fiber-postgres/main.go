@@ -16,7 +16,7 @@ type Repository struct {
 	DB *gorm.DB
 }
 
-type Product struct {
+type Products struct {
 	SKU          string   `json:"sku"`
 	Title        string   `json:"title"`
 	Price        float64  `json:"price"`
