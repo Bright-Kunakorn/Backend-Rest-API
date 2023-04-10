@@ -1,132 +1,69 @@
 package main
 
 import (
-	"context"
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
+	"database/sql"
 	"log"
 	"net/http"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"github.com/gin-gonic/gin"
+	_ "github.com/lib/pq"
 )
 
-type Product struct {
-	client     *mongo.Client
-	collection *mongo.Collection
-}
-
-func NewProduct() (*Product, error) {
-	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
-
-	ctx, cancel := context.WithTimeout(context.Background(), 10000*time.Second)
-	defer cancel()
-	client, err := mongo.Connect(ctx, clientOptions)
-	if err != nil {
-		return nil, err
-	}
-
-	collection := client.Database("product").Collection("product")
-
-	return &Product{client, collection}, nil
-}
-
-func (e *Product) GetAllProducts() ([]map[string]interface{}, error) {
-	filter := bson.M{}
-	cur, err := e.collection.Find(context.Background(), filter)
-	if err != nil {
-		return nil, err
-	}
-	defer cur.Close(context.Background())
-
-	results := []map[string]interface{}{}
-
-	for cur.Next(context.Background()) {
-		var result bson.M
-		err := cur.Decode(&result)
-		if err != nil {
-			return nil, err
-		}
-		results = append(results, result)
-	}
-
-	if err := cur.Err(); err != nil {
-		return nil, err
-	}
-
-	return results, nil
-}
-
-func (e *Product) SaveProductsToFile(filePath string) error {
-	products, err := e.GetAllProducts()
-	if err != nil {
-		return err
-	}
-
-	jsonBytes, err := json.Marshal(products)
-	if err != nil {
-		return err
-	}
-	jsonStr := string(jsonBytes)
-
-	err = ioutil.WriteFile(filePath, []byte(jsonStr), 0644)
-	if err != nil {
-		return err
-	}
-
-	fmt.Printf("Updated documents")
-	return nil
+type SKU_branch struct {
+	SKUID      sql.NullString  `json:"skuid"`
+	MerchantID sql.NullString  `json:"merchantid"`
+	BranchID   sql.NullString  `json:"branchid"`
+	Price      sql.NullFloat64 `json:"price"`
+	StartDate  time.Time       `json:"startdate"`
+	EndDate    sql.NullTime       `json:"enddate"`
+	IsActive   sql.NullInt32   `json:"isactive"`
 }
 
 func main() {
-	product, err := NewProduct()
+	connStr := "postgresql://root:secret@localhost:5433?sslmode=disable"
+	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer db.Close()
 
-	http.HandleFunc("/product", func(w http.ResponseWriter, r *http.Request) {
-		if r.Method != http.MethodGet {
-			w.WriteHeader(http.StatusMethodNotAllowed)
-			return
-		}
+	err = db.Ping()
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Successfully connected to PostgreSQL database!")
 
-		products, err := product.GetAllProducts()
+	r := gin.Default()
+
+	r.GET("/skus_branch", func(c *gin.Context) {
+		rows, err := db.Query("SELECT * FROM backendposdata_sku_branch_price")
 		if err != nil {
-			w.WriteHeader(http.StatusInternalServerError)
-			w.Write([]byte(err.Error()))
-			return
+			log.Fatal(err)
+		}
+		defer rows.Close()
+
+		var skus_branch []SKU_branch
+
+		for rows.Next() {
+			var sku_branch SKU_branch
+
+			err := rows.Scan(&sku_branch.SKUID, &sku_branch.MerchantID, &sku_branch.BranchID, &sku_branch.Price, &sku_branch.StartDate, &sku_branch.EndDate, &sku_branch.IsActive)
+			if err != nil {
+				log.Fatal(err)
+			}
+			skus_branch = append(skus_branch, sku_branch)
 		}
 
-		jsonBytes, err := json.Marshal(products)
+		err = rows.Err()
 		if err != nil {
-			w.WriteHeader(http.StatusInternalServerError)
-			w.Write([]byte(err.Error()))
-			return
+			log.Fatal(err)
 		}
 
-		w.Header().Set("Content-Type", "application/json")
-		w.Write(jsonBytes)
+		c.JSON(http.StatusOK, skus_branch)
 	})
 
-	http.HandleFunc("/product/file", func(w http.ResponseWriter, r *http.Request) {
-		if r.Method != http.MethodPost {
-			w.WriteHeader(http.StatusMethodNotAllowed)
-			return
-		}
-
-		err := product.SaveProductsToFile("product.json")
-		if err != nil {
-			w.WriteHeader(http.StatusInternalServerError)
-			w.Write([]byte(err.Error()))
-			return
-		}
-
-		w.Write([]byte("Product saved to file"))
-	})
-
-	fmt.Println("Listening on :8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	if err := r.Run(":8081"); err != nil {
+		log.Fatal(err)
+	}
 }
