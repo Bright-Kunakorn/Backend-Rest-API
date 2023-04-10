@@ -1,4 +1,4 @@
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('017b1','0000000919','songsit300_local',2333,1,1,0,2,1,'192.0',0,1,0,'dev1','2023-03-16 15:27:29',1,'1000000000',NULL,0),
 	 ('017b1c0a-df2e-4f24-be7c-4ae9cadd24ef','8851952121426','songsit1285',2333,1,3,0,2,1,'192.0',0,1,1,'dev1','2023-03-01 11:29:46',1,'1000000000',NULL,0),
 	 ('017b2','0000000919','songsit300_global',2333,1,1,1,2,1,'192.0',0,1,1,'dev1','2022-09-26 11:45:28',1,NULL,NULL,0),
@@ -9,7 +9,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('0833f39c-1d32-4e8b-abcd-0eb446fb8ae1','insertItem1','insertItem1',1,2,20,1,1,1,'10.0',0,1,1,'dev1','2022-09-05 10:01:12',1,'1000000000',NULL,0),
 	 ('089ec154-a48f-4b1b-9f5f-5f2440b734f7','1010101010','HH_Oatt_Check_Name_Lenght',2333,4,25,1,5,5,'150.0',0,0,0,'dev1','2022-09-26 11:14:08',1,'1000000000',NULL,0),
 	 ('09af2383-4921-4aef-aad9-034157a0f284','202020','ABC',1,1,10,1,1,1,'1.0',0,1,0,'testuser1','2022-08-31 13:35:21',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('0f9922ac-d1c7-45ed-bda0-6667c7839e8f','addBrand1','addBrand1',1015,1,1,1,1,1,'13.0',0,1,1,'dev1','2022-09-05 12:29:25',1,'1000000000',NULL,0),
 	 ('0fc3742c-1ef2-4def-afd4-57ab9cccbfb7','12345678901234567890','testLength',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-03-13 13:10:49',1,'1000000000',NULL,0),
 	 ('14258adc-c0fe-4126-a300-a591282b7563','09853','ขนมทดสอบฃ',2,3,21,0,3,7,'100',0,1,1,'tccinven3','2023-02-03 18:11:16',1,'000026',NULL,0),
@@ -20,7 +20,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('1ae3cbe2-db08-47f1-80f0-0c19b82151dc','asfdaaa','asdfsadf',2,8,65,1,9,1,'5.0',0,1,0,'testuser1','2022-09-02 19:10:06',1,'1000000000',NULL,0),
 	 ('2020c296-a5ca-4cca-89a7-a29654125520','d2may22','222',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 12:14:40',1,'000026',NULL,0),
 	 ('21ccf847-8e75-48e3-88b2-40bbb3dfc894','MB','MAINBOARD (1700) BIOSTAR B660M SILVER DDR4',1338,1,1,0,99,1,'0',0,1,1,'songsit3','2023-03-01 10:53:37',1,'1000000019',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('222d45c7-05de-4f58-bdc2-cf1034c68bb3','2543435154324','test No 1',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-01-20 14:27:36',1,'1000000000',NULL,0),
 	 ('232b5504-b491-4b83-bae9-0594c39abe09','348957623895767','เา่เกอ',145,7,44,150,7,8,'8',0,1,1,'dev1','2022-09-14 20:35:49',1,NULL,NULL,0),
 	 ('25422b16-3dd6-4294-9b79-6b9c50f55cbd','55566899','คนยวสยวง',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-02-03 16:35:46',1,'000026',NULL,0),
@@ -31,7 +31,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('26b06315-b714-4dad-9908-95759131625c','1246707541','อามทดสอบ',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-02-03 17:58:51',1,'000026',NULL,0),
 	 ('2911f457-b9fa-4cd9-b80e-c49dd984576b','12345','12345',1338,1,1,0,99,1,'0',0,1,1,'tccinven0','2023-03-13 11:59:29',1,'000023',NULL,0),
 	 ('2ddcfe11-3ce0-4b44-b45d-7e5d59815e46','8851295511045','Pilot Marker Green',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-03-02 14:24:08',1,'000026',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('2eada176-fbc6-4ec5-a853-abdb92607552','543745226','่านร้้เรคึุ้',109,7,10,1,11,1,'1.0',0,1,0,'testuser1','2022-08-31 13:38:22',1,'1000000000',NULL,0),
 	 ('3051a6aa-fbca-498e-ab80-576301968d21','8851295511014','Pilot Marker Blue',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-03-02 14:22:39',1,'000026',NULL,0),
 	 ('3064b98e-7c35-4029-92f8-49de7fd49cda','0987654','ssfhjkll',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-02-03 17:44:12',1,'000026',NULL,0),
@@ -42,7 +42,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('3a360bfe-a04e-4529-a784-e8ad8ee1059d','cpu','CPU INTEL CORE I5-13400F LGA 1700',1338,1,1,0,99,1,'0',0,1,1,'songsit3','2023-03-01 10:52:48',1,'1000000019',NULL,0),
 	 ('3c0cce59-57f1-41b8-862e-a97e467e2a96','007007007','willSmith',15,2,20,1,4,1,'1.0',0,0,0,'dev1','2022-09-03 13:31:54',1,'1000000000',NULL,0),
 	 ('3d77de2f-0e9e-41e0-b328-42f89c1f077b','12','12',54,1,1,NULL,2,1,'12.0',0,1,1,'dev1','2022-10-21 22:32:31',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('428ee9cd-44b4-499b-afd3-ded181700d9c','songsitAddSKU1','songsitAddSKU1',1,1,1,1,1,1,'12.0',0,1,1,'dev1','2022-09-05 19:36:17',1,'1000000000',NULL,0),
 	 ('45f23bda-2296-48fd-8b7c-d00d356b8db2','191509651338','oatTest3',2331,4,26,66,5,4,'19',0,1,1,'dev1','2022-09-15 13:39:52',1,NULL,NULL,0),
 	 ('4714462f-ae55-4eae-a1a7-914c08eec564','8851994831017','aa',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-23 08:06:06',1,'000026',NULL,0),
@@ -53,7 +53,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('52e3a020-2ec4-4b96-98c5-3738807770db','456892347658923','test1',5,5,30,87,7,8,'5',0,1,1,'dev1','2022-09-15 11:16:10',1,NULL,NULL,0),
 	 ('52f668e2-4e7a-47e3-acdb-2141a54d6265','คุ่เ้า้ิใม่าส','เกวสิสาร',1023,6,57,1,10,10,'58.0',0,1,1,'dev1','2022-09-05 17:06:27',1,'1000000000',NULL,0),
 	 ('5483bfa4-e491-4f60-8ded-da2dda8a14fc','1029384756','TestOatt',1,1,1,1,1,1,'1.0',0,1,0,'testuser1','2022-08-29 22:00:30',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('57e9ba75-c96a-4f7f-83e8-fa5e7fd3280e','1212312121oat','azakuraSongsit',1,1,1,1,14,1,'29.0',0,1,0,'testuser1','2022-09-02 13:25:16',1,'1000000000',NULL,0),
 	 ('58fae096-f95e-4528-9fcc-eb87ade4f706','aaaaaaaaaaaaaaaaaaaa','aaaaaaaaaa',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-03-13 13:08:12',1,'1000000000',NULL,0),
 	 ('59ebe96c-1192-47c9-96c3-0a397a405a3f','348957623895761','ีเทสสต',23,9,69,221,5,8,'4',0,1,1,'dev1','2022-09-14 20:32:43',1,NULL,NULL,0),
@@ -64,7 +64,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('61dcdf14-c8da-41bd-b8d3-afb50cb6b283','12345','aaaa',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-02-03 19:17:50',1,'000026',NULL,0),
 	 ('6671bcb0-aa37-4e0d-b955-57eac855e470','437568679656316','abcd',18,4,25,62,5,2,'12',0,1,1,'dev1','2022-09-14 18:48:05',1,NULL,NULL,0),
 	 ('67d45a74-0c9d-4848-8bf0-d77982d899ae','123421390486152','เดก',19,8,63,215,7,6,'7',0,1,1,'dev1','2022-09-15 11:24:46',1,NULL,NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('6845d70a-f1e2-40ae-a0f6-d8b8f90526cb','4550002794132','ปากกา',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 12:13:25',1,'000026',NULL,0),
 	 ('68496b9a-f8f4-4821-a05f-8c0260f97dbc','348957623895762','้ดสสท',13,7,45,154,6,6,'85',0,1,1,'dev1','2022-09-14 20:31:53',1,NULL,NULL,0),
 	 ('6acb272a-be30-4332-8fc9-3c3d6c25a132','8850157104746','เยลลี่ บิวตี้',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 10:01:02',1,'000026',NULL,0),
@@ -75,7 +75,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7588bf87-4b19-4eb6-ae0b-1dc434fffe90','8854246000025','gg',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 12:15:23',1,'000026',NULL,0),
 	 ('759f2c03-8901-4cd0-b07d-99e2daca7a45','8851952101237','เอส โคล่า 515ml. ขวดx1',275,3,6,18,7,1,'515',NULL,1,1,'00000','2022-09-21 16:25:45',1,NULL,NULL,0),
 	 ('786303e9-124b-11ed-8a84-000d3a196655','8850011053739','เนสกาแฟ เรดคัพ แบล็ค โรสต์ 80 กรัม',148,3,19,0,597,1,'0.00',0,1,1,'dev1','2022-10-25 12:41:11',1,NULL,NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7863054c-124b-11ed-8a84-000d3a196655','8850011060799','เนสกาแฟ เบลนด์ แอนด์ บรู ริชอโรมา 1,700 กรัม',148,3,19,45,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786305e7-124b-11ed-8a84-000d3a196655','8850011060812','เนสกาแฟ เบลนด์ แอนด์ บรู เอสเปรสโซ่โรสต์ 1,659 กรัม',148,3,19,45,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7863067c-124b-11ed-8a84-000d3a196655','8850011060973','เนสกาแฟ โรบัสต้า แบล็ค โรสต์ 180มล',148,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -86,7 +86,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7863092a-124b-11ed-8a84-000d3a196655','8850124023681','เนสกาแฟ กาแฟสำเร็จรูปคั่วบดละเอียด 100 g',148,3,19,45,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786309a5-124b-11ed-8a84-000d3a196655','8850124025258','เนสกาแฟ กาแฟปรุงสำเร็จพร้อมดื่ม ลาเต้ 180 มล.',148,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78630a35-124b-11ed-8a84-000d3a196655','8850124034519','เนสกาแฟ Bld&Bre กาแฟสำเร็จ สูตรริชอโรมา 17กรัม',148,3,19,45,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78630ab1-124b-11ed-8a84-000d3a196655','8850124083081','เนสกาแฟ Bld&Bre กาแฟสำเร็จ สูตรริสอโรมา แพ็ค17กรัม×60ซอง',148,3,19,45,151,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78630b35-124b-11ed-8a84-000d3a196655','8850124083111','เนสกาแฟ เบลนด์ แอนด์ บรู เอสเปรสโซ่โรสต์ 15.8กรัม×60ซอง',148,3,19,45,111,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78630bb6-124b-11ed-8a84-000d3a196655','8850125073296','เนสกาแฟ เขียว กาแฟสำเร็จรูป เรดคัพ 80กรัม',148,3,19,45,597,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -97,7 +97,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78630e27-124b-11ed-8a84-000d3a196655','8850125081697','เนสกาแฟ Bld&Bre กาแฟสำเร็จ สูตรเอสโรสต์ 1,422 กรัม',148,3,19,45,8,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78630ea3-124b-11ed-8a84-000d3a196655','8850125081895','เนสกาแฟ แบล็ค ไอซ์ 180ml',148,3,19,45,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78630f36-124b-11ed-8a84-000d3a196655','8850125086869','เนสกาแฟ ผงกาแฟสำเร็จรูปอาราบิก้าคั่วบดละเอียด 200 g',148,3,19,45,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78630fbc-124b-11ed-8a84-000d3a196655','8850125094055','เนสกาแฟ RED CUP กาแฟสำเร็จรูปคั่วบดละเอียด 630กรัม',148,3,19,45,528,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631037-124b-11ed-8a84-000d3a196655','8850127004397','เนสกาแฟ Bld&Bre กาแฟ สูตรริสอโรมา 17 g×27ซอง',148,3,19,45,151,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786310b4-124b-11ed-8a84-000d3a196655','8850127004410','เนสกาแฟ Bld&Bre กาแฟ สูตรเอสเปรสโซ่โรสต์ 15.8g×27ซอง',148,3,19,45,111,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -108,7 +108,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7863162b-124b-11ed-8a84-000d3a196655','8850128030104','เนสกาแฟ เรดคัพ ถุง 25 g',148,3,19,45,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786316af-124b-11ed-8a84-000d3a196655','8850128030111','เนสกาแฟ RED CUP กาแฟสำเร็จรูปคั่วบดละเอียด 40 กรัม',148,3,19,45,399,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631750-124b-11ed-8a84-000d3a196655','8850250000358','เบอร์ดี้ ลาเต้ 180ml',173,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786317d4-124b-11ed-8a84-000d3a196655','8850250000365','เบอร์ดี้ กาแฟปรุงสำเร็จพร้อมดื่ม โรบัสต้า 180 มล.',173,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631856-124b-11ed-8a84-000d3a196655','8850250000495','เบอร์ดี้ กาแฟปรุงสำเร็จพร้อมดื่ม แบล็ค น้ำตาลน้อย180 มล.',173,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786318e1-124b-11ed-8a84-000d3a196655','8850250002482','เบอร์ดี้ กาแฟปรุง 3 in 1 สูตร Robusta 15.5กรัม',173,3,19,45,109,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -119,7 +119,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78631b57-124b-11ed-8a84-000d3a196655','8850250007449','เบอร์ดี้ เอสเพรชโซ 3in1 326.7 g',173,3,19,45,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631bd7-124b-11ed-8a84-000d3a196655','8850250007463','เบอร์ดี้ ครีมมี้ ลาเต้3in1  13.2g×27ซอง',173,3,19,45,81,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631c51-124b-11ed-8a84-000d3a196655','8850250007951','เบอร์ดี้ กาแฟปรุง 3 in 1 สูตร Robusta 900 กรัม',173,3,19,45,621,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78631ccb-124b-11ed-8a84-000d3a196655','8850250008248','เบอร์ดี้ เอสเพรชโซ่ 3in1 726 g',173,3,19,45,569,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631d61-124b-11ed-8a84-000d3a196655','8850250008361','เบอร์ดี้ barista กาแฟสำเร็จพร้อมดื่ม Espresso shot 150 มล.',173,3,19,45,115,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78631de2-124b-11ed-8a84-000d3a196655','8850250012023','เบอร์ดี้ โรบัสต้า น้ำตาลน้อย 180ml',173,3,19,45,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -130,7 +130,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78632059-124b-11ed-8a84-000d3a196655','8850580200152','โกปิโก้ รสเข้ม 240ml',314,3,19,45,243,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786320d3-124b-11ed-8a84-000d3a196655','8850580200183','โกปิโก้ รสกลมกล่อม 240ml',314,3,19,45,243,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7863214e-124b-11ed-8a84-000d3a196655','8851012103706','เนสกาแฟ กาแฟพร้อมดื่ม เอสเปรสโซ่ โรสต์ 180 มล.',148,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786321cd-124b-11ed-8a84-000d3a196655','8851753095001','มอคโคน่า ซีเล็ค กาแฟสำเร็จรูป 360กรัม',746,3,19,45,357,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7863224c-124b-11ed-8a84-000d3a196655','8851753095025','มอคโคน่า ซีเล็ค กาแฟสำเร็จรูป ชนิดถุง 45กรัม',746,3,19,45,434,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786322c7-124b-11ed-8a84-000d3a196655','8851753095032','มอคโคน่า กาแฟสำเร็จรูป ชนิดขวด 45 กรัม',746,3,19,45,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -141,7 +141,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78632538-124b-11ed-8a84-000d3a196655','8851753095667','ซุปเปอร์กาแฟ กาแฟชนิดผง 3in1 ออริจินัล 20กรัม',561,3,19,45,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786325b5-124b-11ed-8a84-000d3a196655','8851753095827','มอคโคน่า ซีเล็ค กาแฟ สูตร Dark Roast 120 กรัม',746,3,19,45,70,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78632633-124b-11ed-8a84-000d3a196655','8851753098118','มอคโคน่า ทรีโอ โกลด์ 3 in 1 400 กรัม',746,3,19,45,393,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786326b0-124b-11ed-8a84-000d3a196655','8851753098613','มอคโคน่า ทรีโอ ริชแอนด์สมูท 3in1 18 กรัม x 100 ซอง',746,3,19,45,166,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7863272d-124b-11ed-8a84-000d3a196655','8851753098637','มอคโคน่า ทรีโอ ริชแอนด์สมูท 3 in 1 18 กรัม x 60ซอง',746,3,19,45,167,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786327ba-124b-11ed-8a84-000d3a196655','8851753098736','Moccona ทรีโอ เอสเปรสโซ่ ชนิดผง 18 กรัม',746,3,19,45,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -152,7 +152,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78632a26-124b-11ed-8a84-000d3a196655','8851753099054','มอคโคน่า ทรีโอ ริชแอนด์สมูท 3 in 1 486 กรัม',746,3,19,45,448,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78632aa2-124b-11ed-8a84-000d3a196655','8851753099061','มอคโคน่าทรีโอ ริชแอนด์สมูท สีแดง',746,3,19,45,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78632b1d-124b-11ed-8a84-000d3a196655','8851753099078','มอคโคน่า ทรีโอ เอสเปรสโซ่ 3 in 1 18กรัม x 100 ซอง',746,3,19,45,166,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78632b99-124b-11ed-8a84-000d3a196655','8852099010116','เขาช่อง กาแฟสำเร็จรูป กาแฟ100% 50 กรัม',96,3,19,45,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78632c14-124b-11ed-8a84-000d3a196655','8852099010215','เขาช่อง กาแฟสำเร็จรูป กาแฟ 100% 100 กรัม',96,3,19,45,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640697-124b-11ed-8a84-000d3a196655','8852099010314','เขาช่อง กาแฟสำเร็จรูป กาแฟ100% 200 กรัม',96,3,19,45,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -163,7 +163,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786409ce-124b-11ed-8a84-000d3a196655','8852099023727','เขาช่อง กาแฟสำเร็จรูป กาแฟผสมคาราเมล 50 กรัม',96,3,19,45,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640a3f-124b-11ed-8a84-000d3a196655','8852099023826','เขาช่อง กาแฟสำเร็จรูป ผสมคาราเมล 100 กรัม',96,3,19,45,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640ab2-124b-11ed-8a84-000d3a196655','8852099023925','เขาช่อง กาแฟสำเร็จรูป 100 กรัม',96,3,19,45,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78640b23-124b-11ed-8a84-000d3a196655','8852099024021','เขาช่อง กาแฟสำเร็จรูป กาแฟผสมคาราเมล 200 กรัม',96,3,19,45,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640b9d-124b-11ed-8a84-000d3a196655','8852099090217','เขาช่อง ครีมเทียมไม่มีคอเรสเตอรอล 500g.',96,3,19,45,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640c0e-124b-11ed-8a84-000d3a196655','8852099090514','เขาช่อง ครีมเทียม ไม่มีโคเลสเตอรอล ชนิดถุง 200กรัม',96,3,19,45,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -174,7 +174,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78640e6c-124b-11ed-8a84-000d3a196655','8853002311061','กาแฟอาราบัส สปีด original 150 ml.',930,3,19,45,115,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640eda-124b-11ed-8a84-000d3a196655','8854200000115','งูเห่าเหลือง กาแฟโบราณผสม สูตร 1 350 กรัม',491,3,19,45,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78640f48-124b-11ed-8a84-000d3a196655','8855790000523','กาแฟคาราบาว โรบัสต้า 180 มล',470,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78640fba-124b-11ed-8a84-000d3a196655','8855790000530','กาแฟคาราบาว เอสเปรสโซ 180 มล',470,3,19,45,159,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786416c2-124b-11ed-8a84-000d3a196655','8855790001650','คาราบาวแดง ดื่มชูกำลัง กลิ่นกรีนแอปเปิ้ล 180 มล.',470,3,19,45,159,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864179d-124b-11ed-8a84-000d3a196655','8857123599162','โอชารส กาแฟพร้อมดื่ม 230 มล.',367,3,19,45,235,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -185,7 +185,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78641a1c-124b-11ed-8a84-000d3a196655','8858755200327','เนเจอร์กิฟ คอฟฟี่21 ผสมวิตาและแอลคาร์ 135ก. x10ซอง',146,3,19,45,90,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78641a94-124b-11ed-8a84-000d3a196655','8858856610025','มังกรบิน กาแฟโบราณ 400 g',756,3,19,45,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78641b06-124b-11ed-8a84-000d3a196655','8858891305764','สภากาแฟ โอเลี้ยง ต้นตำรับ 280ml',879,3,19,45,276,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78641b77-124b-11ed-8a84-000d3a196655','8858998589036','บอส คอฟฟี่ ไมลด์ลี่ สวีท 230มล',672,3,19,45,235,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78641be7-124b-11ed-8a84-000d3a196655','8858998589050','บอส คอฟฟี่ ลาเต้ 230มล',672,3,19,45,235,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78641c58-124b-11ed-8a84-000d3a196655','8859102130007','เขาช่อง กาแฟปรุง 3 in 1 สูตรเอสเปรสโซ่ 18 กรัม',96,3,19,45,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -196,7 +196,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78641e98-124b-11ed-8a84-000d3a196655','8859102130472','เขาช่อง กาแฟปรุง 3 in 1 สูตรซุปเปอร์ริช 500 กรัม',96,3,19,45,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78641f7e-124b-11ed-8a84-000d3a196655','8859102130762','เขาช่อง กาแฟปรุงสำเร็จ 3 in 1 สูตรมอคค่า 220 กรัม',96,3,19,45,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864ce7f-124b-11ed-8a84-000d3a196655','8859102130809','เขาช่อง กาแฟปรุงสำเร็จ 3 in 1 สูตรมอคค่า 660 กรัม',96,3,19,45,541,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864cf85-124b-11ed-8a84-000d3a196655','8859102130915','เขาช่อง กาแฟปรุงสำเร็จ 3 in 1 สูตรคาปูชิโน 80 กรัม',96,3,19,45,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d00c-124b-11ed-8a84-000d3a196655','8859102130977','เขาช่อง กาแฟปรุง 3 in 1 สูตรคาปูชิโน 500 กรัม',96,3,19,45,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d086-124b-11ed-8a84-000d3a196655','8859448901323','ดาวคอฟฟี่ กาแฟสำเร็จรูป เอสเปรสโซ่ 3in1 500g.',32,3,19,45,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -207,7 +207,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864d3b0-124b-11ed-8a84-000d3a196655','8936069871997','บอน อโรมา โกลด์ กาแฟสำเร็จรูปชนิดฟรีซดราย 100g',671,3,19,45,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d42c-124b-11ed-8a84-000d3a196655','8953654916499','ด็อกเตอร์สูนส์ คอฟฟี่ กาแฟผสมคอลลาเจน 135กรัมx10ซอง',569,3,19,45,90,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d4a2-124b-11ed-8a84-000d3a196655','8996001321386','โกปิโก้ coffee candy 18g',314,3,19,45,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864d515-124b-11ed-8a84-000d3a196655','8996001600597','โกปิโก้ ลัคกี้ เดย์ 180ml',314,3,19,45,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d586-124b-11ed-8a84-000d3a196655','8998666002273','โคปิโก้ มัคคิอาโต 3in1 24g',314,3,19,45,245,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d5f8-124b-11ed-8a84-000d3a196655','8850187011779','บี เค เพอร์ฟอร์แมนซ์ กลิ่นฮันนี่ไทม์ 170ml',687,2,12,34,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -218,7 +218,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864d852-124b-11ed-8a84-000d3a196655','8850228000588','สปอนเซอร์ ออริจินัล กระป๋อง 325ml',877,2,12,34,326,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d8c4-124b-11ed-8a84-000d3a196655','8850228001615','เรดดี้ เครื่องดื่มชูกำลัง 150 มล.',207,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864d936-124b-11ed-8a84-000d3a196655','8850228001752','สปอนเซอร์ แอคทีฟ มะนาว 250 มล.',877,2,12,34,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864d9a5-124b-11ed-8a84-000d3a196655','8850228001899','เรดดี้ บู้ท เครื่องดื่มชูกำลัง 150 มล. Grape Pomegranate',207,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864da18-124b-11ed-8a84-000d3a196655','8850228002025','แมนซัม เครื่องดื่มผสมคอลลาเจน 450 มล.',282,2,12,34,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864da89-124b-11ed-8a84-000d3a196655','8850228002940','สปอนเซอร์ แอคทีฟ ซิตรัส 250 มล.',877,2,12,34,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -229,7 +229,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864dd85-124b-11ed-8a84-000d3a196655','8850228005026','เรดดี้ พิ้งค์ ลิ้นจี่เลม่อน 150ml',207,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864ddf6-124b-11ed-8a84-000d3a196655','8850228005248','โสมพลัส เครื่องดื่มบำรุงกำลัง 95 มล.',359,2,12,34,633,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864de66-124b-11ed-8a84-000d3a196655','8850228005484','แมนซัม เครื่องดื่มผสมวิตามินบีรวม 450 มล. ',282,2,12,34,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864ded9-124b-11ed-8a84-000d3a196655','8850228005545','ไฮ วิตามินซี เลม่อน 150ml',412,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864df49-124b-11ed-8a84-000d3a196655','8850228005903','เรดดี้ เลมอน ซี วิตามินซีสูง 150ml',207,2,12,34,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864dfb9-124b-11ed-8a84-000d3a196655','8850228006078','แมนซัม เครื่องดื่มรสองุ่นผสมคอลลาเจน 330 มล.',282,2,12,34,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -240,7 +240,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864e1ee-124b-11ed-8a84-000d3a196655','8850228006528','แมนซัม โมฮีโต้ 330 มล. ',282,2,12,34,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e25d-124b-11ed-8a84-000d3a196655','8850228006979','สปอนเซอร์ ออริจินัล โก 420มล',877,2,12,34,406,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e2cc-124b-11ed-8a84-000d3a196655','8850389103371','เซ็ปเป้บิวตี้ดริ้งค์ เอสลิม 360 มล.',122,2,12,34,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864e33f-124b-11ed-8a84-000d3a196655','8850389103388','เซ็ปเป้บิวตี้ดริ้งค์ คอลลาสกิน 360 มล.',122,2,12,34,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e3b4-124b-11ed-8a84-000d3a196655','8850389107164','เซ็ปเป้บิวตี้ดริ้งค์ บิวติอายส์ 360 มล.',122,2,12,34,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e426-124b-11ed-8a84-000d3a196655','8850389108833','เซ็ปเป้บิวตี้ดริ้งค์ ซิลกี้ซาลอน 360 มล.',122,2,12,34,358,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -251,7 +251,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864e66c-124b-11ed-8a84-000d3a196655','8851123212021','M150 เครื่องดื่มชูกำลัง 150 มล.',235,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e6dc-124b-11ed-8a84-000d3a196655','8851123212113','เอ็ม เครื่องดื่มเกลือแร่ 250ml',234,2,12,34,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e8ac-124b-11ed-8a84-000d3a196655','8851123212199','เอ็ม พลัส เครื่องดื่มเกลือแร่ 250ml',234,2,12,34,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864e92a-124b-11ed-8a84-000d3a196655','8851123233002','โสมอินซัม เครื่องดื่มบำรุงกำลัง 100 มล.',360,2,12,34,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864e99d-124b-11ed-8a84-000d3a196655','8851123237000','ซีวิต เครื่องดื่มวิตามินซี รสเลม่อน 140 มล.',560,2,12,34,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864ea10-124b-11ed-8a84-000d3a196655','8851123237031','ซีวิต เครื่องดื่มวิตามินซี รสส้ม 140 มล.',560,2,12,34,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -262,7 +262,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864ec43-124b-11ed-8a84-000d3a196655','8851952141288','100พลัส เลม่อน ไลม์ 370 ซีซี',45,2,12,34,363,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864ecb8-124b-11ed-8a84-000d3a196655','8851952142285','100พลัส เบอร์รี่ 370 ซีซี ',45,2,12,34,364,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864ed8b-124b-11ed-8a84-000d3a196655','8851952143282','100พลัส เกรปเบอร์รี่ 370 ซีซี ',45,2,12,34,363,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864ef41-124b-11ed-8a84-000d3a196655','8852314004999','จีเอสดี โสมตังกุยจับ เครื่องดื่มบำรุงกำลัง 100 มล.',358,2,12,34,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864efb9-124b-11ed-8a84-000d3a196655','8852314191798','โสม โอ ที ',358,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864f02a-124b-11ed-8a84-000d3a196655','8852742000099','แรงเจอร์ เครื่องดื่มชูกำลัง 150 มล.',288,2,12,34,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -273,7 +273,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7864f2a9-124b-11ed-8a84-000d3a196655','8853002311733','เดลี่ ซี วิตามิน ออเร้นจ์ 90ml',135,2,12,34,624,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864f318-124b-11ed-8a84-000d3a196655','8853002311764','เดลี่ ซี วิตามิน เลม่อน 200ml',135,2,12,34,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864f388-124b-11ed-8a84-000d3a196655','8853647000122','คอมมานโด เครื่องดื่มชูกำลัง 150 มล.',459,2,12,34,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7864f405-124b-11ed-8a84-000d3a196655','8854698016827','วี-บูสท์ เบต้ากลูแคนและวิตามินซี รสเลมอน 150 ml',850,2,12,34,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864f514-124b-11ed-8a84-000d3a196655','8854698016834','วี-บูสท์ เบต้ากลูแคนและวิตามินซี รสส้ม 150 ml',850,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7864f58f-124b-11ed-8a84-000d3a196655','8855790000011','คาราบาวแดง เครื่องดื่มชูกำลัง 150 มล.',470,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -284,7 +284,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78662485-124b-11ed-8a84-000d3a196655','8858638003618','โวลต์ วิตามินบี 215ml',356,2,12,34,216,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662501-124b-11ed-8a84-000d3a196655','8858638004783','สปอเรต ออริจินอล 350ml',876,2,12,34,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662577-124b-11ed-8a84-000d3a196655','8858638005247','โวลต์ 3G สกัดโสม 215ml',356,2,12,34,216,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786625f1-124b-11ed-8a84-000d3a196655','8858736911198','พญานาค เพ็ญภาค ยาบำรุงร่างกาย 150CC',709,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662670-124b-11ed-8a84-000d3a196655','8859015702667','วิตอะเดย์ วิตามินบี 470ml',840,2,12,34,441,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786626e7-124b-11ed-8a84-000d3a196655','8859077800103','ดับเบิ้ลซี รสองุ่น 160ml',576,2,12,34,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -295,7 +295,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78662922-124b-11ed-8a84-000d3a196655','8859171200854','คิวปิด เบอร์รี่ มิกซ์ 200ml',482,2,12,34,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662993-124b-11ed-8a84-000d3a196655','8859577501012','คิวมินซี เคอร์คิวมิน รสเลมอน 150 ml',484,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662a06-124b-11ed-8a84-000d3a196655','8859577501456','คิวมินซี Manuka Honey Collagen',484,2,12,34,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78662a79-124b-11ed-8a84-000d3a196655','8850124006011','เนสท์เล่ คอฟฟีเมต ครีมเทียม ชนิดกล่อง 900 กรัม',456,3,19,45,621,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662aee-124b-11ed-8a84-000d3a196655','8850124006103','เนสท์เล่ คอฟฟีเมต ครีมเทียม ชนิดซอง 450 กรัม',456,3,19,45,428,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662b5f-124b-11ed-8a84-000d3a196655','8850124033055','เนสท์เล่ คอฟฟีเมต ออริจินัล ชนิดถุง 200 กรัม',456,3,19,45,199,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -306,7 +306,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78662d98-124b-11ed-8a84-000d3a196655','8854729500028','คอฟฟี่ ดรีมมี่ ครีมเทียม 1,000 กรัม',28,3,19,45,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662e0a-124b-11ed-8a84-000d3a196655','7612100061220','โอวัลติน สูตร 3 มอลต์รสช็อกโก 450กรัม',374,3,20,47,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662e7b-124b-11ed-8a84-000d3a196655','8850086111006','โอวัลติน มอลต์ รสช็อกโกแลต (กระปุก) 100 กรัม',374,3,20,47,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78662f00-124b-11ed-8a84-000d3a196655','8850086114007','โอวัลติน เครื่องดื่มมอลต์ รสช็อกโกแลต 400 กรัม',374,3,20,47,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662f76-124b-11ed-8a84-000d3a196655','8850086131509','โอวัลติน เครื่องดื่มมอลต์รสช็อกโกแลต 170กรัม',374,3,20,47,145,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78662fe8-124b-11ed-8a84-000d3a196655','8850086133008','โอวัลติน เครื่องดื่มมอลต์รสช็อกโกแลต 300กรัม',374,3,20,47,306,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -317,7 +317,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7866322f-124b-11ed-8a84-000d3a196655','8850127010077','ไมโล เครื่องดื่มช็อคโกแลตมอลล์ แอคทิฟ-โก 140 กรัม',400,3,20,47,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786632a0-124b-11ed-8a84-000d3a196655','8850127010213','ไมโล เครื่องดื่มช็อคโกแลตมอลล์ แอคทิฟ-โก 300 กรัม',400,3,20,47,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663312-124b-11ed-8a84-000d3a196655','8850939200024','ทิวลิป ผงโกโก้ ชนิดสีเข้ม 500 กรัม',637,3,20,47,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78663385-124b-11ed-8a84-000d3a196655','8853002303097','ดีมอลต์ เครื่องดื่มช็อกโกแลตมอลต์ปรุงสำเร็จ สูตรมอลต์ พลัส 30g.×20ซอง',587,3,20,47,311,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786633f7-124b-11ed-8a84-000d3a196655','8850228001028','เพียวริคุ ชาขาวพร้อมดื่ม รสเก๊กฮวยขาว 350 มล.',189,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663469-124b-11ed-8a84-000d3a196655','8850228001318','เพียวริคุ ชาขาวพร้อมดื่ม รสมิกซ์เบอร์รี่ 350 มล.',189,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -328,7 +328,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786637e6-124b-11ed-8a84-000d3a196655','8850228003084','เพียวริคุ จู๊ซซี่ รสลิ้นจี่ 280 มล.',189,3,21,51,276,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663859-124b-11ed-8a84-000d3a196655','8850228004821','เพียวริคุ ชาขาวพร้อมดื่ม รสลิ้นจี่ 350 มล.',189,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786638ca-124b-11ed-8a84-000d3a196655','8850228005286','เพียวริคุ องุ่นเคียวโฮ 350ml',189,3,21,51,344,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7866393a-124b-11ed-8a84-000d3a196655','8850228005309','เพียวริคุ จู๊ซซี่ รสมิกซ์เบอร์รี่ 280 มล.',189,3,21,51,276,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786639ac-124b-11ed-8a84-000d3a196655','8850228005668','เพียวริคุ ทับทิม 350ml',189,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663a1c-124b-11ed-8a84-000d3a196655','8850228006405','เพียวริคุ จู๊ซซี่ รสส้มสายน้ำผึ้ง 280 มล.',189,3,21,51,276,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -339,7 +339,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78663c5a-124b-11ed-8a84-000d3a196655','8850804000018','ใบชา ตราสามม้า เบอร์ 3 ชนิดกล่อง 40 กรัม',888,3,21,51,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663cce-124b-11ed-8a84-000d3a196655','8850804000025','ใบชา ตราสามม้า เบอร์ 1 ชนิดกล่อง 80 กรัม',888,3,21,51,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663d43-124b-11ed-8a84-000d3a196655','8850804000032','สามม้า ใบชาเบอร์1 40g.',888,3,21,51,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78663db5-124b-11ed-8a84-000d3a196655','8854698002042','โออิชิ กรีนที รสต้นตำรับ 180 มล. Pack 4',376,3,21,51,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663e28-124b-11ed-8a84-000d3a196655','8854698002059','โออิชิ กรีนที รสน้ำผึ้งผสมมะนาว 180 มล. Pack 4',376,3,21,51,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78663ea5-124b-11ed-8a84-000d3a196655','8854698005043','โออิชิ ชาเขียวพร้อมดื่ม รสน้ำผึ้งผสมมะนาว 500 มล.',376,3,21,51,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -350,7 +350,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786640e2-124b-11ed-8a84-000d3a196655','8854698010405','โออิชิ กรีนที รสข้าวญี่ปุ่น 800 มล.',376,3,21,51,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78664154-124b-11ed-8a84-000d3a196655','8854698010443','โออิชิ กรีนที รสน้ำผึ้งผสมมะนาว 800 มล.',376,3,21,51,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786641c7-124b-11ed-8a84-000d3a196655','8854698010672','โออิชิ ชาคูลล์ซ่า ชาเขียวโซดากลิ่นฮันนี่เลมอน 320 มล.New',376,3,21,51,324,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7866423a-124b-11ed-8a84-000d3a196655','8854698014281','โออิชิ ชาเขียวพร้อมดื่ม รสองุ่นเคียวโฮ 350 มล.',376,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786642b1-124b-11ed-8a84-000d3a196655','8854698014359','โออิชิ ชาเขียวพร้อมดื่ม รสน้ำผึ้งผสมมะนาว 350 มล.',376,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78664324-124b-11ed-8a84-000d3a196655','8854698014458','โออิชิ ชาเขียวพร้อมดื่ม รสต้นตำหรับ 350 มล.',376,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -361,7 +361,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7866455f-124b-11ed-8a84-000d3a196655','8854698015707','โออิชิ แอปเปิลฮันนี่ 350ml',376,3,21,51,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786645d2-124b-11ed-8a84-000d3a196655','8854698016933','โออิชิ ชาคูลล์ซ่า ชาเขียวโซดากลิ่นองุ่นเคียวโฮ 320 มล.',376,3,21,51,324,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7866fb43-124b-11ed-8a84-000d3a196655','8858638004264','บิ๊ก ที รสดั้งเดิม 350 ml',684,3,21,51,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7866fc5e-124b-11ed-8a84-000d3a196655','8858638004271','บิ๊ก ที รสน้ำผึ้งมะนาว 350 ml',684,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7866fce9-124b-11ed-8a84-000d3a196655','8858891300073','อิชิตัน ชาเขียว รสน้ำผึ้งผสมมะนาว 420 มล.',932,3,21,51,406,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7866fd63-124b-11ed-8a84-000d3a196655','8858891300110','อิชิตัน ชาเขียว รสตันตำรับ 420 มล.',932,3,21,51,406,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -372,7 +372,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7866ffb2-124b-11ed-8a84-000d3a196655','8858891302411','อิชิตัน ชาเขียว รสข้าวญี่ปุ่น 280 มล.',932,3,21,51,276,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867002a-124b-11ed-8a84-000d3a196655','8858891302473','เย็นเย็น เครื่องดื่มน้ำจับเลี้ยง 315 มล.',205,3,21,51,316,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867009c-124b-11ed-8a84-000d3a196655','8858891302701','เย็นเย็น เก๊กฮวย 315 มล.',205,3,21,51,316,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7867010c-124b-11ed-8a84-000d3a196655','8858891303388','อิชิตัน ชิวชิว 350 ml',932,3,21,51,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867017e-124b-11ed-8a84-000d3a196655','8858891305511','อิชิตัน ชาเขียว กลิ่นเบอร์รี่เลมอน 280 มล.',932,3,21,51,276,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786701f1-124b-11ed-8a84-000d3a196655','8858891306044','อิชิตัน ชาเขียว กลิ่นองุ่นเคียวโฮ 280 มล.',932,3,21,51,276,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -383,7 +383,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7867043f-124b-11ed-8a84-000d3a196655','7612100053805','โอวัลติน ยูเอชที เครื่องดื่มมอลต์สกัด 180 มล.',374,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786704b1-124b-11ed-8a84-000d3a196655','7612100053812','โอวัลติน สมาร์ท นมยูเอชที รสมอลต์ช็อก 180 มล. x 4',374,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670522-124b-11ed-8a84-000d3a196655','7612100061015','โอวัลติน สมาร์ท นมยูเอชที รสมอลต์ช็อกโกแลต 110 มล.',374,3,21,51,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78670599-124b-11ed-8a84-000d3a196655','7612100061022','โอวัลติน สมาร์ท นมยูเอชที รสมอลต์ช็อก 110 มล. x 4',374,3,21,51,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867060d-124b-11ed-8a84-000d3a196655','7612100062845','โอวัลติน คุ้กกี้สอดไส้ครีมช็อกโกแลต 30g',374,4,28,78,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867067d-124b-11ed-8a84-000d3a196655','7612100500033','โอวัลติน ซอย น้ำเต้าหู้ผง 364g. (28x13)',374,3,21,51,359,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -394,7 +394,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786708b6-124b-11ed-8a84-000d3a196655','8850086148002','โอวัลติน ชนิดผง 400 กรัม X2 ขวด แถมแก้ว',374,3,21,51,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670927-124b-11ed-8a84-000d3a196655','8850086161704','โอวัลติน สมาร์ท นมยูเอชที รสมอลต์ช็อกโกแลต 170 มล.',374,3,21,51,146,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670998-124b-11ed-8a84-000d3a196655','8850086161858','โอวัลติน สมาร์ท นมยูเอชที รสไวท์ทวิสต์ 170 มล. x 4',374,3,21,51,146,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78670abb-124b-11ed-8a84-000d3a196655','8850125078192','เนสที ชามิกซ์เบอร์รีปรุงสำเร็จ 12.5กรัม×30ซอง',150,3,21,51,67,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670b3d-124b-11ed-8a84-000d3a196655','8850127003499','เนสวิต้า เครื่องดื่มธัญญาหาร รสดั้งเดิม 25 กรัม',151,3,21,51,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670bb0-124b-11ed-8a84-000d3a196655','8850127003505','เนสวีต้า เครื่องดื่มธัญญาหาร รสดั้งเดิม 25g.×14ซอง',151,3,21,51,254,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -405,7 +405,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78670df1-124b-11ed-8a84-000d3a196655','8850284030413','ตรามือ เมล็ดแตงโม 22g',609,3,21,51,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670e61-124b-11ed-8a84-000d3a196655','8850369010088','ฟิตเน่ ยาชงสมุนไพร Herbal Infusion ชนิดถุง 20 กรัม',734,3,21,51,207,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670ed1-124b-11ed-8a84-000d3a196655','8850369012082','ฟิตเน่ ยาชงสมุนไพร กลิ่นเก็กฮวย ชนิดถุง 20 กรัม',734,3,21,51,207,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78670f45-124b-11ed-8a84-000d3a196655','8850369014024','ฟิตเน่ ยาชงสมุนไพร รสชาเขียว ชนิดถุง 18.8 กรัม',734,3,21,51,153,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78670fb8-124b-11ed-8a84-000d3a196655','8850369031168','ฮอทต้า เครื่องดื่มขิงผงสำเร็จรูป 50 ซอง',938,3,21,51,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867102c-124b-11ed-8a84-000d3a196655','8850370071115','ชาตราตรามือ ชาเขียวผงปรุงสำเร็จ กลิ่นมะลิ 200 กรัม',609,3,21,51,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -416,7 +416,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78671265-124b-11ed-8a84-000d3a196655','8850999113005','เบียร์สิงห์ 320 ซีซี. กระป๋อง',891,1,1,4,324,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786712d5-124b-11ed-8a84-000d3a196655','8850999171326','สิงห์ น้ำดื่ม 6 ลิตร',891,2,15,42,550,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671345-124b-11ed-8a84-000d3a196655','8850999220000','สิงห์ โซดาเครื่องดื่ม 325 มล.',891,2,15,42,326,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786713c2-124b-11ed-8a84-000d3a196655','8850999320007','สิงห์ น้ำดื่ม 1500 มล.',891,2,7,22,113,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671434-124b-11ed-8a84-000d3a196655','8850999321004','สิงห์ น้ำดื่ม 600 มล.',891,2,7,22,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786714a3-124b-11ed-8a84-000d3a196655','8850999322001','น้ำดื่มสิงห์ 750 cc',891,2,15,42,575,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -427,7 +427,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786716db-124b-11ed-8a84-000d3a196655','8850086141652','โอวัลติน สมาร์ท นมยูเอชที รสช็อกโกแลต ผสมน้ำมันปลา 165มล',375,2,8,26,134,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671757-124b-11ed-8a84-000d3a196655','8850086141669','โอวัลติน นมยูเอชที รสมอลต์ช็อกโกแลต แคลเซียมสูง 165มล',374,2,8,26,135,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786717d2-124b-11ed-8a84-000d3a196655','8850086161650','โอวัลตินยูเอชที สมาร์ท รสมอลต์ 165*4',375,2,8,26,134,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78671843-124b-11ed-8a84-000d3a196655','8850086161667','โอวัลติน ยูเอชที ไฮไนน์ รสมอลต์ 165*4',374,2,8,26,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786718b5-124b-11ed-8a84-000d3a196655','8850092851019','ไอวี่ นมเปรี้ยวยูเอชที รสลิ้นจี่ 180 มล. x 4',410,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671926-124b-11ed-8a84-000d3a196655','8850092856014','ไอวี่ โยเกิร์ตพร้อมดื่ม บลูเบอรี่ 180ml',410,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -438,7 +438,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78671b5f-124b-11ed-8a84-000d3a196655','8850125004016','Carnation SmartGo 180*4',467,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671bcd-124b-11ed-8a84-000d3a196655','8850125010178','ไมโลยูเอชที รสช็อคโกแลตมอลต์ 180*8',400,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671c3f-124b-11ed-8a84-000d3a196655','8850125097223','เอส 26 นมยูเอชที รสจืด 180 มล. ',241,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78671e2c-124b-11ed-8a84-000d3a196655','8850125097230','เอส 26 นมยูเอชที รสจืด 180 มล. x 4',241,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671ea2-124b-11ed-8a84-000d3a196655','8850126000826','นมตราหมี ยูเอชที รสจืด 180*4',611,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78671f17-124b-11ed-8a84-000d3a196655','8850127009330','ไมโล เครื่องดื่มช็อคโกแลตมอลล์ แอคทิฟ-โก แพ็ค  26g.×15ซอง',400,2,8,26,264,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -449,7 +449,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7867fef5-124b-11ed-8a84-000d3a196655','8850188250306','โฟร์โมสต์ นมยูเอชที รสช็อกโกแลต 225 มล.',344,2,8,26,228,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867ff6f-124b-11ed-8a84-000d3a196655','8850188253109','โฟร์โมสต์ นมยูเอชที รสจืด 225 มล. x 6',344,2,8,26,228,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7867ffe3-124b-11ed-8a84-000d3a196655','8850188253208','โฟร์โมสต์ นมยูเอชที รสหวาน 225 มล. x 6',344,2,8,26,228,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868005b-124b-11ed-8a84-000d3a196655','8850188253307','โฟร์โมสต์ นมยูเอชที รสซ็อกโกแลต 225 มล. x 6',344,2,8,26,228,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786800e5-124b-11ed-8a84-000d3a196655','8850188800921','โฟร์โมสต์ โอเมก้า รสจืด 85ml',344,2,8,26,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78680158-124b-11ed-8a84-000d3a196655','8850188800945','โฟร์โมสต์ โอเมก้า รสหวาน 85ml',344,2,8,26,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -460,7 +460,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868039b-124b-11ed-8a84-000d3a196655','8850329120116','เมจิ นมพาสเจอร์ไรส์ น้ำนมโค 100% 200 มล.',197,2,8,26,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868040e-124b-11ed-8a84-000d3a196655','8850329120314','เมจิ นมพาสเจอร์ไรส์ รสช็อกโกแลต 200ซีซี',197,2,8,26,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78680484-124b-11ed-8a84-000d3a196655','8850329120512','เมจิ นมพาสเจอร์ไรส์ รสกาแฟ 200 มล.',197,2,8,26,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786804f6-124b-11ed-8a84-000d3a196655','8850329120611','เมจิ นมพาสเจอร์ไรส์ รสสตรอเบอร์รี่ 200ซีซี',197,2,8,26,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78681cab-124b-11ed-8a84-000d3a196655','8850329121311','เมจิ นมพาสเจอร์ไรส์ รสช็อคโกมอลต์ 200 มล.',197,2,8,26,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682020-124b-11ed-8a84-000d3a196655','8850329145119','เมจิ นมพาสเจอร์ไรส์ รสจืด 450ซีซี',197,2,8,26,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -471,7 +471,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78682280-124b-11ed-8a84-000d3a196655','8850329446056','เมจิ นมพาสเจอร์ไรส์ รสกาแฟ 155 มล.',197,2,8,26,119,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786822f5-124b-11ed-8a84-000d3a196655','8850329446148','เมจิ นมพาสเจอร์ไรส์ กลิ่นส้ม 155 มล.',197,2,8,26,119,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682369-124b-11ed-8a84-000d3a196655','8851005020140','เอส 26 โปรเกรส ช่วงที่1 รสจืด 600g.',241,2,8,26,517,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786823dc-124b-11ed-8a84-000d3a196655','8851005030064','เอส 26 โปรเกรสโกลด์ 3 กลิ่นวานิลลา รสจืด 600g.',241,2,8,26,517,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868246b-124b-11ed-8a84-000d3a196655','8851005070060','เอส 26 โปรเกรส ช่วงที่3 รสจืด 600g.',241,2,8,26,517,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786824de-124b-11ed-8a84-000d3a196655','8851005320134','เอส 26 โกลด์ SMA 1 กลิ่นวานิลลา รสจืด 600g.',241,2,8,26,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -482,7 +482,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868273e-124b-11ed-8a84-000d3a196655','8851359708770','ไฮคิว 3 พลัส นมยูเอชที รสจืด 180 มล.',417,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786827b3-124b-11ed-8a84-000d3a196655','8851359708787','ไฮคิว 3 พลัส นมยูเอชที รสจืด 110 มล. x 4',417,2,8,26,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682825-124b-11ed-8a84-000d3a196655','8851359711282','ดูเม็กซ์ นมยูเอชที ดูโกร 3 รสจืด 180 มล.',589,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78682897-124b-11ed-8a84-000d3a196655','8851359711305','ดูเม็กซ์ นมยูเอชที ดูโกร 3 รสจืด 180 มล. x 4',589,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868290c-124b-11ed-8a84-000d3a196655','8852537011118','ไทยเดนมาร์ค รสจืด 200ml',390,2,8,26,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868298c-124b-11ed-8a84-000d3a196655','8852537011163','ไทย-เดนมาร์ค นมยูเอชที รสจืด 200 มล. x 6',390,2,8,26,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -493,7 +493,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78682bd1-124b-11ed-8a84-000d3a196655','8852537012115','ไทย-เดนมาร์ค นมยูเอชที รสจืด 200 มล.',390,2,8,26,201,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682c42-124b-11ed-8a84-000d3a196655','8852537012160','ไทยเดนมาร์ค รสหวาน 6* 200ml',390,2,8,26,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682cb6-124b-11ed-8a84-000d3a196655','8852537012214','ไทย-เดนมาร์ค นมยูเอชที รสหวาน 250 มล.',390,2,8,26,250,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78682d2c-124b-11ed-8a84-000d3a196655','8852537012221','ไทย-เดนมาร์ค นมยูเอชที รสหวาน 125 มล. x 12',390,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682da0-124b-11ed-8a84-000d3a196655','8852537012566','ไทย-เดนมาร์ค นมยูเอชที รสหวาน 125 มล. x 6',390,2,8,26,75,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78682e18-124b-11ed-8a84-000d3a196655','8852537013112','ไทย-เดนมาร์ค นมยูเอชที รสช็อกโกแลต 200 มล.',390,2,8,26,201,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -504,7 +504,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868308a-124b-11ed-8a84-000d3a196655','8852537013563','ไทย-เดนมาร์ค นมยูเอชที รสช๊อกโกแลต 125 มล. x 6',390,2,8,26,75,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786830fe-124b-11ed-8a84-000d3a196655','8853002300454','ดัชมิลด์ ดีมอลต์ ยูเอชที รสช็อกโกแลตมอลต์ 180 มล.',587,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78683175-124b-11ed-8a84-000d3a196655','8853002300539','ดัชมิลด์ ดีมอลต์ UHT รสช็อกโกแลตมอลต์ 180 มล.x 4',587,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786831ea-124b-11ed-8a84-000d3a196655','8853002300577','ดัชมิลด์ ดีมอลต์ ยูเอชที รสช็อกโกแลตมอลต์ 90 มล.x4',587,2,8,26,624,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786836d9-124b-11ed-8a84-000d3a196655','8853002303066','ดีมอลต์ 3in1 รุ่นพิเศษ 3in1 30g',587,2,8,26,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868377f-124b-11ed-8a84-000d3a196655','8853002303257','ดัชมิลล์ นมยูเอชที รสจืด 180*4',575,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -515,7 +515,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786839c8-124b-11ed-8a84-000d3a196655','8859645300127','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอซที รสสตรอเบอร์รี่ 180*4',410,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78683a3d-124b-11ed-8a84-000d3a196655','8859645300158','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอชที รสลิ้นจี่ 180*4',410,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78683abe-124b-11ed-8a84-000d3a196655','8859645300288','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอชที รสโอ้มายกีวี 180 มล',410,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78683b32-124b-11ed-8a84-000d3a196655','8859645300295','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอชที รสกีวี 180*4',410,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78683ba6-124b-11ed-8a84-000d3a196655','8859645300325','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอชที รสทับทิม 180มล',410,2,10,29,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78683c19-124b-11ed-8a84-000d3a196655','8859645300332','ไอวี่ โยเกิร์ตพร้อมดื่ม ยูเอชที รสทับทิม180*4',410,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -526,7 +526,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868e5c2-124b-11ed-8a84-000d3a196655','9415007021759','แอนลีน นมเปรี้ยวยูเอชที อีเอฟเอ รสผลไม้รวม 180มล.',300,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868e651-124b-11ed-8a84-000d3a196655','9415007021797','แอนมัม นมเปรี้ยวยูเอชที รสผลไม้รวม 180 มล.x 3',299,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868e6d2-124b-11ed-8a84-000d3a196655','9415007024095','แอนลีนมอฟแม็กซ์ นมยูเอชที รสจืด 125 มล. x 4 ',300,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868e751-124b-11ed-8a84-000d3a196655','9415007025771','แอนลีนมอฟแม็กซ์ นมยูเอชที รสจืด 180 มล.',300,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868e7ca-124b-11ed-8a84-000d3a196655','9415007025788','แอนลีนมอฟแม็กซ์ นมยูเอชที รสจืด 180 มล. x 4',300,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868e83e-124b-11ed-8a84-000d3a196655','9415007025795','แอนลีนมอฟแม็กซ์ นมยูเอชที รสหวาน 180 มล.',300,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -537,7 +537,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868ea93-124b-11ed-8a84-000d3a196655','9415007029632','แอนลีน แคลเซียมเข้มข้น รสจืด 4* 125ml',300,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868eb8f-124b-11ed-8a84-000d3a196655','9415007025887','แอนลีน แอคติฟิต3นมยูเอชทีไขมัน0เปอร์เซ็นต 180มล. แพ็ค 4',300,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868ec07-124b-11ed-8a84-000d3a196655','7612100063835','โอวัลตินซอยย์ นมถั่วเหลืองปรุงสำเร็จชนิดผง 28g.×13ซอง',374,2,8,26,281,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868ec82-124b-11ed-8a84-000d3a196655','8850267112129','แลคตาซอย นมถั่วเหลืองยูเอชที รสหวาน 300 มล.',289,2,8,26,307,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868ecf8-124b-11ed-8a84-000d3a196655','8850267112143','แลคตาซอย แคลเซียมสูง 300 มล.',289,2,8,26,307,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868ed6c-124b-11ed-8a84-000d3a196655','8850267112228','แลคตาซอย นมถั่วเหลืองยูเอชที สูตรหวาน 500 มล.',289,2,8,26,468,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -548,7 +548,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868eff1-124b-11ed-8a84-000d3a196655','8850267117445','แลคตาซอย นมถั่วเหลือง แคลเซียมสูง 6 * 300ml',289,2,8,26,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f065-124b-11ed-8a84-000d3a196655','8850267117629','แลคตาซอย นมถั่วเหลืองยูเอชที สูตรหวาน 125 มล. x 6',289,2,8,26,75,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f0d8-124b-11ed-8a84-000d3a196655','8850267800002','แลคตาซอย นมถั่วเหลืองยูเอชที สูตรผสมงาดำ 125 มล.',289,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868f14c-124b-11ed-8a84-000d3a196655','8850267800156','แลคตาซอย นมถั่วเหลือง ไม่หวาน 6 * 300ml',289,2,8,26,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f1c0-124b-11ed-8a84-000d3a196655','8850267800804','ซังซัง นมถั่วเหลือง 6 * 300ml',534,2,8,26,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f234-124b-11ed-8a84-000d3a196655','8850267800811','ซังซัง นมถั่วเหลือง 6 * 125ml',534,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -559,7 +559,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868f478-124b-11ed-8a84-000d3a196655','8850267900603','แลคตาซอย Gold choco 180 ml',289,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f4eb-124b-11ed-8a84-000d3a196655','8850267900641','แลคตาซอย Gold collagen fiber 180 ml',289,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f55d-124b-11ed-8a84-000d3a196655','8850267900818','ซังซัง 125 มล.',534,2,8,26,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868f5d0-124b-11ed-8a84-000d3a196655','8850267900832','ซังซัง นมถั่วเหลือง 200ml',534,2,8,26,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f641-124b-11ed-8a84-000d3a196655','8851028000433','ไวตามิลค์ นมถั่วเหลืองยูเอชที สูตรออริจินอล 110มล.',406,2,8,26,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f6b7-124b-11ed-8a84-000d3a196655','8851028000709','ไวตามิ้ลค์ทูโก นมถั่วเหลือง สูตรข้าวบาร์เลย 300มล.',406,2,8,26,307,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -570,7 +570,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868f925-124b-11ed-8a84-000d3a196655','8851028001546','ไวตามิลค์ ดับเบิ้ลแบล็ค นมถั่วเหลือง UHT 110มล. x6',406,2,8,26,59,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868f99d-124b-11ed-8a84-000d3a196655','8851028001584','ไวตามิ้ลค์ ออริจินัล ยูเอชที 200*4',406,2,8,26,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868fb89-124b-11ed-8a84-000d3a196655','8851028001881','ไวตามิลค์ ทูโก รสช๊อคโก้ 300 มล.',406,2,8,26,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7868fc05-124b-11ed-8a84-000d3a196655','8851028002758','ไวตามิลค์ ทูโก รสชาไทย 300 มล.',406,2,8,26,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868fc77-124b-11ed-8a84-000d3a196655','8851028003649','แลคตาซอย นมถั่วเหลืองยูเอชที รสหวาน (45%) 300 มล.',406,2,8,26,307,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868fcee-124b-11ed-8a84-000d3a196655','8851028003656','ไวตามิลล์ uht กลมกล่อม 3* 300ml',406,2,8,26,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -581,7 +581,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7868ff40-124b-11ed-8a84-000d3a196655','8851028005322','แลคตาซอย นมถั่วเหลืองยูเอชที รสช็อกโกแลต 180 มล.',289,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7868ffb9-124b-11ed-8a84-000d3a196655','8851028005339','ไวตามิ้ลค์ น้ำนมถั่วเหลือง สูตรซ็อตโก 180 มล. x 4',406,2,8,26,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78690032-124b-11ed-8a84-000d3a196655','8851028005636','ไวตามิ้ลด์ น้ำนมถั่วเหลือง สูตรออริจินัล ยูเอชที 300*6',406,2,8,26,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786900ab-124b-11ed-8a84-000d3a196655','8851028005902','ไวตามิ้ลด์ นมถั่วเหลือง สูตรเสริมวิตามิน ผสมงาดำ ยูเอชที 180*4',406,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869012a-124b-11ed-8a84-000d3a196655','8851028110019','ไวตามิลค์ นมถั่วเหลืองยูเอชที สูตรออริจินอล 250มล.',406,2,8,26,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786901a2-124b-11ed-8a84-000d3a196655','8851028110026','ไวตามิลค์ นมถั่วเหลือง UHT สูตรออริจิ 250 มล. x 6',406,2,8,26,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -592,7 +592,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786903eb-124b-11ed-8a84-000d3a196655','8853002080110','ดีน่า งาดำ 4* 180ml',585,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869047d-124b-11ed-8a84-000d3a196655','8853002301857','ดีน่านมถั่วเหลืองยูเอชที สูตรผสมข้าวญี่ปุ่น 180มล.',585,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786904f8-124b-11ed-8a84-000d3a196655','8853002301864','ดีน่า กาบา นมถั่วเหลืองผสมจมูกข่าวญี่ปุ่น 4* 180ml',585,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869056b-124b-11ed-8a84-000d3a196655','8853002302434','ดีน่า นมถั่วเหลืองยูเอชที คอลลาเจน พลัส 180*4',585,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78690717-124b-11ed-8a84-000d3a196655','8853002303349','ดีน่า สูตรผสมน้ำนมข้าวโพด 180*4',585,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869079d-124b-11ed-8a84-000d3a196655','8853002308740','ดีน่า ไรซ์เบอร์รี่ 180มล',585,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -603,7 +603,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786909e3-124b-11ed-8a84-000d3a196655','8850393800679','บีทาเก้น นมเปรี้ยว สับปะรด 300 ml.',691,2,8,26,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869db2d-124b-11ed-8a84-000d3a196655','8850393801379','บีทาเก้น นมเปรี้ยว สตรอเบอรี่ 300 ml.',691,2,8,26,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869dd4f-124b-11ed-8a84-000d3a196655','8850393919975','บีทาเก้น นมเปรี้ยว รสพร่องมันเนย 400 มล.',691,2,8,26,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869dddb-124b-11ed-8a84-000d3a196655','8850393991926','บีทาเก้น นมเปรี้ยว ส้ม 300 ml.',691,2,8,26,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869de57-124b-11ed-8a84-000d3a196655','8850952215746','นมเปรี้ยว มิกกุ 300 ml',769,2,8,26,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869ded4-124b-11ed-8a84-000d3a196655','8851717030017','ดัชมิลล์ นมเปรี้ยว สตรอเบอรี่ 100 ml',575,2,8,26,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -614,7 +614,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869e128-124b-11ed-8a84-000d3a196655','8851717030178','ดัชมิลล์ นมเปรี้ยว บลูเบอรี่ 100 ml',575,2,8,26,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e198-124b-11ed-8a84-000d3a196655','8851717030185','ดัชมิลล์ นมเปรี้ยว รสบลูเบอร์รี่ 400 มล.',575,2,8,26,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e20b-124b-11ed-8a84-000d3a196655','8851717030505','ดัชมิลล์ ส้ม 160 ml',575,2,8,26,131,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869e27b-124b-11ed-8a84-000d3a196655','8851717030512','ดัชมิลล์ นมเปรี้ยว ผลไม้รวม 160มล.',575,2,8,26,131,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e310-124b-11ed-8a84-000d3a196655','8851717040016','ดัชมิลล์ นมเปรี้ยวยูเอชที รสสตรอว์เบอร์รี่ 180 มล.',575,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e389-124b-11ed-8a84-000d3a196655','8851717040023','ดัชมิลล์ นมเปรี้ยวยูเอชที รสส้ม 180 มล.',575,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -625,7 +625,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869e5c7-124b-11ed-8a84-000d3a196655','8851717040351','ดัชมิลล์ นมเปรี้ยวยูเอชที รสเบอร์รีรวม 90 มล.',575,2,8,26,624,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e63b-124b-11ed-8a84-000d3a196655','8851717049019','ดัชมิลล์ สตรอเบอรี่ 4* 180ml',575,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e6aa-124b-11ed-8a84-000d3a196655','8851717049026','ดัชมิลล์ นมเปรี้ยวยูเอชที รสส้ม 180 มล. x 4',575,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869e71c-124b-11ed-8a84-000d3a196655','8851717049033','ดัชมิลล์ นมเปรี้ยวยูเอชที รสผลไม้รวม 180 มล. x 4',575,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e790-124b-11ed-8a84-000d3a196655','8851717049200','ดัชมิลล์ นมเปรี้ยวยูเอชที รสส้ม 90 มล. x 4',575,2,8,26,624,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869e800-124b-11ed-8a84-000d3a196655','8851717049217','ดัชมิลล์ นมเปรี้ยวยูเอชที รสสตรอเบอร์รี่ 90 มล. x4',575,2,8,26,624,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -636,7 +636,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869ea3f-124b-11ed-8a84-000d3a196655','8851717902734','ดัชมิลล์ นมเปรี้ยว เบอรี่รี่รวม 160 ml',575,2,8,26,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869eab2-124b-11ed-8a84-000d3a196655','8851717902741','ดัชมิลล์ นมเปรี้ยว รสเบอร์รี่รวม 400 มล.',575,2,8,26,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869eb24-124b-11ed-8a84-000d3a196655','8851717906619','ดัชมิลล์ องุ่นเคียวโฮ 100 ml',575,2,8,26,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869eb99-124b-11ed-8a84-000d3a196655','8851717906626','ดัชมิลล์ นมเปรี้ยว รสผลไม้รวม 160 มล.',575,2,8,26,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869ec0b-124b-11ed-8a84-000d3a196655','8853002302038','ดัชมิลล์ นมเปรี้ยวยูเอชที รสเบอร์รีรวม 180 มล.',575,2,8,26,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869ec9a-124b-11ed-8a84-000d3a196655','8853002302045','ดัชมิลล์ นมเปรี้ยวยูเอชที รสเบอร์รีรวม 180 มล. x4',575,2,8,26,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -647,7 +647,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869eee2-124b-11ed-8a84-000d3a196655','8850124003829','เนสท์เล่ เพียวไลฟ์ น้ำดื่ม 1500 มล.',149,2,7,22,113,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869ef55-124b-11ed-8a84-000d3a196655','8850124003843','เนสเล่ น้ำดื่ม 6* 1500ml',149,2,7,22,113,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869efc9-124b-11ed-8a84-000d3a196655','8850124003850','เนสท์เล่ เพียวไลฟ์ น้ำดื่ม 600 มล.',149,2,7,22,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869f183-124b-11ed-8a84-000d3a196655','8850124003874','เนสเล่ น้ำดื่ม 12* 600ml',149,2,7,22,518,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f208-124b-11ed-8a84-000d3a196655','8850124003881','เนสเล่ น้ำดื่ม 6L',149,2,7,22,550,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f27a-124b-11ed-8a84-000d3a196655','8850124091963','น้ำดื่มเนสท์เล่ 330 ml.',149,2,7,22,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -658,7 +658,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869f4be-124b-11ed-8a84-000d3a196655','8851952350161','คริสตัล น้ำดื่ม 600 มล.',447,2,7,22,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f52f-124b-11ed-8a84-000d3a196655','8851952350789','คริสตัล น้ำดื่ม 12* 600ml',447,2,7,22,518,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f5a1-124b-11ed-8a84-000d3a196655','8851952350796','คริสตัล น้ำดื่ม 1500 มล. x 6 ขวด',447,2,7,22,113,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869f614-124b-11ed-8a84-000d3a196655','8851959139714','น้ำทิพย์ น้ำดื่ม 550 มล.',658,2,7,22,494,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f687-124b-11ed-8a84-000d3a196655','8851959143711','น้ำทิพย์ น้ำดื่ม 1500 มล.',658,2,7,22,113,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f6f7-124b-11ed-8a84-000d3a196655','8851959145715','น้ำทิพย์ 350 ml.',658,2,7,22,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -669,7 +669,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869f94a-124b-11ed-8a84-000d3a196655','8852854102049','อควาฟิน่า น้ำดื่ม 550 มล.',908,2,7,22,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869f9c0-124b-11ed-8a84-000d3a196655','8852854102094','อควาฟิน่า น้ำดื่ม 12* 550',908,2,7,22,494,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869fa32-124b-11ed-8a84-000d3a196655','8857126063073','ชลิตา น้ำดื่ม 1500 มล. ',509,2,7,22,113,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7869faa3-124b-11ed-8a84-000d3a196655','8858638003540','วีด้า น้ำดื่ม 600 มล.',848,2,7,22,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869fc94-124b-11ed-8a84-000d3a196655','8858998586257','น้ำดื่ม ตราอควาฟิน่า 550มล',908,2,7,22,494,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7869fd0a-124b-11ed-8a84-000d3a196655','8858998588008','กู๊ดมู้ด น้ำดื่ม กลิ่นมะนาวน้ำผึ้ง 350ml.',443,2,7,22,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -680,7 +680,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7869ff48-124b-11ed-8a84-000d3a196655','8850157550826','เมจิกฟาร์ม เฟรช น้ำมะพร้าว 240*6',199,2,13,35,243,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786a904b-124b-11ed-8a84-000d3a196655','8850157551083','เมจิกฟาร์มเฟรช น้ำเฉาก๊วย 240 มล.',199,2,13,35,243,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786a916f-124b-11ed-8a84-000d3a196655','8850157552882','เมจิกฟาร์มเฟรช มะขาม 280 มล.',199,2,13,35,276,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786a91fc-124b-11ed-8a84-000d3a196655','8850157553117','เมจิกฟาร์มเฟรช ชามะนาว 240 มล.',199,2,13,35,243,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786a9276-124b-11ed-8a84-000d3a196655','8850260020131','กรีนเมท น้ำส้ม 400ml',424,2,13,35,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786a9303-124b-11ed-8a84-000d3a196655','8850260020148','กรีนเมท น้ำส้ม 1000ml',424,2,13,35,35,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -691,7 +691,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786a954e-124b-11ed-8a84-000d3a196655','8850260040238','เคลลี่ น้ำมะขาม 450มล',101,2,13,35,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b480a-124b-11ed-8a84-000d3a196655','8850260040337','เคลลี่ น้ำองุ่น 450มล',101,2,13,35,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b48fd-124b-11ed-8a84-000d3a196655','8850294060301','โคฟี่ น้ำตาลสด 320 มล.',318,2,13,35,324,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b497c-124b-11ed-8a84-000d3a196655','8850388520711','ยูนิฟที น้ำองุ่นขาวรสน้ำผึ้งมะนาว 350ml',791,2,13,35,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b49f4-124b-11ed-8a84-000d3a196655','8850388520827','ยูนิฟ ชาเขียว รสไอซ์ที เลมอน 350 มล.',791,2,13,35,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b4bc7-124b-11ed-8a84-000d3a196655','8850388520896','ยูนิฟที ดีแคฟ ไอซ์ที เลมอน 350*6',791,2,13,35,347,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -702,7 +702,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b4e7a-124b-11ed-8a84-000d3a196655','8850388525044','ยูนิฟที ชาเชียวรสต้นตำรับ 350*6',791,2,13,35,347,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b4eee-124b-11ed-8a84-000d3a196655','8850388525099','ยูนิฟที ชาเขียวรสน้ำผึ้งผสมมะนาว 350*6',791,2,13,35,347,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b4f64-124b-11ed-8a84-000d3a196655','8850388540078','ยูนิฟ 100% น้ำผักผลไม้รวมผสมมิซ์เบอร์รี่ 3*200มล',791,2,13,35,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b5091-124b-11ed-8a84-000d3a196655','8850388540283','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมเบอร์รี่ 25% 180 มล.',791,2,13,35,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5111-124b-11ed-8a84-000d3a196655','8850388540290','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมเบอร์รี่ 25% 180มล. x3',791,2,13,35,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5185-124b-11ed-8a84-000d3a196655','8850388541020','ยูนิฟ เฟรช ผสมน้ำลิ้นจี่รวม 180มล',791,2,13,35,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -713,7 +713,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b53cb-124b-11ed-8a84-000d3a196655','8850388546469','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมแครอท 40% 180 มล.',791,2,13,35,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5444-124b-11ed-8a84-000d3a196655','8850388546711','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมแครอทม่วง 40% 180 มล.',791,2,13,35,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b54bd-124b-11ed-8a84-000d3a196655','8850388546735','ยูนิฟเฟรช น้ำผักผลไม้รวมผสมแครอทม่วง 40% 180มล. x3',791,2,13,35,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b5533-124b-11ed-8a84-000d3a196655','8850388546810','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมผักใบเขียว 40% 180 มล.',791,2,13,35,159,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b55a6-124b-11ed-8a84-000d3a196655','8850388546827','ยูนิฟ เฟรช น้ำผักผลไม้รวมผสมผัก 40% 180 มล. x 3',791,2,13,35,159,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b561c-124b-11ed-8a84-000d3a196655','8850388547534','ยูนิฟ 100% น้ำบีทรูท 3*200มล',791,2,13,35,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -724,7 +724,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b5d1f-124b-11ed-8a84-000d3a196655','8850624293324','กาโตะ น้ำลิ้นจี่ผสมวุ้นมะพร้าว 320*6',431,2,13,35,324,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5d92-124b-11ed-8a84-000d3a196655','8850624340998','กาโตะ น้ำลิ้นจี่ 25% ผสมวุ้นมะพร้าว 320 มล.',431,2,13,35,324,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5e05-124b-11ed-8a84-000d3a196655','8850624395202','กาโตะ น้ำสตรอเบอร์รี่ 25% ผสมวุ้นมะพร้าว 320 มล.',431,2,13,35,324,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b5e79-124b-11ed-8a84-000d3a196655','8850624395226','กาโตะ น้ำสตรอเบอร์รี่ผสมวุ้นมะพร้าว 320*6',431,2,13,35,324,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5eeb-124b-11ed-8a84-000d3a196655','8850624395240','กาโตะ องุ่น 320 ml',431,2,13,35,324,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b5f5e-124b-11ed-8a84-000d3a196655','8850624395264','กาโตะ น้ำองุ่นผสมวุ้นมะพร้าว 320*6',431,2,13,35,324,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -735,7 +735,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b619d-124b-11ed-8a84-000d3a196655','8850773110336','ดอยคำ น้ำเสาวรส 200*4',573,2,13,35,201,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b620e-124b-11ed-8a84-000d3a196655','8850773510587','ดอยคำ น้ำกระเจี๊ยบ 200ml',573,2,13,35,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b627f-124b-11ed-8a84-000d3a196655','8850952033548','ดีโด้ แคนตาลูป 450 มล.',584,2,13,35,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b62ef-124b-11ed-8a84-000d3a196655','8850952224144','ดีโด้ ฟรุตกุ น้ำองุ่น 350มล',584,2,13,35,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b6360-124b-11ed-8a84-000d3a196655','8850952250143','ดีโด้ น้ำส้ม 225มล',584,2,13,35,228,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b63d1-124b-11ed-8a84-000d3a196655','8850952250242','ดีโด้ น้ำสตรอเบอร์รี่ 225มล',584,2,13,35,228,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -746,7 +746,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b660b-124b-11ed-8a84-000d3a196655','8850952801246','ดีโด้ น้ำส้มสายน้ำผึ้ง 20% 1000 มล.',584,2,13,35,35,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b667d-124b-11ed-8a84-000d3a196655','8850952901052','ดีโด้ น้ำส้ม 20% 450 มล. X 6',584,2,13,35,429,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b670b-124b-11ed-8a84-000d3a196655','8850952901113','ดีโด้ หวานเย็นผลไม้กลิ่นต่างๆ 12*35มล',584,2,13,35,354,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b6781-124b-11ed-8a84-000d3a196655','8850952903056','ดีโด้ สับปะรด 6 * 450ml',584,2,13,35,429,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b67f3-124b-11ed-8a84-000d3a196655','8850952903360','ดีโด้ น้ำรสส้มสายน้ำผึ้ง 450*6',584,2,13,35,429,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b6864-124b-11ed-8a84-000d3a196655','8850952905029','ดีโด้ สตรอเบอรี่ 6 * 450ml',584,2,13,35,429,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -757,7 +757,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b6e0a-124b-11ed-8a84-000d3a196655','8850952925355','ดีโด้ น้ำแคนตาลูป 6 * 225ml',584,2,13,35,228,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b6ee5-124b-11ed-8a84-000d3a196655','8850952925362','ดีโด้ น้ำส้ม 6 * 225ml',584,2,13,35,228,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b6f5d-124b-11ed-8a84-000d3a196655','8851959001899','มินิทเมด สแปลช รสสตรอเบอร์รี่เลมอนบิงซู 250 มล.',772,2,13,35,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b6fd6-124b-11ed-8a84-000d3a196655','8851959122921','มินิทเมด สแปลช รสส้ม 15% 250 มล.',772,2,13,35,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b705e-124b-11ed-8a84-000d3a196655','8851959140949','มินิเมดพัลพิ น้ำส้ม 290 มล.',772,2,13,35,285,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b70d5-124b-11ed-8a84-000d3a196655','8853333005004','มาลี ทรอปิคอล น้ำองุ่น 20% 180 มล.',767,2,13,35,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -768,7 +768,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786b731d-124b-11ed-8a84-000d3a196655','8855646001889','ซี-คอนโกลด์ น้ำมะพร้าว 290มล',555,2,13,35,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b7394-124b-11ed-8a84-000d3a196655','8855646001957','ซีคอนโกลด์ น้ำตาลสด 330มล',555,2,13,35,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b750e-124b-11ed-8a84-000d3a196655','8857121283018','เดอะโชกุน น้ำส้ม 220ml',137,2,13,35,225,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786b7590-124b-11ed-8a84-000d3a196655','8857123599186','ชื่นฤทัย น้ำผลไม้ รสส้ม 250 มล.',529,2,13,35,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b7605-124b-11ed-8a84-000d3a196655','8857123599216','ชื่นฤทัย น้ำผลไม้ รสฝรั่ง 250 มล.',529,2,13,35,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786b767b-124b-11ed-8a84-000d3a196655','8855796028019','อีเดน สปาร์คลิ้ง กลิ่นแอปเปิ้ล 275ml',935,2,13,35,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -779,7 +779,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c6d93-124b-11ed-8a84-000d3a196655','8859593000223','โฮนี่ น้ำผึ้งป่าเดือน5 1000กรัม',379,2,18,44,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c6e88-124b-11ed-8a84-000d3a196655','8850423000086','เฮลซ์บลูบอยน้ำหวานเข้มข้นกลิ่นครีมโซดา 710 ml',247,2,18,44,565,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c6f14-124b-11ed-8a84-000d3a196655','8850423000093','เฮลซ์บลูบอย น้ำหวานเข้มข้นกลิ่นสละ 710 ml',247,2,18,44,565,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c6f94-124b-11ed-8a84-000d3a196655','8853933000010','น้ำหวานเข้มข้นกลิ่นครีมโซดา ตรา ซันนี่ บอย 710 ml',541,2,18,44,565,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7010-124b-11ed-8a84-000d3a196655','8853933000027','ซันนี่ บอย น้ำหวานเข้มข้นกลิ่นส้ม 710มล',541,2,18,44,565,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c708c-124b-11ed-8a84-000d3a196655','8853933000058','น้ำหวานเข้มข้นกลิ่นมะลิ ตรา ซันนี่ บอย 710 ml',541,2,18,44,565,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -790,7 +790,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c72e5-124b-11ed-8a84-000d3a196655','8851952101268','เอสโคล่า 490 CC',240,2,5,17,450,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c735b-124b-11ed-8a84-000d3a196655','8851952101312','เอสโคล่า 250 มล.',240,2,5,17,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c73d0-124b-11ed-8a84-000d3a196655','8851952101800','เอส โคล่า 1ลิตร*12',240,2,5,17,181,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c7444-124b-11ed-8a84-000d3a196655','8851952110079','เอส เพลย์ เครื่องดื่มน้ำอัดลม เลมอนไลน์ 1000 CC.',240,2,5,17,33,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c74b9-124b-11ed-8a84-000d3a196655','8851952110215','เอส เพลย์ เครื่องดื่มน้ำอัดลม เลมอนไลน์ 360 CC.',240,2,5,17,356,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c752f-124b-11ed-8a84-000d3a196655','8851952120078','เอส เพลย์ เครื่องดื่มน้ำอัดลม กลิ่นส้ม 1 ลิตร',240,2,5,17,35,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -801,7 +801,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c77b3-124b-11ed-8a84-000d3a196655','8851952121211','เอส เพลย์ เครื่องดื่มน้ำอัดลม ครีมโซดา 360 CC.',240,2,5,17,356,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c782e-124b-11ed-8a84-000d3a196655','8851952122072','เอส เพลย์ เครื่องดื่มน้ำอัดลม สตรอเบอร์รี 1 ลิตร',240,2,5,17,35,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c78a8-124b-11ed-8a84-000d3a196655','8851952122140','เอส เพลย์ กลิ่นสตรอเบอร์รี่ 1.6L ',240,2,5,17,27,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c791d-124b-11ed-8a84-000d3a196655','8851952122218','เอส เพลย์ เครื่องดื่มน้ำอัดลม สตอเบอรี่ 360 CC.',240,2,5,17,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7994-124b-11ed-8a84-000d3a196655','8851952122317','เอสเพลย์ เครื่องดื่มกลิ่นสตรอเบอร์รี่ 250 มล.',240,2,5,17,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7a0a-124b-11ed-8a84-000d3a196655','8851952122423','เอาเพลย์ สตรอเบอรี่ 360*12',240,2,5,17,358,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -812,7 +812,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c7d92-124b-11ed-8a84-000d3a196655','8851952128852','เอสเพลย์ กามิกาเซ่ 360ml',240,2,5,17,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7e0a-124b-11ed-8a84-000d3a196655','8851952129859','เอสเพลย์ พิงค์ บอมบ์ 360ml',240,2,5,17,358,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7e81-124b-11ed-8a84-000d3a196655','8851952131074','เอส เพลย์ เครื่องดื่มน้ำอัดลม ซอลตี้ลิ้นจี่ 1 ลิตร',240,2,5,17,35,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c7ef8-124b-11ed-8a84-000d3a196655','8851952131852','เอส เพลย์ ซอลตี้ลิ้นจี่ 360มล',240,2,5,17,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7f6c-124b-11ed-8a84-000d3a196655','8851952132323','เอส เพลย์ เยลลี่เชค รส เกรปเบอร์รี่',240,2,5,17,160,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c7fe0-124b-11ed-8a84-000d3a196655','8851959002315','แฟนต้า กลิ่นส้ม ไม่มีน้ำตาล 330มล',272,2,5,17,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -823,7 +823,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c822d-124b-11ed-8a84-000d3a196655','8851959003008','แฟนต้า กลิ่นองุ่น 330มล',272,2,5,17,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c82c1-124b-11ed-8a84-000d3a196655','8851959126677','ชเวปส์มะนาวโซดา 400 มล.',508,2,5,17,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c833b-124b-11ed-8a84-000d3a196655','8851959127018','Coca-Cola รสชาติออริจินัล 330มล',317,2,5,17,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c83af-124b-11ed-8a84-000d3a196655','8851959127070','Coca-Cola ไม่มีน้ำตาล 330มล',317,2,5,17,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8425-124b-11ed-8a84-000d3a196655','8851959127179','แฟนต้า กลิ่นสตรอเบอรี่ 330 ml.',272,2,5,17,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8499-124b-11ed-8a84-000d3a196655','8851959127391','สไปร์ท เครื่องดื่มน้ำอัดลม สูตรไม่มีน้ำตาล 330 มล.',864,2,5,17,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -834,7 +834,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c86e5-124b-11ed-8a84-000d3a196655','8851959132364','สไปรท์ กลิ่น เลม่อนไลม์ 325 ml.',864,2,5,17,326,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8759-124b-11ed-8a84-000d3a196655','8851959132678','ชเวปส์ มะนาวโซดา 330ml',508,2,5,17,333,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c880f-124b-11ed-8a84-000d3a196655','8851959135167','แฟนต้า เครื่องดื่มน้ำอัดลม รสส้ม 245 มล.',272,2,5,17,244,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c8b87-124b-11ed-8a84-000d3a196655','8851959135174','แฟนต้า เครื่องดื่มน้ำอัดลม รสสตรอเบอร์รี่ 245 มล.',272,2,5,17,244,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8c05-124b-11ed-8a84-000d3a196655','8851959135181','แฟนต้า เครื่องดื่มน้ำอัดลม รสฟรุตพันซ์ 245 มล.',272,2,5,17,244,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8c83-124b-11ed-8a84-000d3a196655','8851959142011','Cocacola รสชาติออริจินัล 2ลิตร',317,2,5,17,289,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -845,7 +845,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c8ecf-124b-11ed-8a84-000d3a196655','8851959144176','แฟนต้า เครื่องดื่มน้ำอัดลม รสสตรอเบอร์รี่ 1.25ลิตร',272,2,5,17,14,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8f46-124b-11ed-8a84-000d3a196655','8851959144183','แฟนต้า เครื่องดื่มน้ำอัดลม รสฟรุตพันซ์ 1.25 ลิตร',272,2,5,17,14,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c8fc1-124b-11ed-8a84-000d3a196655','8851959144190','แฟนต้า เครื่องดื่มน้ำอัดลม รสองุ่น 1.25 ลิตร',272,2,5,17,14,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c9038-124b-11ed-8a84-000d3a196655','8851959144367','สไปรท์ เครื่องดื่มน้ำอัดลม กลิ่นเลมอนไลม์ 1.25ลิตร',864,2,5,17,14,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c90ae-124b-11ed-8a84-000d3a196655','8851959156018','Cocacola รสชาติ ออริจินัล 590มล',317,2,5,17,506,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c9125-124b-11ed-8a84-000d3a196655','8851959158012','CocaCola รสชาติออริจินัล 450มล',317,2,5,17,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -856,7 +856,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786c9440-124b-11ed-8a84-000d3a196655','8851959158197','แฟนต้า เครื่องดื่มน้ำอัดลม รสองุ่น 450 มล.',272,2,5,17,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c94b8-124b-11ed-8a84-000d3a196655','8851959158364','สไปรท์ เครื่องดื่มน้ำอัดลม กลิ่นเลมอนไลม์ 450 มล.',864,2,5,17,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c952d-124b-11ed-8a84-000d3a196655','8851959182017','Cocacola รสชาติออริจินัล 1.6ลิตร',317,2,5,17,128,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786c95a0-124b-11ed-8a84-000d3a196655','8858638000044','อาเจ บิ๊ก โคล่า เครื่องดื่มน้ำอัดลม 465 มล.',682,2,5,17,439,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786c9615-124b-11ed-8a84-000d3a196655','8858638000211','อาเจ บิ๊ก น้ำอัดลม กลิ่นสตรอเบอรี่ 465 มล.',682,2,5,17,439,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786cab7a-124b-11ed-8a84-000d3a196655','8858638000860','อาเจ บิ๊ก น้ำอัดลม กลิ่นผลไม้รวม 465 มล.',682,2,5,17,439,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -867,7 +867,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d81d5-124b-11ed-8a84-000d3a196655','8858998572229','มินิด้า',773,2,5,17,244,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8252-124b-11ed-8a84-000d3a196655','8858998581139','เป๊ปซี่ 245ml ',176,2,5,17,244,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d82d1-124b-11ed-8a84-000d3a196655','8858998581153','เป๊ปซี่ แมกซ์ เครื่องดื่มน้ำอัดลม 245 มล.',176,2,5,17,244,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d8351-124b-11ed-8a84-000d3a196655','8858998581177','pepsi ไม่มีน้ำตาล 1.45L.',176,2,5,17,26,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d83ca-124b-11ed-8a84-000d3a196655','8858998581214','Pepsi 1.95L.',176,2,5,17,289,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8440-124b-11ed-8a84-000d3a196655','8858998581221','เป๊ปซี่ เครื่องดื่มน้ำอัดลม 345 มล.',176,2,5,17,340,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -878,7 +878,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d86e3-124b-11ed-8a84-000d3a196655','8858998581382','pepsi-cola no sugar 240ml',176,2,5,17,243,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8759-124b-11ed-8a84-000d3a196655','8858998581399','เป๊บซี่ ไม่มีน้ำตาล 345ml',176,2,5,17,340,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d87f0-124b-11ed-8a84-000d3a196655','8858998581542','เป๊ปซี่ เครื่องดื่มน้ำอัดลม 300 มล.',176,2,5,17,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d886b-124b-11ed-8a84-000d3a196655','8858998581559','เป๊ปซี่ เครื่องดื่มน้ำอัดลม 325 มล.',176,2,5,17,326,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d88e2-124b-11ed-8a84-000d3a196655','8858998581719','เป๊บซี่ ออริจินัล 430ml',176,2,5,17,417,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d895e-124b-11ed-8a84-000d3a196655','8858998581733','เป๊บซี่ แม็กซ์เทสต์ ครีมโซดา 345ml',176,2,5,17,340,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -889,7 +889,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d8bbe-124b-11ed-8a84-000d3a196655','8858998582068','มิรินด้า น้ำอัดลม กลิ่นสตรอเบอร์รี่ 345 มล.',773,2,5,17,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8c38-124b-11ed-8a84-000d3a196655','8858998582211','มิรินด้า ส้ม245 ml',773,2,5,17,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8cb1-124b-11ed-8a84-000d3a196655','8858998582235','มิรินด้าสตรอเบอรี่ 245 ml',773,2,5,17,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d8d28-124b-11ed-8a84-000d3a196655','8858998582556','มิรินด้า เครื่องดื่มน้ำอัดลม กลิ่นกรีนครีม 345 มล.',773,2,5,17,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8da3-124b-11ed-8a84-000d3a196655','8858998582563','มิรินด้า มิกซ์อิท องุ่นมัสแคท 345ml',773,2,5,17,340,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d8e1b-124b-11ed-8a84-000d3a196655','8858998582662','มิรินด้า กรีนครีม 1.45 L.',773,2,5,17,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -900,7 +900,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d9076-124b-11ed-8a84-000d3a196655','8858998583133','7 อัพ ไม่มีน้ำตาล 345มล',48,2,5,17,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d90ec-124b-11ed-8a84-000d3a196655','8858998584185','มิรินด้า กลิ่นซอลท์ เลมอนโซดา 345มล',773,2,5,17,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9162-124b-11ed-8a84-000d3a196655','8858998584222','มิรินด้า เบอร์รีโซดา กลิ่นบูลเบอร์ลี่ 345ml',773,2,5,17,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d91f4-124b-11ed-8a84-000d3a196655','8850486100297',' เมอริเดียน 700มล',203,1,3,11,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d926f-124b-11ed-8a84-000d3a196655','8850486100303','Meridian 38% 350ml',203,1,3,11,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d92e5-124b-11ed-8a84-000d3a196655','8851123225007','เปปทีน 4000',177,2,12,34,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -911,7 +911,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d9539-124b-11ed-8a84-000d3a196655','8852001111740','แบรนด์ วีต้า แอคทีฟ 14 42มล',268,2,12,34,413,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d95ad-124b-11ed-8a84-000d3a196655','8852001111986','แบรนด์ ทับทิม 50มล',267,2,12,34,474,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9622-124b-11ed-8a84-000d3a196655','8852001112020','แบรนด์ เสาวรส 50มล',267,2,12,34,474,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d96a2-124b-11ed-8a84-000d3a196655','8852001112181','แบรนด์ จินเซนโนไซด์ โปร 50มล',267,2,12,34,474,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9719-124b-11ed-8a84-000d3a196655','8852001128502','แบรนด์ วีต้า เบอร์รี่พลัสบ็อกบิลเบอร์รี่ 42 มล.',268,2,12,34,413,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9793-124b-11ed-8a84-000d3a196655','8852001140016','แบรนด์ รังนกแท้ สูตรคลาสสิค 42 มล.',267,2,12,34,413,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -922,7 +922,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d9b05-124b-11ed-8a84-000d3a196655','161006222200016','ลีโอ 620*12ขวด',137,1,12,1,102,1,NULL,NULL,0,1,'00000','2022-08-02 00:00:00',1,NULL,NULL,0),
 	 ('786d9b8f-124b-11ed-8a84-000d3a196655','5410228200154','โฮการ์เด้น โรเซ่ 750ml',377,1,1,2,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9c05-124b-11ed-8a84-000d3a196655','8712000053116','ไฮเนเก้น 0.0 330ml',414,1,1,3,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786d9c79-124b-11ed-8a84-000d3a196655','877824916011','อาชา',924,1,1,1,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786d9cf4-124b-11ed-8a84-000d3a196655','885 9594 300261','เบียร์ช้าง COFFEE INFUSED Can 490cc 4.8 ดีกรี',141,1,12,1,70,3,NULL,NULL,0,1,'00000','2022-08-02 00:00:00',1,NULL,NULL,0),
 	 ('786d9d6d-124b-11ed-8a84-000d3a196655','8850571125648','เบียร์เชียร์ Lager 620 ซีซี. ขวด',119,1,1,1,525,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -933,7 +933,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786d9fdf-124b-11ed-8a84-000d3a196655','8850571235774','เบียร์เชียร์ X Tra 490 ml.',119,1,1,1,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da052-124b-11ed-8a84-000d3a196655','8850571920649','ไฮเนเก้น เบียร์ 5% 620 ซีซี. ขวด',414,1,1,3,525,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da0cc-124b-11ed-8a84-000d3a196655','8850571940500','เบียร์ไฮเนเก้น 490 ml',414,1,1,3,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786da141-124b-11ed-8a84-000d3a196655','8850999009674','เบียร์ลีโอ 490 ซีซี. กระป๋อง',823,1,1,1,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da1b6-124b-11ed-8a84-000d3a196655','8850999009681','เบียร์ลีโอ กระป๋องยาว แพ็ค 490ml',823,1,1,1,451,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da22e-124b-11ed-8a84-000d3a196655','8850999011677','เบียร์ สโนวี่ 490 ซีซี. กระป๋อง',863,1,1,4,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -944,7 +944,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786da477-124b-11ed-8a84-000d3a196655','8850999141008','ลีโอ เบียร์ 5% 620 ซีซี. ขวด',823,1,1,1,525,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da4ef-124b-11ed-8a84-000d3a196655','8850999141015','เบียร์ลีโอ ขวดใหญ่ ลัง 12* 620ml',823,1,1,1,525,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da568-124b-11ed-8a84-000d3a196655','8850999143002','เบียร์ลีโอ 320 ซีซี. กระป๋อง',823,1,1,1,324,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786da5df-124b-11ed-8a84-000d3a196655','8850999143026','เบียร์ลีโอ กระป๋องสั้น แพ็ค 24* 320ml',823,1,1,1,324,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da657-124b-11ed-8a84-000d3a196655','8851993616011','ช้างคลาสสิก เบียร์ 4.8% 620 ซีซี. ขวด',516,1,1,1,525,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786da6ce-124b-11ed-8a84-000d3a196655','8851993616059','ช้างคลาสสิก 620มล*12ขวด',516,1,1,1,525,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -955,7 +955,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786da931-124b-11ed-8a84-000d3a196655','8851993625181','เบียร์ช้างคลาสสิก กระป๋องยาว แพ็ค 15* 490ml',516,1,1,1,451,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e5aeb-124b-11ed-8a84-000d3a196655','8851993713017','เบียร์ช้าง โคลด์ บรูว์ 320 มล.',515,1,1,1,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6028-124b-11ed-8a84-000d3a196655','8851993716018','เบียร์ช้าง Cold Brew Lager 620 ซีซี. ขวด',515,1,1,1,525,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e60d7-124b-11ed-8a84-000d3a196655','8851993716056','เบียร์ช้าง โคลด์ บรูว์ 620มล*12ขวด',515,1,1,1,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e61aa-124b-11ed-8a84-000d3a196655','8851993725010','เบียร์ช้าง Cold Brew Lager 490ซีซี. กระป๋อง',515,1,1,1,451,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6230-124b-11ed-8a84-000d3a196655','8851994025805','เบียร์ Black Dragon 490 cc. Can 4 ดีกรี',2239,1,1,4,451,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -966,7 +966,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e6504-124b-11ed-8a84-000d3a196655','8851994916011','เบียร์อาชา 630 ซีซี. ขวด',924,1,1,1,529,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6578-124b-11ed-8a84-000d3a196655','8855796005720','ฟูล มูน มอลต์ ราชเบอร์รี่ โรส 490ml',738,1,4,14,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e65ef-124b-11ed-8a84-000d3a196655','8855796005737','ฟูล มูน มอลต์ เลม่อนสไปรส์ 490ml',738,1,4,14,451,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e6663-124b-11ed-8a84-000d3a196655','8936036201222','โฮการ์เด้น 500ml',377,1,1,2,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e66d8-124b-11ed-8a84-000d3a196655','8936036201260','โฮการ์เด้น B650ml',377,1,1,2,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e674d-124b-11ed-8a84-000d3a196655','8936036201529','โฮการ์เด้น รสโรเซ่ 500ml',377,1,1,2,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -977,7 +977,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e6996-124b-11ed-8a84-000d3a196655','4901777210912','ซันโทรี สตรองซีโร่ 350ml',537,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6a0e-124b-11ed-8a84-000d3a196655','4901777222861','ซันโทรี่ สตรองซีโร่ รสพลัม 350ml',537,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6a82-124b-11ed-8a84-000d3a196655','5410316947268','สเมอร์นอฟ มิดไนท์ 250ml',860,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e6afa-124b-11ed-8a84-000d3a196655','5410316949064','สเมอร์นอฟ ไอซ์ กลิ่นมะนาว 250ml',860,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6b70-124b-11ed-8a84-000d3a196655','5410316951142','สเมอร์นอฟ อิเล็กทริค บลู 250ml',860,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e6be3-124b-11ed-8a84-000d3a196655','5410316962629','สเมอร์นอฟ ไอซ์ อูเมะชู 275ml',860,1,4,15,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -988,7 +988,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e76ec-124b-11ed-8a84-000d3a196655','6935145343047','Rio Light Grape & Brandy 330 ml. ALC. 3%',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7765-124b-11ed-8a84-000d3a196655','6935145343061','Rio Light Rose & Lychee & Brandy 330 ml. ALC. 3%',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e77db-124b-11ed-8a84-000d3a196655','6935145343115','Rio Light Peach & Elderflower 330 ml. ALC. 3%',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e7850-124b-11ed-8a84-000d3a196655','6935145343122','Rio Light Golden Kiwi Fruit 330 ml. ALC. 3%',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e78c3-124b-11ed-8a84-000d3a196655','6935145343139','Rio Light White Grape 330 ml. ALC. 3%',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7935-124b-11ed-8a84-000d3a196655','6935145343146','ริโอ ไลท์วานิลลาไอซ์ครีม 330ml',806,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -999,7 +999,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e7b99-124b-11ed-8a84-000d3a196655','8850382101039','spy cocktail sweet kiss 275 ml',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7c0c-124b-11ed-8a84-000d3a196655','8850382130008','สปาย ไวน์คูลเลอร์ คลาสสิค ขวด 275 มล.',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7c81-124b-11ed-8a84-000d3a196655','8850382230005','spy wine cooler white 275ml',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e7cf6-124b-11ed-8a84-000d3a196655','8850382311124','spy wine cooler gold 275ml',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7d6a-124b-11ed-8a84-000d3a196655','8850382312046','สปาย ไวน์คูลเลอร์ แบล็ค ขวด 275 มล.',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e7de0-124b-11ed-8a84-000d3a196655','8850382330002','สปาย ไวน์คูลเลอร์ เรด ขวด 275 มล.',878,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1010,7 +1010,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e8026-124b-11ed-8a84-000d3a196655','8850486100426','คูลอฟ แม็ก 250ml',489,1,4,15,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e809a-124b-11ed-8a84-000d3a196655','8855796005010','ฟูลมูน เรดไวน์คูลเลอร์ ขวด 275 มล.',741,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8110-124b-11ed-8a84-000d3a196655','8855796005027','ฟูลมูน ไวท์ไวน์คูลเลอร์ ขวด 275 มล.',741,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e8185-124b-11ed-8a84-000d3a196655','8855796005119','ฟูลมูน โรเซ่ไวน์คูลเลอร์ ขวด 275 มล.',741,1,4,15,272,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e81fb-124b-11ed-8a84-000d3a196655','8855796005317','ฟูลมูน ดาร์กไวน์คูลเลอร์ ขวด 275 มล.',741,1,4,15,272,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8270-124b-11ed-8a84-000d3a196655','8855796005539','ฟูลมูน ไวน์คูลเลอร์ Super DIY ขวด 275 มล.',741,1,4,15,272,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1021,7 +1021,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e84d4-124b-11ed-8a84-000d3a196655','885796005027','Full moon wine cooler เขียว 275ml',741,1,4,15,272,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8549-124b-11ed-8a84-000d3a196655','8851717020087','ดัชชี่โยเกิร์ต รสธรรมชาติ 135 กรัม',574,2,10,29,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e85be-124b-11ed-8a84-000d3a196655','8851717020117','ดัชชี่โยเกิร์ต รสสตรอเบอร์รี่ 135 กรัม',574,2,10,29,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e8633-124b-11ed-8a84-000d3a196655','8851717020124','โยเกอร์ตผสมผลไม้รวม ตราดัชชี่ 135กรัม',574,2,10,29,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e86a8-124b-11ed-8a84-000d3a196655','8851717020148','ดัชชี่โยเกิร์ต ผสมวุ้นมะพร้าว 135 กรัม',574,2,10,29,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e871d-124b-11ed-8a84-000d3a196655','8851717020155','โยเกอร์ตผสมธัญญาหาร ถั่วและเม็ดบัว ตราดัชชี่ 135กรัม',574,2,10,29,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1032,7 +1032,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e8b69-124b-11ed-8a84-000d3a196655','5410316519779','smirnoff triple distilled',860,1,2,10,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8bdf-124b-11ed-8a84-000d3a196655','8855155000823','Kulov Vodka 40 700ml',489,1,2,10,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8c51-124b-11ed-8a84-000d3a196655','8857104160411','เหยี่ยวเงิน 40 700ml',221,1,2,10,397,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e8cc5-124b-11ed-8a84-000d3a196655','4985042134516','ToHRI เหล้าญี่ปุ่น 40ดีกรี 700 มล.',80,1,3,11,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8d3a-124b-11ed-8a84-000d3a196655','5000267014234','Red Label 40 700ml',492,1,3,11,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e8dae-124b-11ed-8a84-000d3a196655','5000267015200','Red label 20ml',492,1,3,11,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1043,7 +1043,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786e9009-124b-11ed-8a84-000d3a196655','5000299202104','100 PIPERS 40 700ml',44,1,3,11,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e907c-124b-11ed-8a84-000d3a196655','5000299202418','100 PIPERS 40 1000ml',44,1,3,11,35,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e90ef-124b-11ed-8a84-000d3a196655','8851707000174','แสงโสมเหรียญทอง 40 ดีกรี 300 มล.',293,1,3,11,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786e9167-124b-11ed-8a84-000d3a196655','8851707000181','แสงโสมเหรียญทอง 40 ดีกรี 700 มล.',293,1,3,11,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e9200-124b-11ed-8a84-000d3a196655','8851707000808','แสงโสมเหรียญทอง 40 ดีกรี 1000 มล.',293,1,3,11,181,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786e9277-124b-11ed-8a84-000d3a196655','8855155000700','BLEND 285 35 ดีกรี 700 มล.',167,1,3,11,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1054,7 +1054,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f519f-124b-11ed-8a84-000d3a196655','8855155000793','BLEND 285 Signature 35 ดีกรี 345 มล.',168,1,3,11,340,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f5299-124b-11ed-8a84-000d3a196655','8850382101206','mont clair',747,1,4,14,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f531e-124b-11ed-8a84-000d3a196655','8850382101213','mont clair cabernet sauvignon',747,1,4,14,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f539a-124b-11ed-8a84-000d3a196655','9300727453266','Shiraz Cabernet Vintage 2018',257,1,4,14,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f5418-124b-11ed-8a84-000d3a196655','8854698013628','จับใจ เครื่องดื่มสมุนไพรสูตรจับเลี้ยงผสมชา 350 มล.',496,3,21,51,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f5495-124b-11ed-8a84-000d3a196655','8858736918999','เพ็ญภาค',709,3,21,51,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1065,7 +1065,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f56e8-124b-11ed-8a84-000d3a196655','8852388000187','เชี่ยงชุน 35ดีกรี 625มล',118,1,2,5,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f5760-124b-11ed-8a84-000d3a196655','8852388000248','เสือดำ 28 ดีกรี 625 มล.',219,1,2,5,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f57d3-124b-11ed-8a84-000d3a196655','8852388000262','เสือดำ 28 ดีกรี 330 มล.',219,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f5848-124b-11ed-8a84-000d3a196655','8852388000385','เชี่ยงชุน 35 ดีกรี 330 มล.',118,1,2,5,333,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f58bd-124b-11ed-8a84-000d3a196655','8852388000392','รวงข้าว 28 625 ml.',796,1,2,5,526,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f5930-124b-11ed-8a84-000d3a196655','8852388000439','รวงข้าว 28 330 ml.',796,1,2,5,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1076,7 +1076,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f5fc9-124b-11ed-8a84-000d3a196655','8854789000674','พญาเสือ 40 625ml',708,1,2,5,526,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6041-124b-11ed-8a84-000d3a196655','8854790000557','สุราขาวพญานาค 35 ดีกรี 625 มล.',709,1,2,5,526,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f60b9-124b-11ed-8a84-000d3a196655','8854790000571','สุราขาวพญานาค 40 ดีกรี 625 มล.',709,1,2,5,526,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f615b-124b-11ed-8a84-000d3a196655','8854791000372','รวงข้าว 40 ดีกรี 625มล',796,1,2,5,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f61d2-124b-11ed-8a84-000d3a196655','8854791000419','รวงข้าว 40ดีกรี 330มล',796,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6248-124b-11ed-8a84-000d3a196655','8854794000072','เชี่ยงชุน 35 ดีกรี 625 มล.',118,1,2,5,526,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1087,7 +1087,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f64ad-124b-11ed-8a84-000d3a196655','8855155000212','รวงข้าว 40 ดีกรี 625 มล.',796,1,2,5,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6521-124b-11ed-8a84-000d3a196655','8855155000250','รวงข้าว 40 ดีกรี 330 มล.',796,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6594-124b-11ed-8a84-000d3a196655','8855155000281','รวงข้าว ซิลเวอร์ 35 ดีกรี 700 มล.',797,1,2,5,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f6608-124b-11ed-8a84-000d3a196655','8855155000298','รวงข้าว ซิลเวอร์ 35 330ml',796,1,2,5,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6679-124b-11ed-8a84-000d3a196655','8855155000304','นิยมไทย ข้าวหอม 40 ดีกรี 330 มล.',661,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f66ee-124b-11ed-8a84-000d3a196655','8855155000342','นิยมไทยสุราข้าวหอมพิเศษ 35 ดีกรี330มล',661,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1098,7 +1098,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f6937-124b-11ed-8a84-000d3a196655','8855796034102','คอม-เบ รสเฟรช 360ml.',457,1,2,5,358,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f69a9-124b-11ed-8a84-000d3a196655','8855796034126','คอม-เบ รสพีช 360ml.',457,1,2,5,358,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6a1c-124b-11ed-8a84-000d3a196655','8855796034294','คอม- เบ Yogurt 12 ดีกรี 360 มล.',457,1,2,5,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f6a8f-124b-11ed-8a84-000d3a196655','8855796034409','คอม- เบ Jelly Kyoho 13 ดีกรี 360 มล.',457,1,2,5,358,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6b01-124b-11ed-8a84-000d3a196655','8857104162729','เชี่ยงชุน ตรากระเรียนทอง 28ดีกรี 330มล',1010,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f6b76-124b-11ed-8a84-000d3a196655','8858701200067','เสือขาว 30 ดีกรี 330 มล.',217,1,2,5,333,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1109,7 +1109,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f7145-124b-11ed-8a84-000d3a196655','8858722600389','ช้างทอง 40 625ml',517,1,2,5,397,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f71f0-124b-11ed-8a84-000d3a196655','8859361300043','ตะวันแดง 40 ดีกรี 330 มล. ',614,1,2,5,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f726a-124b-11ed-8a84-000d3a196655','8859361300081','ตะวันแดง 40 ดีกรี 625 มล. ',614,1,2,5,526,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f72de-124b-11ed-8a84-000d3a196655','8859361300197','ตะวันแดง เรดซีรี่ย์ 35 ดีกรี 700มล.',614,1,2,5,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7356-124b-11ed-8a84-000d3a196655','8859361300258','ตะวันแดง ข้าวหอม 40 ดีกรี 330 มล. ',615,1,2,5,333,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f73cc-124b-11ed-8a84-000d3a196655','8859361300296','ตะวันแดง ข้าวหอม 40 ดีกรี 625 มล. ',615,1,2,5,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1120,7 +1120,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f7615-124b-11ed-8a84-000d3a196655','8852854100809','น้ำดื่มรีเจนซี 599 ml.',808,1,3,11,507,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f768a-124b-11ed-8a84-000d3a196655','8855155000991','Crown 99 700 มล.',54,1,3,11,560,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f76fd-124b-11ed-8a84-000d3a196655','8857104161982','Cooper 250ml',486,1,3,11,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f7770-124b-11ed-8a84-000d3a196655','8857104162873',' ยูงทอง 350 มล',788,1,3,11,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f77e6-124b-11ed-8a84-000d3a196655','8857104163191','Cavalier 250ml',474,1,3,11,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7859-124b-11ed-8a84-000d3a196655','8858722600884','x one 35 ดีกรี 700มล',88,1,3,11,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1131,7 +1131,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f7a9f-124b-11ed-8a84-000d3a196655','8850187704411','ตราฉัตร ข้าว 5 กก.',604,5,31,91,512,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7b27-124b-11ed-8a84-000d3a196655','8850443110055','หงษ์ทอง ข้าวหอมมะลิ 5 กก.',894,5,31,91,512,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7b9c-124b-11ed-8a84-000d3a196655','8851212202155','ตราดอกบัว ข้าวหอมมะลิ 5กก.',571,5,31,91,512,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f7c11-124b-11ed-8a84-000d3a196655','8851702199989','ข้าวเบญจรงค์ ข้าวหอมมะลิ 100% 5KG',444,5,31,91,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7c88-124b-11ed-8a84-000d3a196655','8852388000613','หงส์ทอง 35 ดีกรี 700 มล.',894,1,3,11,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7cfc-124b-11ed-8a84-000d3a196655','8852388000620','หงส์ทอง 35 ดีกรี 350 มล.',894,1,3,11,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1142,7 +1142,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f7f62-124b-11ed-8a84-000d3a196655','8858877501036','ข้าขาวนาปีคัดพิเศษ ตราบัวชมพู',679,5,31,91,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f7fdc-124b-11ed-8a84-000d3a196655','8850030112318','โลโบ ผงทำหมูแดง 100กรัม',354,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f804f-124b-11ed-8a84-000d3a196655','8850030116163','โลโบ น้ำพริกแกงเขียวหวาน 50กรัม',354,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('786f80c4-124b-11ed-8a84-000d3a196655','8850030116415','โลโบ น้ำพริกแกงส้ม 50กรัม',354,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f8137-124b-11ed-8a84-000d3a196655','8850035530308','เจ-ฟู้ดส์ แกงเผ็ดลูกชิ้นเจปรุงรส 180 g',110,5,35,103,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('786f81ac-124b-11ed-8a84-000d3a196655','8850069010036','ปรุงทิพย์ เกลือบริโภค 500 กรัม',693,5,35,103,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1153,7 +1153,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('786f846d-124b-11ed-8a84-000d3a196655','8850134301229','แม่จินตืกระเทียมดอง 340 g',279,5,35,103,337,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870aa7e-124b-11ed-8a84-000d3a196655','8850144059097','คนอร์ ต้มยำก้อน 24 g',446,5,35,103,245,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870ab80-124b-11ed-8a84-000d3a196655','8850144074014','คนอร์ แป้งข้าวโพด 200 กรัม',446,5,35,103,199,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870ac02-124b-11ed-8a84-000d3a196655','8850144074038','คนอร์ แป้งข้าวโพด 700 กรัม',446,5,35,103,559,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870ac7f-124b-11ed-8a84-000d3a196655','8850144102021','เบสฟู้ด ผงฟู สูตร ดับเบิลแอ็คติง 30 g',170,5,35,103,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870acf9-124b-11ed-8a84-000d3a196655','8850144204527','เบสท์ฟู้ดส์ สวีท เบเกอร์รี่ มายองเนส 870 กรัม',170,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1164,7 +1164,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870af4c-124b-11ed-8a84-000d3a196655','8850144207870','คนอร์ คัพโจ๊ก รสไก่ 35g',446,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870afbd-124b-11ed-8a84-000d3a196655','8850144207894','คนอร์ คัพโจ๊ก รสหมู 35 กรัม',446,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b030-124b-11ed-8a84-000d3a196655','8850144208099','คนอร์ คัพโจ๊ก รสไก่ 30g',446,5,35,103,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870b0a1-124b-11ed-8a84-000d3a196655','8850144208112','คนอร์ คัพโจ๊ก รสหมู 35 มล. (ซอง)',446,5,35,103,353,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b139-124b-11ed-8a84-000d3a196655','8850144208792','คนอร์ คัพโจ๊ก รสกุ้ง-ปูอัด 35 กรัม',446,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b1b6-124b-11ed-8a84-000d3a196655','8850144214113','คนอร์ คัพโจ๊ก รสหมู 30g',446,5,35,103,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1175,7 +1175,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870b5b6-124b-11ed-8a84-000d3a196655','8850144224839','คนอร์ อร่อยชัวร์ รสหมู 235g',446,5,35,103,237,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b62c-124b-11ed-8a84-000d3a196655','8850144225041','คนอร์ อร่อยชัวร์ รสหมู 70g',446,5,35,103,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b69f-124b-11ed-8a84-000d3a196655','8850144225638','คนอร์ ซุปสุกี้ ชาบู ก้อน 24 g',446,5,35,103,245,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870b714-124b-11ed-8a84-000d3a196655','8850144225652','คนอร์ เล้งแซ่บก้อน 24 g',446,5,35,103,245,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b78e-124b-11ed-8a84-000d3a196655','8850144226468','คนอร์ คัพโจ๊ก รสหมู 35 มล.',446,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870b802-124b-11ed-8a84-000d3a196655','8850144226482','คนอร์ คัพโจ๊ก รสกุ้งปูอัด 35g',446,5,35,103,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1186,7 +1186,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870ba49-124b-11ed-8a84-000d3a196655','8850180040011','โกกิ แป้งสำเร็จรูป 150 กรัม',312,5,35,103,114,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870babd-124b-11ed-8a84-000d3a196655','8850180060019','ตราชั่ง กะปิ 90 กรัม',33,5,35,103,623,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870bb31-124b-11ed-8a84-000d3a196655','8850180060057','ตราชั่ง กะปิ 185 กรัม',33,5,35,103,160,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870bba6-124b-11ed-8a84-000d3a196655','8850206250417','เด็กสมบูรณ์ ผงชูรสแท้ 85กรัม',130,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870bc1c-124b-11ed-8a84-000d3a196655','8850213907502','ทวีรส น้ำปลาพริก 350กรัม(50ซอง)',624,5,35,103,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870bc8f-124b-11ed-8a84-000d3a196655','8850250001485','อายิโนะโมะโต๊ะ พลัส 75 g',926,5,35,103,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1197,7 +1197,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870bf07-124b-11ed-8a84-000d3a196655','8850250002628','รสดี แป้งชุบทอดปรุงสำเร็จรูป รสต้นตำรับ 90 กรัม',798,5,35,103,623,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870bf84-124b-11ed-8a84-000d3a196655','8850250002635','รสดี แป้งชุบทอดปรุงสำเร็จรูป รสเผ็ดร้อน 90 กรัม',798,5,35,103,623,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870bff9-124b-11ed-8a84-000d3a196655','8850250007685','รสดี รสพะโล้ 60 กรัม',798,5,35,103,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870c06c-124b-11ed-8a84-000d3a196655','8850250007715','รสดีเมนู แกงจืด 60กรัม',798,5,35,103,520,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c0e1-124b-11ed-8a84-000d3a196655','8850250007739','รสดี ต้มยำ 60 g',798,5,35,103,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c154-124b-11ed-8a84-000d3a196655','8850250007746','รสดี ผัดกระเพรา 50 g',798,5,35,103,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1208,7 +1208,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870c395-124b-11ed-8a84-000d3a196655','8850250008200','รสดี น้ำยำ 40 g',798,5,35,103,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c407-124b-11ed-8a84-000d3a196655','8850250008217','รสดี ผัดน้ำมันหอย 70g',798,5,35,103,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c47c-124b-11ed-8a84-000d3a196655','8850250008347','รสดี แป้งชุบทอดปรุงสำเร็จรูป รสต้นตำรับ 150 กรัม',798,5,35,103,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870c4f0-124b-11ed-8a84-000d3a196655','8850250008453','รสดี เมนู คั่วกลิ้ง 30g',798,5,35,103,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c563-124b-11ed-8a84-000d3a196655','8850250008781','รสดี ลาบน้ำตก 30 g',798,5,35,103,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c5d9-124b-11ed-8a84-000d3a196655','8850250008958','รสดี หมูแดง 80 g',798,5,35,103,597,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1219,7 +1219,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870c82e-124b-11ed-8a84-000d3a196655','8850250010944','รสดี ผงปรุงรสหมู 165 กรัม',798,5,35,103,134,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c8a3-124b-11ed-8a84-000d3a196655','8850250010951','รสดี ผงปรุงอาหารรสหมู 425 มล.',798,5,35,103,408,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870c917-124b-11ed-8a84-000d3a196655','8850250010968','รสดี ผงปรุงอาหารรสหมู 850 มล.',798,5,35,103,603,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870c98d-124b-11ed-8a84-000d3a196655','8850250010975','รสดี ผงปรุงอาหารรสไก่ 75 มล.',798,5,35,103,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870ca03-124b-11ed-8a84-000d3a196655','8850250010982','รสดี ผงปรุงอาหารรสไก่ 165 มล.',798,5,35,103,134,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870ca79-124b-11ed-8a84-000d3a196655','8850250010999','รสดี ผงปรุงอาหารรสไก่ 425 มล.',798,5,35,103,408,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1230,7 +1230,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870ccdf-124b-11ed-8a84-000d3a196655','8850250011293','อายิโนะโมะโต๊ะ ผงชูรสแท้ (เอ็มเอสจี) 1 กิโลกรัม',926,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870cd53-124b-11ed-8a84-000d3a196655','8850250011996','รสดี ซุปหมูก้อน 40 กรัม',798,5,35,103,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870cdc9-124b-11ed-8a84-000d3a196655','8850250012115','รสดี ซุปก้อน รสต้มยำ 24 g',798,5,35,103,245,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870ce3d-124b-11ed-8a84-000d3a196655','8850250012177','รสดี ซปไก่ก้อน 40 g',798,5,35,103,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870ceb3-124b-11ed-8a84-000d3a196655','8850297100097','เบสท์ โอเดอร์ สีเหลืองไข่ 30มล',169,5,35,103,312,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870cf28-124b-11ed-8a84-000d3a196655','8850297100172','เบสท์ โอเดอร์ สีแดง 30มล',169,5,35,103,312,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1241,7 +1241,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7870d222-124b-11ed-8a84-000d3a196655','8850297500712','เบสท์ โอเดอร์ สีชมพูบานเย็น 30มล',169,5,35,103,312,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870d299-124b-11ed-8a84-000d3a196655','8850297600870','อังเคิลบาร์นส์ ผงปรุงรส แซ่บซี๊ด 100กรัม',919,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870d30d-124b-11ed-8a84-000d3a196655','8850297620205','อังเคิลบาร์นส์ ผงปรุงรส บาร์บีคิว 200กรัม',919,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7870d383-124b-11ed-8a84-000d3a196655','8850297620236','อังเคิลบาร์นส์ ผงปรุงรส ปาปริก้า 200กรัม',919,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7870d3fe-124b-11ed-8a84-000d3a196655','8850297990216','อังเคิลบาร์นส์ แป้งทอดกรอบ 1กก',919,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787182d0-124b-11ed-8a84-000d3a196655','8850298105008','ช้างสามเศียร แป้งข้าวจ้าว 500 กรัม',518,5,35,103,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1252,7 +1252,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787185e5-124b-11ed-8a84-000d3a196655','8850310000854','ยูเอฟเอ็ม แป้งทอดกรอบ 1 กก.',785,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871865c-124b-11ed-8a84-000d3a196655','8850310001226','ดาวฟ้า แป้งสาลี 1กก',579,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787186d7-124b-11ed-8a84-000d3a196655','8850344004187','พร้าวหอม กะทิ 100% 1000 มล.',710,5,35,103,35,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871874c-124b-11ed-8a84-000d3a196655','8850344004194','พร้าวหอม กะทิ 100% 250 มล.',710,5,35,103,250,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787187c2-124b-11ed-8a84-000d3a196655','8850367100019','ชาวเกาะ กะทิยูเอชที 100% 250 มล.',521,5,35,103,250,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78718835-124b-11ed-8a84-000d3a196655','8850367100026','ชาวเกาะ กะทิยูเอชที 100% 1000 มล.',521,5,35,103,35,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1263,7 +1263,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78718f06-124b-11ed-8a84-000d3a196655','8850813102000','ชาวเกาะ กะทิสูตรหัวกะทิ 250 มล.',521,5,35,103,250,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78718f7a-124b-11ed-8a84-000d3a196655','8850813102017','ชาวเกาะ กะทิสูตรหัวกะทิ กะทิ 100% 1000มล.',521,5,35,103,35,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78718fef-124b-11ed-8a84-000d3a196655','8850813120196','ชาวเกาะ กะทิ 100% 250ml',521,5,35,103,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78719067-124b-11ed-8a84-000d3a196655','8850837061017','กะปิตราเรือใบ 110กรัม',596,5,35,103,58,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787190e3-124b-11ed-8a84-000d3a196655','8850885990017','เต้าหู้ยี้ ตรากิเลน 250 กรัม',602,5,35,103,249,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719158-124b-11ed-8a84-000d3a196655','8851436080027','ปุ้ยเก่ง แป้งกล้วยทอด 1กก',706,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1274,7 +1274,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78719824-124b-11ed-8a84-000d3a196655','8851613106106','อร่อยดี น้ำกระทิ 150 ml',911,5,35,103,115,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871989a-124b-11ed-8a84-000d3a196655','8851613106472','อร่อยดี กระทิอบควันเทียน ดอกไม้หอม 250 ml',911,5,35,103,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719916-124b-11ed-8a84-000d3a196655','8851683000427','ไร่ทิพย์ พริกขี้หนูสวนป่น 500 g',402,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871998b-124b-11ed-8a84-000d3a196655','8851683000434','ไร่ทิพย์ น้ำตาลทรายแดง ถุงทอง 500 กรัม',402,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719a01-124b-11ed-8a84-000d3a196655','8851683000472','จันท์ พริกไทยขาวป่น 100กรัม',495,5,35,103,37,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719af0-124b-11ed-8a84-000d3a196655','8851683000533','ตราจันท์ พริกไทยป่น 50 กรัม',495,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1285,7 +1285,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78719d48-124b-11ed-8a84-000d3a196655','8851683000847','ไร่ทิพย์ โป๊ยกั๊ก 100 กรัม',402,5,35,103,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719dbc-124b-11ed-8a84-000d3a196655','8851683001608','ไร่ทิพย์ พริกขี้หนูสวนป่น 100 g',402,5,35,103,37,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719e32-124b-11ed-8a84-000d3a196655','8851683001615','ธันญา พริกขี้หนูสวนป่นและน้ำตาลทราย 285กรัม',647,5,35,103,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78719ea8-124b-11ed-8a84-000d3a196655','8851683001882','ไร่ทิพย์ พริกน้ำส้ม 8 กรัมX50 ซอง',402,5,35,103,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719f35-124b-11ed-8a84-000d3a196655','8851683002162','ไร่ทิพย์ พริกน้ำส้มบด 8กรัม*50',402,5,35,103,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78719fab-124b-11ed-8a84-000d3a196655','8851683002667','ไร่ทิพย์ พริกไทยป่น 60 กรัม',402,5,35,103,520,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1296,7 +1296,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7871a607-124b-11ed-8a84-000d3a196655','8851683004944','ไร่ทิพย์ พริกไทยดำเมล็ด 12 กรัม',402,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871a67e-124b-11ed-8a84-000d3a196655','8851683005422','ไร่ทิพย์ หัวหอมเจียว 500กรัม',402,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871a6fd-124b-11ed-8a84-000d3a196655','8851683005453','ธัญญา กระเทียมเจียว 500 กรัม',646,5,35,103,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871a774-124b-11ed-8a84-000d3a196655','8851683005590','ธัญญา กระเทียมเจียว 100กรัม',646,5,35,103,37,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871a7e9-124b-11ed-8a84-000d3a196655','8851683005774','ไร่ทิพย์ หัวหอมเจียว 100กรัม',402,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871a85c-124b-11ed-8a84-000d3a196655','8852071011018','หมีคู่ดาว แป้งข้าวเจ้า 500 g',898,5,35,103,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1307,7 +1307,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7871ab11-124b-11ed-8a84-000d3a196655','8852526011923','น้ำพริกนรก ธนพร 70 กรัม',643,5,35,103,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871ab86-124b-11ed-8a84-000d3a196655','8853026001955','อูมามิ 500 g',937,5,35,103,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871abfd-124b-11ed-8a84-000d3a196655','8853237000136','ตรากุ้งไทย กะปิ 90 กรัม',440,5,35,103,623,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871ac73-124b-11ed-8a84-000d3a196655','8853237000150','กุ้งไทย กะปิ 200 g',440,5,35,103,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871acea-124b-11ed-8a84-000d3a196655','8853237000198','กุ้งไทย กะปิ 450 g',440,5,35,103,428,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871ad61-124b-11ed-8a84-000d3a196655','8853820000116','ปลามังกร แป้งมันสำปะหลัง 480 กรัม',697,5,35,103,445,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1318,7 +1318,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7871afca-124b-11ed-8a84-000d3a196655','8853820000192','ปลามังกร สาคูใบเตย 480 กรัม ',697,5,35,103,445,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b041-124b-11ed-8a84-000d3a196655','8854203002253','เบนเกต เตตราโซเดียมไพโรฟอสเฟตเดคาไฮเดรต 15กรัม',154,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b109-124b-11ed-8a84-000d3a196655','8854203002307','เบนลี่ ผงหมักเนื้อ 15กรัม ',160,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871b184-124b-11ed-8a84-000d3a196655','8854203009924','เบนโซ โซเดียมเบนโซเอต 15กรัม',156,5,35,103,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b1f9-124b-11ed-8a84-000d3a196655','8854334002436','น้ำมะนาวฟ้าไทย 1000 มล.',731,5,35,103,35,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b26d-124b-11ed-8a84-000d3a196655','8854334002603','ฟ้าไทย ผงปรุงรสอาหารสหมู 75 g สีฟ้า',731,5,35,103,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1329,7 +1329,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7871b4d3-124b-11ed-8a84-000d3a196655','8854334002764','ฟ้าไทย ผงทำน้ำซุปน้ำใส 165 มล.',731,5,35,103,134,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b54a-124b-11ed-8a84-000d3a196655','8854334002771','ฟ้าไทย ผงทำซุปน้ำข้น 165กรัม',731,5,35,103,134,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b5be-124b-11ed-8a84-000d3a196655','8854334003617','ฟ้าไทย น้ำก๋วยเตี๋ยวสำเร็จรูปเข้มข้น รสพะโล้ 350กรัม',731,5,35,103,346,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7871b655-124b-11ed-8a84-000d3a196655','8854334004164','ฟ้าไทย น้ำก๋วยเตี๋ยวกึ่งสำเร็จรูปเข้มข้น รสเนื้อ 350กรัม',731,5,35,103,346,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b6d5-124b-11ed-8a84-000d3a196655','8854334004287','ฟ้าไทย น้ำก๋วยเตี๋ยวกึ่งสำเร็จรูปเข้มข้น บะหมี่เกี๊ยว 350กรัม',731,5,35,103,346,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7871b757-124b-11ed-8a84-000d3a196655','8854334004720','ฟ้าไทย ซุปน้ำรสหมู 25มล',731,5,35,103,254,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1340,7 +1340,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78728422-124b-11ed-8a84-000d3a196655','8857101770224','โบว์แดง เครื่องพะโล้ ก๋วยจั๊บ ก๋วยเตียว 25 กรัม',337,5,35,103,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872849b-124b-11ed-8a84-000d3a196655','8857101770231','โบว์แดง เครื่องต้มไก่มะระตุ๋นยาจีนเตี๋ยวเป็ด 25 ก.',337,5,35,103,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872851a-124b-11ed-8a84-000d3a196655','8857101770279','โบว์แดง เครื่องพะโล้',337,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78728593-124b-11ed-8a84-000d3a196655','8857123149138','วรรณา นรกกุ้งสูตรโบราณ 100g',827,5,35,103,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728606-124b-11ed-8a84-000d3a196655','8857126803167','แม่ส.สุดใจ น้ำพริกนรก 35g',286,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728678-124b-11ed-8a84-000d3a196655','8857126803174','แม่ส.สุดใจ น้ำพริกนรกแมงดา 35g',286,5,35,103,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1351,7 +1351,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787288bc-124b-11ed-8a84-000d3a196655','8858711946481','ชีวา เกล็ดขนมปังชุบทอด 1กก',528,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728930-124b-11ed-8a84-000d3a196655','8858711946924','ชีวา เก๋ากี้อบแห้ง 50กรัม',528,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787289a1-124b-11ed-8a84-000d3a196655','8858908500106','เอ็ม เอ็ม น้ำมะนาว 45% 1L',233,5,35,103,181,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78728a12-124b-11ed-8a84-000d3a196655','8858908500120','เอ็ม เอ็ม น้ำมะนาว 45% 500 ml',233,5,35,103,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728a83-124b-11ed-8a84-000d3a196655','8859475200086','รสท็อป ผงเล้งแซ่บ 32กรัม',799,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728af6-124b-11ed-8a84-000d3a196655','8859636700011','แซ่บ ไมค์ ผงปรุงรส น้ำยำขนมจีน 20กรัม',262,5,35,103,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1362,7 +1362,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78728d66-124b-11ed-8a84-000d3a196655','6905321920690','SHAOXING HUADIAO CHIEW 640ml',72,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728dd7-124b-11ed-8a84-000d3a196655','8850025335913','UFC เต้าเจี้ยว 850กรัม',1129,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728e61-124b-11ed-8a84-000d3a196655','8850038100027','ฉลากทอง น้ำซอสปรุงอาหารฉลากเขียว 300 ml',278,5,35,103,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78728ed8-124b-11ed-8a84-000d3a196655','8850038100034','ฉลากทอง น้ำซอสปรุงอาหารฉลากเขียว 700มล',504,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728f4d-124b-11ed-8a84-000d3a196655','8850038200017','ฉลากทอง แป้งทอดกรอบ 150 g',278,5,35,103,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78728fbe-124b-11ed-8a84-000d3a196655','8850038310013','ฉลากทอง น้ำจิ้มไก่ 300 g',278,5,35,103,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1373,7 +1373,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787291fe-124b-11ed-8a84-000d3a196655','8850038500254','แม่ครัว บางแสน น้ำส้มสายชู 700 ml',278,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729272-124b-11ed-8a84-000d3a196655','8850058000963','พันท้าย น้ำพริกเผา เผ็ดกลาง 114 มล.',717,5,35,103,60,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787292e5-124b-11ed-8a84-000d3a196655','8850058003223','พันท้ายนรสิงห์ น้ำจิ้มไก่ 220กรัม',717,5,35,103,224,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787294ba-124b-11ed-8a84-000d3a196655','8850058003254','พันท้าย น้ำจิ้มบ๊วยเจี่ย 220กรัม',717,5,35,103,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729537-124b-11ed-8a84-000d3a196655','8850058003346','พันท้าย น้ำจิ้มสุกี้สูตรกวางตุ้ง 330 กรัม',717,5,35,103,332,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787295ad-124b-11ed-8a84-000d3a196655','8850058003728','พันท้าย น้ำจิ้มสุกี้สูตรกวางตุ้ง 830 กรัม',717,5,35,103,600,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1384,7 +1384,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7872981a-124b-11ed-8a84-000d3a196655','8850058009652','พันท้าย น้ำจิ้มสุกี้กวางตุ้ง พริกกะเหรี่ยง 300g',717,5,35,103,332,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872988d-124b-11ed-8a84-000d3a196655','8850114402007','คนแบกกุ้ง น้ำปลาแท้ 200 ml',445,5,35,103,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787298fd-124b-11ed-8a84-000d3a196655','8850114402809','คนแบกกุ้ง น้ำปลา 285 มล.',445,5,35,103,279,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7872996f-124b-11ed-8a84-000d3a196655','8850114407514','คนแบกกุ้ง น้ำปลา 700 มล.',445,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787299e2-124b-11ed-8a84-000d3a196655','8850124000675','แม็กกี้ ซอสหอยนางรม สูตรรสกลมกล่อม 740 กรัม',274,5,35,103,573,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729a57-124b-11ed-8a84-000d3a196655','8850124065407','แม็กกี้ ซอสใช้เหยาะหรือจิ้ม 100 มล.',274,5,35,103,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1395,7 +1395,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78729ca0-124b-11ed-8a84-000d3a196655','8850125078994','แม๊กกี้ สูตรเข้มเข้าเนื้อ 200ml',274,5,35,103,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729d17-124b-11ed-8a84-000d3a196655','8850125079410','แม็กกี้ ซอสปรุงอาหาร สูตรเข้มข้นเข้าเนื้อ 980 ml',274,5,35,103,636,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729d89-124b-11ed-8a84-000d3a196655','8850127069112','แม็กกี้ ซอสหอยนางรม สูตรรสกลมกล่อม 210 กรัม',274,5,35,103,213,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78729dfd-124b-11ed-8a84-000d3a196655','8850153333003','ตราสามแม่ครัว ฉู่ฉี่ปลาซาดีน 190 g',887,5,35,103,174,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729e81-124b-11ed-8a84-000d3a196655','8850153333034','สามแม่ครัว ปลาซาร์ดีนในซอสมะเขือเทศ 190 กรัม',887,5,35,103,174,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78729ef8-124b-11ed-8a84-000d3a196655','8850153333737','สามแม่ครัว แกงเผ็ดไก่185 มล.',887,5,35,103,160,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1406,7 +1406,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7872a137-124b-11ed-8a84-000d3a196655','8850180050027','ตราชูตราชั่ง น้ำปลา 750 ml สีทอง',29,5,35,103,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a1c7-124b-11ed-8a84-000d3a196655','8850180051017','ตราชูตราชั่ง น้ำปลา 750 ml',29,5,35,103,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a23f-124b-11ed-8a84-000d3a196655','8850206010028','เด็กสมบูรณ์ ซีอิ้วขาวเห็ดหอม 700 มล',130,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7872a2b2-124b-11ed-8a84-000d3a196655','8850206010127','เด็กสมบูรณ์ ซีอิ้วขาวเห็ดหอม 300 มล',130,5,35,103,306,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a325-124b-11ed-8a84-000d3a196655','8850206010448','เด็กสมบูรณ์ ซีอิ้วขาวเห็ดหอม 95 มล',130,5,35,103,633,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a39c-124b-11ed-8a84-000d3a196655','8850206011018','เด็กสมบูรณ์ ซี่อิ้วขาว สูตร 1 1000 มล',130,5,35,103,35,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1417,7 +1417,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7872a5e0-124b-11ed-8a84-000d3a196655','8850206015030','เด็กสมบูรณ์ ซีอิ้วขาวฉลากแดง 700 มล',130,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a654-124b-11ed-8a84-000d3a196655','8850206015504','เด็กสมบูรณ์ ซีอิ้วขาวฉลากแดง 140 มล',130,5,35,103,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7872a6c8-124b-11ed-8a84-000d3a196655','8850206060054','เด็กสมบูรณ์ ซอสหวาน 950g',130,5,35,103,630,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78735bb8-124b-11ed-8a84-000d3a196655','8850206060122','เด็กสมบูรณ์ ซอสหวาน 400 กรัม',130,5,35,103,393,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78735ca0-124b-11ed-8a84-000d3a196655','8850206066032','เด็กสมบูรณ์ ซีอิ้วดำสลากส้ม 940 มล.',130,5,35,103,629,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78735d24-124b-11ed-8a84-000d3a196655','8850206066124','เด็กสมบูรณ์ ซี้อิ้วดำ 370 กรัม',130,5,35,103,363,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1428,7 +1428,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78735f88-124b-11ed-8a84-000d3a196655','8850206110179','เด็กสมบูรณ์ น้ำจิ้มไก่ 180 กรัม',130,5,35,103,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78735fff-124b-11ed-8a84-000d3a196655','8850206113651','เด็กสมบูรณ์ น้ำจิ้มซีฟู้ดส์ 165 กรัม',130,5,35,103,134,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7873607a-124b-11ed-8a84-000d3a196655','8850206117123','เด็กสมบูรณ์ ซอสหอยนางรมสูตรดั้งเดิม 350 กรัม',130,5,35,103,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787360f0-124b-11ed-8a84-000d3a196655','8850206117512','เด็กสมบูรณ์ ซอสหอยนางรม สูตรเข้มข้น 800 กรัม',130,5,35,103,594,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736189-124b-11ed-8a84-000d3a196655','8850206117659','เด็กสมบูรณ์ ซอสหอยนางรม สูตรดั้งเดิม 165 กรัม',130,5,35,103,134,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736203-124b-11ed-8a84-000d3a196655','8850206160020','เด็กสมบูรณ์ เต้าเจี้ยวสูตร 1 800 กรัม',130,5,35,103,594,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1439,7 +1439,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78736466-124b-11ed-8a84-000d3a196655','8850206212507','เด็กสมบูรณ์ น้ำซอสปรุงรสฝาเขียว 140 ml',130,5,35,103,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787364db-124b-11ed-8a84-000d3a196655','8850206220021','เด็กสมบูรณ์ ซอสเห็ดหอม 800 กรัม',130,5,35,103,594,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736551-124b-11ed-8a84-000d3a196655','8850206220038','เด็กสมบูรณ์ ซอสเปรี้ยว(จิ๊กโฉ่ว) 700มล',130,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787365c6-124b-11ed-8a84-000d3a196655','8850206220120','เด็กสมบูรณ์ ซอสเห็ดหอม 350กรัม',130,5,35,103,346,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7873663d-124b-11ed-8a84-000d3a196655','8850206223183','เด็กสมบูรณ์ ซอสเปรี้ยว (จิ๊กโฉ่) 125 ml',130,5,35,103,74,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787366ba-124b-11ed-8a84-000d3a196655','8850206230129','ตราเด็กสมบูรณ์ น้ำปลาแท้ 300มล',130,5,35,103,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1450,7 +1450,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78736905-124b-11ed-8a84-000d3a196655','8850213800087','ปลาไส้ตัน น้ำปลาพริก 50 ซอง 350 กรัม',694,5,35,103,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7873697a-124b-11ed-8a84-000d3a196655','8850213803002','ปลาไส้ตัน น้ำปลาแท้ 300 มล.',694,5,35,103,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787369f1-124b-11ed-8a84-000d3a196655','8850213807512','ปลาไส้ตัน น้ำปลาแท้ 700ml',694,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78736a65-124b-11ed-8a84-000d3a196655','8850225503167','หอยเป๋าฮื้อ น้ำปลา 300 ml',900,5,35,103,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736adc-124b-11ed-8a84-000d3a196655','8850250004004','ทาคูมิ อายิ ซอสผัด 200มล',634,5,35,103,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736b51-124b-11ed-8a84-000d3a196655','8850293200043','แม่ครัว ฉลากทอง ซีอิ้วขาว 700 มล',278,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1461,7 +1461,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78736db2-124b-11ed-8a84-000d3a196655','8850487001111','ตราแม่ประนอม น้ำพริกเผา 114 g',284,5,35,103,61,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736e27-124b-11ed-8a84-000d3a196655','8850487001166','ตราแม่ประนอม น้ำพริกเผา 513 g',284,5,35,103,479,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736e9c-124b-11ed-8a84-000d3a196655','8850487037141','แม่ประนอม น้ำจิ้มไก่ 260 กรัม',284,5,35,103,259,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78736f11-124b-11ed-8a84-000d3a196655','8850487037158','แม่ประนอม น้ำจิ้มไก่ 390 g',284,5,35,103,376,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736f84-124b-11ed-8a84-000d3a196655','8850487037172','แม่ประนอม น้ำจิ้มไก่ 980 g',284,5,35,103,635,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78736ff7-124b-11ed-8a84-000d3a196655','8850487039138','แม่ประนอม น้ำบ๊วยเจีย 260ml',284,5,35,103,260,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1472,7 +1472,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7873724f-124b-11ed-8a84-000d3a196655','8850511321079','น้ำจิ้มไก่ ไฮคิว 220g',416,5,35,103,224,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787372c3-124b-11ed-8a84-000d3a196655','8850511321123','ซอสมะเขือเทศ โรซ่า 250g',349,5,35,103,249,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737336-124b-11ed-8a84-000d3a196655','8850511321147','โรซ่า ซอสมะเขือเทศ 300 กรัม',349,5,35,103,306,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787373a8-124b-11ed-8a84-000d3a196655','8850511321154','โรซ่า ซอสมะเขือเทศ 600 กรัม',349,5,35,103,517,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7873741d-124b-11ed-8a84-000d3a196655','8850511321178','โรซ่า ซอสมะเขือเทศ 200 กรัม',349,5,35,103,199,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737491-124b-11ed-8a84-000d3a196655','8850511321215','โรซ่าซอสพริก 300 กรัม',349,5,35,103,306,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1483,7 +1483,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787376d9-124b-11ed-8a84-000d3a196655','8850511321437','ไฮคิว น้ำจิ้มไก่ 730 g',416,5,35,103,571,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787377e7-124b-11ed-8a84-000d3a196655','8850511321499','ซอสพริกไทยดำ โรซ่า 290 กรัม',349,5,35,103,284,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737992-124b-11ed-8a84-000d3a196655','8850511321673','โรซ่า ซอสมะเขือเทศ สูตร 2 1 กก.',349,5,35,103,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78737a0b-124b-11ed-8a84-000d3a196655','8850511321680','โรซ่า ซอสพริก สูตร1 1 กก.',349,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737a82-124b-11ed-8a84-000d3a196655','8850511321703','ซอสพริก โรซ่า 250กรัม',349,5,35,103,249,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737af5-124b-11ed-8a84-000d3a196655','8850511621063','โรซ่าผักกาดดอง เผ็ดหวาน 170 g',349,5,35,103,145,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1494,7 +1494,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78737d47-124b-11ed-8a84-000d3a196655','8850545311114','ทิพรส น้ำปลาแท้ 300 มล',636,5,35,103,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737dbb-124b-11ed-8a84-000d3a196655','8850545611115','ทิพรส น้ำปลาแท้ 60 ml',636,5,35,103,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737e2f-124b-11ed-8a84-000d3a196655','8850545777552','ทิพรส น้ำปลาแท้ 700มล.',636,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78737ea1-124b-11ed-8a84-000d3a196655','8850620003019','ปลาหมึก น้ำปลาแท้ 280มล',698,5,35,103,276,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737f19-124b-11ed-8a84-000d3a196655','8850620885004','ปลาหมึก น้ำปลาแท้ ออริจินัล 500ml',698,5,35,103,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78737f8e-124b-11ed-8a84-000d3a196655','8850620888234','ปลาหมึก น้ำปลาแท้ 300 ml',698,5,35,103,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1505,7 +1505,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787381e1-124b-11ed-8a84-000d3a196655','8850866271500','มังกรทอง ซอสหอยนางรม 1000 g',38,5,35,103,34,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78738257-124b-11ed-8a84-000d3a196655','8851008000040','หอยหลอด น้ำปลาแท้ 60 ml',903,5,35,103,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787382d2-124b-11ed-8a84-000d3a196655','8851008000590','ตราหอยหลอด น้ำปลา 700 ml',903,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78738345-124b-11ed-8a84-000d3a196655','8851008000736','หอยหลอด น้ำปลาพริก 7 มล X 50 ซอง',903,5,35,103,588,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7874429a-124b-11ed-8a84-000d3a196655','8851683005811','ไร่ทิพย์ น้ำมะขามเปียกเข้มข้น 500กรัม',402,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7874437d-124b-11ed-8a84-000d3a196655','8851707000600','มังกรทอง 625 มล.',38,1,3,11,526,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1516,7 +1516,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787447c6-124b-11ed-8a84-000d3a196655','8851954101099','ภูเขาทอง ซอสถั่วเหลือง ฝาเขียว 3 ลิตร',742,5,35,103,380,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744842-124b-11ed-8a84-000d3a196655','8851954101211','ภูเขาทอง น้ำซอสปรุงรสฝาเขียว 200มล',742,5,35,103,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787448b8-124b-11ed-8a84-000d3a196655','8851954101235','ภูเขาทอง ซอสถั่วเหลือง ฝาเขียว 1000 ml',742,5,35,103,181,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7874492d-124b-11ed-8a84-000d3a196655','8851954101266','ภูเขาทอง น้ำซอสปรุงรสฝาเขียว 500 ml',742,5,35,103,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787449a2-124b-11ed-8a84-000d3a196655','8851954103116','ตราภูเขาทอง ซอสพริกเผ็ดน้อย 230 ml',742,5,35,103,235,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744a1d-124b-11ed-8a84-000d3a196655','8851954196132','ภูเขาทอง ซอสถั่วเหลือง ฝาน้ำตาล 1000 ml',742,5,35,103,181,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1527,7 +1527,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78744c71-124b-11ed-8a84-000d3a196655','8852391020011','ฉั่ว ฮะ เส็ง น้ำมันน้ำพริกเผา 720ml',507,5,35,103,568,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744ce6-124b-11ed-8a84-000d3a196655','8853544000096','นกขั้วโลก ซอสหอยนางรม สูตร 3 4500 กรัม',648,5,35,103,425,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744d5a-124b-11ed-8a84-000d3a196655','8853544000102','นกขั้วโลก ซอสหอยนางรม สูตร 3 1000 กรัม',648,5,35,103,34,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78744dd1-124b-11ed-8a84-000d3a196655','8853544000553','กุ้งเพชร น้ำปลา (ปลาไส้ตัน) 750ml',439,5,35,103,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744e4c-124b-11ed-8a84-000d3a196655','8853544000836','กุ้งเพชร น้ำส้มสายชูเทียม 750ml',439,5,35,103,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78744ec7-124b-11ed-8a84-000d3a196655','8853544000843','กุ้งเพชร น้ำส้มสายชูเทียม 4500ml',439,5,35,103,424,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1538,7 +1538,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7874510e-124b-11ed-8a84-000d3a196655','8854291001015','ตรากุ้งระยอง น้ำปลา 750 ml',441,5,35,103,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787451a3-124b-11ed-8a84-000d3a196655','8854692001911','J-Lek น้ำจิ้มสุกี้ 350 กรัม',106,5,35,103,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7874521b-124b-11ed-8a84-000d3a196655','8854692002123','J-Lek น้ำจิ้มไก่ 390 กรัม',106,5,35,103,376,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78745290-124b-11ed-8a84-000d3a196655','8857100050167','ราชารส น้ำปลาพริก 400 g',805,5,35,103,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745306-124b-11ed-8a84-000d3a196655','8857100050174','ราชารส พริกน้ำส้ม 400 g',805,5,35,103,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7874537b-124b-11ed-8a84-000d3a196655','8857100050228','ราชารส น้ำปลา 700มล',805,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1549,7 +1549,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787455bd-124b-11ed-8a84-000d3a196655','8857118730037','เมกาเซฟ น้ำปลาแท้ 500มล',196,5,35,103,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7874563e-124b-11ed-8a84-000d3a196655','8857200273022','แมน จักรพันธ์ น้ำปลาร้าปรุงสุก 400ml',281,5,35,103,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787456b6-124b-11ed-8a84-000d3a196655','8857200347921','ธนิดา น้ำปลาร้าต้มสุก 400มล.',644,5,35,103,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7874572b-124b-11ed-8a84-000d3a196655','8857200474818','น้ำปลาร้า นัวร์มากแม่ 400มล',654,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787457a1-124b-11ed-8a84-000d3a196655','8858624001024','น้องพร น้ำจิ้มเนื้อวัว 100 กรัม',652,5,35,103,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745816-124b-11ed-8a84-000d3a196655','8858624005015','น้องพร น้ำจิ้มซีฟู้ด 300 g',652,5,35,103,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1560,7 +1560,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78745a61-124b-11ed-8a84-000d3a196655','8858981500031','แม่บุญล้ำเจ้าเก่า น้ำปลาร้าต้มสุก 400 ml',283,5,35,103,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745ad9-124b-11ed-8a84-000d3a196655','8858981500901','แซ่บไมค์ น้ำปลาร้าสูตรส้มตำ 350 มล.',262,5,35,103,347,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745b4e-124b-11ed-8a84-000d3a196655','8858986800037','ตราหน่อไม้ น้ำปลา 700ml',895,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78745bc2-124b-11ed-8a84-000d3a196655','8858986800532','ตราหน่อไม้ น้ำปลา 700ml สีส้ม',895,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745c35-124b-11ed-8a84-000d3a196655','8858986800549','ตราหน่อไม้ทอง น้ำปลา 700 ml',896,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745ca9-124b-11ed-8a84-000d3a196655','8859067000063','หัวกวาง ซอสเปรี้ยว (จิ๊กโฉ่ว) 600 มล.',904,5,35,103,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1571,7 +1571,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78745f1c-124b-11ed-8a84-000d3a196655','8859350300214','ไก่แดง น้ำจิ้มลูกชิ้น สูตรน้ำมะขามเปียก รสต้นตำรับ 1กก',384,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78745f9a-124b-11ed-8a84-000d3a196655','8859407100019','ตราชาวสวนไทย น้ำมะขามเปียกแท้ 500มล',522,5,35,103,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78746010-124b-11ed-8a84-000d3a196655','8859461681011','ศุภวรรณ น้ำจิ้มสุกี้สูตรไหหลำ 750 มล.',857,5,35,103,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78746089-124b-11ed-8a84-000d3a196655','8859461682018','ศุภวรรณ ซอสเย็นตาโฟปรุงสำเร็จ สูตรไหหลำ 750ml',857,5,35,103,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787460fd-124b-11ed-8a84-000d3a196655','8859487000100','เมดบายต๊อดซอสสุกี้ยากี้ 330 กรัม',200,5,35,103,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78746171-124b-11ed-8a84-000d3a196655','8936017360696','ชินสุ ซอสปรุงรสอเนกประสงค์ (ซอสถั่วเหลือง) 650 ml',525,5,35,103,538,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1582,7 +1582,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787463ba-124b-11ed-8a84-000d3a196655','4800361028011','Honey STARS ข้าวโพดผสมข้าวสาลีอบกรอบเคลือบน้ำผึ้ง 20 กรัม',56,5,32,95,207,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78746439-124b-11ed-8a84-000d3a196655','4800361028042','โกโก้ครั้นช์ อาหารเช้าซีเรียล รสช็อกโกแลต 25 กรัม',311,5,32,95,254,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787464b1-124b-11ed-8a84-000d3a196655','4800361339360','โกโก้ครั้นช์ อาหารเช้าซีเรียล รสช็อกโกแลต 70 กรัม',311,5,32,95,563,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78746535-124b-11ed-8a84-000d3a196655','8850011065077','Honey STARS ข้าวโพดผสมข้าวสาลีอบกรอบเคลือบน้ำผึ้ง 15 กรัม',56,5,32,95,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787465ad-124b-11ed-8a84-000d3a196655','8850124088642','โกโก้ครั้นช์ อาหารเช้าซีเรียล รสช็อกโกแลต 15 กรัม',311,5,32,95,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78746623-124b-11ed-8a84-000d3a196655','8850124088970','ไมโล อาหารเช้าซีเรียล 15 กรัม',400,5,32,95,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1593,7 +1593,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7874688a-124b-11ed-8a84-000d3a196655','8850424002096','คอปป อาหารเช้าซีเรียล รสน้ำผึ้ง 70 กรัม',455,5,32,95,563,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78746d7d-124b-11ed-8a84-000d3a196655','8851683000250','ไรทิพย์ ถั่วเขียว 500 g ',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752965-124b-11ed-8a84-000d3a196655','8851683000267','ไร่ทิพย์ ถั่วเขียวเราะเปลือก 500 กรัม',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78752a51-124b-11ed-8a84-000d3a196655','8851683000274','ไร่ทิพย์ ถั่วดำ 500 g',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752ad3-124b-11ed-8a84-000d3a196655','8851683000335','ไร่ทิพย์ ถั่วแดงหลวง 500 กรัม',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752b4e-124b-11ed-8a84-000d3a196655','8851683000373','ไร่ทิพย์ ลูกเดือย 500กรัม',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1604,7 +1604,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78752daa-124b-11ed-8a84-000d3a196655','8851683000816','ไรทิพย์ งาขาว 100 g',402,5,32,95,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752e23-124b-11ed-8a84-000d3a196655','8851683000823','ไร่ทิพย์ ธัญพืชงาดำเพื่อสุขภาพ 100 กรัม',402,5,32,95,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752e99-124b-11ed-8a84-000d3a196655','8851683000830','ไร่ทิพย์ อบเชย 100 กรัม',402,5,32,95,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78752f0e-124b-11ed-8a84-000d3a196655','8851683000854','ไร่ทิพย์ ลูกผักชี 100 กรัม',402,5,32,95,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752f83-124b-11ed-8a84-000d3a196655','8851683002049','ไร่ทิพย์ ถั่วลิสงป่น 500กรัม',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78752ff9-124b-11ed-8a84-000d3a196655','8851683002674','ไร่ทิพย์ ถั่วลิสง Peanuts 500 กรัม',402,5,32,95,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1615,7 +1615,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78753276-124b-11ed-8a84-000d3a196655','8850124070999','คาร์เนชั่น ครีมเทียมพร่องไขมัน อาหาร&เบเกอรี่ 369ml',466,3,24,61,361,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787532f2-124b-11ed-8a84-000d3a196655','8850151951018','มะลิ นมข้นหวานชนิดพร่องไขมัน',752,3,24,61,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875336a-124b-11ed-8a84-000d3a196655','8850151951377','นมข้นหวานตรามะลิ 170 กรัม',752,3,24,61,145,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787533e0-124b-11ed-8a84-000d3a196655','8850151961116','มะลิ ผลิตภัณฑ์นมข้นหวาน 380 กรัม',752,3,24,61,370,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753456-124b-11ed-8a84-000d3a196655','8850188140201','เหยี่ยว ครีมเทียมนมข้นหวาน 380 มล.',220,3,24,61,370,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787534ce-124b-11ed-8a84-000d3a196655','8850762050230','พาเลช ครีมเทียมข้นหวานชนิดพร่องไขมัน 380 กรัม',718,3,24,61,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1626,7 +1626,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78753733-124b-11ed-8a84-000d3a196655','8858705607572','ทีพอท ผลิตภัณฑ์นมข้นหวาน ตราทีพอท 180 กรัม',641,3,24,61,158,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787537aa-124b-11ed-8a84-000d3a196655','8850256000703','มิตรผล น้ำเชื่อมเข้มข้น 800มล',770,5,35,103,595,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753822-124b-11ed-8a84-000d3a196655','8850256100106','น้ำตาลทรายขาวบริสุทธิ์ ตรา มิตรผล 1kg',770,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78753899-124b-11ed-8a84-000d3a196655','8850256100281','มิตรผล น้ำตาลทรายขาว 335g',770,5,35,103,334,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753a00-124b-11ed-8a84-000d3a196655','8850256510066','มิตรผล น้ำตาลอ้อยธรรมชาติ 1kg',770,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753a7e-124b-11ed-8a84-000d3a196655','8859296300026','ลิน น้ำตาลทองธรรมชาติ 1 กก.',820,5,35,103,186,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1637,7 +1637,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78753e42-124b-11ed-8a84-000d3a196655','8850122101053','มังกรคู่ วุ้นเส้น 80 g',755,5,35,103,597,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753eb9-124b-11ed-8a84-000d3a196655','8850122101060','มังกรคู่ วุ้นเส้น 40 กรัม',755,5,35,103,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78753f31-124b-11ed-8a84-000d3a196655','8850154000027','มรกตน้ำมันปาล์ม 250 มล.',745,5,35,103,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78753fa7-124b-11ed-8a84-000d3a196655','8850154000034','มรกตน้ำมันปาล์ม 500 มล.',745,5,35,103,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875403f-124b-11ed-8a84-000d3a196655','8850154000041','มรกต น้ำมันปาล์ม ขวด 1 ลิตร',745,5,35,103,181,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787540b8-124b-11ed-8a84-000d3a196655','8850180010045','กุ๊ก น้ำมันถั่วเหลือง 1ลิตร',436,5,35,103,181,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1648,7 +1648,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78754307-124b-11ed-8a84-000d3a196655','8851494007523','เกสร น้ำมันปาล์มโอเลอิน 1 ลิตร',95,5,35,103,181,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875437b-124b-11ed-8a84-000d3a196655','8851494007530','เกสร น้ำมันปาล์ม ถุง 1 ลิตร',95,5,35,103,181,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787543f0-124b-11ed-8a84-000d3a196655','8851494007547','เกสร น้ำมันปาล์มโอเลอิน 500 มล.',95,5,35,103,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78754466-124b-11ed-8a84-000d3a196655','8851494007561','เกสร น้ำมันปาล์ม ขวด 250 มล.',95,5,35,103,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787544db-124b-11ed-8a84-000d3a196655','8851494007592','เกสร น้ำมันปาล์ม 800มล',95,5,35,103,595,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875454f-124b-11ed-8a84-000d3a196655','8855830127128','ม้ามังกร น้ำมันงาธรรมชาติ 100 มล.',755,5,35,103,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1659,7 +1659,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78754797-124b-11ed-8a84-000d3a196655','8852022050608','คิวพี น้ำส้มสายชูกลั่น 5% 700ml',483,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875480d-124b-11ed-8a84-000d3a196655','8852022050639','คิวพี น้ำส้มสายชูกลั่น 5% 250ml',483,5,35,103,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78754892-124b-11ed-8a84-000d3a196655','8854646222171','น้ำส้มสายชูเทียม 5 % ส.ม. 700 มล.',858,5,35,103,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78754908-124b-11ed-8a84-000d3a196655','8858935333104','อสร. น้ำจิ้มสุกี้ 345 g',912,5,35,103,339,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875497d-124b-11ed-8a84-000d3a196655','8858935382508','อสร. น้ำส้มสายชูกลั่น 5% 250ml',912,5,35,103,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78754a15-124b-11ed-8a84-000d3a196655','8858935387008','อสร. น้ำส้มสายชูกลั่น 5% 700ml',912,5,35,103,560,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1670,7 +1670,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787551b8-124b-11ed-8a84-000d3a196655','850250008132','ยำยำ ช้างน้อย บะหมี่สำเร็จรูป รสบาร์บีคิว 20กรัม',783,5,29,82,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875523e-124b-11ed-8a84-000d3a196655','8850100003409','ไวไวควิก แสบ รสต้มยำกุ้งแบบถ้วย 60g',405,5,29,82,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787552bd-124b-11ed-8a84-000d3a196655','8850100003713','ไวไว ควิก บะหมี่สำเร็จรูป รสกุ้งนึ่งมะนาว 55 กรัม',405,5,29,82,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78755339-124b-11ed-8a84-000d3a196655','8850100004871','ไวไว บะหมี่กึ่งสำเร็จรูป รสหมูสับทรงเครื่อง 70กรัม',405,5,29,82,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787553b4-124b-11ed-8a84-000d3a196655','8850100101013','ไวไว บะหมี่กึ่งสำเร็จรูป รสต้นตำรับ 55 กรัม',405,5,29,82,495,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7875542e-124b-11ed-8a84-000d3a196655','8850100101037','ไวไว ต้มยำกุ้งน้ำข้นพริกเผา 60g',405,5,29,82,521,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1681,7 +1681,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78755687-124b-11ed-8a84-000d3a196655','8850100121011','ควิก แสบเอ็กซ์ตรีม ต้มโคล้ง 60g',405,5,29,82,521,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787556fe-124b-11ed-8a84-000d3a196655','8850100126016','ไวไว บะหมี่กึ่งสำเร็จรูป รสหมูสับต้มยำ 60 กรัม',405,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787634a0-124b-11ed-8a84-000d3a196655','8850100127013','ไวไว บะหมี่กึ่งสำเร็จรูป รสหอยลายผัดฉ่า 60 กรัม',405,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787635a9-124b-11ed-8a84-000d3a196655','8850100205032','ไวไว เส้นหมี่ปรุงรส 55 กรัม',405,5,29,82,496,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7876362a-124b-11ed-8a84-000d3a196655','8850100205049','ไวไว เส้นหมี่หมูสับ 55 กรัม',405,5,29,82,496,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787636ac-124b-11ed-8a84-000d3a196655','8850100206039','ไวไว เส้นหมี่อบแห้ง 180 กรัม',405,5,29,82,158,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1692,7 +1692,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7876390c-124b-11ed-8a84-000d3a196655','8850250002895','ยำยำ จัมโบ้ ต้มยำหมูสับเปรี้ยวเผ็ดจี๊ด 63g',783,5,29,82,531,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787639ac-124b-11ed-8a84-000d3a196655','8850250002994','ยำยำ จัมโบ้ ต้มยำกุ้ง 63g',783,5,29,82,531,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763a21-124b-11ed-8a84-000d3a196655','8850250006756','ยำยำ คัพ รสหมูสับ 60g',783,5,29,82,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78763a97-124b-11ed-8a84-000d3a196655','8850250006763','ยำยำ คัพ รสต้มยำกุ้ง 60g',783,5,29,82,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763b27-124b-11ed-8a84-000d3a196655','8850250006770','มาม่า โจ๊กคัพ รสต้มยำกุ้ง 45 มล.',761,5,29,82,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763ba0-124b-11ed-8a84-000d3a196655','8850250007838','ยำยำ บะหมี่กึ่งสำเร็จรูป รสต้มยำทะเลหม้อไฟ 60 กรัม',783,5,29,82,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1703,7 +1703,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78763e0b-124b-11ed-8a84-000d3a196655','8850250011958','ยำยำ สไปซี่ล็อบสเตอร์ แบบแห้ง 75g',783,5,29,82,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763e80-124b-11ed-8a84-000d3a196655','8850250012238','ยำยำ ต้มยะทะเลน้ำขั้น เส้นใหญ่เหนียวนุ่ม 80g',783,5,29,82,598,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763ef6-124b-11ed-8a84-000d3a196655','8850250012405','ยำยำ ปูผัดพริกไทยดำ เส้นใหญ่เหนียวนุ่ม 75กรัม',783,5,29,82,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78763f6c-124b-11ed-8a84-000d3a196655','8850250012931','ยำยำ หมูสับทรงเครื่อง75g',783,5,29,82,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78763fe1-124b-11ed-8a84-000d3a196655','8850250012979','ยำยำ รสผัดฉ่าทะเล เส้นใหญ่เหนียวนุ่ม 75กีม',783,5,29,82,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78764057-124b-11ed-8a84-000d3a196655','8850412373702','เอฟเอฟ บะหมี่ก้อนกึ่งสำเร็จรูป 900กรัม',231,5,29,82,621,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1714,7 +1714,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7876429e-124b-11ed-8a84-000d3a196655','8850987101472','มาม่า บะหมี่กึ่งสำเร็จรูป รสหมูสับ 60 กรัม',761,5,29,82,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78764314-124b-11ed-8a84-000d3a196655','8850987101489','มาม่า บะหมี่กึ่งสำเร็จรูป ต้มยำกุ้ง แบบคัฟ 60 กรัม',761,5,29,82,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7876438b-124b-11ed-8a84-000d3a196655','8850987101571','มาม่า ผัดขี้เมาแห้ง 60g',761,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787643ff-124b-11ed-8a84-000d3a196655','8850987123825','มาม่า รสหมูสับแบบถ้วย 42g',761,5,29,82,533,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78764472-124b-11ed-8a84-000d3a196655','8850987128004','มาม่า บะหมี่กึ่งสำเร็จรูป รสหมูน้ำตก 55 กรัม',761,5,29,82,495,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787644ec-124b-11ed-8a84-000d3a196655','8850987128158','มาม่า รสหมูต้มยำ 60g',761,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1725,7 +1725,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78764737-124b-11ed-8a84-000d3a196655','8850987131103','มาม่า ออเรียนทัลคิตเชน รสโคเรียน สไปซ์ 85 กรัม',761,5,29,82,605,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787647ae-124b-11ed-8a84-000d3a196655','8850987131141','มาม่า ออเรียนทัลคิตเชน รสฮอตแอนด์สไปซี่ 85กรัม',761,5,29,82,605,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78764824-124b-11ed-8a84-000d3a196655','8850987131158','มาม่า ออเรียนทัลคิตเชน รสกุ้งผัดซอสต้มยำ 85กรัม×4ซอง',761,5,29,82,337,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7876489a-124b-11ed-8a84-000d3a196655','8850987142321','มาม่า รสต้มยำกุ้งน้ำข้น บิ๊กแพค 90 กรัม',761,5,29,82,623,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765228-124b-11ed-8a84-000d3a196655','8850987142444','มาม่า รสต้มยำกุ้งน้ำข้น 10 ซอง ×55 กรัม',761,5,29,82,493,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787652b9-124b-11ed-8a84-000d3a196655','8850987142611','มาม่า บะหมี่กึ่งสำเร็จรูป รสเย็นตาโฟหม้อไฟ 60 กรัม',761,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1736,7 +1736,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7876551a-124b-11ed-8a84-000d3a196655','8850987148248','มาม่า ออเรียนทัลคิตเชน รสฮอยโคเรียน แบบแห้ง 85กรัม×4 ซอง',761,5,29,82,533,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765598-124b-11ed-8a84-000d3a196655','8850987148255','มาม่า ออเรียนทัลคิตเชน รสกุ้งผัดซอสต้มยำ 85กรัม',761,5,29,82,605,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7876560e-124b-11ed-8a84-000d3a196655','8850987148699','มาม่า ออเรียนทัลคิตเชน รสผัดไข่เค็ม 85กรัม×4ซอง',761,5,29,82,533,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78765686-124b-11ed-8a84-000d3a196655','8850987149870','มาม่า ออเรียนทัลคิตเชน รสหมูบะช่อทรงเครื่อง 85กรัม',761,5,29,82,605,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7876571c-124b-11ed-8a84-000d3a196655','8850987149887','มาม่า ออเรียนทัลคิตเชน รสหมูบะช่อทรงเครื่อง 85กรัม×4 ซอง',761,5,29,82,337,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7876579b-124b-11ed-8a84-000d3a196655','8850987150098','มาม่า ออเรียนทัลคิตเชน รสคาโบนาร่าเบคอน 85กรัม',761,5,29,82,605,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1747,7 +1747,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787659ef-124b-11ed-8a84-000d3a196655','8851876000128','มาม่า เส้นหมี่เย็นตาโฟต้มยำหม้อไฟ 55g',761,5,29,82,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765a66-124b-11ed-8a84-000d3a196655','8851876003006','มาม่า วุ้นเส้นต้มยำกุ้ง 40g',761,5,29,82,399,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765c46-124b-11ed-8a84-000d3a196655','8851876003013','มาม่า วุ้นเส้นเย็นตาโฟ 40g',761,5,29,82,399,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78765cd3-124b-11ed-8a84-000d3a196655','8851876004607','ยำยำ รสต้มยำกุ้งน้ำข้น 60 กรัม',783,5,29,82,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765d4b-124b-11ed-8a84-000d3a196655','8852098707499','ลิตเติ้ลกุ๊กเชฟ รสไก่เผ็ดซอสซูกิชิ 78 กรัม',819,5,29,82,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78765dc9-124b-11ed-8a84-000d3a196655','8852528003481','นิชชิน รสทงคัตสึราเมน60g',662,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1758,7 +1758,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7876601c-124b-11ed-8a84-000d3a196655','8852528003887','นิสชิน รสไก่เผ็ดเกาหลีชีส 60 กรัม×5 ซอง',662,5,29,82,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78766091-124b-11ed-8a84-000d3a196655','8852528003894','นิสชิน บะหมี่กึ่งสำเร็จรูป รสเล้งแซ่บ 60 กรัม',662,5,29,82,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78766107-124b-11ed-8a84-000d3a196655','8852528004242','นิชชิน รสไก่เผ็ดไข่เค็ม แบบแห้ง60g',662,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7876617e-124b-11ed-8a84-000d3a196655','8852528004259','นิสชิน รสไก่เผ็ดไข่เค็ม 60 กรัม×5 ซอง',662,5,29,82,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787661f5-124b-11ed-8a84-000d3a196655','8852528004402','นิชชิน รสเอ็กซ์ตรีมไก่เผ็ด แบบแห้ง60g',662,5,29,82,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877197d-124b-11ed-8a84-000d3a196655','8852528004419','นิสชิน รสเอ็กซ์ตรีมไก่เผ็ด 60 กรัม×5 ซอง',662,5,29,82,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1769,7 +1769,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78771cbe-124b-11ed-8a84-000d3a196655','8852528004532','นิชชิน รสปูทะเลผัดผงกะหรี่ แบบแห้ง73g',662,5,29,82,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78771d38-124b-11ed-8a84-000d3a196655','8852528004549','นิสชิน รสปูทะเลผัดผงกะหรี่ 71 กรัม×5 ซอง',662,5,29,82,348,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78771db4-124b-11ed-8a84-000d3a196655','8852528004754','นิชชิน รสกุ้งมังกรผัดกะปิพริกแห้ง แบบแห้ง 71g',662,5,29,82,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78771e2a-124b-11ed-8a84-000d3a196655','8852528004761','นิสชิน รสกุ้งมังกรผัดกะปิพริกแห้ง 71 กรัม×5 ซอง',662,5,29,82,348,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78771ea0-124b-11ed-8a84-000d3a196655','8852528004846','นิสชิน รสหม่าล่า 60 กรัม×5 ซอง',662,5,29,82,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78771f15-124b-11ed-8a84-000d3a196655','8850367200023','ยอดดอย ลูกตาลในน้ำเชื่อม 565 กรัม',780,5,30,83,499,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1780,7 +1780,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7877223c-124b-11ed-8a84-000d3a196655','8850372000557','ต้นสน วุ้นเส้น 80 กรัม',595,5,29,81,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787722b3-124b-11ed-8a84-000d3a196655','8850403200253','สายฝน วุ้นเส้น 22 g',889,5,29,81,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877232b-124b-11ed-8a84-000d3a196655','8852959005740','เกษตร วุ้นเส้นถั่วเขียวเกรด A 35 g ',94,5,29,81,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787723a2-124b-11ed-8a84-000d3a196655','8850144001027','เบสท์ฟู้ดส์ มายองเนส 220 กรัม',171,5,29,81,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877241f-124b-11ed-8a84-000d3a196655','8850144003045','เบสท์ฟู้ดส์ สลัดครีม 220 มล',171,5,29,81,225,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78772496-124b-11ed-8a84-000d3a196655','8850144139010','เบสท์ฟู้ดส์ มะกะโรนีเส้นยาว 225 กรัม',171,5,29,81,227,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1791,7 +1791,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7877270f-124b-11ed-8a84-000d3a196655','8858711937779','ชีวา สาปเก็ตตี้ 500กรัม',528,5,29,81,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877278a-124b-11ed-8a84-000d3a196655','8858711941851','ชีวา มักกะโรนี 500กรัม',528,5,29,81,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787727ff-124b-11ed-8a84-000d3a196655','8859401600027','แมกซ์กลอรี่ พาสต้า 1 กก',276,5,29,81,186,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787729d7-124b-11ed-8a84-000d3a196655','8888900400111','Lafonte เส้นสปาเก็ตตี้ 500 กรัม',63,5,29,81,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78772a50-124b-11ed-8a84-000d3a196655','8850035000214','ฮั่วน่ำฉาย ผักกาดดองเค็ม 140 กรัม',941,5,30,86,99,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78772ac9-124b-11ed-8a84-000d3a196655','8850035000221','นกพิราบคู่ ผักกาดดองเค็ม ฮั่วน่ำฉ่าย 230 มล.',650,5,30,86,627,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1802,7 +1802,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787731d5-124b-11ed-8a84-000d3a196655','8850088001398','ปุ้มปุ้ย ปลากระป๋องผัดเผ็ด 100 กรัม',705,5,30,86,37,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877324a-124b-11ed-8a84-000d3a196655','8850088002890','ปุ้มปุ้ย ปลา แมคคลอเรลเข้มข้นพิเศษ 155 g',705,5,30,86,118,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787732c1-124b-11ed-8a84-000d3a196655','8850088003613','ปุ้มปุ้ย ปลาซาดีน รสเข้มข้น 155 g',705,5,30,86,118,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78773339-124b-11ed-8a84-000d3a196655','8850088003675','ปุ้มปุ้ย ปลาซาร์ดีนในซอสมะเขือเทศรสเข้มข้นพิเศษ 155กรัม',705,5,30,86,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787733c2-124b-11ed-8a84-000d3a196655','8850088003736','ปุ้มปุ้ย ปลาแมกเคอเรลในซอลมะเขือเทศ เข้มข้น 155มล.',705,5,30,86,118,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877343b-124b-11ed-8a84-000d3a196655','8850088100909','หอยลายผัดขี้เมาปุ้มปุ้ย 40 กรัม',705,5,30,86,399,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1813,7 +1813,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787736f7-124b-11ed-8a84-000d3a196655','8850088601406','ปุ้มปุ้ย ปลาแมกเคอเรลทอดราดพริก155 กรัม',705,5,30,86,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78773773-124b-11ed-8a84-000d3a196655','8850088601901','ปุ้มปุ้ย ฉู่ฉี่ปลาแมคเคอเรลทอด 155กรัม',705,5,30,86,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787737eb-124b-11ed-8a84-000d3a196655','8850088602007','ปุ้มปุ้ย ปลาซาร์ดีนสับปรุงรส 80 g.',705,5,30,86,597,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78773863-124b-11ed-8a84-000d3a196655','8850088602458','ปุ้มปุ้ย ปลาแมคเคอเรลทอดรสเผ็ด 90 g.',705,5,30,86,623,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787738d9-124b-11ed-8a84-000d3a196655','8850088602601','ปุ้มปุ้ย ปลาแมคคลอเรียลทอดรสเผ็ด 90 g',705,5,30,86,623,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7877394f-124b-11ed-8a84-000d3a196655','8850088603004','ปลากระป๋องปุ้มปุ้ยคั่วพริกแกง 155 กรัม',705,5,30,86,118,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1824,7 +1824,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78773ba0-124b-11ed-8a84-000d3a196655','8850097160109','งาช้างคู่ พุทราดอง 220 กรัม',490,5,30,86,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78773c14-124b-11ed-8a84-000d3a196655','8850097189506','งาช้างคู่ มะนาวดอง 220 กรัม',490,5,30,86,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78773c8d-124b-11ed-8a84-000d3a196655','8850229101970','นอติลุส ปลากระป๋องทูน่าแซนวิชในน้ำแร่ 165 กรัม',653,5,30,86,134,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78773d07-124b-11ed-8a84-000d3a196655','8850229101994','นอติลุส ปลากระป๋องทูน่าในน้ำมันถั่วเหลือง165 กรัม',653,5,30,86,134,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78773d80-124b-11ed-8a84-000d3a196655','8850229102014','นอติลุส ปลากระป๋องทูน่าสเต็กในน้ำแร่165 มล.',653,5,30,86,134,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78773df5-124b-11ed-8a84-000d3a196655','8850229102038','นอติลุส ปลาทูน่าชนิดก้อนในน้ำมันถั่วเหลือง 165 มล.',653,5,30,86,134,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1835,7 +1835,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7877405b-124b-11ed-8a84-000d3a196655','8850511121259',' โรซ่า ปลาทอดราดพริก 150 กรัม',349,5,30,86,114,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787740d3-124b-11ed-8a84-000d3a196655','8850511121266','โรซ่า ปลาซาดีน ในซอสมะเขือเทศ 155 g',349,5,30,86,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78774169-124b-11ed-8a84-000d3a196655','8850511124199','โรซ่า ปลาแมคเคอเรลในซอสมะเขือเทศ 190*4',349,5,30,86,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787741e0-124b-11ed-8a84-000d3a196655','8850511221119','โรซ่า ทูน่าในน้ำมันพืช  185 กรัม',349,5,30,86,160,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78774255-124b-11ed-8a84-000d3a196655','8851602080851','ทะเลไทย ปลาเกล็ดขาวปรุงรส 35 g',629,5,30,86,353,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787742c8-124b-11ed-8a84-000d3a196655','8852021702218','ซีเล็ค ทูน่าแซนวิชในน้ำแร่ 165กรัม',553,5,30,86,134,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1846,7 +1846,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7877f6ee-124b-11ed-8a84-000d3a196655','8858463002046','ซูเปอร์ ซี เชฟ ปลาชาร์ดีน ในซอสมะเขือเทศ 155กรัม',563,5,30,86,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78780337-124b-11ed-8a84-000d3a196655','8858463002190','ซูเปอร์ ซี เชฟ ปลาแมกเคอเรลในซอลมะเขือเทศ 155 มล.',563,5,30,86,118,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787803fd-124b-11ed-8a84-000d3a196655','1012162510074','จัมโบ้ ลูกอมรสโกโก้ 3g',497,4,26,68,382,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7878047f-124b-11ed-8a84-000d3a196655','4806028503228','ขนม candy prank แดง 13 กรัม',84,4,26,68,93,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787804fb-124b-11ed-8a84-000d3a196655','4806028503288','ขนม candy prank ม่วง 13 กรัม',84,4,26,68,93,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78780576-124b-11ed-8a84-000d3a196655','4806028507226','ขนม candy prank เขียว 13 กรัม',84,4,26,68,93,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1857,7 +1857,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787807d9-124b-11ed-8a84-000d3a196655','50084425','ฟิชเชอร์แมนส์ เฟรนด์ เชอร์รี่ 25g',733,4,26,68,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78780852-124b-11ed-8a84-000d3a196655','6906496204073','มีไลค์ ลูกอมเคี้ยวนุ้ม สตรอเบอร์รี่ 20g',779,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787808cb-124b-11ed-8a84-000d3a196655','6906496204097','มีไลค์ ลูกอมเคี้ยวนุ้ม โคล่า 20g',779,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78780943-124b-11ed-8a84-000d3a196655','6914253436957','แมลโลว์ วอเทอร์เมลอน ดิพ วิท แจม',245,4,26,69,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787809bc-124b-11ed-8a84-000d3a196655','6920339098049','Hongyuan Plum บ๊วยพรุนหวาน',57,4,27,72,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78780a5c-124b-11ed-8a84-000d3a196655','6921211104230','เมนทอส ลูกอม รสเรนโบว์ 37 กรัม',201,4,26,68,368,8,'100',0,0,1,'dev1','2022-09-14 19:26:36',1,NULL,NULL,0),
@@ -1868,7 +1868,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78781576-124b-11ed-8a84-000d3a196655','7622210605733','ริทช์ แซนด์วิช แครกเกอร์ ช็อคโกแลต 27 กรัม',41,4,28,78,273,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78781605-124b-11ed-8a84-000d3a196655','7622300136048','โอรีโอ รสสตรอเบอร์รี่ 28.5g',372,4,28,78,274,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7878167e-124b-11ed-8a84-000d3a196655','7790580317430','bon o bon ขนมรส​ช็อกโกเลต 14กรัม',670,4,28,78,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787816f6-124b-11ed-8a84-000d3a196655','8691216018891','ฮาริโบ้ โกลด์แบร์ส',945,4,26,69,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7878176d-124b-11ed-8a84-000d3a196655','8850155011022','มโนห์รา ข้าวเกรียบกุ้ง 15กรัม',743,4,27,70,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787817e6-124b-11ed-8a84-000d3a196655','8850155011060','มโนห์รา ข้าวเกรียบกุ้ง 75g',743,4,27,70,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1879,7 +1879,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78781a70-124b-11ed-8a84-000d3a196655','8850157101448','เจเล่ ไลท์ กลิ่นผลไม้รวม 125 กรัม x 6',105,4,26,69,74,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78781aec-124b-11ed-8a84-000d3a196655','8850157101462','เจเล่ซูเปอร์ไลท์ ซัมเมอร์เฟรช รสส้ม 125 กรัม x 6',105,4,26,69,74,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78781b65-124b-11ed-8a84-000d3a196655','8850157101523','เจเล่ซูเปอร์ไลท์ ซัมเมอร์ รสมิกซ์เบอร์รี่ 125ก. x6',105,4,26,69,74,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78781be1-124b-11ed-8a84-000d3a196655','8850157101646','เจเล่ ไลท์ รสลิ้นจี่ 125 กรัม x 6',105,4,26,69,74,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78781c59-124b-11ed-8a84-000d3a196655','8850157102124','เจเล่ บิวตี้ วิตามินเอ ซี อี 150*3',105,4,26,69,114,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78781cd5-124b-11ed-8a84-000d3a196655','8850157103657','เจเล่ ดับเบิ้ลเยลลี่ รสสตอเบอร์รี่ 125 กรัม x 3',105,4,26,69,74,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1890,7 +1890,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787820d3-124b-11ed-8a84-000d3a196655','8850157400107','เบนโตะ ปลาหมึกอบทรงเครื่อง 18g',157,4,27,74,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7878214e-124b-11ed-8a84-000d3a196655','8850157400190','เบนโตะ ปลาหมึกอบน้ำพริกตำรับไทย 18g',157,4,27,74,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787821c9-124b-11ed-8a84-000d3a196655','8850157404471','เบนโตะ ขนมขบเคี้ยว รสฮอตแอนด์สไปซี่ 7 กรัม',157,4,27,74,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7878380b-124b-11ed-8a84-000d3a196655','8850157404501','เบนโตะ ขนมขบเคี้ยว รสซีอิ๊วเผ็ด 7 กรัม',157,4,27,74,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787838e0-124b-11ed-8a84-000d3a196655','8850157500722','ช๊อคกี้ ขนมเวเฟอร์สอดไส้ครีมช็อคโกแลต 30 กรัม',511,4,27,70,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78783961-124b-11ed-8a84-000d3a196655','8850157500784','ช๊อคกี้ ขนมเวเฟอร์สอดไส้ครีมรสนม 30 กรัม',511,4,27,70,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1901,7 +1901,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78783bc4-124b-11ed-8a84-000d3a196655','8850157514972','โลตัส ขนมน่องไก่ รสแซ่บซี๊ด 18 กรัม',355,4,27,70,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78783c56-124b-11ed-8a84-000d3a196655','8850157515016','โลตัส ขนมขาไก่ รสบัตเตอร์คอร์น 25 กรัม',355,4,27,70,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78783ccf-124b-11ed-8a84-000d3a196655','8850157515542','โลตัส ขนมขาไก่ รสสาหร่ายทรงเครื่อง 20 กรัม',355,4,27,70,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78783d47-124b-11ed-8a84-000d3a196655','8850157525916','โลตัส ขนมน่องไก่ รสไข่เค็มพริกเผา 18 กรัม',355,4,27,70,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78783dc1-124b-11ed-8a84-000d3a196655','8850199580133','โรวเซล่า ออเรนจ์ 15g',352,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78783e3c-124b-11ed-8a84-000d3a196655','8850199580584','โรวเซล่า มิกซ์ฟรุ๊ต 15g',352,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1912,7 +1912,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787840e6-124b-11ed-8a84-000d3a196655','8850228000793','SunSnack เมล็ดทานตะวัน รสบาร์บีคิว 12g',542,4,27,72,78,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78784160-124b-11ed-8a84-000d3a196655','8850228001516','SunSnack เมล็ดทานตะวันรสโนริสาหร่าย 12g',542,4,27,72,78,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787841d8-124b-11ed-8a84-000d3a196655','8850228002698','ซันสแนค ดั๊งค์ รสต้นตำรับ 28g',542,4,27,72,282,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78784250-124b-11ed-8a84-000d3a196655','8850228002797','ซันสแนค ดั๊งค์ รสโนริสาหร่าย 28g',542,4,27,72,282,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787842cb-124b-11ed-8a84-000d3a196655','8850228003909','ซันสแนค ดั๊งค์ รสบาร์บีคิว 28g',542,4,27,72,282,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78784342-124b-11ed-8a84-000d3a196655','8850277000010','แฮ็คส์ รสเรกูล่าร์ 24.3 กรัม',307,4,26,68,240,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1923,7 +1923,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78784f28-124b-11ed-8a84-000d3a196655','8850284010415','ตรามือ เมล็ดฟักทอง 33g',609,4,27,72,336,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78784fde-124b-11ed-8a84-000d3a196655','8850284060113','ไก่ย่าง ขนมทอดกรอบ 15 กรัม',385,4,27,70,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7878505b-124b-11ed-8a84-000d3a196655','8850284060151','ไก่ย่าง ขนมทอดกรอบ 55g',385,4,27,70,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787850d2-124b-11ed-8a84-000d3a196655','8850284061134','ไก่ย่าง ขนมทอดกรอบ รสใบเตย 55g',385,4,27,70,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78785147-124b-11ed-8a84-000d3a196655','8850291100192','ทองการ์เด้น ถั่วปากอ้าอบเกลือ 25 กรัม',625,4,27,72,254,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787851c3-124b-11ed-8a84-000d3a196655','8850291102455','ทองการ์เด้น ถั่วลิสงผสมปลาอบกรอบ 28 กรัม',625,4,27,72,281,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1934,7 +1934,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78790dec-124b-11ed-8a84-000d3a196655','8850291510717','ทองการ์เด้น ถั่วอบผสมแป้งกรอบ 40 กรัม',625,4,27,72,400,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78790e80-124b-11ed-8a84-000d3a196655','8850309003217','โรลเลอร์ โคสเตอร์ มันฝรั่งกรอบ รสชีสต้นตำ 14 กรัม',351,4,27,70,106,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78790f43-124b-11ed-8a84-000d3a196655','8850309003231','โรลเลอร์โคสเตอร์ รสชีสต้นตำรับ57g',351,4,27,70,502,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78790fe2-124b-11ed-8a84-000d3a196655','8850309003316','โรลเลอร์ โคสเตอร์ มันฝรั่ง่อดกรอบ รูปวง รสหัวหอมทรงเครื่อง 14 กรัม',351,4,27,70,106,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791070-124b-11ed-8a84-000d3a196655','8850309011106','โลซาน เวเฟอร์สอดใส้ครีมรสโกโก้ 28 กรัม',946,4,28,78,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787910ea-124b-11ed-8a84-000d3a196655','8850309150010','ครีมโอ ช็อกโกแลตสอดไส้ครีมกลิ่นวานิลลา40.5g',448,4,28,78,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1945,7 +1945,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78791364-124b-11ed-8a84-000d3a196655','8850309201347','ฟันโอ คุ๊กกี้แซนวิชสอดไส้ครีม รสนม 45g',729,4,28,78,436,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787913dc-124b-11ed-8a84-000d3a196655','8850309201408','โรลเลอร์โคสเตอร์',351,4,27,70,281,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791455-124b-11ed-8a84-000d3a196655','8850309201699','ดิวเบอร์รี่ คุ้กกี้สอดไส้ครีมแยมบลูเบอร์รี่ 27g',581,4,28,78,273,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787914ce-124b-11ed-8a84-000d3a196655','8850309201736','ดิวเบอร์รี่ คุ้กกี้สอดไส้ครีมแยมสตรอเบอร์รี่ 36g',581,4,28,78,362,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791563-124b-11ed-8a84-000d3a196655','8850309203235','ฟันโอ คุ๊กกี้แซนวิชรสช๊อคโกแลต สอดไส้ครีม 45 กรัม',729,4,28,78,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787915de-124b-11ed-8a84-000d3a196655','8850309203396',' โรลเลอร์ โสเตอร์มินิ สีน้ำเงิน รสเอ็กซ์ตรีม บาบีคิว 14กรัม',351,4,27,70,106,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1956,7 +1956,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7879183d-124b-11ed-8a84-000d3a196655','8850309205840','โรลเลอร์ โคสเตอร์ มันฝรั่งทอดกรอบแผ่นเรียบ รสมันฝรั่งแท้ 57ก.',351,4,27,70,502,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787918c0-124b-11ed-8a84-000d3a196655','8850309205857','โรลเลอร์ โคสเตอร์ มันฝรั่งทอดกรอบแผ่นเรียบ รสสไปซี่บาร์บีคิว 54 กรัม',351,4,27,70,492,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791965-124b-11ed-8a84-000d3a196655','8850309207035','ทิวลี่ทวิน จัมโบ้ ไส้ครีมเคลือบช็อกโกแลต 35g',638,4,28,78,353,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787919e0-124b-11ed-8a84-000d3a196655','8850309207639','ทิวลี่ ทวิน จัมโบ้ กลิ่นวานิลลาเคลือบช็อคโก 35กรัม',638,4,28,78,353,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791a5a-124b-11ed-8a84-000d3a196655','8850309208797','โรลเลอร์ โคสเตอร์ มินิ รสไส้กรอกสวีทชิลลี่ 14 กรัม',351,4,27,70,106,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791ad2-124b-11ed-8a84-000d3a196655','8850309209398','ฟันไบท์ ช็อกโกแลต แคร็กเกอร์ สอดไส้ครีม รสนม 18 กรัม',730,4,28,78,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1967,7 +1967,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78791d63-124b-11ed-8a84-000d3a196655','8850309211834','ฟันโอ คุ๊กกี้แซนวิชช็อกโกแลตสอด ชาเขียว 45g',729,4,28,78,436,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791de0-124b-11ed-8a84-000d3a196655','8850309212244','ทิวลี่ทวิน จัมโบ้ ไส้ครีมเคลือบรสนม 35g',638,4,28,78,353,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78791e5b-124b-11ed-8a84-000d3a196655','8850309212473','ฟันโอ คุ๊กกี้แซนวิชรสช๊อคโกแลต กลิ่นวานิลลา 45กรัม',729,4,28,78,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78791ed2-124b-11ed-8a84-000d3a196655','8850309212916','ฟันโอ แซนวิชช็อกโกแลต รสคุ้กกี้และครีม 45g',729,4,28,78,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787920a9-124b-11ed-8a84-000d3a196655','8850309213586','ดิวเบอร์รี่ คุ้กกี้สอดไส้ครีมแยมโยเกิร์ตและลิ้นจี่ 36g',581,4,28,78,362,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7879213c-124b-11ed-8a84-000d3a196655','8850309213982','ดิวเบอร์รี่ พัฟเค้กสอดไส้ครีมกลิ่นส้ม 17 กรัม',581,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1978,7 +1978,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78793520-124b-11ed-8a84-000d3a196655','8850309215412','ฟันโอ อิโมจิ คุ๊กกี้สอดไส้ครีม รสช็อกโกแลต 45g',729,4,28,78,434,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787935ca-124b-11ed-8a84-000d3a196655','8850309215627','ดิวเบอร์รี่ คุ้กกี้สอดไส้ครีมแยมมิกซ์เบอร์รี่ 36g',581,4,28,78,362,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793649-124b-11ed-8a84-000d3a196655','8850309215955','ทิวลี่ทวิน จัมโบ้ ไส้แยมกลิ่นสตรอเบอร์รี่ 35g',638,4,28,78,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787936c2-124b-11ed-8a84-000d3a196655','8850309215979','ฟันโอ คุ๊กกี้แซนวิชสอดไส้ครีม คาราเมล๊อปคอร์น 45g',729,4,28,78,436,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7879373c-124b-11ed-8a84-000d3a196655','8850309216198','ดิวเบอร์รี่ พัฟเค้กสอดไส้ครีมเลมอนคัสตาร์ด 17g',581,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787937b8-124b-11ed-8a84-000d3a196655','8850309216525','เมจิก แครกเกอร์แซนวิช จัมโบ้ กลิ่นเนย 43g',198,4,28,78,419,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -1989,7 +1989,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78793a2a-124b-11ed-8a84-000d3a196655','8850309218819','ทิวลี่ ทรีโอ ช็อกโก 28g',638,4,28,78,281,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793ad8-124b-11ed-8a84-000d3a196655','8850338001598','ฮอลล์ ลูกอมเมนโท-ลิบตัส 280 กรัม',940,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793b59-124b-11ed-8a84-000d3a196655','8850338005077','เดนทีน เมนโทลิบตัส 13.5g',134,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78793bd1-124b-11ed-8a84-000d3a196655','8850338005558','ฮอลล์ ลูกอมผสมน้ำผึ้ง กลิ่นเลมอน 28 กรัม',940,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793c49-124b-11ed-8a84-000d3a196655','8850338005572','ฮอลล์ ลูกอมเมนโท-ลิบตัส 28 กรัม',940,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793cc1-124b-11ed-8a84-000d3a196655','8850338005602','ฮอลล์ ลูกอม เฟรชไลม์ 28g',940,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2000,7 +2000,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78793f1d-124b-11ed-8a84-000d3a196655','8850338008641','ฮอลล์ ลูกอมรสน้ำผึ้งกลิ่นเลมอน 27.9g',940,4,26,68,266,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78793f97-124b-11ed-8a84-000d3a196655','8850338008672','ฮอลล์ ลูกอมกลิ่นราสพ์เบอร์รี่ 27.9g',940,4,26,68,266,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7879402b-124b-11ed-8a84-000d3a196655','8850338017223','เดนทีน เฟรชมินต์ 13.5g',134,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787940a4-124b-11ed-8a84-000d3a196655','8850338017254','เดนทีน บลูเบอร์รี่ 13.5g',134,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7879411b-124b-11ed-8a84-000d3a196655','8850338017735','ฮอลล์ ลูกอม ดับเบิ้ลออเรนจ์ 27.9g',940,4,26,68,266,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787adada-124b-11ed-8a84-000d3a196655','8850338018114','เดนทีน แตงโม 13.5g',134,4,26,68,513,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2011,7 +2011,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ade00-124b-11ed-8a84-000d3a196655','8850338026935','ฮอลล์ ลูกอม แตงโม 28g',940,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ade77-124b-11ed-8a84-000d3a196655','8850359011033','สวนวัง มะขาม 5 รส 40 กรัม',886,4,26,68,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787adef3-124b-11ed-8a84-000d3a196655','8850375001216','ตูมตาม ข้าวโพดอบกรอบ รสบาร์บีคิว 23 กรัม',618,4,27,70,239,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787adf70-124b-11ed-8a84-000d3a196655','8850375002015','ตูมตาม รสบาร์บีคิว 91g',618,4,27,70,627,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787adfe7-124b-11ed-8a84-000d3a196655','8850375500818','ตูมตาม รสบาร์บีคิว 23ก.*12',618,4,27,70,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae05e-124b-11ed-8a84-000d3a196655','8850412374167','เอฟเอฟ ขนมอบกรอบ รสมะเขือเทศ 65 กรัม',231,4,27,70,539,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2022,7 +2022,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ae3c9-124b-11ed-8a84-000d3a196655','8850412804220','FF รสมะเขือเทศ 13g*12',231,4,27,70,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae43e-124b-11ed-8a84-000d3a196655','8850424000818','ทวิสโก้ ข้าวโพดอบกรอบ บาร์บีคิว 17g',622,4,27,70,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae4b5-124b-11ed-8a84-000d3a196655','8850424001044','ซีมอน ขนมซีเรียล รสช็อกโกแลตสอดไส้ครีม 17 กรัม',556,4,28,78,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ae550-124b-11ed-8a84-000d3a196655','8850424001068','ซีมอน ขนมซีเรียล สอดไส้ช็อกโกแลต 17 กรัม',556,4,28,78,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae5cc-124b-11ed-8a84-000d3a196655','8850424001631','ซีมอน ขนมซีเรียล สอดไส้ช็อกโกแลต 75 กรัม',556,4,28,78,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae646-124b-11ed-8a84-000d3a196655','8850424001655','ทวิสโก้ ข้าวโพดอบกรอบ รสบาร์บีคิว 68 กรัม',622,4,27,70,548,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2033,7 +2033,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ae8bc-124b-11ed-8a84-000d3a196655','8850425000152','ปีโป้ ขนมเยลลี่ ส้ม 90 กรัม',703,4,26,69,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae930-124b-11ed-8a84-000d3a196655','8850425000299','โอโจ้ เวเฟอร์ รสช็อกโกแล็ต 17 กรัม',365,4,28,78,151,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ae9c0-124b-11ed-8a84-000d3a196655','8850425000305','โอโจ้ เวเฟอร์ รสสตรอเบอร์รี่ 17 กรัม',365,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787aea39-124b-11ed-8a84-000d3a196655','8850425000312','โอโจ้ เวเฟอร์ชนิดแท่งสอดไส้ครีม รสนม 17 กรัม',365,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787aebe1-124b-11ed-8a84-000d3a196655','8850425002910','ยูโร่ พัฟเค้กสอดไส้ครีมคัสตาร์ด 17 กรัม',786,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787aec6a-124b-11ed-8a84-000d3a196655','8850425002927','ยูโร่ พัฟเค้กสอดใส้ครีมคัสตาร์ด 17 กรัม x 12 ซอง',786,4,28,78,151,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2044,7 +2044,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787aeecc-124b-11ed-8a84-000d3a196655','8850425004532','ปีโป้ ขนมเยลลี่ คละรส 23.5 กรัม x 30',703,4,26,69,233,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787aef44-124b-11ed-8a84-000d3a196655','8850425004747','เอลเซ่ เลเยอร์เค้ก กลิ่นวนิลา 15 กรัม',238,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787aefbd-124b-11ed-8a84-000d3a196655','8850425004754','เอลเซ่ เลเยอร์เค้ก กลิ่นวนิลา 15 กรัม x 24 ซอง',238,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787af038-124b-11ed-8a84-000d3a196655','8850425004969','เอลเซ่ เลเยอร์เค้ก กลิ่นกล้วยหอม 15 กรัม',238,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af0d3-124b-11ed-8a84-000d3a196655','8850425004976','เอลเซ่ เลเยอร์เค้ก กลิ่นกล้วยหอม 15 กรัม x 24 ซอง',238,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af14d-124b-11ed-8a84-000d3a196655','8850425005027','เอลเซ่ เลเยอร์เค้ก กลิ่นใบเตย 15 กรัม',238,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2055,7 +2055,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787af3b9-124b-11ed-8a84-000d3a196655','8850425006888','ปีโป้ กัมมี่ ฟิลล์ ผสมน้ำเลมอน 24 กรัม',703,4,26,69,245,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af43f-124b-11ed-8a84-000d3a196655','8850425006987','ปีโป้ กัมมี่ ฟิลล์ รูปหมี 22 กรัม',703,4,26,69,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af4b6-124b-11ed-8a84-000d3a196655','8850425007106','ปีโป้ กัมมี่ ฟิลล์ ลิ้นจี่ 24 กรัม',703,4,26,69,245,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787af52e-124b-11ed-8a84-000d3a196655','8850425007281','ช็อกโก พาย ขนมไส้มาร์ชเมลและแยมเคลือบช็อก 18 กรัม',510,4,28,78,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af5a5-124b-11ed-8a84-000d3a196655','8850425007687','ช็อกโก พาย ขนมไส้มาร์ชเมลและแยมเคลือบช็อก 18ก. x12',786,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af61c-124b-11ed-8a84-000d3a196655','8850425007694','ยูโร่ พัฟเค้กสอดไส้ครีมใบเตย 17 กรัม×12 ซอง',786,4,28,78,151,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2066,7 +2066,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787af88a-124b-11ed-8a84-000d3a196655','8850425008806','ช็อกโก พาย ขนมพายสอดไส้ช็อกโกเคลือบช็อกโก 17g.×12pcs',510,4,28,78,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af901-124b-11ed-8a84-000d3a196655','8850425009377','ช็อกโก พาย สอดไส้ช็อกโกเคลือบช็อกโก 18 กรัม x 12',703,4,26,69,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787af978-124b-11ed-8a84-000d3a196655','8850425009971','ปีโป้ กัมมี่ 20 กรัม',703,4,26,69,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787af9ee-124b-11ed-8a84-000d3a196655','8850425011776','ยูโร่ พัฟเค้กสอดใส้ นมฮอกไกโด 17กรัม x 12ซอง',786,4,28,78,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787afa66-124b-11ed-8a84-000d3a196655','8850426000014','ยูโร่ พัฟเค้ก สอดไส้ครีมรสคัสตาร์ด 24 ก.',786,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787afadf-124b-11ed-8a84-000d3a196655','8850426000236','ยูโร่ พัฟเค้ก สอดไส้ครีมรสคัสตาร์ด 24 ก. แพ็ค 6 ชิ้น',786,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2077,7 +2077,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787afd72-124b-11ed-8a84-000d3a196655','8850632100027','ฮาร์ทบีท ลูกอมกลิ่นสตรอเบอร์รี่ 280กรัม',943,4,26,68,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787afdec-124b-11ed-8a84-000d3a196655','8850632100102','ฮาร์ทบีท ลูกอมกลิ่นระกำ 280กรัม',943,4,26,68,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787afe68-124b-11ed-8a84-000d3a196655','8850632100577','ฮาร์ทบีท กลิ่นระกำ 19.6กรัม',943,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787afedd-124b-11ed-8a84-000d3a196655','8850632100614','ฮาร์ทบีท กลิ่นสตรอเบอร์รี่ 19.6กรัม',943,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787aff54-124b-11ed-8a84-000d3a196655','8850632100836','ฮาร์ทบีท กลิ่นลิ้นจี่ 19.6กรัม',943,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787affc9-124b-11ed-8a84-000d3a196655','8850632105435','ฮาร์ทบีท ลูกอม มะนาวเกลือ 100g',943,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2088,7 +2088,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787bd046-124b-11ed-8a84-000d3a196655','8850632520764','ดราก้อนทังค์ ฟรุตกัมมี่ รสบลูราสเบอร์รี่ 20g',11,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bd0ca-124b-11ed-8a84-000d3a196655','8850632606185','ดราก้อนทังค์ ฟรุตกัมมี่ รสสตรอเบอร์รี่ 20g',11,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be1fe-124b-11ed-8a84-000d3a196655','8850632608202','ดราก้อนทังค์ ขนมฟรุตกัมมี่ รสองุ่น',11,4,26,68,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787be2f8-124b-11ed-8a84-000d3a196655','8850632609032','ฟริทซี โรล กัมมี่กลิ่นโคล่า 20g',727,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be37c-124b-11ed-8a84-000d3a196655','8850718501519','ชีโตส สติ๊ก รสอเมริกันชีส 16กรัม',527,4,27,70,138,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be3fc-124b-11ed-8a84-000d3a196655','8850718800209','ทวิสตี้ รสเอ็ซ์ตรีมชีส 16กรัม',623,4,27,70,138,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2099,7 +2099,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787be691-124b-11ed-8a84-000d3a196655','8850718801381','ทวิสตี้ รสเอ็กซ์ดรีมชีส 74 กรัม',211,4,27,70,573,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be70d-124b-11ed-8a84-000d3a196655','8850718801435','เลย์ร็อค มันฝรั่งกรอบแผ่นหยัก รสมันฝรั่งแท้ 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be78a-124b-11ed-8a84-000d3a196655','8850718801442','เลย์ร็อค มันฝรั่งแผ่นหยัก รสเอ็กซ์บาร์บีคิว 46กรัม',211,4,27,70,440,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787be804-124b-11ed-8a84-000d3a196655','8850718801473','เลย์คลาสสิคมันฝรั่ง รสมันฝรั่งแท้ 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787be87c-124b-11ed-8a84-000d3a196655','8850718801497','เลย์คลาสสิครสซาวครีมและหัวหอม 48 กรัม',211,4,27,70,449,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bf21d-124b-11ed-8a84-000d3a196655','8850718801664','เลย์ร็อค มันฝรั่งทอดกรอบ รสกระเพรากรอบ 13 กรัม',211,4,27,70,93,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2110,7 +2110,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787bf49e-124b-11ed-8a84-000d3a196655','8850718802005','ตะวัน ข้าวเกรียบ รสลาบแซ่บ 16 กรัม',613,4,27,70,138,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bf515-124b-11ed-8a84-000d3a196655','8850718802111','ตะวัน ข้าวเกรียบ รสกุ้งกรอบ 75 กรัม',613,4,27,70,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bf58b-124b-11ed-8a84-000d3a196655','8850718802524','เลย์ มันฝรั่งแท้ทอดกรอบ แผ่นหยัก27 กรัม',211,4,27,70,273,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787bf600-124b-11ed-8a84-000d3a196655','8850718803552','เลย์ร็อค มันฝรั่งกรอบแผ่นหยัก รสหมึกย่างฮอต 13กรัม',211,4,27,70,93,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bf678-124b-11ed-8a84-000d3a196655','8850718803569','เลย์ร็อค มันฝรั่งแผ่นหยัก รสหมึกย่างฮอต 48 กรัม',211,4,27,70,449,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787bf6f3-124b-11ed-8a84-000d3a196655','8850718803576','เลย์ร็อค มันฝรั่งแผ่นหยัก รสหมึกย่างฮอต 75 กรัม',211,4,27,70,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2121,7 +2121,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787c0961-124b-11ed-8a84-000d3a196655','8850718805327','ซันไบทส์ ขนมธัญพืชอบกรอบ รสออริจินัล ต้นตำรับ 16กรัม',538,4,27,70,138,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c09db-124b-11ed-8a84-000d3a196655','8850718805334','ซันไบทส์ ขนมธัญพืชอบกรอบ รสบาร์บีคิว 16กรัม',538,4,27,70,138,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0a53-124b-11ed-8a84-000d3a196655','8850718805365','ซันไบทส์ รสออริจินัล 56g',538,4,27,70,500,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787c0acc-124b-11ed-8a84-000d3a196655','8850718805389','ซันไบทส์ ขนมธัญพืชอบกรอบ รสบาร์บีคิว 56 กรัม',538,4,27,70,500,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0b43-124b-11ed-8a84-000d3a196655','8850718807345','ชีโตส สติ๊ก รสอเมริกันชีส 68g',527,4,27,70,548,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0bb9-124b-11ed-8a84-000d3a196655','8850718807833','เลย์คลาสสิคมันฝรั่ง รสเมี่ยงคำ 13 กรัม',211,4,27,70,93,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2132,7 +2132,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787c0e1f-124b-11ed-8a84-000d3a196655','8850718810475','เลย์ 2in1 กุ้งเผาน้ำจิ้มซีฟู้ด 13g',211,4,27,70,93,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0e95-124b-11ed-8a84-000d3a196655','8850718810505','เลย์ รสกุ้งเผา+น้ำจิ้มซีฟู้ด 48g',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0f13-124b-11ed-8a84-000d3a196655','8850718811137','ตะวัน รสลาบแซ่บ 75 g',613,4,27,70,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787c0f87-124b-11ed-8a84-000d3a196655','8850718811304','เลย์ สแตคส์ รสซาวครีมและหัวหอม 50ก.',211,4,27,70,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c0ffc-124b-11ed-8a84-000d3a196655','8850718812790','ตะวัน รสต้นตำรับ 75 g',613,4,27,70,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c106f-124b-11ed-8a84-000d3a196655','8850718812899','เลย์คลาสสิคมันฝรั่ง รสไข่เค็ม 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2143,7 +2143,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787c12b9-124b-11ed-8a84-000d3a196655','8850718814244','เลย์คลาสสิคมันฝรั่ง รสรสหม่าล่า บาร์บีคิว 13 กรัม',211,4,27,70,93,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c1331-124b-11ed-8a84-000d3a196655','8850718814268','เลย์คลาสสิคมันฝรั่ง รสหม่าล่า บาร์บีคิว 48 กรัม',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c13c3-124b-11ed-8a84-000d3a196655','8850718814329','เลย์ รสสาหร่ายซอสเกาหลี 48g',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787c1439-124b-11ed-8a84-000d3a196655','8850718814756','เลย์ร็อค มันฝรั่งแผ่นหยัก รสไก่วิงซ์แซ่บ 48 กรัม',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c1cfd-124b-11ed-8a84-000d3a196655','8850718815029','เลย์ร็อค แผ่นหยัก รสหอยเชลล์อบเนยกระเทียม 48 กรัม',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c1da4-124b-11ed-8a84-000d3a196655','8850718815081','เลย์ รสพริกเผาปรุงรส 48g',211,4,27,70,449,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2154,7 +2154,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787c202c-124b-11ed-8a84-000d3a196655','8850718816057','เลย์ STAX กลิ่นกุ้งมังกรสไปซี่ 42 กรัม',211,4,27,70,412,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c20a1-124b-11ed-8a84-000d3a196655','8850718816064','เลย์ STAX รสซาวครีมและหัวหอม 42 กรัม',211,4,27,70,412,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c2118-124b-11ed-8a84-000d3a196655','8850718816071','เลย์ STAX รสมันฝรั่งออริจินัล 42 กรัม ',211,4,27,70,412,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787c218e-124b-11ed-8a84-000d3a196655','8850718816194','ซันไบทส์ ขนมธัญพืชอบกรอบ รสซาวครีมและหัวหอม 54 กรัม',538,4,27,70,492,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c2208-124b-11ed-8a84-000d3a196655','8850718816743','ตะวัน ข้าวเกรียบ รสส้มตำ + ไก่ย่าง 75 กรัม',613,4,27,70,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787c227e-124b-11ed-8a84-000d3a196655','8850718817214','เลย์ มิกซ์ รสชีสคอมโบ 55 กรัม',211,4,27,70,495,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2165,7 +2165,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787c24e5-124b-11ed-8a84-000d3a196655','8850718817399','เลย์ STAX รสเห๊ดทรัฟเฟิล 45 กรัม',211,4,27,70,434,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787da487-124b-11ed-8a84-000d3a196655','8850718817450','ทวิสตี้ สวีท รสคอร์นคาราเมล 18กรัม',623,4,27,70,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787da598-124b-11ed-8a84-000d3a196655','8850718817474','ทวิสตี้ สวีท รสคอร์นคาราเมล 76ก.',623,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787da622-124b-11ed-8a84-000d3a196655','8850718817504','เลย์ Max รสกุ้งย่างทซอสโคชูจัง 48g',211,4,27,70,449,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787da6c2-124b-11ed-8a84-000d3a196655','8850718817580','เลย์ รสแซลมอนแซ่บซี๊ด 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787da73f-124b-11ed-8a84-000d3a196655','8850718817627','เลย์ กลิ่นป๊อปคอร์นมิกซ์ 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2176,7 +2176,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dbadc-124b-11ed-8a84-000d3a196655','8850718817948','เลย์ Max กลิ่นวาซาบิมาโย 48 กรัม',211,4,27,70,449,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dbb59-124b-11ed-8a84-000d3a196655','8850718818129','เลย์ ร็อค รสซอสมะเขือเทศไฮนซ์ 46กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dbbd8-124b-11ed-8a84-000d3a196655','8850718818174','เลย์ ร็อค กลิ่นมายองเนสไฮนซ์ 46 กรัม',211,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dbc4f-124b-11ed-8a84-000d3a196655','8850765010941','ปูไทย ขนมทอดกรอบ รสปลาหมึก 17 กรัม',707,4,27,70,151,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dbce0-124b-11ed-8a84-000d3a196655','8850765105098','ปูไทย ขนมทอดกรอบ รสปลาหมึก 55 กรัม',707,4,27,70,495,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dbd5c-124b-11ed-8a84-000d3a196655','8850765205095','ปูไทย ขนมทอดกรอบ รสพริกไทยดำ 60 กรัม',707,4,27,70,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2187,7 +2187,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dbfdd-124b-11ed-8a84-000d3a196655','8850820204728','เอส.บี. ข้าวเกียบหลอด รสดั้งเดิม 60ก.*3',244,4,27,70,520,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc056-124b-11ed-8a84-000d3a196655','8850820204735','เอสบี ข้าวเกรียบหลอด รสดั้งเดิม 60 กรัม',244,4,27,70,520,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc0d0-124b-11ed-8a84-000d3a196655','8850820205138','ไดโน พาร์ค',388,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dc16d-124b-11ed-8a84-000d3a196655','8850820303308','เอส บี ข้าวเกรียบหลอด 11 กรัม',244,4,27,70,65,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc1ea-124b-11ed-8a84-000d3a196655','8850820303339','เอส.บี.ฟู้ดข้าวเกรียบหลอดใส 11ก.*12',244,4,27,70,65,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc265-124b-11ed-8a84-000d3a196655','8850820307337','เอส.บี. คลาสสิคโนริ 12ก.*12',244,4,27,70,78,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2198,7 +2198,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dc522-124b-11ed-8a84-000d3a196655','8850939981497','ขนมเยลลี่ ZOO รสผลไม้ 22 กรัม',111,4,26,69,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc598-124b-11ed-8a84-000d3a196655','8850987351365','บิสชิน เวเฟอร์ไส้ครีม รสมะพร้าว 29 กรัม',686,4,28,78,288,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc611-124b-11ed-8a84-000d3a196655','8850987351389','บิสชิน เวเฟอร์ไส้ครีม รสมะพร้าว 29 กรัม x 12 ซอง',686,4,28,78,288,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dc6a0-124b-11ed-8a84-000d3a196655','8850987358029','โฮมมี ขนมปังกรอบรสมะพร้าว 120g',381,4,28,78,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc71b-124b-11ed-8a84-000d3a196655','8850987358036','โฮมมี ขนมปังกรอบรสงา 120g',381,4,28,78,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dc791-124b-11ed-8a84-000d3a196655','8850987358654','โฮมมี ขนมปังกรอบรสสาหร่าย 120g',381,4,28,78,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2209,7 +2209,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dcb20-124b-11ed-8a84-000d3a196655','8851004101604','ปาร์ตี้ คาราเมล 12กรัม*12',702,4,27,70,78,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dcb96-124b-11ed-8a84-000d3a196655','8851004199984','ปาร์ตี้ รสปังพริกเผา 60g',702,4,27,70,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dcc10-124b-11ed-8a84-000d3a196655','8851004203056','แคมปัส ช็อคโกแลต 13g',251,4,27,70,93,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dcd23-124b-11ed-8a84-000d3a196655','8851004401254','เทสโต กลิ่นบาร์บีคิวแมกซ์',144,4,27,70,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dcd9e-124b-11ed-8a84-000d3a196655','8851004402053','เทสโต แผ่นหยัก รสดั้งเดิม 11 กรัม',144,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dce17-124b-11ed-8a84-000d3a196655','8851004402251','เทสโต มันฝรั่งแท้ทอดกรอบ ชนิดแผ่นหยัก 50 กรัม',144,4,27,70,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2220,7 +2220,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dd074-124b-11ed-8a84-000d3a196655','8851004418030','เทสโต้ รสพริกจรรดิ์ ',144,4,27,70,440,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd125-124b-11ed-8a84-000d3a196655','8851004461203','เทสโต มันฝรั่งแท้ เรียบ 52 g',144,4,27,70,485,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd1a0-124b-11ed-8a84-000d3a196655','8851004801184','โดโซะ รสกลมกล่อม 56 กรัม',329,4,27,70,500,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dd21a-124b-11ed-8a84-000d3a196655','8851004803201','โดโซะ รสสวีทชิลลี่ 65 กรัม',329,4,27,70,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd28e-124b-11ed-8a84-000d3a196655','8851004807056','โดโซะ รสคอร์นชีส แพ็ค 3 คู่',329,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd304-124b-11ed-8a84-000d3a196655','8851004807209','โดโซะ ข้าวหอมญี่ปุ่นอบกรอบ รสคอร์นชีส 56 กรัม',329,4,27,70,500,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2231,7 +2231,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787dd559-124b-11ed-8a84-000d3a196655','8851016000650','แจ็กซ์ มันฝรั่งแท่งพร้อมซอสมะเขือเทศ 55g',256,4,27,70,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd5d2-124b-11ed-8a84-000d3a196655','8851016000681','แจ็กซ์ มันฝรั่งแท่งทอดกรอบ พร้อมซอสพริก 14 กรัม',256,4,27,70,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787dd649-124b-11ed-8a84-000d3a196655','8851016000698','แจ็กซ์ มันฝรั่งแท่งกรอบ พร้อมซอสมะเขือเทศ 14 กรัม',256,4,27,70,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dd6c1-124b-11ed-8a84-000d3a196655','8851016002685','แจ็กซ์ มันฝรั่งแท่งทอดกรอบ พร้อมซอสพริก 55 กรัม',256,4,27,70,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787de53b-124b-11ed-8a84-000d3a196655','8851016003682','แจ็กซ์ มันฝรั่งแท่งทอดกรอบ พร้อมซอสพริก 28 กรัม',256,4,27,70,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787de63e-124b-11ed-8a84-000d3a196655','8851019010007','ป๊อกกี้ รสช็อกโกแล็ต 49 กรัม',699,4,28,78,452,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2242,7 +2242,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787de89f-124b-11ed-8a84-000d3a196655','8851019010489','พีจอย รสช็อกโกแล็ต 12.5 กรัม',726,4,28,78,67,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787de915-124b-11ed-8a84-000d3a196655','8851019010502','ป๊อกกี้ รสสตอเบอร์รี่ ขวด 22 กรัม',699,4,28,78,231,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787de990-124b-11ed-8a84-000d3a196655','8851019010519','ป๊อกกี้ รสช็อกโกแล็ต 11 กรัม',699,4,28,78,65,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787dea30-124b-11ed-8a84-000d3a196655','8851019010526','ป๊อกกี้ รสสตรอเบอรี่ 11 กรัม',699,4,28,78,65,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787deaa8-124b-11ed-8a84-000d3a196655','8851019010809','พีจอย รสคุกกี้แอนท์ครีมมิลค์เชค 12.5 กรัม',726,4,28,78,67,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787deb24-124b-11ed-8a84-000d3a196655','8851019020273','เอลฟี่ ขนมหวานรสช็อกโกแลต 15g',25,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2253,7 +2253,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ec744-124b-11ed-8a84-000d3a196655','8851019020778','ไจแอนท์ คาปุลิโกะ ช็อกโกแลต 28g.',382,4,28,78,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ec7c7-124b-11ed-8a84-000d3a196655','8851019020785','ไจแอนท์ คาปุลิโกะ กลิ่นสตอเบอร์รี่ 28ก.',382,4,28,78,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ec846-124b-11ed-8a84-000d3a196655','8851019020846','ใจแอนท์ คาปุลิโกะ สติ๊ก กลิ่นสตรอเบอร์รี 20 กรัม',382,4,28,78,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ec8c4-124b-11ed-8a84-000d3a196655','8851019030333','เพรทซ์ ขนมกรอบแบบแท่ง รสลาบ 11 กรัม',183,4,28,78,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ec93c-124b-11ed-8a84-000d3a196655','8851019030517','โคลอน บิสกิต โรล ครีม บิสกิตไส้ครีม46กรัม',319,4,28,78,440,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ec9b8-124b-11ed-8a84-000d3a196655','8851019030524','โคลลอน บิสกิตโรล รสช็อกโกแลต 46 กรัม',319,4,28,78,440,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2264,7 +2264,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ecc0a-124b-11ed-8a84-000d3a196655','8851727001021','โปเต้ มันฝรั่งกรอบ 15 กรัม',338,4,27,70,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ecca3-124b-11ed-8a84-000d3a196655','8851727001052','โปเต้ มันฝรั่งกรอบ 65 กรัม',338,4,27,70,539,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ecd19-124b-11ed-8a84-000d3a196655','8851727002028','ปาปริก้า มันฝรั่งทอดกรอบ 15 กรัม',701,4,27,70,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ecd92-124b-11ed-8a84-000d3a196655','8851727002059','ปาปริก้า มันฝรั่งทอดกรอบ 65 กรัม',701,4,27,70,539,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ece07-124b-11ed-8a84-000d3a196655','8851727003018','คอนเน่ ข้าวโพดอบกรอบ รสดั้งเดิม 14 กรัม',454,4,27,70,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ececc-124b-11ed-8a84-000d3a196655','8851727003056','คอนเน่ ข้าวโพดอบกรอบ รสดั้งเดิม 56 กรัม',454,4,27,70,500,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2275,7 +2275,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ed126-124b-11ed-8a84-000d3a196655','8851727902021','ปาปริก้า 15ก.*12',701,4,27,70,123,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed19b-124b-11ed-8a84-000d3a196655','8851727903011','คอนเน่ 14ก.*12',454,4,27,70,106,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed20e-124b-11ed-8a84-000d3a196655','8851826541152','คูก้า ลูกอมรสนม 30g',487,4,26,68,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ed287-124b-11ed-8a84-000d3a196655','8851826541251','คูก้า ลูกอม กลิ่นช็อกโกแลต 30g',487,4,26,68,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed2fd-124b-11ed-8a84-000d3a196655','8851826542159','มายมิ้นท์ รสมินต์ 32g',766,4,26,68,328,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed371-124b-11ed-8a84-000d3a196655','8851826542258','มายมิ้นท์ ช็อกโกแลตมินต์ 32g',766,4,26,68,328,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2286,7 +2286,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ed5ee-124b-11ed-8a84-000d3a196655','8851929000167','ซูกัส ลูกอมกลิ่นส้ม 30 กรัม',566,4,26,68,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed660-124b-11ed-8a84-000d3a196655','8851929000174','ซูกัส ลูกอมกลิ่นราสเบอร์รี่ 30 กรัม',566,4,26,68,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed6d4-124b-11ed-8a84-000d3a196655','8852008000214','ลอตเต้ หมากฝรั่ง แบล็กแบล็ก 13.5g',42,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ed74a-124b-11ed-8a84-000d3a196655','8852008000528','ลอตเต้ ฟูเซนโนมิ โคลาเลมอน 15g',42,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed7be-124b-11ed-8a84-000d3a196655','8852008001587','ฟูเซ็นโนมิ กลิ่นมิกซ์ฟรุต 15g',42,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ed974-124b-11ed-8a84-000d3a196655','8852008001648','ลอตเต้ หมากฝรั่ง โคลาสไปซี่ 13.5g',42,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2297,7 +2297,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787edbca-124b-11ed-8a84-000d3a196655','8852008300000','โคอะลา มาร์ท ช๊อคโกแลต 37 กรัม',321,4,26,68,368,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787edc62-124b-11ed-8a84-000d3a196655','8852008300031','โคอะลา มาร์ช สตรอเบอร์รี่ 37 g',321,4,26,68,368,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787edcd9-124b-11ed-8a84-000d3a196655','8852008300062','โคอะลา มาร์ท ช๊อคโกแลต 19.5 กรัม',321,4,26,68,171,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787edd4f-124b-11ed-8a84-000d3a196655','8852008303155','โคอะลา มาร์ช ช็อกโกบานาน่า 37 g',321,4,26,68,368,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787eddc3-124b-11ed-8a84-000d3a196655','8852008304848','แบล๊คโคอะลา มาร์ช บิทเทอร์ ช็อกโกแลต 33g',321,4,26,68,336,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ede41-124b-11ed-8a84-000d3a196655','8852008510003','ท็อปโป้ ดับเบิ้ล เฟลเวอร์ วานิลลาช๊อคโกแลต 40 กรัม',627,4,28,78,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2308,7 +2308,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ee094-124b-11ed-8a84-000d3a196655','8852008610185','เดนทีน สตรอเบอร์รี่ 13.5g',42,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee107-124b-11ed-8a84-000d3a196655','8852008610192','ลอตเต้ หมากฝรั่ง บลูเบอร์รี่ 13.5g',42,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee17c-124b-11ed-8a84-000d3a196655','8852008612745','ลอตเต้ หมากฝรั่ง สเปียร์มินต์ 13.5g',42,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ee1f9-124b-11ed-8a84-000d3a196655','8852008613049','ฟูเซ็นโนมิ กลิ่นสตรอเบอร์รี่ 15g',812,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee26d-124b-11ed-8a84-000d3a196655','8852008613384','ฟูเซ็นโนมิ กลิ่นส้ม15g',812,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee2e3-124b-11ed-8a84-000d3a196655','8852008615029','ฟูเซ็นโนมิ กลิ่นบลูเบอร์รี่ 15g',812,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2319,7 +2319,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ee535-124b-11ed-8a84-000d3a196655','8852023004211','โก๋แก่ ถั่วลันเตา อบกรอบ 20 กรัม',310,4,27,72,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee5ac-124b-11ed-8a84-000d3a196655','8852023004228','โก๋แก่ ถั่วลันเตาอบกรอบ รสวาซาบิ 32g',310,4,27,72,328,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee620-124b-11ed-8a84-000d3a196655','8852023004556','โก๋แก่ ถั่วลิสงอบกรอบ บาร์บีคิว 75g',310,4,27,72,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787ee6af-124b-11ed-8a84-000d3a196655','8852023005980','โก๋แก่ ถั่วลิสงอบเกลือ 80 กรัม',310,4,27,72,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee727-124b-11ed-8a84-000d3a196655','8852023006161','โก๋แก่ ถั่วลิสงอบเกลือ 20 กรัม',310,4,27,72,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787ee79d-124b-11ed-8a84-000d3a196655','8852023006512','โก๋แก่ ถั่วลิสงแผ่นทอด 21 กรัม',310,4,27,72,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2330,7 +2330,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787ee9e9-124b-11ed-8a84-000d3a196655','8852023664194','ถั่วอบโก๋แก่ รสกุ้ง 75 กรัม',310,4,27,72,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787eea5d-124b-11ed-8a84-000d3a196655','8852023664200','โกแแก ถั่วอบ รสกะทิ 17 กรัม',310,4,27,72,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787eead3-124b-11ed-8a84-000d3a196655','8852023664361','โก๋แก่ ถั่วลิสงรสกะทิ 35g',310,4,27,72,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787eeb47-124b-11ed-8a84-000d3a196655','8852023664507','ถั่วอบโก๋แก่ รสกะทิ 75 กรัม',310,4,27,72,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787eebbe-124b-11ed-8a84-000d3a196655','8852023664514','ถั่วอบโก๋แก่ รสกาแฟ 75 กรัม',310,4,27,72,580,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787eec32-124b-11ed-8a84-000d3a196655','8852023664583','ซิโก้ ขนมขาไก่ รสทรงเครื่อง 25 กรัม',30,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2341,7 +2341,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fb22f-124b-11ed-8a84-000d3a196655','8852023664729','โก๋แก่ ถั่วปากอ้าอบเกลือ 40g',310,4,27,72,399,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb2ae-124b-11ed-8a84-000d3a196655','8852023664736','โก๋แก่ รสกะทิ 17ก.*12',310,4,27,72,151,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb32a-124b-11ed-8a84-000d3a196655','8852023664750','โก๋แก่ ถั่วลิสงฝักอบกรอบ 100 กรัม',310,4,27,72,37,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fb3a2-124b-11ed-8a84-000d3a196655','8852023664903','โก๋แก่ ถั่วลิสงอบเกลือ 20ก.*12',310,4,27,72,207,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb41c-124b-11ed-8a84-000d3a196655','8852023665238','โก๋แก ถั่วอบ รสกุ้ง 17 กรัม',310,4,27,72,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb492-124b-11ed-8a84-000d3a196655','8852023665276','โก๋แก่ ถั่วอบ รสไก่ 17 กรัม',310,4,27,72,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2352,7 +2352,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fb724-124b-11ed-8a84-000d3a196655','8852023666211','ถั่วอบโก๋แก่โนริวาซาบิ 75 กรัม',310,4,27,72,579,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb79a-124b-11ed-8a84-000d3a196655','8852023666273','โก๋แก่ ถั่วลิสงอบเกลือ สีน้ำเงิน 20g',310,4,27,72,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb812-124b-11ed-8a84-000d3a196655','8852023669106','โก๋แก่ ถั่วลันเตาอบกรอบ รสวาซาบิ 82g',310,4,27,72,599,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fb888-124b-11ed-8a84-000d3a196655','8852044110229','ทาโร่ ขนมขบเคี้ยว รสเข้มข้น 6 กรัม',633,4,27,74,553,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb91b-124b-11ed-8a84-000d3a196655','8852044110267','ทาโร่ ขนมขบเคี้ยว รสเข้มข้น 25 กรัม',633,4,27,74,254,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fb995-124b-11ed-8a84-000d3a196655','8852044110328','ทาโร่ ขนมขบเคี้ยว รสบาบีคิว 6 กรัม',633,4,27,74,553,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2363,7 +2363,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fbbe3-124b-11ed-8a84-000d3a196655','8852044266490',' ทาโร่ โรล รสเข้มข้น',633,4,27,74,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fbc58-124b-11ed-8a84-000d3a196655','8852044497719','ทาโร่รสเข้มข้น 13.6g',633,4,27,74,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fbccc-124b-11ed-8a84-000d3a196655','8852044507814','ทาโร่ รสบาร์บีคิว 13.6ก.',633,4,27,74,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fbd40-124b-11ed-8a84-000d3a196655','8852044517912','ทาโร่ รสซูเปอร์แซ่บ 13.6ก.',633,4,27,74,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fbdba-124b-11ed-8a84-000d3a196655','8852047111810','เซียงไฮ เวเฟอร์เคลือบครีมรสช็อกโกแลต 90กรัม x15ซอง',128,4,28,78,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fbe36-124b-11ed-8a84-000d3a196655','8852047137117','ไทม เวเฟอร์ รสช๊อคโกแลต ซุปเปอร์จัมโบ้ 34 กรัม',389,4,28,78,341,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2374,7 +2374,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fc0c1-124b-11ed-8a84-000d3a196655','8852047137247','ไทม เวเฟอร์สอดไส้ครีม กลิ่นส้ม 34 กรัม x 12 ซอง',389,4,28,78,341,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc13c-124b-11ed-8a84-000d3a196655','8852047137377',' ไทม เวเฟอร์สอดไส้รีม รสชีส 34g',389,4,28,78,341,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc1b1-124b-11ed-8a84-000d3a196655','8852047145013','เซียงไฮ ซูปเปอร์จัมโบ้ รสช็อกโกแลต 38 กรัม',128,4,28,78,375,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fc355-124b-11ed-8a84-000d3a196655','8852047145020','เซียงไฮ ซูปเปอร์จัมโบ้ รสช็อกโกแลต 38 กรัม 1 แพ็ค',128,4,28,78,375,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc3eb-124b-11ed-8a84-000d3a196655','8852047145037','เซียงไฮ เวเฟอร์ไส้ครีมรสนม ปเปอร์จัมโบ้ 38g',128,4,28,78,375,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc461-124b-11ed-8a84-000d3a196655','8852047210148','ลูกอมเคี้ยวหนีบรสนม 22.5 กรัม',545,4,26,68,220,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2385,7 +2385,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fc6c8-124b-11ed-8a84-000d3a196655','8852047237114','ทอมมี่ ลูกอมเคี้ยวหนึบ ฟรุตตี้ 15g',628,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc766-124b-11ed-8a84-000d3a196655','8852047237152','ทอมมี่ ลูกอมเคี้ยวหนึบ โคล่า 18g',628,4,26,68,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc7db-124b-11ed-8a84-000d3a196655','8852047249292','โยโย เยลลี่ grape&apple 20 กรัม',347,4,26,69,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fc84d-124b-11ed-8a84-000d3a196655','8852047249353','โยโย เยลลี่ yogurt 20 กรัม',347,4,26,69,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc8c1-124b-11ed-8a84-000d3a196655','8852047249636','โยโย เยลลี่ มินิ กลิ่นผลไม้รวม 20g',347,4,26,69,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fc937-124b-11ed-8a84-000d3a196655','8852047254265','โยโย เยลลี่ มินิ กลิ่นเบอร์รี่ 20g',347,4,26,69,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2396,7 +2396,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fcb81-124b-11ed-8a84-000d3a196655','8852047327013','บิ๊กนอยส์ ออริจินัล 22g',685,4,27,70,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fcbf4-124b-11ed-8a84-000d3a196655','8852047327037','บิ๊กนอยส์ บาร์บีคิว 22g',685,4,27,70,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fcc6b-124b-11ed-8a84-000d3a196655','8852047333250','แก๊ป ช็อคโกแลต 15g',249,4,28,78,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fccdd-124b-11ed-8a84-000d3a196655','8852047333267','แก๊ป สตรอเบร์รี่ 15g',249,4,28,78,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fcd6e-124b-11ed-8a84-000d3a196655','8852047412016','ยูไนเต็ด อัลมอนด์ 275 กรัม',787,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fdeb9-124b-11ed-8a84-000d3a196655','8852047422114','ยูไนเต็ดอัลมอนด์ เคลือบรสช็อกโกแลต 19 กรัม',787,4,28,78,180,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2407,7 +2407,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fe18f-124b-11ed-8a84-000d3a196655','8852049107095','เจดีย์คู่ ถั่วหมั่นหลีหม่ง 20 กรัม',108,4,27,72,207,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe206-124b-11ed-8a84-000d3a196655','8852049108092','เจดีย์คู่ ถั่วหมั่นหลีหม่ง 20กรัม*12',108,4,27,72,207,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe392-124b-11ed-8a84-000d3a196655','8852049124092','เจดีย์คู่ ถั่วหมั่นหลีหม่ง 90g',108,4,27,72,623,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fe40d-124b-11ed-8a84-000d3a196655','8852052110303','ฮานามิ ข้าวเกรียบกุ้ง รสดั้งเดิม 15 กรัม',942,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe485-124b-11ed-8a84-000d3a196655','8852052110501','ฮานามิ ข้าวเกรียบกุ้ง รสดั้งเดิม 52 กรัม',942,4,27,70,485,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe4fc-124b-11ed-8a84-000d3a196655','8852052113403','ฮานามิ รสซีฟู้ดผัดพริกเผา 60g',942,4,27,70,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2418,7 +2418,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('787fe77d-124b-11ed-8a84-000d3a196655','8852098702654','ชินมัย ขนมข้าวหอมมะลิอบกรอบ รสคอร์ชีส 50 กรัม',524,4,27,70,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe7f5-124b-11ed-8a84-000d3a196655','8852098703422','ชินมัย ขนมข้าวหอมมะลิอบกรอบ รสต้นตำรับ 60 กรัม',524,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787fe86c-124b-11ed-8a84-000d3a196655','8852098707710','ชินมัย ขนมข้าวหอมมะลิอบกรอบ รสต้มยำ 60 กรัม',524,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('787fe8e3-124b-11ed-8a84-000d3a196655','8852098707734','ชินมัย ขนมข้าวหอมมะลิอบกรอบ รสไก่เผ็ดเกาหลี 60 กรัม',524,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('787feb66-124b-11ed-8a84-000d3a196655','8852116805015','ซีลิโกะ Rolling bite รสออรืจินัล 2.8 กรัม',559,4,27,76,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880c25e-124b-11ed-8a84-000d3a196655','8852199178112','เฟรชฟิช รสย่างบาร์บีคิว 85g',192,4,27,74,605,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2429,7 +2429,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880c5b1-124b-11ed-8a84-000d3a196655','8852240010521','เจ้าสัว ข้าวตังหน้าหมึกย่าง 90g',115,4,27,70,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880c625-124b-11ed-8a84-000d3a196655','8852240010538','เจ้าสัว ข้าวตังหน้าหมูหยองพริกเผา 30g',115,4,27,70,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880c6cc-124b-11ed-8a84-000d3a196655','8852240010743','เจ้าสัว ข้าวตังหน้าสาหร่ายปนหมูหยอง 30g',115,4,27,70,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880c743-124b-11ed-8a84-000d3a196655','8852240010750','เจ้าสัว ข้าวตังหน้ากุ้ง 30g',115,4,27,70,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880c7b6-124b-11ed-8a84-000d3a196655','8852240020131','เจ้าสัว หมูหยอง 18g',115,5,33,96,165,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880c82c-124b-11ed-8a84-000d3a196655','8852274400046','กุ้งเต้น ข้าวเกรียบกุ้ง 20 กรัม',438,4,27,70,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2440,7 +2440,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880ca7a-124b-11ed-8a84-000d3a196655','8854424000656','ลูกอมนมรสหวาน 6 กรัม',407,4,26,68,553,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880caf1-124b-11ed-8a84-000d3a196655','8854424007280','ไวท์ฟาร์ม ลูกอมนม ช็อกโกแลต 6g',407,4,26,68,553,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880cb64-124b-11ed-8a84-000d3a196655','8854424008195','ไวท์ฟาร์ม ลูกอมนม สตรอเบอรืรี่ 6g',407,4,26,68,553,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880cbd7-124b-11ed-8a84-000d3a196655','8854604101487','ฟริท-ซี พลัส ขนมฟรุตกัมมี่ รสองุ่น 24 กรัม',727,4,26,68,245,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880cc4d-124b-11ed-8a84-000d3a196655','8854923312304','สแน็คแจ๊ค รสแกงกะหรี่ญี่ปุ่น 65g',861,4,27,70,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880ccc1-124b-11ed-8a84-000d3a196655','8855120001916','พี.อาร์. ขนมทอดกรอบ รสชีสซอสเสจ 18 กรัม',723,4,27,70,165,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2451,7 +2451,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880cf46-124b-11ed-8a84-000d3a196655','8855120002166','พี.อาร์. ทวีสคอร์น ข้าวโพดอบกรอบ รสชีส 20 กรัม',723,4,27,70,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880cfd0-124b-11ed-8a84-000d3a196655','8855588110243',' สควิดดี้ ปลาหมึกบดปรุงรส รสเผ็ดสะเด็ด11g',869,4,27,74,65,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d048-124b-11ed-8a84-000d3a196655','8855588140110','คาราด้า ขนมอบกรอบ รสปลาหมึก 14กรัม',469,4,27,70,106,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880d0ba-124b-11ed-8a84-000d3a196655','8855588140196','คาราด้า นักเก็ต รสสาหร่ายเซซามิ 17 กรัม',469,4,27,70,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d12c-124b-11ed-8a84-000d3a196655','8855588140226','คาราด้า นักเก็ต รสไก่ทอดสไปซี่ 17 กรัม',469,4,27,70,151,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d1a2-124b-11ed-8a84-000d3a196655','8855588220010',' สควิดดี้ ปลาหมึกบดปรุงรส11g',869,4,27,74,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2462,7 +2462,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880d555-124b-11ed-8a84-000d3a196655','8857107232047','เถ้าแก่น้อย สาหร่ายทอด รสบะหมี่เผ็ดเกาหลี 3.5 กรัม',140,4,27,70,301,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d5cd-124b-11ed-8a84-000d3a196655','8857107232139','เถ้าแก่น้อย สาหร่ายทอดแผ่น big sheet รสเผ็ด 12 ซอง',140,4,27,76,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d643-124b-11ed-8a84-000d3a196655','8857122621253','ริกลี่ย์ หมากฝรั่งกลิ่นบลูเบอร์รี่มินต์ 13.5 กรัม',807,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880d6b7-124b-11ed-8a84-000d3a196655','8857123747877','ฟุซฟิซ กลิ่นแตงโม 12g',735,4,26,68,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d72a-124b-11ed-8a84-000d3a196655','8857123747990','ฟุซฟิซ กลิ่นสตรอเบอร์รี่ 12g',735,4,26,68,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880d79f-124b-11ed-8a84-000d3a196655','8857123748157','ฟุซฟิซ กลิ่นลิ้นจี่ 7.2g',735,4,26,68,294,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2473,7 +2473,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880d9e4-124b-11ed-8a84-000d3a196655','8858279001271','วอยซ์ แครกเกอร์สอดไส้ครีม รสช็อคโกแลต 28 กรัม',828,4,28,78,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880da78-124b-11ed-8a84-000d3a196655','8858279001875','วอยซ์ แครกเกอร์ไส้ครีมสตรอเบอร์รี่ 28g',828,4,28,78,281,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880db14-124b-11ed-8a84-000d3a196655','8858279002278','ซูโม่ มินิคุกกี้+ครีม 30 กรัม',749,4,28,78,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880db89-124b-11ed-8a84-000d3a196655','8858279002957','วอยซ์ วาฟเฟิลไส้ครีมรสคุ้กกี้แอนด์ครีม 19g',828,4,28,78,180,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880dbfc-124b-11ed-8a84-000d3a196655','8858393000136','ป้าเพียน มะขามจี๊ดจ๊าด รสโบราณ 220g',700,4,27,72,224,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880dc6f-124b-11ed-8a84-000d3a196655','8858669402527','Akiko กาแฟมอคค่า ฟิลลิ่ง 8g',918,4,27,70,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2484,7 +2484,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880dec0-124b-11ed-8a84-000d3a196655','8858709602627','เฟอร์เชย์โรล เค้กโรลกลิ่นวานิลลาสอดไส้ครีม 20 กรัม',194,4,28,78,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880df35-124b-11ed-8a84-000d3a196655','8858709602634','เฟอร์เชย์โรล เค้กโรลกลิ่นใบเตยไส้ครีม 20 กรัม',194,4,28,78,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880dfa8-124b-11ed-8a84-000d3a196655','8858709602658','เฟอร์เชย์โรล เค้กโรลกลิ่นช็อกโกแลตไส้ครีม 20 กรัม',194,4,28,78,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880e01d-124b-11ed-8a84-000d3a196655','8859333800335','เปรี้ยวปาก เนื้อมะขามคลุกบ๊วย 20 กรัม',178,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e0ac-124b-11ed-8a84-000d3a196655','8859352600633','ไจโกะจัง ลูกอมเคี้ยวหนึบ กลินแตงโม 20g',386,4,26,68,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e120-124b-11ed-8a84-000d3a196655','8859559600542','ชาช่า เมล็ดทานตะวัน 5รส 35g',519,4,27,72,353,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2495,7 +2495,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7880e360-124b-11ed-8a84-000d3a196655','8859580900093','ไมดาส ขนมทอดกรอบ รสซาวครีมและหัวหอม 22 กรัม',401,4,27,70,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e3d2-124b-11ed-8a84-000d3a196655','8859580900154','ไมดาส ขนมแผ่นอบ รสเผ็ด 15 กรัม',401,4,27,70,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e44a-124b-11ed-8a84-000d3a196655','8859589700021','มินมิน ลูกอม จูซี่พลัม 14g',771,4,26,68,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7880e538-124b-11ed-8a84-000d3a196655','8859589700038','มินมิน ลูกอม สแปลชโคล่าเลม่อน 14g',771,4,26,68,106,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e5c0-124b-11ed-8a84-000d3a196655','8886015617257','อาร์นอตส์ สติ๊กโก้ ฟิงเกอร์ เวเฟอร์ ขนาด 12กรัม',929,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7880e638-124b-11ed-8a84-000d3a196655','8886467100239','พริงเกิลส์ รส Original 42 กรัม',711,4,27,70,412,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2506,7 +2506,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881b850-124b-11ed-8a84-000d3a196655','8906001384069','มินิ แครกเกอร์ รสน้ำสลัดผสมหัวหอม 227g',449,4,28,78,1,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881b95a-124b-11ed-8a84-000d3a196655','8906033744077','แมคไวตี้ส์ ไดเจสทีฟ มินิส์ (บิสกิตโฮลวีท) 32.5 กรัม',277,4,28,78,318,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881b9ec-124b-11ed-8a84-000d3a196655','8934680033305','โอรีโอ 18 กรัม*3',372,4,28,78,165,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881ba6f-124b-11ed-8a84-000d3a196655','8935001723073','จูปาจุ๊ปส์ ดิป แอนด์ ลิค 9g',503,4,26,68,639,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881baed-124b-11ed-8a84-000d3a196655','8990800023045','ลูกอมเมนทอส ชิวรี่คูล14g',201,4,26,68,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881bb66-124b-11ed-8a84-000d3a196655','8990800023076','ลูกอมเมนทอส ชิวรี่คูลกลิ่นเบอร์รี่ มินต์',201,4,26,68,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2517,7 +2517,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881bdd1-124b-11ed-8a84-000d3a196655','8992741941006','Yupi Gummi burger 7.5g',793,4,26,68,556,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881de8e-124b-11ed-8a84-000d3a196655','8992741945271','Yupi Gummi pizza 15g',793,4,26,68,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881df44-124b-11ed-8a84-000d3a196655','8992760121014','โอรีโอ คุ๊กกี้รสช็อคโก สอดไส้ครีมวานิลลา 28.5 กรัม',372,4,28,78,274,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881dfc6-124b-11ed-8a84-000d3a196655','8992760121083','โอรีโอ รสเนยถั่วช็อกโกแลต 28.5g',372,4,28,78,274,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e040-124b-11ed-8a84-000d3a196655','8992760223022','โอริโอ คุ๊กกี้รสช็อคโก สอดไส้ครีมรสช็อคโก 28.5กรัม',372,4,28,78,274,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e0ba-124b-11ed-8a84-000d3a196655','8992775345269','Gery ครันช์โรล ช็อกโกแลต วนิลลา 24g',113,4,28,78,245,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2528,7 +2528,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881e33e-124b-11ed-8a84-000d3a196655','8996001302286','มอลคิสท์ ขนมปังกรอบ รสออริจินัล 18 กรัม x 24 ซอง',750,4,28,78,165,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e3b5-124b-11ed-8a84-000d3a196655','8996001305201','วาลเมอร์ sandwich biscuit ช็อกโกแลต 54g',833,4,28,78,362,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e42b-124b-11ed-8a84-000d3a196655','8996001305379','แยมโอแยม บิสกิตสอดไส้สตรอเบอร์รี่ 48 g',24,4,28,78,449,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881e4a5-124b-11ed-8a84-000d3a196655','8996001312179','มอลคิสท์ แครกเกอร์สอดไส้ช็อคโกแลต 42 กรัม',750,4,28,78,412,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e64e-124b-11ed-8a84-000d3a196655','8996001350805','โกช็อคโก้ ขนมเวเฟอร์สติ๊ก สอดไส้ช็อกโกแลต',313,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e6da-124b-11ed-8a84-000d3a196655','8996001350881','ซุปเปอร์สตาร์ เวเฟอร์สอดไส้ครีมรสช๊อคโกแลต 36 กรัม',562,4,28,78,362,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2539,7 +2539,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881e92d-124b-11ed-8a84-000d3a196655','8996001355855','เบง เบง เวเฟอร์สอดไส้ครีมช็อคโกและมะพร้าว 22 กรัม',153,4,28,78,231,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881e9a9-124b-11ed-8a84-000d3a196655','8996001356661','แคลชีส เวเฟอร์สอดไส้ครีม รสชีส 35 กรัม',255,4,28,78,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881ea23-124b-11ed-8a84-000d3a196655','8996001358214','แซนโด ครีมวานิลลา 35g',260,4,28,78,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881ea98-124b-11ed-8a84-000d3a196655','8996001375242','โชกี้ โชกี้ Chococashew 5*5g 25g',323,4,26,68,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881eb0e-124b-11ed-8a84-000d3a196655','9555192501107','ริกลี่ย์ ดับเบิลมินท์ หมากฝรั่งกลิ่นมินต์ 13.5กรัม',807,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881eb84-124b-11ed-8a84-000d3a196655','9555192501206','ริกลี่ย์ หมากฝรั่งกลิ่นสเปียร์มินต์ 13.5 กรัม',807,4,26,68,82,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2550,7 +2550,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881ee1d-124b-11ed-8a84-000d3a196655','9556085501969','ขนมปังกรอบเคลือบน้ำตาล ตราปิงปอง แพ็ค18ซอง',37,4,28,78,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881ee91-124b-11ed-8a84-000d3a196655','8850426000113','ยูโร่ เค้ก สอดไส้ครีมมาร์เบิ้ลช็อก 24กรัมx6ชิ้น',786,4,28,78,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881ef06-124b-11ed-8a84-000d3a196655','8850425011882','ปีโป้ กลิ่น พีช โคล่า องุ่นเคียวโฮ 423กรัม',703,4,26,69,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881ef7c-124b-11ed-8a84-000d3a196655','8850943519150','OK รสช๊อคโกแลต 30 g',1128,4,28,78,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881eff3-124b-11ed-8a84-000d3a196655','8850943519785','OK รสนม 30 g',1128,4,28,78,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f068-124b-11ed-8a84-000d3a196655','8850943525281','OK รสสาหร่าย 30 g',1128,4,28,78,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2561,7 +2561,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881f2ab-124b-11ed-8a84-000d3a196655','8996001350843','Superstar เวเฟอร์ รส Triple chocolate 28 g',562,4,28,78,281,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f340-124b-11ed-8a84-000d3a196655','8850987376146','Penny-o เวเฟอร์ รส Choco orange 29 กรัม',69,4,28,78,288,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f3b6-124b-11ed-8a84-000d3a196655','8854689000224','อาคาเซ็น จุกนมซิลิคอน ไซส์ M',923,8,67,219,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881f429-124b-11ed-8a84-000d3a196655','8854689000231','อาคาเซ็น จุกนมซิลิคอน ไซส์ L',923,8,67,219,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f4a0-124b-11ed-8a84-000d3a196655','8851123347112','เบบี้มายด์ซักผ้าเด็ก ออแกนิค สีส้ม',162,8,67,219,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f516-124b-11ed-8a84-000d3a196655','8851123347815','เบบี้มายด์ ซักผ้าเด็ก ออแกนิค สีฟ้า',162,8,67,219,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2572,7 +2572,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7881f760-124b-11ed-8a84-000d3a196655','8851826081429','โฮม ผลิตภัณฑ์ซักผ้าเด็ก 600 มล.',380,8,67,219,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f7f1-124b-11ed-8a84-000d3a196655','8851826086226','โฮม ผลิตภัณฑ์ล้างขวดนมเด็ก Refill 600 มล.',380,8,67,219,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7881f868-124b-11ed-8a84-000d3a196655','8851989060224','ดีนี่ นิวบอร์น ผลิตภัณฑ์ปรับผ้านุ่มเด็ก Happy Baby 600 มล.',586,8,67,219,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7881f8df-124b-11ed-8a84-000d3a196655','8851989060644','ดีนี่ ผลิตภัณฑ์ซักผ้าเด็ก โอดอไฟต์เตอร์',586,8,67,219,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78820694-124b-11ed-8a84-000d3a196655','8851989060910','ดีนี่ ไลฟ์ลี่ แอนตี้แบคทีเรีย',586,8,67,219,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78820773-124b-11ed-8a84-000d3a196655','8851989061504','ดีนี่ ปรับผ้านุ่มนิวบอร์น กลิ่น Night Wash 600 มล.',586,8,67,219,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2583,7 +2583,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788209e7-124b-11ed-8a84-000d3a196655','300875104309','เอนฟาโกร ทรีสมาร์ทพลัส 550g.',230,8,67,219,493,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78820a5c-124b-11ed-8a84-000d3a196655','8850024101267','เอนฟาโกร เอพลัส DHAพลัส โปร3 550g.',230,8,67,219,493,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78820ad1-124b-11ed-8a84-000d3a196655','8850024101526','เอนฟาแล็ค สมาร์ทพลัส 550g.',229,8,67,219,493,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78820b47-124b-11ed-8a84-000d3a196655','8850024102530','เอนฟาแล็ค เอพลัส 360 DHAพลัส 550g.',229,8,67,219,493,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78820bbc-124b-11ed-8a84-000d3a196655','8850024102554','เอนฟาแล็ค เอพลัส 360 DHAพลัส โปร2 550g.',229,8,67,219,493,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830422-124b-11ed-8a84-000d3a196655','8850127005691','คาร์เนชัน 1พลัส สมาร์ทโก กลิ่นวานิลลา 550กรัม',465,8,67,219,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2594,7 +2594,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78830757-124b-11ed-8a84-000d3a196655','8851359700835','ดูแลค ซูเปอร์มิกซ์ ช่วงที่1 600g.',591,8,67,219,517,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788307d1-124b-11ed-8a84-000d3a196655','8851359700842','ดูโปร ไอออน พลัส ช่วงวัยที่2 600กรัม',593,8,67,219,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7883084b-124b-11ed-8a84-000d3a196655','8851359700859','ดูมิลค์ ช่วงที่3 รสจืด 550g.',589,8,67,219,493,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788308e5-124b-11ed-8a84-000d3a196655','8851359700866','ดูเม็กซ์ ดูมิลค์ 1 พลัส สูตร3 กลิ่นวานิลลา 550กรัม',589,8,67,219,493,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830964-124b-11ed-8a84-000d3a196655','8851359700910','ดูมิลค์ ช่วงที่4 รสจืด 550g.',589,8,67,219,493,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788309da-124b-11ed-8a84-000d3a196655','8851359702563','ดูโกร ซูเปอร์มิกซ์ ช่วงที่3 รสน้ำผึ้ง 600g.',592,8,67,219,517,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2605,7 +2605,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78830c49-124b-11ed-8a84-000d3a196655','8851359800696','ดูมิลค์ เบเบ้ ช่วงที่2 250g.',589,8,67,219,249,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830cc0-124b-11ed-8a84-000d3a196655','8851359800702','ดูมิลค์ เบเบ้ ช่วงที่2 500g.',589,8,67,219,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830d35-124b-11ed-8a84-000d3a196655','8851359910111','ดูแลค ไอรอน พลัส ช่วงวัยที่1 250กรัม',591,8,67,219,249,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78830dae-124b-11ed-8a84-000d3a196655','8851359950117','ดูโปร ไอรอน พลัส ช่วงวัยที่2 250กรัม',593,8,67,219,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830e26-124b-11ed-8a84-000d3a196655','8850006301135','คอลเกต น้ำยาบ้วนปาก สูตร Peppermint 500 มล. ',461,7,46,155,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78830e9d-124b-11ed-8a84-000d3a196655','8850006302132','คอลเกต น้ำยาบ้วนปาก สูตร Peppermint 250 มล. ',461,7,46,155,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2616,7 +2616,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788310fe-124b-11ed-8a84-000d3a196655','8850006305812','คอลเกตน้ำยาบ้วนปากพลักซ์ฟรุ้ตตี้ 100มล.',461,7,46,155,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78831174-124b-11ed-8a84-000d3a196655','8850006306888','คอลเกต น้ำยาบ้วนปาก สูตร Panjaved 500 มล. ',461,7,46,155,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788311e9-124b-11ed-8a84-000d3a196655','8850006935668','คอลเกต น้ำยาบ้วนปาก สูตร สมุนไพรดีท็อกซ์ 250 มล. ',461,7,46,155,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78831260-124b-11ed-8a84-000d3a196655','8850007811022','ลิสเตอรีน น้ำยาบ้วนปากโทเทิลแคร์ สีม่วง 250 มิล.',822,7,46,155,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788312f2-124b-11ed-8a84-000d3a196655','8850007811213','ลิสเตอรีน คูลมิ้นท์ 250ml×2',822,7,46,155,250,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78831384-124b-11ed-8a84-000d3a196655','8850007811251','ลิสเตอรีน คูลมิ้นส์ 750ml.',822,7,46,155,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2627,7 +2627,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788315d2-124b-11ed-8a84-000d3a196655','8850007814252','ลิสเตอรีนน้ำยาบ้วนปากโทเทิลแคร์ สีม่วง 100 มิล.',822,7,46,155,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78831648-124b-11ed-8a84-000d3a196655','8850007814276','ลิตเตอร์รีน น้ำยาบ้วนปาก คูลมินต์ ซีโร่ แอลกอฮอล์ 100 ml.',822,7,46,155,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788316ca-124b-11ed-8a84-000d3a196655','8850007814450','ลิสเตอรีน น้ำยาบ้วนปาก คูลมินต์ ซีโร่ 100 มล.',822,7,46,155,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7883181c-124b-11ed-8a84-000d3a196655','8850007814696','ลิสเตอรีน คิดส์ น้ำยาบ้วนปาก 250 มล.',822,7,46,155,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78831894-124b-11ed-8a84-000d3a196655','8850007814917','ลิสเตอร์รีน คูลมินต์ เม้าท์วอช 100 ml',822,7,46,155,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78831909-124b-11ed-8a84-000d3a196655','8850007815471','ลิสเตอรีน น้ำยาบ้วนปาก สูตร Total Care 250 มล. ',822,7,46,155,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2638,7 +2638,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78833624-124b-11ed-8a84-000d3a196655','8850094909015','น่ารัก เบบี้ออยส์ ไฟน์ 45 มล.',657,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7883369d-124b-11ed-8a84-000d3a196655','8850398080076','เบอริน่า ครีมเปลี่ยนสีผม A1 60 กรัม',174,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833950-124b-11ed-8a84-000d3a196655','8850398080083','เบอริน่า ครีมเปลี่ยนสีผม A2 60 กรัม',174,7,37,124,520,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788339ce-124b-11ed-8a84-000d3a196655','8850398080151','เบอริน่า ครีมเปลี่ยนสีผม A5 60 กรัม',174,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833a48-124b-11ed-8a84-000d3a196655','8850398080168','เบอริน่า ครีมเปลี่ยนสีผม A8 60 กรัม',174,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833abf-124b-11ed-8a84-000d3a196655','8850398080175','เบอริน่า ครีมเปลี่ยนสีผม A9 60 กรัม',174,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2649,7 +2649,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78833d93-124b-11ed-8a84-000d3a196655','8850398080328','เบอริน่า ครีมเปลี่ยนสีผม A21 60 กรัม',174,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833e0d-124b-11ed-8a84-000d3a196655','8851826670005','โอเค เฮอเบิล แชมพูเปลี่ยนสีผม สีดำ 30 มล.',361,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833ebf-124b-11ed-8a84-000d3a196655','8851826670203','โอเค เฮอเบิล แชมพูเปลี่ยนสีผม สีน้ำตาลเข้ม 30 มล.',361,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78833f40-124b-11ed-8a84-000d3a196655','8851826670609','โอเค เฮอเบิล แชมพู สีน้ำตาลประกายแดง 30 มล.',361,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78833fbb-124b-11ed-8a84-000d3a196655','8854311000028','จาเป่า ครีมเปลี่ยนสีผม สีดำ 10 มล.',498,7,37,124,53,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78834031-124b-11ed-8a84-000d3a196655','8857121875626','โบเซ็ท บรอนซ์ ผงฟอกสีผม สีขาว 50 มล.',334,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2660,7 +2660,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7883428a-124b-11ed-8a84-000d3a196655','8850002006614','โคโดโม แป้งเด็ก เจนเทิลซอฟ 180g',316,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78834300-124b-11ed-8a84-000d3a196655','8850002006638','โคโดโม แป้งเด็ก สูตรเจนเทิลซอฟท์ สีชมพู 400 กรัม',316,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7883437a-124b-11ed-8a84-000d3a196655','8850006572061','แคร์ แป้งเด็ก 180 กรัม',252,7,43,146,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7883440c-124b-11ed-8a84-000d3a196655','8850006577073','แคร์ แป้งเด็ก คลาสสิก 400g',252,7,43,146,393,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78834486-124b-11ed-8a84-000d3a196655','8850006584019','แคร์ แป้งเด็ก พิงค์ ซอฟท์ 60g ',252,7,43,146,520,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788346e4-124b-11ed-8a84-000d3a196655','8850006593257','แคร์ แป้งเด็ก กลิ่นซากุระ 180g ',252,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2671,7 +2671,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78844a6b-124b-11ed-8a84-000d3a196655','8850006938867','แคร์ แป้งเด็ก ลาเวนเดอร์ แอนด์ โอ๊ตมิลค์ 350g',252,7,43,146,346,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78844af2-124b-11ed-8a84-000d3a196655','8850006942079','แคร์ แป้งเด็ก คลาสสิค 60g ',252,7,43,146,520,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78844b6d-124b-11ed-8a84-000d3a196655','8850006945131','แคร์ แป้งเด็ก พีโอนี แอนด์ พีช 350 กรัม',252,7,43,146,346,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78844be7-124b-11ed-8a84-000d3a196655','8850007010265','จอห์นสัน แป้งเด็ก กลิ่นบลอสซั่ม 180g',494,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78844c60-124b-11ed-8a84-000d3a196655','8850007010302','จอห์นสัน แป้งเด็ก คลาสสิก 180 กรัม',494,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78844cd7-124b-11ed-8a84-000d3a196655','8850007010869','จอห์นสัน แป้งเด็ก เบดไทม์ 200 กรัม',494,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2682,7 +2682,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788451bc-124b-11ed-8a84-000d3a196655','8850007014874','จอห์นสัน แป้งเด็ก กลิ่น คลาสสิค 65 กรัม',494,7,43,146,539,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788455cf-124b-11ed-8a84-000d3a196655','8850007014942','จอห์นสัน แป้งเด็ก คลาสสิค 380 กรัม (แพ็คสาม)',494,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845778-124b-11ed-8a84-000d3a196655','8850094051059','น่ารัก แป้งเด็ก กลิ่นนมและน้ำผึ้ง 150 กรัม',657,7,43,146,114,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788457fa-124b-11ed-8a84-000d3a196655','8850094051066','น่ารัก แป้งเด็ก กลิ่นนมและน้ำผึ้ง 350 กรัม',657,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845873-124b-11ed-8a84-000d3a196655','8850094451293','น่ารัก แป้งเด็ก กลิ่นขมิ้นและแตงกวา 150 กรัม',657,7,43,146,114,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788458ec-124b-11ed-8a84-000d3a196655','8850094451309','น่ารัก แป้งเด็ก กลิ่นขมิ้นและแตงกวา 350 กรัม',657,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2693,7 +2693,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78845ba5-124b-11ed-8a84-000d3a196655','8851123705776','เบบี้มายด์ ดับเบิ้ล มิลค์ 180 กรัม',166,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845c1c-124b-11ed-8a84-000d3a196655','8851123705813','เบบี้มายดื แป้งเด็ก สูตร ดับเบิ้ลมิลล์ 380 มล.',166,7,43,146,370,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845c95-124b-11ed-8a84-000d3a196655','8851123740432','เบบี้มายด์ แป้งฝุ่น กลิ่นอัลตร้ามายด์ 180 กรัม (แพ็คสาม)',166,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78845d13-124b-11ed-8a84-000d3a196655','8851123740678','เบบี้มายด์ แป้งเด็ก อัลตร้ามายด์ ไบโอแกนิก 380 กรัม',166,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845d89-124b-11ed-8a84-000d3a196655','8851123740814','เบบี้มายด์ แป้งเด็ก อัลมอนด์ 380g',166,7,43,146,370,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78845dfe-124b-11ed-8a84-000d3a196655','8851989065106','ดีนี่ แป้งเด็ก 380 กรัม',586,7,43,146,370,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2704,7 +2704,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788462ac-124b-11ed-8a84-000d3a196655','8850094371348','เทียร่า แป้งหอม 180 กรัม',145,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846320-124b-11ed-8a84-000d3a196655','8850094371584','เทียร่า แป้งหอม กลิ่น ป็อป คันทรี่ 350 กรัม',145,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788463bb-124b-11ed-8a84-000d3a196655','8850233110012','สปริงซอง แป้งหอม กลิ่นมะลิ 50 กรัม',875,7,43,146,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78846432-124b-11ed-8a84-000d3a196655','8850233110029','สปริงซอง แป้งหอม กลิ่นมะลิ 150 กรัม',875,7,43,146,114,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788464a6-124b-11ed-8a84-000d3a196655','8850233170061','สปริงซอง ครีมถนอมผิวมะนาว 100 มล.',875,7,43,146,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846519-124b-11ed-8a84-000d3a196655','8850252030018','อาร์เช่ แป้งน้ำเสริมสวย 98ml',927,7,43,146,637,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2715,7 +2715,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78846777-124b-11ed-8a84-000d3a196655','8852086001004','ตรางู แป้งเย็น สูตร Original 50 มล.',603,7,43,146,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788467eb-124b-11ed-8a84-000d3a196655','8852086001028','ตรางู แป้งเย็น สูตร Original 140 กรัม',603,7,43,146,99,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788468b7-124b-11ed-8a84-000d3a196655','8852086001042','ตรางู แป้งเย็น สูตร Original 280 มล.',603,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78846930-124b-11ed-8a84-000d3a196655','8852086001059','ตรางู แป้งเย็น สูตร Original 420 มล.',603,7,43,146,405,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788469a2-124b-11ed-8a84-000d3a196655','8852086001684','ตรางู แป้งเย็น ลาเวนเดอร์ 140g',603,7,43,146,99,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846a19-124b-11ed-8a84-000d3a196655','8852086001691','แป้งตรางู กลิ่นลาเวนเดอร์ 280g',603,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2726,7 +2726,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78846c78-124b-11ed-8a84-000d3a196655','8858696808200','ศรีจันทร์ เอ็นชาน คัฟเวอร์เพอร์เฟคท์ฟาวน์เด 7 กรัม',853,7,43,146,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846cec-124b-11ed-8a84-000d3a196655','8859178706687','มิสทิน แป้งหอม กลิ่น ท็อป คันที่',40,7,43,146,199,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846d5e-124b-11ed-8a84-000d3a196655','8859178706717','มิสทีน แป้งหอม กลิ่น ป็อป คันทรี่ 400g ',40,7,43,146,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78846dd1-124b-11ed-8a84-000d3a196655','8859178706830','มิสทีน แป้งโรยตัว top country 100 ml',626,7,43,146,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846e44-124b-11ed-8a84-000d3a196655','8850006600016','โพรเทคส์ แป้งเย็น สูตรเฟรช 280 มล. (แพ็คคู่)',342,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78846eb8-124b-11ed-8a84-000d3a196655','8850006600023','โพรเทคส์ แป้งเย็น สูตรบลอสซัม 280 มล.(แพ็คคู่)',342,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2737,7 +2737,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7884711f-124b-11ed-8a84-000d3a196655','8850006675045','โพรเทคส์ แป้งเย็น สูตรสดชื่น 280 มล.',342,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78847193-124b-11ed-8a84-000d3a196655','8850006675052','โพรเทค แป้งเย็น บลอสซัม 280g',342,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78847209-124b-11ed-8a84-000d3a196655','8850006925690','โพรเทคส์ เมน แป้งเย็น สูตรเจแปนนิสไวท์ชาโคล 280มล.(แพ็คคู่)',342,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78847285-124b-11ed-8a84-000d3a196655','8850006938720','โพรเทคส์ แป้งเย็น ลาเวนเดอร์ ไอซ์ ฟรีซ 280กรัม',342,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78847318-124b-11ed-8a84-000d3a196655','8850006938966','โพรเทคส์ แป้งเย็น สูตรลาเวนเดอร์ ไอซ์ ฟรีส 280 มล. (แพ็คคู่)',342,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78847394-124b-11ed-8a84-000d3a196655','8850006943731','โพรเทคส์ ยูซุ เซน แป้งเย็น 280มล.',342,7,43,146,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2748,7 +2748,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78847650-124b-11ed-8a84-000d3a196655','8851123785310','Twelve plus แป้งเย็น กลิ่นคูลลิ่งบลู 60กรัม',620,7,43,146,520,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788476c4-124b-11ed-8a84-000d3a196655','8851123785396','Twelve plus แป้งเย็น กลิ่น คูลลิ่ง บลู 300 กรัม (แพ็คคู่)',620,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886f742-124b-11ed-8a84-000d3a196655','8851123785563','Twelve plus แป้งเย็น กลิ่น คูลลิ่งพิ้งค์ 60กรัม',620,7,43,146,520,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7886f88b-124b-11ed-8a84-000d3a196655','8851123785631','Twelve plus แป้งเย็น กลิ่น คูลลิ่ง พิงค์ 300 กรัม ( แพ็คคู่)',620,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886f91d-124b-11ed-8a84-000d3a196655','8851123794589','Twelve plus แป้งเย็น กลิ่คูลลิ่ง พิงค์',620,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886f9a1-124b-11ed-8a84-000d3a196655','8851340112005','ไอโอเดิมร์',409,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2759,7 +2759,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7886fc3b-124b-11ed-8a84-000d3a196655','8851989022055','ทรอส แป้งเย็นฟรีซคูล แอนด์โพรเท็กชั่น 280g.',621,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886fcbf-124b-11ed-8a84-000d3a196655','8851989022079','ทรอส แป้งเย็น เอ็กซ์ตรีม โพรเทค 280 กรัม',621,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886fd38-124b-11ed-8a84-000d3a196655','8851989023441','ทรอส แป้งเย็น สูตรลดสิวควบคุมความมัน 280มล.',621,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7886fdad-124b-11ed-8a84-000d3a196655','8851989024332','ทรอส แป้งเย็น คูล สปอร์ต คูลลิ่ง ทัลคัม 280 กรัม',621,7,43,146,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886fe56-124b-11ed-8a84-000d3a196655','3014260786847','ออรัล บี แปรงสีฟัน ชายนี่ คลีน',915,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7886fece-124b-11ed-8a84-000d3a196655','4902430677530','ออรัล บี แปรงสีฟัน โปรกัมแคร์×3',915,7,46,155,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2770,7 +2770,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78870235-124b-11ed-8a84-000d3a196655','4902430888325','ออรัล บี แปรงสีฟัน sensitive care',915,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788702ab-124b-11ed-8a84-000d3a196655','4987176031884','ออรัล บี แปรงสีฟัน ซอฟท์แอนด์สลิม ×3',915,7,46,155,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870322-124b-11ed-8a84-000d3a196655','7038513867004','จอร์แดน แปรงสีฟัน buddy 1-4 ปี',493,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78870396-124b-11ed-8a84-000d3a196655','7038518665506','จอร์แดน แปรงสีฟัน buddy 5-10 ปี',493,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7887040a-124b-11ed-8a84-000d3a196655','8850002000179','โคโดโม แปรงสีฟัน 0.5-3 yrs.',316,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870480-124b-11ed-8a84-000d3a196655','8850002000339','โคโดโม แปรงสีฟัน 3-6 yrs. 1ด้าม',316,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2781,7 +2781,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788706f0-124b-11ed-8a84-000d3a196655','8850006332146','คอลเกต แปรงสีฟัน เดอลุกซ์พลัส',461,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870765-124b-11ed-8a84-000d3a196655','8850114321025','ไบโอเซฟตี้ แปรงสีฟัน',395,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788707dc-124b-11ed-8a84-000d3a196655','8851145300492','เบอร์แมน แปรงสีฟัน',172,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78870850-124b-11ed-8a84-000d3a196655','8857123698025','ดีมายล์ แปรงสีฟัน No.510',588,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788708d2-124b-11ed-8a84-000d3a196655','8857123698070','ดีมายด์ แปรงสีฟัน Kid''s Toothbrush',588,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870948-124b-11ed-8a84-000d3a196655','8857123698360','ดีมายด์ แปรงสีฟัน Kid''s Toothbrush 3-12 ปี',588,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2792,7 +2792,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78870bad-124b-11ed-8a84-000d3a196655','8858870255523','เฟรชลี่ แปรงสีฟัน No.552',193,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870c23-124b-11ed-8a84-000d3a196655','8858870255653','Swan แปรงสีฟัน 3-6 ปี No. 565',76,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870cb1-124b-11ed-8a84-000d3a196655','8858870255721','เฟรชลี่ แปรงสีฟัน soft',193,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78870d25-124b-11ed-8a84-000d3a196655','8858870255738','เฟรชลี่ แปรงสีฟัน 58 Hole',193,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870d98-124b-11ed-8a84-000d3a196655','8858870255752','เฟรชลี่ แปรงสีฟัน 60 Hole',193,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78870e0b-124b-11ed-8a84-000d3a196655','8858870255943','เฟรชลี่ แปรงสีฟัน baby No.594',193,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2803,7 +2803,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78871159-124b-11ed-8a84-000d3a196655','9300647000342','ออรัล บี ไหมขัดฟัน เอสเซนเชียล ฟลอส',915,7,46,155,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788711cd-124b-11ed-8a84-000d3a196655','4005808381579','นีเวีย บอดี้ มิลค์ อินเทนซีฟ มอยส์เจอร์ โลชั่น 250มล',663,7,41,140,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78871241-124b-11ed-8a84-000d3a196655','42397533','นีเวีย ซัน ซูเปอร์ โพรเท็ค เดลี่ มอยส์ ซันทบอดี้ เซรั่ม SPF50 PA+++ 70 มล.',663,7,41,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788712c6-124b-11ed-8a84-000d3a196655','8850029028415','นีเวีย เอ็กซ์ตร้า ไวท์ เรเดียนท์ แอนด์ สมํท โลชั่น 200 มล.',663,7,41,140,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78871342-124b-11ed-8a84-000d3a196655','8850029032269','นีเวีย extra white cooling lotus 200ml',663,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788713b7-124b-11ed-8a84-000d3a196655','8850029033020','นีเวีย โลชั่นบำรุงผิว สูตรซี แอนด์ อี 30 มล. ซอง',663,7,41,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2814,7 +2814,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78871f31-124b-11ed-8a84-000d3a196655','8850233260281','เภสัช โลชั่นบำรุงผิว สูตรผสมคอลลาเจน 250 มล.',195,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78871faa-124b-11ed-8a84-000d3a196655','8850233260342','เภสัช โลชั่นบำรุงผิว สูตรผสมอัลฟ่าอาร์บูติน 250 มล',195,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78872021-124b-11ed-8a84-000d3a196655','8850233260359','เภสัช โลชั่นบำรุงผิว สูตรผสมอัลฟ่าอาร์บูติน 400มล.',195,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788720b8-124b-11ed-8a84-000d3a196655','8850233260380','เภสัช โลชั่นบำรุงผิว สูตรบอดี้ไวท์เทนนิ่ง 400 มล.',195,7,41,140,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78872142-124b-11ed-8a84-000d3a196655','8850233260410','เภสัช โลชั่น สูตรผสม เรด เลิฟ แอปเปิ้ล และวิตามิน บี 3 400มล.',195,7,41,140,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788721ba-124b-11ed-8a84-000d3a196655','8850360040022','วีท ครีมขจัดขนสำหรับผิวบอบบาง 25 กรัม',849,7,41,140,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2825,7 +2825,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7887242b-124b-11ed-8a84-000d3a196655','8850822010594','KA สมูธ แอนด์ เฟรช บอดี้ โลชั่น 430 กรัม',97,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7887249f-124b-11ed-8a84-000d3a196655','8851123340045','เบบี้มายด์ แบบเติม กลิ่นพิงค์ ฟลอรัล600มล',162,7,41,140,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78872514-124b-11ed-8a84-000d3a196655','8851123710107','เบบี้มายด์ อัลตร้ามายด์แบบเติม ซากุระ380 มล',162,7,41,140,371,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78872589-124b-11ed-8a84-000d3a196655','8851123710183','เบบี้มายด์ อัลตร้ามายด์ แบบเติม ไบโอแกนิค380มล',162,7,41,140,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788725fe-124b-11ed-8a84-000d3a196655','8851123710299','เบบี้ มายด์ เฮด& บอดี้ เบบี้ บาธ สีส้ม',162,7,41,140,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78872673-124b-11ed-8a84-000d3a196655','8851123710596','เบบี้มายด์ เฮด&บอดี้ บาธ สีม่วง',162,7,41,140,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2836,7 +2836,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788ee044-124b-11ed-8a84-000d3a196655','8851932392495','ซิตร้า โลชั่น ไข่มุกเกาหลี & มัลเบอร์รี่ 150 มล.',549,7,41,140,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee0c2-124b-11ed-8a84-000d3a196655','8851932392518','ซิตร้า เอ็กตร้า ไวท์ ยูวี ไข่มุก มะนาว 150ml',549,7,41,140,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee140-124b-11ed-8a84-000d3a196655','8851932392570','ซิตร้า โลชั่น นูริช ไวท์ ยูวี น้ำผึ้ง พริมโรส 150ml',549,7,41,140,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788ee1dc-124b-11ed-8a84-000d3a196655','8851932404099','ซิตร้า เนเชอรัล โกลว์ ยูวี ออร่า มะขามสด ทานาคา 150ml',549,7,41,140,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee25d-124b-11ed-8a84-000d3a196655','8851932410168','เพียวไลน์ออร่า โลชั่นบำรุงผิว ไวท์แอนด์เฟิร์มยูวี 150 กรัม',187,7,41,140,114,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee2df-124b-11ed-8a84-000d3a196655','8851932410175','เพียวไลน์ ออร่า โลชั่นบำรุงผิว สูตรไวท์แอนด์คูล 150 มล.',187,7,41,140,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2847,7 +2847,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788ee54f-124b-11ed-8a84-000d3a196655','88530208','จอห์นสัน เบบี้ครีม บำรุงผิวกาย 50 กรัม',494,7,41,140,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee5e4-124b-11ed-8a84-000d3a196655','88531649','จอห์นสัน มิลค์ + ไรซ์ เบบี้ ครีม 50 กรัม',494,7,41,140,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee67e-124b-11ed-8a84-000d3a196655','8992304000980','การ์นิเย่ บอดี้ ไบรท์ คอมพลีท ไบรท์เทนนิ่ง รีแพร์ริ่ง เซรั่ม มิลค์ ยูวี 400 มล.',432,7,41,140,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788ee708-124b-11ed-8a84-000d3a196655','8994993002979','การ์นิเย่ โลชั่นบำรุงผิวกาย สูตรซากุระไวท์ 400 มล.',432,7,41,140,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee780-124b-11ed-8a84-000d3a196655','14902430829465','โอเลย์ เนเจอรัล ไวท์ เอจเลสออร่า',363,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788ee7f8-124b-11ed-8a84-000d3a196655','14902430873901','โอเลย์ เนเจอรัล ไวท์ ไลท์ spf30',363,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2858,7 +2858,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788eea41-124b-11ed-8a84-000d3a196655','4902430408097','โอเลย์ เนเจอรัล ออร่า พิงค์คิช โกลว์ 7.5 กรัม',363,7,42,140,556,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788eeab7-124b-11ed-8a84-000d3a196655','4902430829465','โอเลย์ เนเจอรัล ออร่า เอจเสจ ออร่า 7.5 กรัม',363,7,42,140,556,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788eeb30-124b-11ed-8a84-000d3a196655','4902430890915','โอเลย์ บำรุงผิวหน้า โทนอัพ 7.5 กรัม. (ซอง)',363,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788eebc0-124b-11ed-8a84-000d3a196655','4987176054517','โอเลย์ ลูมินัส อินเทนซีฟ ไบร์ทเทนนิ่ง ครีม 50 กรัม',363,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788eec38-124b-11ed-8a84-000d3a196655','4987176054579','โอเลย์ ลูมินัส อินเทนซีฟ ไบร์ทเทนนิ่ง โลชั่น 30 มล.',363,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f13e9-124b-11ed-8a84-000d3a196655','6902395789567',' เมย์เบลลีน นิวยอร์ก เซนเซชั่นแนล ลิควิดแมท สี02 2มล',202,7,42,140,294,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2869,7 +2869,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788f16d0-124b-11ed-8a84-000d3a196655','8809368730374','เจนนี่ สวีท ไวท์ สเนล เซรั่ม 7 กรัม',109,7,42,140,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1748-124b-11ed-8a84-000d3a196655','8809460441406','เคธี่ดอลล์ ซัน โพรเทค 5 g',98,7,42,140,510,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f17be-124b-11ed-8a84-000d3a196655','8850007543008','นูโทรจีนา ไฮโดร บูสท์-วอเทอร์ เจล 5 กรัม',666,7,42,140,510,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788f1839-124b-11ed-8a84-000d3a196655','8850029010113','นีเวีย เอ็กซ์ตร้า ไวท์ เมคอัพ เซรั่มผิวขาว 7ml',663,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f18ba-124b-11ed-8a84-000d3a196655','--8850029015767','นีเวีย เมน เอ็กซ์ตร้า ไวท์ เฟซ เซรั่ม spf30',663,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1933-124b-11ed-8a84-000d3a196655','8850029023526','นีเวีย เมน ครีม UV 8 มล.',663,7,42,140,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2880,7 +2880,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788f1bbc-124b-11ed-8a84-000d3a196655','8850434151197','การ์นิเย่ บำรุงผิวหน้า ไวท์ อัพ 7 มล.',432,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1c38-124b-11ed-8a84-000d3a196655','8850434164074','ลอรีอัล ผลิตภัณฑ์บำรุงผิวหน้า สลีปปิ้งมาส์ก 7 มล.',814,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1cb2-124b-11ed-8a84-000d3a196655','8850434164470','เมย์เบลลีน ฟิตมี แมท พอร์เลส ฟาวเดชั่น  สี120 5มล',202,7,42,140,513,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788f1d26-124b-11ed-8a84-000d3a196655','8850434164487','เมเบลลีน ฟิตมี แมท พอร์เลส ฟาวเดชั่น สี128 5มล',202,7,42,140,513,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1d99-124b-11ed-8a84-000d3a196655','8850434173670','การ์นิเย่ สกิน แนทเชอรัล ซากุระ ไวท์ พิงค์อัพ โทนอัพ ซีซีครีม 7 มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f1e30-124b-11ed-8a84-000d3a196655','8850434174141','ลอรีอัล บำรุงผิวหน้า รีไวทัลลิฟท์-กลางคืน 7 มล.',814,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2891,7 +2891,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788f2087-124b-11ed-8a84-000d3a196655','8850434178620','การ์นิเย่ สกิน เนเชอรัล ซากุระไวท์ ซุปเปอร์ ยูวี spf50+/PA++++ 7มล',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f2121-124b-11ed-8a84-000d3a196655','8850434181026','เมเบลลีน ฟิตมี แมท พอร์เลส ฟาวเดชั่น สี228 5มล',202,7,42,140,513,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f2197-124b-11ed-8a84-000d3a196655','8850434195634','การ์นิเย่ สกิน แนทเชอรัล เอจเลส ไวท์ โปรคอลลาเจน เซรั่ม 7 มล.',432,7,42,140,557,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788f220f-124b-11ed-8a84-000d3a196655','8850434197423','การ์นิเย่่ สกิน  แนทเชอรัล ซากุระไวท์  ไฮยาลูรอน เซรั่ม 7 มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f2286-124b-11ed-8a84-000d3a196655','8850434213581','การ์นิเย่ สกิน ซุปเปอร์ยูวี แมทท์ สปอร์ต พรูฟ ซันสกรีน 7มล',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f22fc-124b-11ed-8a84-000d3a196655','8850434239758','ลอริอัล ปารีส ไกลโคลิค ไบร์ท โกลว์อิ้ง ครีม เดย์ 7มล',814,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2902,7 +2902,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('788f254e-124b-11ed-8a84-000d3a196655','8850485020619','โคลนแอคเน่',883,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f25c3-124b-11ed-8a84-000d3a196655','8850485020626','โคลนไวท์เทนนิ่ง',883,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f2637-124b-11ed-8a84-000d3a196655','8850485020886','ไวท์เทนนิ่ง เซรั่ม',883,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('788f26ab-124b-11ed-8a84-000d3a196655','8850668900011','กวนอิม ครีม 111 3g',427,7,42,140,382,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f2723-124b-11ed-8a84-000d3a196655','8850822010624','KA เบบี้ ไวท์ เซรั่ม',97,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('788f27b1-124b-11ed-8a84-000d3a196655','8850822180013','เค.เอ. ไวท์ สปอท ครีม 8 กรัม',97,7,42,140,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2913,7 +2913,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890cccc-124b-11ed-8a84-000d3a196655','8850822190272','KA CCกันแดด สีชมพู',97,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890cde0-124b-11ed-8a84-000d3a196655','8850822190289','KA ccกันแดด สีเหลือง',97,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890ce68-124b-11ed-8a84-000d3a196655','8850822190593','KA กันแดด ไวท์เทนนิ่ง',97,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890cee5-124b-11ed-8a84-000d3a196655','8850822250570','เค.เอ. ไวท์ รีเซ็ต สกิน ครีม 10 กรัม',97,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890cf65-124b-11ed-8a84-000d3a196655','8851049101270','อิงอร แป้งซอฟมาร์ค 15 กรัม',931,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890cfdd-124b-11ed-8a84-000d3a196655','8851356000013','แฮปปี้ แป้งน้ำรองพื้น',308,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2924,7 +2924,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890d34e-124b-11ed-8a84-000d3a196655','8851932383011','วาสลีนเมนบำรุงหน้า ออยคอนโทรลมอยซ์เจอร์ไรเซอร์ 7ml',836,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d3c9-124b-11ed-8a84-000d3a196655','8851932383028','วาสลีนเมน บำรุงหน้า แฟร์เนส เซรั่ม SPF30 PA 7 มล.',836,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d442-124b-11ed-8a84-000d3a196655','8851932383530','Vasline Men Anti Acne total',836,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890d4c1-124b-11ed-8a84-000d3a196655','8851932387491','พอนด์ส ไวท์ บิวตี้ สกินเพอร์เฟคติ้ง 7 g',713,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d539-124b-11ed-8a84-000d3a196655','8852117301134','Young กระดาษซับความมัน 100 แผ่น',18,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d5af-124b-11ed-8a84-000d3a196655','8852348201005','วิเศษนิยมยาสีฟันชนิดผง 40 กรัม',837,7,42,140,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2935,7 +2935,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890d805-124b-11ed-8a84-000d3a196655','8852658040233','สบันงา เคลย์มาส์ค 10 กรัม',874,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d89a-124b-11ed-8a84-000d3a196655','8852658200101','รชา ผงขัดหน้า สูตรข้าว + ลูกเดือย 12 กรัม',794,7,42,140,78,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890d92b-124b-11ed-8a84-000d3a196655','8852658200200','รชา ผงขัดหน้า สูตรทับทิม + ว่านหางจระเข้ 12 กรัม',794,7,42,140,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890d9a5-124b-11ed-8a84-000d3a196655','8853246009922','ซิง ซิง ครีมทาสิวฝ้า รุ่นเพชร ',548,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890da1b-124b-11ed-8a84-000d3a196655','8853246009977','ดอกคูน คู่ แอคเน่ครีม 3 กรัม',31,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890da90-124b-11ed-8a84-000d3a196655','8853246009991','ซิง ซิง ทาสิว ฝ้า 3 กรัม ',548,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2946,7 +2946,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890dd39-124b-11ed-8a84-000d3a196655','8858696807265','ศศิ บีบี พาวเดอร์ 30g',854,7,42,140,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e09b-124b-11ed-8a84-000d3a196655','8858696808149','ศศิ เมจิก แมท บีบี เพิร์ล 7 กรัม',854,7,42,140,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e12b-124b-11ed-8a84-000d3a196655','8858696810494','ศรีจันทร์ เอนเซ็นเชียล ฟาวน์เดชั่น spf50+ pa++++',853,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890e1ab-124b-11ed-8a84-000d3a196655','8858718624276','นามิ บิวตี้ ซีเครท ไวท์ เซรั่ม 7 กรัม ',656,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e223-124b-11ed-8a84-000d3a196655','8858718624528','นามิ บิวตี้ ซีเครท ไวท์ บีบี.ซีซี ครีม 7 กรัม ',656,7,42,140,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e2c0-124b-11ed-8a84-000d3a196655','8858718624771','สมูทโตะ อโล อี สเนล ไบรท์ เจล 50 กรัม (ซอง)',884,7,42,140,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2957,7 +2957,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890e527-124b-11ed-8a84-000d3a196655','8858718638877','นามิ เมคอัพโปร เอเอ ออร่า ไพรเมอร์ เบส 7 กรัม ',656,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e59d-124b-11ed-8a84-000d3a196655','8858718638914','นามิ แอมเฟรซเชจู วิตามินซีไบรท์เทนนิ่งเจล 30 กรัม ',656,7,42,140,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e613-124b-11ed-8a84-000d3a196655','8858718638976','นามิ แอมเฟรซแทมมารีนไวท์เทนนิ่งสครับมาร์ก 30 กรัม ',656,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890e6ad-124b-11ed-8a84-000d3a196655','8858718638990','สมูทโตะ โทเมโท อโล สเนล เจลลี่ สครับ 50 กรัม (ซอง)',884,7,42,140,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e72c-124b-11ed-8a84-000d3a196655','8858718644908','สมูทโตะ เลมอน-ซี สเนล ชูทติ้ง เจล 50 กรัม (ซอง)',884,7,42,140,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890e7a2-124b-11ed-8a84-000d3a196655','8858718644915','สมูทโตะ โทเมโท บัลแกเรียโยเกิร์ต ไวท์เทน 40 กรัม',884,7,42,140,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2968,7 +2968,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890ea53-124b-11ed-8a84-000d3a196655','8858842010075','เคธี่ดอลล์ สปิดไวท์ ซีซีครีม สี#1 Light Beige 6มล.',98,7,42,140,554,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890eac9-124b-11ed-8a84-000d3a196655','8858842010082','เคธี่ดอลล์ สปิดไวท์ ซีซีครีม สี#2 Green 6 มล.',98,7,42,140,554,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890eb42-124b-11ed-8a84-000d3a196655','8858842010655','เคธี่ดอลล์ ชาร์โคลโนสคลียซิ่งสตริป',98,7,42,140,183,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890ebb8-124b-11ed-8a84-000d3a196655','8858842029473','เบบี้ ไบรท์ อโลเวร่า&เฟรชคอลลาเจนอายมาส์ก',164,7,42,140,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890ec2f-124b-11ed-8a84-000d3a196655','8858842051412','เบบี้ไบร์ท ครีมหอยทาก เลมอน วิตซี',933,7,42,140,51,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890eca5-124b-11ed-8a84-000d3a196655','8858842052198','เบบี้ไบร์ท สเนลแอนด์โกลด์ชูทติ้งเจล 50 กรัม ',164,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2979,7 +2979,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890ef32-124b-11ed-8a84-000d3a196655','8858842078396','เคธี่ดอลล์ ซีซีครีม อัพผิวใส ปาดปุ๊บเนียนปีง 7ml.',98,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890efb3-124b-11ed-8a84-000d3a196655','8858842085332','เบบี้ไบร์ท บีบี แตงโม 7กรัม',164,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f029-124b-11ed-8a84-000d3a196655','8858842089705','เบบี้ไบรท์ อโลไฮยา&คอลลาเจนซูทติ้งเจล',164,7,42,140,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890f0bf-124b-11ed-8a84-000d3a196655','8858882900978','MARIGOLD ACNE สบู่ดาวเรือง จุฬาเฮิร์บ ลดสิว 8มล',501,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f13a-124b-11ed-8a84-000d3a196655','8858882901333','จุฬาเฮิร์บ ดีดีครีม วอเตอร์เมลอน spf50 พีเอ+++ 8 มล.',501,7,42,140,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f1af-124b-11ed-8a84-000d3a196655','8858882901364','จุฬาเฮิร์บ มอรินก้า รีแพร์ เจล 8 มล.',501,7,42,140,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -2990,7 +2990,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890f4fc-124b-11ed-8a84-000d3a196655','8859497300054','ซิสต้าร์ วอเตอร์เมลอน อีอี ครีม 10 กรัม (ซอง)',552,7,42,140,51,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f578-124b-11ed-8a84-000d3a196655','8859497301587','Sistar bb cream sakura',552,7,42,140,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f5ee-124b-11ed-8a84-000d3a196655','8859497301600','ซิสต้า เจลแตงโม',552,7,42,140,399,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890f662-124b-11ed-8a84-000d3a196655','8859497301648','ซิสต้าร์ แรดิช เอกซ์ตร้า เมลาสม่า เซรั่ม',552,7,42,140,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f842-124b-11ed-8a84-000d3a196655','8859497302553','สมูทโตะ โทเมโท คอลลาเจน บีบี&ซีซี ซีนสกรีน ครีม 8g',884,7,42,140,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890f8c7-124b-11ed-8a84-000d3a196655','8859497302577','สมูทโตะ โทเมโท โยเกิร์ต พลัส ไวท์เทนนิ่ง ซูทติ้ง เจล50กรัม',164,7,42,140,474,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3001,7 +3001,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7890fb19-124b-11ed-8a84-000d3a196655','8992304078897','ลอรีอัล ปารีส  ไวท์ เพอร์เฟ็คท์ เซรั่ม ครีม spf 17 pa++ 7 มล.',814,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890fb8f-124b-11ed-8a84-000d3a196655','8992304099359','เมย์เบลลีน นิวยอร์ก เคลียสมูท ซีซี ครีม สี01 7มล.',202,7,42,140,588,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890fc07-124b-11ed-8a84-000d3a196655','8994993013883','การ์นิเย่ สกิน แนทเชอรัลส์ ไมเซล่า คลีนซิ่ง วอเตอร์ 50 มล.',432,7,42,140,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7890fc83-124b-11ed-8a84-000d3a196655','8994993015276','ลอริอัล uv serum protector bright&clear 5.5 มล',814,7,42,140,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890fd2f-124b-11ed-8a84-000d3a196655','8850822070109','KA Lip Care Pure',97,7,54,181,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7890fda6-124b-11ed-8a84-000d3a196655','8850822070147','KA Lip Care สตรอเบอร์รี่',97,7,54,181,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3012,7 +3012,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789114c9-124b-11ed-8a84-000d3a196655','440436014562','ซันซิล ซอฟท์&สมูท แชมพู แอคทีฟ อินฟิวส์ชั่น 400 มล.สีเหลือง',540,7,37,124,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911546-124b-11ed-8a84-000d3a196655','440436014564','ซันซิล เพอร์เฟค สเตรท แชมพู แอคทีฟ อินฟิวส์ชั่น 400 มล.สีม่วง',540,7,37,124,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789115c7-124b-11ed-8a84-000d3a196655','440436014567','ซันซิล สมูท&เมเนจเจเบิ้ล ชมพู แอคทีฟ อินฟิวส์ชั่น 400 มล.สีชมพู',540,7,37,124,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78911646-124b-11ed-8a84-000d3a196655','440436014571','ซันซิล เฮลธีเออร์&ลอง แชมพู แอคทีฟ อินฟิวส์ชั่น 400 มล.สีเขียว',540,7,37,124,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789116c3-124b-11ed-8a84-000d3a196655','4902430194112','เฮดแอนด์โชว์เดอร์ แชมพู ดีพคลีน 150ml',246,7,37,124,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891173a-124b-11ed-8a84-000d3a196655','4902430281331','เฮดแอนด์โชว์เดอร์ แชมพูคูล แมนทอล 450ml.',246,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3023,7 +3023,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789119b2-124b-11ed-8a84-000d3a196655','4902430396554','รีจอยส์ แชมพ 48-ฮาว ริชสมูท 600 มล.',809,7,37,124,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911a2b-124b-11ed-8a84-000d3a196655','4902430396608','รีจอยส์ คอนดิชันเนอร์ ริช ซอฟท์ สมูท 120ml.',809,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911aa3-124b-11ed-8a84-000d3a196655','4902430396615','รีจอยส์ ครีมนวด ริชอฟท์สมูท 60ml',809,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78911b17-124b-11ed-8a84-000d3a196655','4902430396622','รีจอยส์ ครีมนวด ขจัดรังแค 3in1 60ml',809,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911b89-124b-11ed-8a84-000d3a196655','4902430396639','รีจอยส์ แชมพู ผสมเมนเทล ขจัดรังแค 3 in 1 120 มล.',809,7,37,124,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911c22-124b-11ed-8a84-000d3a196655','4902430396646','รีจอยส์ แชมพู สมูทเซรั่ม 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3034,7 +3034,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78911e75-124b-11ed-8a84-000d3a196655','4902430399661','รีจอยส์ แชมพู สูตรฟริซรีแพร์ 70ml',809,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911f02-124b-11ed-8a84-000d3a196655','4902430399722','รีจอยส์ ครีมนวด บำรุงผมชี้ฟู 60ml',809,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78911f79-124b-11ed-8a84-000d3a196655','4902430400671','เฮดแอนด์โชว์เดอร์ แชมพู 330 มล.',246,7,37,124,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78911fef-124b-11ed-8a84-000d3a196655','4902430401579','รีจอยส์ แชมพูแอนตี้ แฮร์ฟอล 600ml.',809,7,37,124,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912064-124b-11ed-8a84-000d3a196655','4902430403108','รีจอยส์ แชมพู สูตรแอนตี้ แฮร์ฟอล 70ml',809,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789120d7-124b-11ed-8a84-000d3a196655','4902430408011','เฮดแอนด์โชว์เดอร์ แชมพู ขจัดรังแค 330 มล.',246,7,37,124,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3045,7 +3045,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78912333-124b-11ed-8a84-000d3a196655','4902430413794','แพนทีน แชมพู โททัล แดเมจ แคร์ โปร-วี 70ml',270,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789123a8-124b-11ed-8a84-000d3a196655','4902430430999','เฮดแอนด์โชว์เดอร์ แชมพูสมูท แอนด์ซิลกี้ 450ml.',246,7,37,124,114,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891241c-124b-11ed-8a84-000d3a196655','4902430432313','รีจอยส์ แชมพู เดลี่ มอยส์เจอร์ สมูท 70ml',809,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78912491-124b-11ed-8a84-000d3a196655','4902430432320','รีจอยส์ ครีมนวด มอยเจอร์สมูท 60ml',809,7,37,124,521,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912506-124b-11ed-8a84-000d3a196655','4902430432337','รีจอยส์ แชมพู มอยส์เจอร์ สมูธ 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891259b-124b-11ed-8a84-000d3a196655','4902430432375','รีจอยส์ แชมพูมอยซ์เจอร์ สมูท 600ml.',809,7,37,124,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3056,7 +3056,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789127fc-124b-11ed-8a84-000d3a196655','4902430500418','แพนทีน คัลเลอร์แอนด์เพิร์มลาสติ้งแคร์โปรวี แชมพู 410 มล.',270,7,37,124,402,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912879-124b-11ed-8a84-000d3a196655','4902430522496','เฮดแอนด์โชว์เดอร์ แชมพู ขจัดรังแค 410 มล.',246,7,37,124,401,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789128ef-124b-11ed-8a84-000d3a196655','4902430522502','เฮดแอนด์โชว์เดอร์ แชมพู สูตรเย็นสดชื่น 410 มล.',246,7,37,124,401,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78912964-124b-11ed-8a84-000d3a196655','4902430522533','รีจอยส์ แชมพู ผสมเมนเทล ขจัดรังแค 3 in 1 410 มล.',809,7,37,124,401,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789129d9-124b-11ed-8a84-000d3a196655','4902430522540','รีจอยส์ ครีมนวดผม สูตรแอนตี้ แดนดรัฟ 3-อิน-1 600 ml',809,7,37,124,402,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912a4e-124b-11ed-8a84-000d3a196655','4902430538633','แพนทีน เดลี่มอยซ์เจอร์รีนิววัลโปรวี แชมพู 410 มล.',270,7,37,124,402,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3067,7 +3067,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78912cb4-124b-11ed-8a84-000d3a196655','4902430560573','แพนทีน ครีมบำรุงผมสูตร แฮร์ฟอลคอลโทรล 70 มล.',270,7,37,124,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912d2a-124b-11ed-8a84-000d3a196655','4902430560597','แพนทีน คอนดิชันเนอร์ ซิลกี้ สมูท 70ml.',270,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912d9d-124b-11ed-8a84-000d3a196655','4902430565578','เฮดแอนด์โชว์เดอร์ แชมพูแอปเปิ้ล เฟรช 450ml.',246,7,37,124,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78912e14-124b-11ed-8a84-000d3a196655','4902430565585','เฮดแอนด์โชว์เดอร์ แชมพูคลีน แอนด์บาลานซ์ 450ml.',246,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78912e8a-124b-11ed-8a84-000d3a196655','4902430573672','แพนทีน แชมพู บำรุงสำหรับผมดัดทำสี 70ml',270,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78913ff1-124b-11ed-8a84-000d3a196655','4902430573696','แพนทีน คอนดิชันเนอร์ เฟิร์มลาสติ้ง แคร์ 70ml.',270,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3078,7 +3078,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789149e2-124b-11ed-8a84-000d3a196655','4902430628624','เฮดแอนด์โชว์เดอร์ แชมพู สูตรผมนุ่มลื้น 65 มล.',246,7,37,124,540,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78914ad2-124b-11ed-8a84-000d3a196655','4902430643245','head&Shoulders Smooth&silky 150ml',246,7,37,124,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78914b54-124b-11ed-8a84-000d3a196655','4902430695732','รีจอยส์ ครีมนวดผม เมนเทล ขจัดรังแค 3in1 120 มล.',809,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78914bcd-124b-11ed-8a84-000d3a196655','4902430695909','รีจอยส์ แชมพูฟรีซ รีแพร์ 450ml.',809,7,37,124,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78914c44-124b-11ed-8a84-000d3a196655','4902430748193','แพนทีน แชมพู คัลเลอร์แอนด์เพิร์ม 120ml',270,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78914cbc-124b-11ed-8a84-000d3a196655','4902430753340','เฮดแอนด์โชว์เดอร์ แชมพู ซูพรีม ผมเรียบลื่น 135 มล.',246,7,37,124,90,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3089,7 +3089,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78914f18-124b-11ed-8a84-000d3a196655','4902430773287','รีจอยส์ แชมพูมอยซ์เจอร์ สมูท 450ml.',809,7,37,124,402,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78914f92-124b-11ed-8a84-000d3a196655','4902430820110','เฮดแอนด์โชว์เดอร์ แชมพูอิทซี่ สคาร์ปแคร์ 150ml.',246,7,37,124,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891500c-124b-11ed-8a84-000d3a196655','4902430820394','เฮดแอนด์โชว์เดอร์ แชมพูอิทซี่ สคาร์ปแคร์ 450ml.',246,7,37,124,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789150b7-124b-11ed-8a84-000d3a196655','4902430825559','รีจอยส์ แชมพู Airy volume 100 มล.',809,7,37,124,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915133-124b-11ed-8a84-000d3a196655','4902430825597','รีจอยส์ แชมพู oil Removal 100 มล.',809,7,37,124,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789151a8-124b-11ed-8a84-000d3a196655','4902430852753','รีจอยส์ แชมพู บำรุงผมชี้ฟู 120ml',809,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3100,7 +3100,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891541e-124b-11ed-8a84-000d3a196655','4902430884877','แพนทีน แชมพู ลองแอนด์สตรอง โปร-วี  70ml',270,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915497-124b-11ed-8a84-000d3a196655','4902430884891','แพนทีน แชมพู ผมยาวแข็งแรงสุขภาพดี 120 มล.',270,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915510-124b-11ed-8a84-000d3a196655','4902430885010','แพนทีน ครีมนวด ผมยาวแข็งแรง 120ml',270,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78915586-124b-11ed-8a84-000d3a196655','4902430919432','แพนทีน แชมพู Pro-v micellar 300 มล.',270,7,37,124,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789155fb-124b-11ed-8a84-000d3a196655','4902430956659','รีจอยส์ คอนดิชั่นเนอร์ 48-ฮาว ริชสมูท 410 มล.',809,7,37,124,402,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915689-124b-11ed-8a84-000d3a196655','4987176028662','รีจอยส์ แชมพู สูตรขจัดรังแค หนังศรีษะเย็นสดชื่น 105ml',809,7,37,124,42,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3111,7 +3111,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789158f7-124b-11ed-8a84-000d3a196655','8850094077134','น่ารัก แชมพูเด็ก มายด์วิตามินอี 45มล',657,8,67,219,436,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891596d-124b-11ed-8a84-000d3a196655','8850094077141','น่ารัก แชมพูเด็ก มายด์วิตามินอี 90มล',657,8,67,219,624,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789159e5-124b-11ed-8a84-000d3a196655','8850094077158','น่ารัก แชมพูเด็ก มายด์วิตามินอี 200มล',657,8,67,219,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78915a5e-124b-11ed-8a84-000d3a196655','8850094077165','น่ารัก แชมพูเด็กกลิ่นมายด์ วิตามินดี 300มล',657,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915ad5-124b-11ed-8a84-000d3a196655','8850094136022','เทียร่า แชมพู+ครีมนวดผลสมุนไพร 160 มล.',145,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78915b49-124b-11ed-8a84-000d3a196655','8850094237200','น่ารัก แชมพูเด็ก คาโมมายด์ 90มล',657,8,67,219,624,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3122,7 +3122,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789176b0-124b-11ed-8a84-000d3a196655','8850094257055','น่ารัก แชมพูเด็ก กลิ่นจัสมิน300มล',657,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78917728-124b-11ed-8a84-000d3a196655','8850094287021','น่ารัก แชมพูเด็ก มังคุด 90มล',657,8,67,219,624,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789177c6-124b-11ed-8a84-000d3a196655','8850094287038',' น่ารัก แชมพูเด็ก มังคุด 200มล',657,8,67,219,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891783f-124b-11ed-8a84-000d3a196655','8850094287045','น่ารัก แชมพูเด็ก กลิ่นมังคุด 300มล',657,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789178b4-124b-11ed-8a84-000d3a196655','8850094292056','น่ารัก สบู่เหลวอาบและสระ สีชมพู 290ml',657,8,67,219,285,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891792c-124b-11ed-8a84-000d3a196655','8850094727022','แชมพูสมุนไพรเทียร่า มะกรูด 240 มล.',145,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3133,7 +3133,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78917b8b-124b-11ed-8a84-000d3a196655','8850348300193','ดอกบัวคู่ ครีมนวดผม ไหมทองบำรุงผมเสีย 70 มล.',572,7,37,124,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78917c03-124b-11ed-8a84-000d3a196655','8850348300315','ดอกบัวคู่ แชมพูสมุนไพร ไหมทอง บำรุงผมเสีย 180 มล.',572,7,37,124,159,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78917c92-124b-11ed-8a84-000d3a196655','8850348320009','ดอกบัวคู่ ครีมนวดผม มะกรูดขจัดรังแค 200 มล.',572,7,37,124,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78917d0b-124b-11ed-8a84-000d3a196655','8850348400169','ดอกบัวคู่ ครีมนวดผม ไหมทองบำรุงผมเสีย 200 มล.',572,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78917d94-124b-11ed-8a84-000d3a196655','8850360040008','วีท ครีมขจัดขนสำหรับผิวธรรมดา 25 กรัม',849,7,37,124,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78917e0b-124b-11ed-8a84-000d3a196655','8850398080335',' เบอริน่า ครีมย้อมผม A22',174,7,37,124,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3144,7 +3144,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78918121-124b-11ed-8a84-000d3a196655','8850460987920','โลแลน แชมพูปิดผมขาว N5 30มล.',353,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789181a1-124b-11ed-8a84-000d3a196655','8850460989252','โลแลน แชมพูปิดผมขาว N6 30g ',353,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78918219-124b-11ed-8a84-000d3a196655','8850460989627','โลแลน แชมพูปิดผมขาว N4 30g ',353,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78918291-124b-11ed-8a84-000d3a196655','8850460989634','โลแลน แชมพูปิดผมขาว N3 30g ',353,7,37,124,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78918307-124b-11ed-8a84-000d3a196655','8850460990623','โลแลน แชมพูปิดผมขาว N2 30มล.',353,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78918399-124b-11ed-8a84-000d3a196655','8850460990630','โลแลน แชมพูปิดผมขาว N1 30มล.',353,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3155,7 +3155,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891ab78-124b-11ed-8a84-000d3a196655','8850518020272','ดิ๊ฟโซ สเปรย์เน็ทบริสุทธิ์ ชนิดแข็ง(ม่วง) 220 มล.',580,7,37,124,225,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891ac31-124b-11ed-8a84-000d3a196655','8850518020289','ดิ๊ฟโซ สเปรย์เน็ทบริสุทธิ์ ชนิดแข็ง(ฟ้า) 220 มล.',580,7,37,124,225,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891acae-124b-11ed-8a84-000d3a196655','8850518020807','ดิ๊ฟโซ น้ำมันสมานและบำรุงเส้นผม (แบบกด) 85 มล.',580,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891ad29-124b-11ed-8a84-000d3a196655','8850518050149','ดิ๊ฟโซ ผงฟอกสีผม สีทอง ',580,7,37,124,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891ada2-124b-11ed-8a84-000d3a196655','8850518052112','ดิ๊ฟโซ ครีมเปลี่ยนสีผม S01 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891ae1b-124b-11ed-8a84-000d3a196655','8850518052211','ดิ๊ฟโซ ครีมเปลี่ยนสีผม S10 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3166,7 +3166,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891b0a2-124b-11ed-8a84-000d3a196655','8850518060636','ดิ๊ฟโซ ครีมเปลี่ยนสีผม VB28 ',580,7,37,124,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b11c-124b-11ed-8a84-000d3a196655','8850518060643','ดิ๊ฟโซ ครีมเปลี่ยนสีผม V18 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b194-124b-11ed-8a84-000d3a196655','8850518060735','ดิ๊ฟโซ ครีมเปลี่ยนสีผม V01 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891b20a-124b-11ed-8a84-000d3a196655','8850518060797','ดิ๊ฟโซ ครีมเปลี่ยนสีผม V02 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b284-124b-11ed-8a84-000d3a196655','8850518080016','ดิ๊ฟโซ ครีมเปลี่ยนสีผม V19 60 มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b2fb-124b-11ed-8a84-000d3a196655','8850518080061','ดิ๊ฟโซ ครีมเปลี่ยนสีผม VB26 60มล.',580,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3177,7 +3177,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891b596-124b-11ed-8a84-000d3a196655','8851144261220','ดีแคช ปิดผมขาว สีน้ำตาลธรรมชาติ 30 ml.',583,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b60c-124b-11ed-8a84-000d3a196655','8851144270178','ดีแคช ครีมเปลี่ยนสีผม AH701 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b683-124b-11ed-8a84-000d3a196655','8851144273438','มาสเตอร์ ครีมเปลี่ยนสีผม CP504 60 กรัม',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891b6fb-124b-11ed-8a84-000d3a196655','8851144273742','มาสเตอร์ ครีมเปลี่ยนสีผม B000 60 กรัม',583,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b78a-124b-11ed-8a84-000d3a196655','8851144273780','มาสเตอร์ ครีมเปลี่ยนสีผม HG933 60 กรัม',583,7,37,124,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891b804-124b-11ed-8a84-000d3a196655','8851144273834','มาสเตอร์ ครีมเปลี่ยนสีผม HL1111 60 กรัม',583,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3188,7 +3188,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891bb5b-124b-11ed-8a84-000d3a196655','8851144281075','ดีแคช ครีมเปลี่ยนสีผม MB201 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891bbd9-124b-11ed-8a84-000d3a196655','8851144281105','ดีแคช ครีมเปลี่ยนสีผม MG602 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891bc4e-124b-11ed-8a84-000d3a196655','8851144281112','ดีแคช ครีมเปลี่ยนสีผม H900 50 มล.',583,7,37,124,477,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891bcc5-124b-11ed-8a84-000d3a196655','8851144281136','ดีแคช ครีมเปลี่ยนสีผม MG803 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891bd3e-124b-11ed-8a84-000d3a196655','8851144281150','ดีแคช ครีมเปลี่ยนสีผม MG570 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891bdb5-124b-11ed-8a84-000d3a196655','8851144281181','ดีแคช ครีมเปลี่ยนสีผม GH999/2 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3199,7 +3199,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891c01e-124b-11ed-8a84-000d3a196655','8851144281402','ดีแคช ครีมเปลี่ยนสีผม GB800 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c092-124b-11ed-8a84-000d3a196655','8851144281501',' ดีแคลช ยาย้อมผมRR833',583,7,37,124,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c125-124b-11ed-8a84-000d3a196655','8851144281525','ดีแคช ครีมเปลี่ยนสีผม GR617 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891c1a2-124b-11ed-8a84-000d3a196655','8851144281563','ดีแคช ครีมเปลี่ยนสีผม RV544 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c21a-124b-11ed-8a84-000d3a196655','8851144281570','ดีแคลช ยาย้อมผม RV447',583,7,37,124,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c291-124b-11ed-8a84-000d3a196655','8851144281594','ดีแคช ครีมเปลี่ยนสีผม PR733 50 มล.',583,7,37,124,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3210,7 +3210,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891c4ef-124b-11ed-8a84-000d3a196655','8851495002572','สคัลลี่ แชมพูขจัดเหา 20 มล.',870,7,37,124,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c566-124b-11ed-8a84-000d3a196655','8851818836754','แฟซ่า แชมพู สูตรเฟรช ดีโอ 340 มล.',271,7,37,124,338,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c74d-124b-11ed-8a84-000d3a196655','8851818983427','แฟซ่า เนเจอร์ คลีนแอนด์แคร์ สูตรสดชื่น 70 มล.',271,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891c7ce-124b-11ed-8a84-000d3a196655','8851818983434','แฟซ่า เนเจอร์ คลีนแอนด์แคร์ สูตรผมดำเงา 70 มล.',271,7,37,124,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c846-124b-11ed-8a84-000d3a196655','8851818983441','แฟซ่า เนเจอร์ คลีนแอนด์แคร์ สูตรลดผมขาดร่วง 70 มล.',271,7,37,124,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891c8c2-124b-11ed-8a84-000d3a196655','8851818983465','แฟซ่า แชมพูเนเจอร์ คลีนแอนด์แคร์ สูตรจัดทรงง่าย 70 มล.',271,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3221,7 +3221,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891cb1e-124b-11ed-8a84-000d3a196655','8851818983519','แฟซ่า แชมพูแบล็กแอนด์ชายน์ 170ml.',271,7,37,124,146,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891cb94-124b-11ed-8a84-000d3a196655','8851818983526','แฟซ่า แชมพู สูตรลดขาดร่วงพันกัน 170 มล.',271,7,37,124,145,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891cc0a-124b-11ed-8a84-000d3a196655','8851818983533','แฟซ่า แชมพู สูตรผมตรงไม่ลีบแบน 170 มล.',271,7,37,124,145,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891cca4-124b-11ed-8a84-000d3a196655','8851818983557','แฟซ่า แชมพู สูตรสดชื่นสบายหนังศรีษะ 340 มล.',271,7,37,124,338,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891cd36-124b-11ed-8a84-000d3a196655','8851818983625','แฟซ่า แชมพู สูตรผมดำเงางาม 340 มล.',271,7,37,124,337,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891cdb1-124b-11ed-8a84-000d3a196655','8851818983632','แฟซ่า แชมพู สูตรลดขาดร่วงพันกัน 340 มล.',271,7,37,124,337,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3232,7 +3232,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891d024-124b-11ed-8a84-000d3a196655','8851932227391','โดฟ แฮร์ฟอล เรซคิล แชมพู 70ml',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891d09c-124b-11ed-8a84-000d3a196655','8851932227407','โดฟ สเตรท แอนด์ซิลกี้ แชมพู 70ml',330,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891d111-124b-11ed-8a84-000d3a196655','8851932227414','โดฟ แชมพู นูทริทีฟโซลูชั่นอินเทนซ์รีแพร์ 70 มล.',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891d188-124b-11ed-8a84-000d3a196655','8851932227506','โดฟ อินเทนซ์ รีแพร์ เรซคิล ครีมนวด 460ml',330,7,37,124,437,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891d1ff-124b-11ed-8a84-000d3a196655','8851932227513','โดฟ คอนดิชั่นเนอร์บำรุงผม อินเทนซ์ รีแพร์ 460 มล',330,7,37,124,437,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891e143-124b-11ed-8a84-000d3a196655','8851932227537','โดฟ Hair Fall Rescue ออกชิเจน 480 มล.',330,7,37,124,445,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3243,7 +3243,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891f19e-124b-11ed-8a84-000d3a196655','8851932274852','โดฟ นอริชชิ่ง ออยส์ แคร์ แชมพู140ml',330,7,37,124,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f218-124b-11ed-8a84-000d3a196655','8851932280686','โดฟ นอริชชิ่ง ออยล์ แคร์ แชมพู 450ml',330,7,37,124,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f293-124b-11ed-8a84-000d3a196655','8851932284059','ซันซิล โคตรีเอชัน ผมมีน้ำหนัก ทรีตเม้นท์ 15ml',540,7,37,124,125,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891f314-124b-11ed-8a84-000d3a196655','8851932290289','โดฟครีมนวดผม อินเทนซ์รีแพร์สีน้ำเงิน 12 มล.',330,7,37,124,79,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f392-124b-11ed-8a84-000d3a196655','8851932292504','โดฟ แชมพู นอริชชิ่ง ออยล์แคร์ 70 มล.',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f42e-124b-11ed-8a84-000d3a196655','8851932301596','ซันซิล โคตรีเอชัน ผมตรงสมบูรณ์แบบ ทรีตเม้นท์ 15ml',540,7,37,124,125,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3254,7 +3254,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7891f6b2-124b-11ed-8a84-000d3a196655','8851932347266','โดฟ นอริชชิ่ง ออยส์ แคร์ ครีมนวด130ml',330,7,37,124,87,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f72b-124b-11ed-8a84-000d3a196655','8851932348782','เคลียร์ คอมพลีต ซอฟต์แคร์ แชมพูขจัดรังแค 480 มล.',102,7,37,124,446,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891f7a3-124b-11ed-8a84-000d3a196655','8851932351140','โดฟ แชมพูสระผม ไมเซล่า 70 มล.',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7891f81a-124b-11ed-8a84-000d3a196655','8851932351157','โดฟ Volume ไมเซล่า ออกชิเจน 140 มล.',330,7,37,124,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7891ff29-124b-11ed-8a84-000d3a196655','8851932351188','โดฟ แชมพูสระผม ไมเซล่า 450 มล.',330,7,37,124,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78920042-124b-11ed-8a84-000d3a196655','8851932351249','โดฟ คอนดิชั่นเนอร์บำรุงผม ไมเซล่า 450 มล.',330,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3265,7 +3265,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789202a6-124b-11ed-8a84-000d3a196655','8851932354103','ซัลซิล แชมพู สูตรเฮนน่าคอมเพล็กซ์ แบล็ค ไชน์ 70 มล.',540,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892031d-124b-11ed-8a84-000d3a196655','8851932354110','ซันซิล แชพู สูตรแดเมจ รีสโตร์ แอคทีฟ-อินฟิวส์ชั่น 70 มล.',540,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78920399-124b-11ed-8a84-000d3a196655','8851932354127','ซันซิล แชมพูสระผม สูตรเฮลธีเฮอร์ แอนด์ ลอง 70 มล.',540,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78920446-124b-11ed-8a84-000d3a196655','8851932354202','ซันซิล เพอร์เฟค สเตรท แชมพู แอคทีฟ อินฟิวส์ชั่น140 มล.',540,7,37,124,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789204c3-124b-11ed-8a84-000d3a196655','8851932354257','ซันซิล ครีมนวด สูตรผมนุ่มลื่นเรียบสวย 425 มล.',540,7,37,124,408,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892053c-124b-11ed-8a84-000d3a196655','8851932354264','ซันซิล ครีมนวด สูตรมีน้ำหนักจัดทรงง่าย 425 มล.',540,7,37,124,408,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3276,7 +3276,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789207f0-124b-11ed-8a84-000d3a196655','8851932354516','ซันซิล ครีมนวดผม สูตรแอคทีฟ-อินฟิวส์ชั่น 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892086f-124b-11ed-8a84-000d3a196655','8851932354523','ซันซิล ครีมนวด สูตรเพอร์เฟค สเตรท 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789208e6-124b-11ed-8a84-000d3a196655','8851932354530','ซันซิลแชมพู ครีมบำรุงผม สูตรบำรุงผมเสีย 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78920961-124b-11ed-8a84-000d3a196655','8851932354547','ซันซิล ครีมนวด สูตรเฮลธีเฮอร์ แอนด์ ลอง 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789209db-124b-11ed-8a84-000d3a196655','8851932354899','ซันซิล บำรุงผมเสียในทันที 425 มล.',540,7,37,124,408,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78920a6f-124b-11ed-8a84-000d3a196655','8851932356510','ซันซิล โคตรีเอชัน ผมยาวสวยสุขภาพดี ทรีตเม้นท์ 15ml',540,7,37,124,125,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3287,7 +3287,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789223e8-124b-11ed-8a84-000d3a196655','8851932360159','ซันซิล ครีมนวด สูตรผมยาวสวยสุขภาพดี120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892246a-124b-11ed-8a84-000d3a196655','8851932362757','โดฟ คอนดิชั่นเนอร์บำรุงผม อินเทนซ์ รีแพร์ 70 มล',330,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789224e5-124b-11ed-8a84-000d3a196655','8851932362764','โดฟครีมนวดผม นูริชชิ่ง ออยล์แคร์สีทอง 70 มล.',330,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78922562-124b-11ed-8a84-000d3a196655','8851932364447','โดฟ คอนดิชั่นเนอร์บำรุงผม ไมเซล่า 70 มล.',330,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789225da-124b-11ed-8a84-000d3a196655','8851932367059','เคลียร์ ซากุระ เฟรช ครีมนวด สูตรหอมนาน 300มล.',102,7,37,124,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78922670-124b-11ed-8a84-000d3a196655','8851932370462','ซัลซิลลีฟออนครีมสีชมพู 40 มล.',540,7,37,124,400,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3298,7 +3298,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78924141-124b-11ed-8a84-000d3a196655','8851932378215','ซันซิล แชมพูสระผม สูตรอัลมอนด&ฮันนี่ 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789241c0-124b-11ed-8a84-000d3a196655','8851932378222','ซันซิล แชมพู กรีนที แอนด์ เลมอน ดีท๊อกซ์ 60 มล.',540,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924239-124b-11ed-8a84-000d3a196655','8851932378239','ซันซิล แชมพู อัลมอนด์ แอนด์ ฮันนี่ 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789242b2-124b-11ed-8a84-000d3a196655','8851932378246','ซันซิล แชมพู โคโคนัท ไฮเดรชั่น 60 มล.',540,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892432c-124b-11ed-8a84-000d3a196655','8851932378307','ซันซิล แชมพู กรีนที แอนด์ เลมอน ดีท๊อกซ์ 450 มล.',540,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789243a6-124b-11ed-8a84-000d3a196655','8851932378338','ซันซิล แชมพู กรีนที แอนด์ เลมอน ดีท๊อกซ์ 320 มล.',540,7,37,124,324,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3309,7 +3309,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892463c-124b-11ed-8a84-000d3a196655','8851932382946','เคลียร์ สูตรเฮอร์บัลแคร์ 310 มิลลิลิตร',102,7,37,124,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789246b6-124b-11ed-8a84-000d3a196655','8851932383080','ซันซิล แชมพูโคโคนัท ไฮเดรชั่น 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924732-124b-11ed-8a84-000d3a196655','8851932383097','ซันซิล คอนดิชั่นเนอร์ โคโคนัท ไฮเดรชั่น 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789247ae-124b-11ed-8a84-000d3a196655','8851932386838','ซันซิล แชมพู ซากุระแอนด์ราสป์เบอร์รี่ 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924824-124b-11ed-8a84-000d3a196655','8851932386845','ซันซิล แชมพู ซากุระแอนด์ราสป์เบอร์รี่ 320 มล.',540,7,37,124,324,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924a2e-124b-11ed-8a84-000d3a196655','8851932386869','ซันซิล ครีมนวด ซากุระแอนด์ราสป์เบอร์รี่ 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3320,7 +3320,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78924c99-124b-11ed-8a84-000d3a196655','8851932391719','เคลียร์ แชมพู บำรุงหนังศรีษะให้ผมนุ่มลื่น 330 มล.',102,7,37,124,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924d13-124b-11ed-8a84-000d3a196655','8851932391726','เคลียร์ แชมพู ลดการขาดร่วงเส้นผม 10 เท่า 330 มล.',102,7,37,124,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924da4-124b-11ed-8a84-000d3a196655','8851932391986','เคลียร์ แชมพู ขจัดรังแค สูตรเย็นสุดขั้ว 65 มล.',102,7,37,124,540,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78924e1d-124b-11ed-8a84-000d3a196655','8851932391993','เคลียร์ แชมพู ขจัดรังแค คอมพลีต ชอฟต์แคร์ 65 มล.',102,7,37,124,539,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924e95-124b-11ed-8a84-000d3a196655','8851932392006','เคลียร์ แชมพู ขจัดรังแค ซากุระ เฟรส 65 มล.',102,7,37,124,540,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78924f0b-124b-11ed-8a84-000d3a196655','8851932392013','เคลียร์ แชมพู ขจัดรังแค แอดวานซ์ แอนตี้ แฮร์ฟอล 65 มล.',102,7,37,124,540,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3331,7 +3331,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78925303-124b-11ed-8a84-000d3a196655','8851932395151','เคลียร์เมน แชมพู สูตรคูลสปอร์ตเมนทอล 145 มิลลิลิตร',102,7,37,124,104,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892537e-124b-11ed-8a84-000d3a196655','8851932395168','เคลียร์ ซากุระ เฟรช แชมพู สูตรหอมนาน 145 มล.',102,7,37,124,104,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789253f3-124b-11ed-8a84-000d3a196655','8851932395809','เคลียร์ เมน แชมพู สูตรดีพคลีนส์ 145 มิลลิลิตร',102,7,37,124,104,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78925468-124b-11ed-8a84-000d3a196655','8851932395816','เคลียร์เมน แอนตี้แฮร์ฟอล 145ml',102,7,37,124,104,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789255b2-124b-11ed-8a84-000d3a196655','8851932395823','เคลียร์ แชมพู ลดผมขาดร่วง แอดวานซ์ แอนตี้ แฮร์ฟอล  145 มล.',102,7,37,124,104,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892566e-124b-11ed-8a84-000d3a196655','8851932395830','เคลียร์ แชมพูขจัดรังแค คอมพลีต ซอฟต์แคร์  145 มล.',102,7,37,124,104,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3342,7 +3342,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789258bd-124b-11ed-8a84-000d3a196655','8851932401562','ซันซิล วอเตอร์เมลอน แอนด์ มินท์ ครีมนวด 450มล.',540,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78925933-124b-11ed-8a84-000d3a196655','8851932401616','ซันซิลเนเชอรัล แชมพู วอเตอร์เมลอน&มินท์ 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789259a9-124b-11ed-8a84-000d3a196655','8851932401647','ซันซิลวอเตอร์เมลอน แอนด์ มินท์ แชมพู 450มล.',540,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78925a1d-124b-11ed-8a84-000d3a196655','8851932403528','เคลียร์ แชมพู สูตรโบทานิคสแคลป์แคร์ 150 มล.',102,7,37,124,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78925a91-124b-11ed-8a84-000d3a196655','8851932403665','เคลียร์ แชมพู ส้มยูสุ & มิ้นท์ หอมสดชื้น 330 มล.',102,7,37,124,332,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78925b06-124b-11ed-8a84-000d3a196655','8851932403672','เคลียร์ แชมพู ยูซุ & มิ้นท์ แอนตี้แดนดรัฟ 480 มล.',102,7,37,124,446,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3353,7 +3353,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892734a-124b-11ed-8a84-000d3a196655','8851932407298','เคลียร์ แชมพู สกาล์ปแคร์ ยูซุ&มิ้นท์ 145ml',102,7,37,124,104,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789273c4-124b-11ed-8a84-000d3a196655','8851932407403','ซันซิล คอลลาเจนฟิลเลอร์ ครีมนวด พาวเวอร์ไชน์70 มล.',540,7,37,124,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892743e-124b-11ed-8a84-000d3a196655','8851932408813','ซันซิล ซอฟท์ แอนด์ สมูท เซรั่มคอนดิชั่นเนอร์ 120 มล.',540,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789274b7-124b-11ed-8a84-000d3a196655','8851932409001','ซันซิล สมูท แอนด์ เมเนจเจเบิ้ล เซรั่มคอนดิชั่นเนอร์ 120 มล.',540,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892752f-124b-11ed-8a84-000d3a196655','8851932409018','ซันซิล แดเมจ รีสโตร์ เซรั่มคอนดิชั่นเนอร์ 105 มล.',540,7,37,124,42,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789275d0-124b-11ed-8a84-000d3a196655','8851932409025','ซันซิล เฮลธีเฮอร์ แอนด์ ลอง เซรั่มคอนดิชั่นเนอร์ 120 มล.',540,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3364,7 +3364,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892784e-124b-11ed-8a84-000d3a196655','8851932412308','เคลียร์ แชมพู ขจัดรังแค ไอซี่ ซากุระ 65 มล.',102,7,37,124,540,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789278c8-124b-11ed-8a84-000d3a196655','8851932412834','ซันซิล  เนเชอรัล เพอร์ฟูม บลอสซัม โรส วอเตอร์ & มิกซ์ เบอร์รี่ 120 มล.',540,7,37,124,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78927957-124b-11ed-8a84-000d3a196655','8851932412872','ซันซิล แชมพูสระผม สูตรเดซี่&พีช 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789279cf-124b-11ed-8a84-000d3a196655','8851932412957','โดฟ แชมพู ดีท็อกซ์ นอริชเม้นท์ 70ml',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78927a44-124b-11ed-8a84-000d3a196655','8851932412964','โดฟ ดีท็อกซ์ นอริชเม้นท์ แชมพู 140ml',330,7,37,124,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78927b1d-124b-11ed-8a84-000d3a196655','8851932413039','โดฟ ดีท็อกซ์ นอริชเม้นท์ ครีมนวด 130ml',330,7,37,124,87,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3375,7 +3375,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78927e9a-124b-11ed-8a84-000d3a196655','8851932413541','ซันซิล ครีมนวด โรสวอเตอร์&มิกซ์เบอร์รี่ 60 มล.',540,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78927f10-124b-11ed-8a84-000d3a196655','8851932413572','ซันซิล คอนดิชันเนอร์ สูตรเดซี่&พีช 120 มล.',540,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78927fa3-124b-11ed-8a84-000d3a196655','8851932413589','ซันซิล คอนดิชันเนอร์ สูตรเดซี่&พีช 60 มล.',540,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892801b-124b-11ed-8a84-000d3a196655','8851932414807','ซันซิล ครีมนวด โรส วอเตอร์ & มิกซ์ เบอร์รี่ 425 มล',540,7,37,124,409,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78928093-124b-11ed-8a84-000d3a196655','8851932414814','ซันซิล คอนดิชันเนอร์ สูตรเดซี่&พีช 425 มล.',540,7,37,124,409,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78928380-124b-11ed-8a84-000d3a196655','8851932414821','ซันซิล แชมพู โรสวอเตอร์&มิกซ์เบอร์รี่ 425 มล.',540,7,37,124,409,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3386,7 +3386,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789285ff-124b-11ed-8a84-000d3a196655','8851932416726','ซันซิล ครีมนวด สูตรแบล็คไซน์ เซรั่ม 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892867a-124b-11ed-8a84-000d3a196655','8851932417822','ซันซิล เบอกาม็อท & บัตเตอร์ฟลาย แชมพู 450มล.',540,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789286f2-124b-11ed-8a84-000d3a196655','8851932417846','ซันซิล เนชันรัล เบอกาม็อก&บัตเตอร์ฟลาย พี แอนตี้ แฮร์ฟอลล์ แชมพู 150มล',540,7,37,124,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892a5a0-124b-11ed-8a84-000d3a196655','8851932417853','ซันซิล เบอกาม็อท & บัตเตอร์ฟลาย ครีมนวด 450มล.',540,7,37,124,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892a695-124b-11ed-8a84-000d3a196655','8851932419123','ซันซิลแชมพู Natural มะกรูดอัญชัญ 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892a718-124b-11ed-8a84-000d3a196655','8851932419222','โดฟ แชมพูสระผม ไมเซล่า 140 มล.',330,7,37,124,100,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3397,7 +3397,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892a97d-124b-11ed-8a84-000d3a196655','8851932433679','ซันซิล แชมพู ไฮเดรนเยีย&แพร 60 มล.',540,7,37,124,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892aa07-124b-11ed-8a84-000d3a196655','8851932438568','โดฟ แชมพู เฟรช นอริชเม้นท์ 70ml',330,7,37,124,564,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892aa81-124b-11ed-8a84-000d3a196655','8851932438575','โดฟ แชมพู เฟรช นอริชเม้นท์ 140ml',330,7,37,124,100,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892aaf6-124b-11ed-8a84-000d3a196655','8851932440653','เคลียร์ แชมพูขจัดรังแค อิทช์ ฟรี 65 มล.',102,7,37,124,540,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892ab6f-124b-11ed-8a84-000d3a196655','8851989020181','ทรอส ESCUDO cologne 100 มล.',621,7,37,124,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892abe4-124b-11ed-8a84-000d3a196655','8851989020785','ทรอส Hair gel Extra Hold 45 กรัม',621,7,37,124,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3408,7 +3408,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892ae7b-124b-11ed-8a84-000d3a196655','8851989021492','ทรอส EXTRENE Sport 100 มล.',621,7,37,124,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892aef0-124b-11ed-8a84-000d3a196655','8851989021553','ทรอส ทินิโคโลน escudo 20 ml',621,7,37,124,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892b65c-124b-11ed-8a84-000d3a196655','8852053008500','แคริ่ง อีซี่ แชมพูเปลี่ยนสีผม B1 30 มล.',254,7,37,124,87,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892b6df-124b-11ed-8a84-000d3a196655','8852053008517','แคริ่ง อีซี่ เฮอร์บัล คัลเลอร์ แชมพู สูตร B2 10ml',254,7,37,124,53,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892b779-124b-11ed-8a84-000d3a196655','8852262924684','พรีม่า เฟรซ ไฮยาลูรอน 6 กรัม',712,7,37,124,553,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892b7f6-124b-11ed-8a84-000d3a196655','8852658040110','สบันงา เฮอเบิล สมุนไพรขัดหน้า 12 กรัม',872,7,37,124,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3419,7 +3419,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892ba57-124b-11ed-8a84-000d3a196655','8852658070216','สบันงา แชมพู สูตรอันชัน ผสมทานตะวัน 250 มล.',872,7,37,124,249,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892bb07-124b-11ed-8a84-000d3a196655','8853801027958','เอลราเคิล อินเนอร์แฮร์ครีม 30ml',239,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892bb81-124b-11ed-8a84-000d3a196655','8853801028030','กรีนไบโอ ซุปเปอร์ ทรีทเมต์ ครีม 30 ml.',425,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892bbfa-124b-11ed-8a84-000d3a196655','8853801030712','เอลราเคิล โอ๊เด็อเล็คซ คอนโทรล 30ml.',239,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892bc74-124b-11ed-8a84-000d3a196655','8853801035113','ลาน่า เออรืเบิลโกสต์ ทรีทเมนต์ ครีม 80ml.',816,7,37,124,598,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892bcec-124b-11ed-8a84-000d3a196655','8853801035779','ลาน่า เฮอร์เบิลสปาทรีทเมนต์ สูตรเพิ่มนุ่มลื่น 30ml',816,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3430,7 +3430,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892bf61-124b-11ed-8a84-000d3a196655','8855115004212','ซันออน ซิลกี้ ซอฟ อาหารผมสูตรเข้มข้น 240 มล.',543,7,37,124,243,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892bfdc-124b-11ed-8a84-000d3a196655','8855115005509','ซันออน สเปรย์เนท ผสมิตามินอี สีฟ้า 220 ml.',543,7,37,124,225,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892c054-124b-11ed-8a84-000d3a196655','8855115005608','ซันออน สเปรย์เนท ผสมิตามินอี สีชมพู 120 ml.',543,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892c0e1-124b-11ed-8a84-000d3a196655','8855115006018','ซันออน น้ำยาล้างเล็บเกรด A 400 มล.',543,7,37,124,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892c15d-124b-11ed-8a84-000d3a196655','8855115006025','ซันออน น้ำยาล้างเล็บเกรด A 120 มล.',543,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892d5e5-124b-11ed-8a84-000d3a196655','8855115006032','ซันออน น้ำยาล้างเล็บ 60ml.',543,7,37,124,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3441,7 +3441,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892d878-124b-11ed-8a84-000d3a196655','8855115008333','ซันออน สูตรปกป้องเส้นผมจากแสง UV(แบบกด) 85 มล.',543,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892d8f5-124b-11ed-8a84-000d3a196655','8855115008418','ซันออน สูตรปรับสภาพเส้นผมและรากผมแข็งแรง 85 มล.',543,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892d96e-124b-11ed-8a84-000d3a196655','8855115008425','ซันออน สูตรเส้นผมดกดำเงางามนุ่มสลวย 85 มล.',543,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892d9ea-124b-11ed-8a84-000d3a196655','8855115008432','ซันออน สูตรปกป้องเส้นผมจากแสง UV 85 มล.',543,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892da62-124b-11ed-8a84-000d3a196655','8855115009026','ซันออน บำรุงเส้นผม สมุนไพรดอกทานตะวัน 100 มล.',543,7,37,124,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892dad9-124b-11ed-8a84-000d3a196655','8855115009071','ซันออน บำรุงเส้นผม สูตรสมุนไพรมะกรูด 1 ออนช์.',543,7,37,124,187,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3452,7 +3452,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892ef8a-124b-11ed-8a84-000d3a196655','8856680007523','ลีกาโน่ วิตามินบำรุงผม 200 มล.',824,7,37,124,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f02b-124b-11ed-8a84-000d3a196655','8857124639010','พิณนารา เซรั่มน้ำมันมะพร้าว 85 ml.',722,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f0a8-124b-11ed-8a84-000d3a196655','8857125271028','เฮอร์ซาเน่ สมุนไพรอันชัน 85 มล.',248,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892f122-124b-11ed-8a84-000d3a196655','8857125271042','เฮอร์ซาเน่ แฮร์โทนิค สมุนไพรอันชัน สูตรคลูเมนทอล ',248,7,37,124,606,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f19e-124b-11ed-8a84-000d3a196655','8857125271080','เฮอร์ซาเน่ Silky serumnhair restoration 250 มล.',248,7,37,124,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f214-124b-11ed-8a84-000d3a196655','8857125271141','กลิทเดอร์ สเปรย์เคลือบเงาเส้นผม 120 มล.',426,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3463,7 +3463,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892f472-124b-11ed-8a84-000d3a196655','8859249000171','ซิลกี้แฮร์โคท ควอลิตี้ น้ำมันบำรุงผม 30 มล.',677,7,37,124,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f612-124b-11ed-8a84-000d3a196655','8859249000188','บัวเงินแฮร์โคท ควอลิตี้ มันบำรุงผม 85มล.',677,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f6d3-124b-11ed-8a84-000d3a196655','8859249000195','สมุนไพรบัวเงิน(แฮร์โค้ท สูตรสมุนไพรแท้) 85มล.',677,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7892f762-124b-11ed-8a84-000d3a196655','8859249000249','บัวเงินแฮร์โคท น้ำมันบำรุงผม 85มล.',677,7,37,124,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f7dd-124b-11ed-8a84-000d3a196655','8859249000416','บัวเงิน เซรั่มบำรุงเส้นผม สูตรสาหร่าย 120มล.',677,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892f856-124b-11ed-8a84-000d3a196655','8859249000614','บัวเงิน เคราตินแฮร์ สีทอง 120 ml',677,7,37,124,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3474,7 +3474,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7892fc4a-124b-11ed-8a84-000d3a196655','8992304035494','ลอรีอัล ปารีส  แอลเซฟ ฟอล รีซีสต์ แอนไท แฮร์ฟอล คอนดิชั่นเนอร์450มล',814,7,37,124,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892fd89-124b-11ed-8a84-000d3a196655','8992304054129','ลอรีอัลปารีส ครีมนวดผม 110 ml. Elseve total Repair 5 ',814,7,37,124,59,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7892fe0f-124b-11ed-8a84-000d3a196655','8992304054136','ลอรีอัลปารีส แชมพู 110 ml. Elseve total Repair 5 ',814,7,37,124,59,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78930b35-124b-11ed-8a84-000d3a196655','8992304054143','ลอรีอัลปารีส แชมพู 110 ml. Elseve keratin smooth72H',814,7,37,124,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78930bfc-124b-11ed-8a84-000d3a196655','8992304071645','ลอรีอัลปารีส แชมพู 110 ml. Elseve Extraordinary Oil',814,7,37,124,59,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78930c7e-124b-11ed-8a84-000d3a196655','8992304071669','ลอรีอัลปารีส ครีมนวดผม 110 ml. Elseve keratin smooth72H',814,7,37,124,59,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3485,7 +3485,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78930edb-124b-11ed-8a84-000d3a196655','90653564','แพนทีน แชมพู ผมนุ่มลื่น 70 มล.',270,7,37,124,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78930f52-124b-11ed-8a84-000d3a196655','91781593','รีจอยส์ ครีมนวดผม เมนเทล ขจัดรังแค 3 in 1 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78931140-124b-11ed-8a84-000d3a196655','91816331','รีจอยส์ ครีมนวดผม สารสกัดน้ำมันมะพร้าว 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789311c2-124b-11ed-8a84-000d3a196655','91816360','รีจอยส์ ครีมนวดผม มอยส์เจอร์ สมูธ 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893123d-124b-11ed-8a84-000d3a196655','91816380','รีจอยส์ ครีมนวดผม สมูทเซรั่ม 60 มล.',809,7,37,124,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789312b9-124b-11ed-8a84-000d3a196655','4005808190041','นีเวีย เมน ไวท์ ออยล์ เคลียร์ 20 กรัม',663,7,42,140,207,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3496,7 +3496,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78931538-124b-11ed-8a84-000d3a196655','4005808662982','นีเวีย เมน แบล็ค แอนด์ ไวท์ สเปรย์ 50ml.',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789315b4-124b-11ed-8a84-000d3a196655','4005808718962','นีเวีย เมน STRESS protect 50 มล.',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893162c-124b-11ed-8a84-000d3a196655','4005808757473','นีเวีย super White pearl foam 100ml',663,7,42,140,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789316b4-124b-11ed-8a84-000d3a196655','4005808757749','นีเวีย เพิร์ล ไวท์ 5อิน1 ฟิลเลอร์โฟม 50 g',663,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893172e-124b-11ed-8a84-000d3a196655','4005808758036','นีเวีย เซรั่ม 8g.',663,7,42,140,615,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789317a9-124b-11ed-8a84-000d3a196655','4005808888351','นีเวีย เมน เอ็กตร้า ไวท์โฟม 50 g',663,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3507,7 +3507,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78932f92-124b-11ed-8a84-000d3a196655','42184690','นีเวีย เมน คูล คิก สเปรย์ 50ml',663,7,44,149,477,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893306e-124b-11ed-8a84-000d3a196655','42288565','นีเวีย เพิร์ล แอนด์ บิวตี้ โรลออน 12 มล.',663,7,42,140,79,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789330eb-124b-11ed-8a84-000d3a196655','42333265','นีเวีย เมน คูล พาวเดอร์ โรลออน 25 มล.',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78933167-124b-11ed-8a84-000d3a196655','42333289','นีเวีย ไวท์เทนนิ่ง พาวเดอร์ โรลออน 25 ml',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789331df-124b-11ed-8a84-000d3a196655','42361008','นีเวีย ทานาคา โรลออน 25 ml',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933256-124b-11ed-8a84-000d3a196655','42361022','นีเวีย เมน โรลออน ทานาคา 25 มล.',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3518,7 +3518,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893357a-124b-11ed-8a84-000d3a196655','4800888193940','พอนด์ส ไบร์ท บิวตี้ เซรั่ม เดย์ ครีม spf15 pa+++ 6กรัม',714,7,42,140,553,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789335f8-124b-11ed-8a84-000d3a196655','4902430046046','โอเลย์ บำรุงหน้า white radiance SPF 19 UVA 30 ml',363,7,42,140,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933672-124b-11ed-8a84-000d3a196655','4902430142571','โอเลย์ โททัล ไวท์ครีม สปอต เฟดดิ้ง 8 กรัม',363,7,42,140,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789336ee-124b-11ed-8a84-000d3a196655','4902430519083','โอเลย์ เนเจอรัล ไวท์โฟมมิ้ง 20 g',363,7,42,140,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933789-124b-11ed-8a84-000d3a196655','4902430753302','โอเลย์ ผลิตภัณฑ์บำรุงผิวหน้า Natural white 25g',363,7,42,140,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933803-124b-11ed-8a84-000d3a196655','4902430822312','โอเลย์ ผลิตภัณฑ์บำรุงผิวหน้า Nigth cream 12g',363,7,42,140,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3529,7 +3529,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78933bed-124b-11ed-8a84-000d3a196655','4902430990523','โอเลย์ ผลิตภัณฑ์บำรุงผิวหน้า white radiance 30 ml',363,7,42,140,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933c6a-124b-11ed-8a84-000d3a196655','7319470012141','นีเวีย เมน Extra White 50g',663,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933ce2-124b-11ed-8a84-000d3a196655','8850007652519','คลีนแอนด์เคลีย โฟมมิ่ง เฟซ วอช 20 มล.',452,7,42,140,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78933d5b-124b-11ed-8a84-000d3a196655','8850007652823','คลีนแอนด์เคลียร์ แอคเน่ เคลียริ่ง คลีนเซอร์ 40 g',452,7,42,140,399,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933de8-124b-11ed-8a84-000d3a196655','8850007652892','คลีน แอนด์ เคลียร์ โฟมมิ่ง เฟช วอช 100 มล. x2',452,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78933e67-124b-11ed-8a84-000d3a196655','8850007660286','คลีน แอนด์ เคลียร์ โทนเนอร์ 100 มล. (แพ็คคู่)',452,7,42,140,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3540,7 +3540,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789340da-124b-11ed-8a84-000d3a196655','8850029000923','นีเวีย เมน แอคเน่ ออยล์ เคลียร์ เฟซ โฟม 100 กรัม',663,7,42,140,37,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78934158-124b-11ed-8a84-000d3a196655','8850029001678','นีเวีย ไวท์ เดย์ 8 มล.',663,7,42,140,616,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789341cf-124b-11ed-8a84-000d3a196655','8850029004440','นีเวีย เมน คลู คิท โรลออน 12 ml',663,7,44,149,79,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78934246-124b-11ed-8a84-000d3a196655','8850029009254','นีเวีย เอ็กซ์ตร้า ไวท์ แอนด์ เฟิร์น โรลออน 25 มล.',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789342be-124b-11ed-8a84-000d3a196655','8850029009278','นีเวีย เอ็กตร้าไวท์ แอนด์เฟริม คิวเท็น 50 ml',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78934337-124b-11ed-8a84-000d3a196655','8850029010298','นีเวีย make up 20g.',663,7,42,140,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3551,7 +3551,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789345b9-124b-11ed-8a84-000d3a196655','8850029016344','นีเวีย เมน ไวท์ ออยล์ เคลียร์ มอยส์เจอร์ ยูวี 8มล.',663,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893466e-124b-11ed-8a84-000d3a196655','8850029016429','นีเวีย เมน เอ็กซ์ตร้า ไวท์ 8 มล.',663,7,42,140,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789346ea-124b-11ed-8a84-000d3a196655','8850029016788','นีเวีย ไวท์เทนนิ่ง พาวเดอร์ โรลออน 50 ml',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78936076-124b-11ed-8a84-000d3a196655','8850029019550','นีเวีย เมน คูล พาวเดอร์ โรลออน 50 มล.',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789361ca-124b-11ed-8a84-000d3a196655','8850029020266','นีเวีย Protect 50 มล.',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893625e-124b-11ed-8a84-000d3a196655','8850029021867','นีเวียร์ วานิลลา 400มล.',663,7,42,140,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3562,7 +3562,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789364c7-124b-11ed-8a84-000d3a196655','8850029025278','นีเวีย เมน ดีพ แบล็ค โรลอน 25 ml',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893653c-124b-11ed-8a84-000d3a196655','8850029025292','นีเวีย เมน ดีพ แบล็ค โรลออน 50 ml',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789365b8-124b-11ed-8a84-000d3a196655','8850029025872','นีเวียร์ เอ็กตร้า ไวท์ 400มล.',663,7,42,140,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893665d-124b-11ed-8a84-000d3a196655','8850029028057','นีเวีย oil control foam 50g',663,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789366d7-124b-11ed-8a84-000d3a196655','8850029029672','นีเวีย เมน DEEP Black charcoal espresso โรลออน 50มล.',663,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78936752-124b-11ed-8a84-000d3a196655','8850029029696','นีเวีย เมน ดีพ กรีน โรออน 50 ml',663,7,42,140,451,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3573,7 +3573,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789369cd-124b-11ed-8a84-000d3a196655','8850029030487','นีเวีย เมน แอคเน่ ออยล์ เคลียร์ เฟซ มัด โฟม 100กรัม',663,7,42,140,37,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78936a45-124b-11ed-8a84-000d3a196655','8850029032948','นีเวีย เมน ดีพ ราพิด แอคเน่ เคลียร์ เซรั่ม 8 มล.',663,7,42,140,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78936abc-124b-11ed-8a84-000d3a196655','8850029033037','นีเวีย โลชั่นบำรุงผิว สูตรซี แอนด์ เอ 30 มล. ซอง',663,7,42,140,312,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78936b57-124b-11ed-8a84-000d3a196655','8850029212333','นีเวีย แบล็ค แอนด์ ไวท์ อินวิซิเบิ้ล เพียว 25 ml',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78936cd1-124b-11ed-8a84-000d3a196655','8850029816111','นีเวีย ดราย คอมฟอร์ด 50 ml',663,7,44,149,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78936d4e-124b-11ed-8a84-000d3a196655','8850029816128','นีเวีย ดราย คอมฟอร์ท โรลออน 25 ml.',663,7,42,140,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3584,7 +3584,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78936fc6-124b-11ed-8a84-000d3a196655','8850434182504','การ์นิเย่ สกิน แนทเชอรัลส์ ไบร์ท คอมพลีท วิตามินซี เซรั่ม 7.5 มล.',432,7,42,140,557,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789370e5-124b-11ed-8a84-000d3a196655','8850784778136','รอว์ร่า สบู่สมุนไพรกลั่น 170 กรัม',803,7,42,140,145,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893717d-124b-11ed-8a84-000d3a196655','8850784994710','เบนเนท อโรม่า สบู่ก้อน 160 กรัม',155,7,42,140,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789371f5-124b-11ed-8a84-000d3a196655','8850784994727','เบนเนท สบู่ก้อน สูตรวิตามินอี 130 กรัม',155,7,42,140,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893726d-124b-11ed-8a84-000d3a196655','8850784994734','เบนเนท สบู่ก้อน สูตรวิตามินอีผสมขมิ้น 130 กรัม',155,7,42,140,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789372e5-124b-11ed-8a84-000d3a196655','8850784994741','เบนเนท เอ็กซ์ตร้า ไวท์ สบู่ก้อน 130 กรัม',155,7,42,140,86,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3595,7 +3595,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78937556-124b-11ed-8a84-000d3a196655','8850822150139','เค.เอ รีล ไวท์ ดีโอ โรลออน Tidy 25 มล.',97,7,42,140,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789375d0-124b-11ed-8a84-000d3a196655','8850822150146','เค.เอ รีล ไวท์ ดีโอ โรลออน Grace 25 มล.',97,7,42,140,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937648-124b-11ed-8a84-000d3a196655','8850822150153','เค.เอ รีล ไวท์ ดีโอ โรลออน Freshly 25 มล.',97,7,42,140,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789376be-124b-11ed-8a84-000d3a196655','8850822185025','เค.เอ. ผลิตภัณฑ์ล้างหน้า ไวท์ โฟม 50 กรัม',97,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937735-124b-11ed-8a84-000d3a196655','8850822186039','เค.เอ. ไวท์ ไนท์ เซรั่ม 15 กรัม',97,7,42,140,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937861-124b-11ed-8a84-000d3a196655','8850822190159','เค.เอ. ไวท์เมจิก ซีซี SPF30 7 มล.',97,7,42,140,588,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3606,7 +3606,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78937ad3-124b-11ed-8a84-000d3a196655','8851818054387','บีโอเร สกินแครฺริ่ง เฟเชี่ยล โฟม 20g.',36,7,42,140,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937b76-124b-11ed-8a84-000d3a196655','8851818182868','บีโอเร ครีบอาบน้ำ สูตรอัลตร้า ริช มอยส์ 550 มล.',36,7,42,140,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937bf1-124b-11ed-8a84-000d3a196655','8851818183087','บีโอเร ครีบอาบน้ำ สูตรเชียร์ฟูล ซากุระ 550 มล.',36,7,42,140,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78937c80-124b-11ed-8a84-000d3a196655','8851818199552','บีโอเร สกิน แคร์ริ่ง เฟเชี่ยล โฟม เพียว เพอร์เฟกต์ 100 กรัม',36,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937d07-124b-11ed-8a84-000d3a196655','8851818199576','บีโอเร สกิน แคร์ริ่ง เฟเชี่ยล โฟม เพียว ออยล์ เคลียร์ 100 กรัม',36,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78937d8b-124b-11ed-8a84-000d3a196655','8851818199583','บีโอเร สกินแคร์ริ่ง เฟเชี่ยล โฟม 50g.',36,7,42,140,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3617,7 +3617,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78937fdc-124b-11ed-8a84-000d3a196655','8851826041102','ดร.มนตรี สบู่ล้างหน้า สูตรดาร์คสปอตรีมูฟ 80 กรัม',567,7,42,140,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938053-124b-11ed-8a84-000d3a196655','8851826041218','ดร.มนตรี สบู่ล้างหน้า แอคเน่ โซฟ ทานาคา 70 กรัม',567,7,42,140,563,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789380cd-124b-11ed-8a84-000d3a196655','8851826042215','ดร.มนตรี สบู่ล้างหน้า สำหรับผิวมัน 70 กรัม',567,7,42,140,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78938144-124b-11ed-8a84-000d3a196655','8851826044110','ดร.มนตรี ล้างหน้า แอคเน่แอนด์ออยล์คอนโทรล 25 กรัม',567,7,42,140,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789381ba-124b-11ed-8a84-000d3a196655','8851826044219','ดร.มนตรี ล้างหน้า แอคเน่แอนด์ออยล์คอนโทรล 62.50g',567,7,42,140,523,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938261-124b-11ed-8a84-000d3a196655','8851826044318','ดร.มนตรี ล้างหน้า แอคเน่แอนด์ออยล์คอนโทรล 125 กรัม',567,7,42,140,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3628,7 +3628,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789384cc-124b-11ed-8a84-000d3a196655','8851826045605','Dr.Montri โฟมล้างหน้าสูตร เพื่อผิวเรียบเนียน และขจัดความมัน 125 กรัม',567,7,42,140,74,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893854c-124b-11ed-8a84-000d3a196655','8851826048118','ดร.มนตรี ล้างหน้า ไวท์เทนนิ่งแอนด์ออยล์คอน 25 กรัม',567,7,42,140,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893879a-124b-11ed-8a84-000d3a196655','8851826048217','ดร.มนตรี ล้างหน้า ไวท์เทนแอนด์ออยล์คอน 62.50 กรัม',567,7,42,140,523,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893882a-124b-11ed-8a84-000d3a196655','8851826048316','Dr.Montri โฟมล้างหน้า สูตรเพื่อผิวกระจ่างใส และขจัดความมัน',567,7,42,140,74,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938a20-124b-11ed-8a84-000d3a196655','8851932082983','พอนด์ส เลมอนโคลด์ครีม 60 มล',714,7,42,140,521,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938aa5-124b-11ed-8a84-000d3a196655','8851932111805','พอนด์ส พิงคิช ไวท์ โกลว์ เฟส พาวเดอร์ 50 g',714,7,42,140,474,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3639,7 +3639,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78938d1f-124b-11ed-8a84-000d3a196655','8851932179690','พอนด์ส ล้างหน้า สูตรเคลียร์ โซลูชั่น 50 กรัม',714,7,42,140,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938d96-124b-11ed-8a84-000d3a196655','8851932187176','วาสลีน ดีโอ แอคทีฟ 75 กรัม',836,7,42,140,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938e0d-124b-11ed-8a84-000d3a196655','8851932187190','วาสลีน สบู่ผสมสารบำรุงผิว healthy white 65 กรัม',836,7,42,140,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78938e81-124b-11ed-8a84-000d3a196655','8851932187213','วาสลีน สบู่ผสมสารบำรุงผิว icy cool 75 กรัม',836,7,42,140,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938ef5-124b-11ed-8a84-000d3a196655','8851932187237','วาสลีน สบู่ผสมสารบำรุงผิว total moisture 75 กรัม',836,7,42,140,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78938f85-124b-11ed-8a84-000d3a196655','8851932199179','พอนด์ส เอจ มิราเคิล ยูธฟูล โกลว์ เฟเชียล คลีนเซอร์ 100 กรัม',714,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3650,7 +3650,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789391f5-124b-11ed-8a84-000d3a196655','8851932301572','พอนด์ส เมจิก บีบี พาวเดอร์ 50 g',714,7,42,140,474,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78939268-124b-11ed-8a84-000d3a196655','8851932313278','วาสลีน สบู่ผสมสารบำรุงผิว active nourish 75 กรัม',836,7,42,140,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789392da-124b-11ed-8a84-000d3a196655','8851932351416','วาสลีน เมน ล้างหน้า สูตรออยเอ็กซ์เพิร์ท 100กรัม',432,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893934f-124b-11ed-8a84-000d3a196655','8851932375719','วาสลีน สูตรเพียว รีแพริ่ง 50 มล.',836,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789393c3-124b-11ed-8a84-000d3a196655','8851932376051','วาสลีน เฮลตี้ ไวท์ SPF24 550ml.',836,7,42,140,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78939436-124b-11ed-8a84-000d3a196655','8851932389570','พอนด์ส บำรุงผิวหน้า ไวท์ บิวตี้ 7 กรัม โทนอัพ',714,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3661,7 +3661,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893967d-124b-11ed-8a84-000d3a196655','8851932401852','วาสลีน สูตรโกโก้ บัทเตอร์ 50 มล.',836,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789396f2-124b-11ed-8a84-000d3a196655','8851932403719','พอนด์ส ไวท์บิวตี้ โทนอัพครีม 7 g',714,7,42,140,586,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893a4ae-124b-11ed-8a84-000d3a196655','8851932408509','พอนด์ส บำรุงผิวหน้า ไวท์บิวตี้ เซรั่มเบอสท์ 7 กรัม',714,7,42,140,586,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893a595-124b-11ed-8a84-000d3a196655','8851932419871','พอนด์ส เอจ มิราเคิล ยูธฟูล โกลว์ เฟเชียล ทรีทเม้นท์ คลีนเซอร์ 15 กรัม',714,7,42,140,123,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893a61f-124b-11ed-8a84-000d3a196655','8851932426770','พอนด์ส เซรั่ม วิปโฟม ไบรท์ บิวตี้ 100 กรัม',714,7,42,140,37,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893a6c1-124b-11ed-8a84-000d3a196655','88531472','Clean & clear ผลิตภัณฑ์ทำความสะอาดผิวหน้า oil free 50 ml.',452,7,42,140,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3672,7 +3672,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893a91b-124b-11ed-8a84-000d3a196655','8857119430561','พอลล่า ครีมหน้าขาว 8 g',716,7,42,140,615,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893a991-124b-11ed-8a84-000d3a196655','8857119430578','พอลล่า ครีมทาสิว 5 g',716,7,42,140,510,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893aa04-124b-11ed-8a84-000d3a196655','8857122751127','แจม สบู่น้ำนมข้าว 100g',258,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893aa7a-124b-11ed-8a84-000d3a196655','8857122751172','แจม สบู่มะขาม นมแพะ100g',258,7,42,140,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893aaed-124b-11ed-8a84-000d3a196655','8857122751820','แจม สบู่มะขาม 65g',258,7,42,140,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893b27d-124b-11ed-8a84-000d3a196655','8858832555555','สบู่สมุนไพรกลั่นพอลล่า 150 กรัม',716,7,42,140,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3683,7 +3683,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893b4f1-124b-11ed-8a84-000d3a196655','8858891600555','แจม สบู่น้ำนมข้าว160g',258,7,42,140,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893b567-124b-11ed-8a84-000d3a196655','8858891602887','แจม สบู่ทับทิม 65g',258,7,42,140,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893b5dc-124b-11ed-8a84-000d3a196655','8858902509532','อาร์คาเดีย สบู่สมุนไพร ไวท์เทนนิ่งมอยเจอร์ 125กรัม',928,7,42,140,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893b654-124b-11ed-8a84-000d3a196655','8859159202252','การอง สบู่สมุนไพร สูตรส้มวิตซี&อี 150 กรัม',26,7,42,140,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893b6cb-124b-11ed-8a84-000d3a196655','8859159202948','การอง สบู่สมุนไพร สูตรนมข้าวผสมน้ำแร่ 150 กรัม',26,7,42,140,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893b746-124b-11ed-8a84-000d3a196655','8859159202955','การอง สบู่สมุนไพร สูตรแทมมารีนมิกซ์ฮันนี่ 150 กรัม',26,7,42,140,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3694,7 +3694,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893b9db-124b-11ed-8a84-000d3a196655','8859213000466','ธญญพร สบู่สมุนไพรมะขาม ผสมน้ำนมจมูกข้าว 90 กรัม',645,7,42,140,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893ba53-124b-11ed-8a84-000d3a196655','8859213000732','ธญญพร สบู่สมุนไพรมะขาม ผสมน้ำผึ้ง 90 กรัม',645,7,42,140,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893bac8-124b-11ed-8a84-000d3a196655','8859213001425','ธญญพร สบู่สมุนไพรมะขาม นมแพะ ผสมน้ำผึ้ง 90 กรัม',645,7,42,140,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893bb3f-124b-11ed-8a84-000d3a196655','8859213001449','ธญญพร สบู่สมุนไพรน้ำนมจมูกข้าว ผสมคอลลาเจน 90 กรัม',645,7,42,140,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893bbc7-124b-11ed-8a84-000d3a196655','8859213001593','ธญญพร สบู่สมุนไพรขมิ้น ขิง น้ำผึ้ง 90 กรัม',645,7,42,140,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893bc3d-124b-11ed-8a84-000d3a196655','8859213001661','จีน่าโกลด์ สบู่สมุนไพร ส้มผสมน้ำผึ้ง วิตC 120 กรัม',500,7,42,140,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3705,7 +3705,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893be99-124b-11ed-8a84-000d3a196655','8992304018503','การ์นิเย่ เมน เทอร์โบไลท์ ออยคอนโทรล เซรั่ม 7 มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893c6e4-124b-11ed-8a84-000d3a196655','8992304019340','การ์นิเย่ เพียวแอ็กทีฟออย เคลียริ่งโฟม(ฟ้า) 50 มล.',432,7,42,140,477,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893c77c-124b-11ed-8a84-000d3a196655','8992304019388','การ์นิเย่ สกิน แนทเชอรัลส์ เพียว แอคทีฟ แอคเน่ แอนด์ ออยล์ เคลียริง โฟม 50 มล.',432,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893c805-124b-11ed-8a84-000d3a196655','8992304033896','การ์นิเย่ ซากุระ ไวท์ 50 มล.',432,7,42,140,477,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893c87b-124b-11ed-8a84-000d3a196655','8992304033919','การ์นิเย่ บำรุงผิวหน้า ซากุระไวท์ พิงคิชโกลว์ 7มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893ca76-124b-11ed-8a84-000d3a196655','8992304039607','การ์นิเย่ เมน ล้างหน้า สูตรวาซาบิ 50 กรัม',432,7,42,140,477,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3716,7 +3716,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893cd04-124b-11ed-8a84-000d3a196655','8992304071027','การ์นิเย่ เมน บำรุงผิวหน้า สูตรแอคโนไฟท์ 7 มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893cd7b-124b-11ed-8a84-000d3a196655','8992304077845','การืนิเย่ ล้างหน้า ซากุระ ไวท์ 15มล.',432,7,42,140,125,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893cdf4-124b-11ed-8a84-000d3a196655','8992304078460','การ์นิเย่ บำรุงผิวหน้า เอจเลส ไวท์ 7 มล.',432,7,42,140,588,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893ce8a-124b-11ed-8a84-000d3a196655','8992304082009','การ์นิเย่ บอดี้ ซากุระ ไวท์ 50มล.',432,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893cf02-124b-11ed-8a84-000d3a196655','8994993001323','การ์นิเย่ เมน ล้างหน้า สูตรเทอร์โบไลท์ ออย คอนโทรล 3อิน1 100 กรัม',432,7,42,140,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893cf84-124b-11ed-8a84-000d3a196655','8994993001378','การ์นิเย่เมน ล้างหน้า สูตรออยคอนโทรลชาร์โคล 50กรัม',432,7,42,140,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3727,7 +3727,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893d299-124b-11ed-8a84-000d3a196655','8999999001988','วาสลีน เมน ล้างหน้า สูตรออย คอนโทรล 100 กรัม',432,7,42,140,37,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d321-124b-11ed-8a84-000d3a196655','8999999034023','วาสลีน เมน แอนตี้ แอ็คเน่ 50 g',836,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d398-124b-11ed-8a84-000d3a196655','8999999034030','วาสลีน เมน แอนตี้ แอ็คเน่ 100กรัม ',836,7,42,140,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893d40f-124b-11ed-8a84-000d3a196655','8999999040000','พอนด์ส เจล สูตรมีฟอง 50 ml',714,7,42,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d489-124b-11ed-8a84-000d3a196655','8999999045111','การ์นิเย่ เมน ล้างหน้า สูตรแอนตี้ แอ็คเน่ 15 กรัม',432,7,42,140,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d51f-124b-11ed-8a84-000d3a196655','8999999045128','วาสลีน เมน ล้างหน้า ออยล์ คอนโทรล เฟซ วอช 15 กรัม',836,7,42,140,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3738,7 +3738,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893d79d-124b-11ed-8a84-000d3a196655','8999999058746','พอนด์ส ล้างหน้า สูตรไวท์ บิวตี้ 50 กรัม',714,7,42,140,474,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d813-124b-11ed-8a84-000d3a196655','8999999058753','พอนด์ส pure white anty-pollution -purify 50 ml',714,7,42,140,477,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d88e-124b-11ed-8a84-000d3a196655','992304056345','การ์นิเย่ ล้างหน้า ไลท์ คอมพลีท 15 มล.',432,7,42,140,125,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893d906-124b-11ed-8a84-000d3a196655','8850886011100','Lactacid ผลิตภัณฑ์ทำความสะอาดจุดซ่อนเร้น 60 มล.',290,7,53,177,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d97c-124b-11ed-8a84-000d3a196655','6908594417027','ลอริเอะ กลางคืน ซุปเปอร์อัลตร้าสลิม 0.1 8ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893d9f3-124b-11ed-8a84-000d3a196655','8850007330752','แคร์ฟรี แผ่นอนามัย ซุปเปอร์ ดราย 8 ชิ้น ',253,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3749,7 +3749,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893e42f-124b-11ed-8a84-000d3a196655','8850007371403','โมเดส มีปีก วันมามาก 23cm. 8 ชิ้น',345,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893e4e2-124b-11ed-8a84-000d3a196655','8850007372028','โมเดส แผ่นอนามัย มีปีก 4 ชิ้น',345,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893e55a-124b-11ed-8a84-000d3a196655','8850007372257','โมเดส แผ่นอนามัย กลางคืน มีปีก 4 ชิ้น',345,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893e5d0-124b-11ed-8a84-000d3a196655','8850007372820','โมเดส สปิริต แผ่นอนามัย กลางวัน มีปีก 5 ชิ้น',345,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893e64e-124b-11ed-8a84-000d3a196655','8850007373186','โมเดส แผ่นอนามัย Spirit 8 ชิ้น',345,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893e6c5-124b-11ed-8a84-000d3a196655','8850007374008','โมเดส แผ่นอนามัย ซีเคียว มีปีก 4+1 ชิ้น',345,8,61,209,514,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3760,7 +3760,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893e943-124b-11ed-8a84-000d3a196655','8851111104017','โซฟี แผ่นอนามัย ปีกกลางวัน 3ชั้น นุ่ม 22ซม. 4 ชิ้น',327,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f130-124b-11ed-8a84-000d3a196655','8851111105014','โซฟี ผ้าอนามัย สำหรับกลางคืน 29ซม. 4 ชิ้น',327,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f1ca-124b-11ed-8a84-000d3a196655','8851111105021','โซฟี แบบกระชับแบบกลางคืน 29ซม 8+1ชิ้น',327,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893f245-124b-11ed-8a84-000d3a196655','8851111105038','โซฟี ผ้าอนามัย สำหรับกลางคืน 29ซม. 16 ชิ้น',327,8,61,209,140,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f2bc-124b-11ed-8a84-000d3a196655','8851111113019','โซฟี คูลลิ่ง เฟรช กลางวัน 23cm 6 ชิ้น',327,8,61,209,555,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f333-124b-11ed-8a84-000d3a196655','8851111113033','โซฟี คูลลิ่ง เฟรช กลางวัน 23cm 12 ชิ้น',327,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3771,7 +3771,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893f67d-124b-11ed-8a84-000d3a196655','8851111135011','โซฟี คูลลิ่งเฟรช 42ซม 4ชิ้น',327,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f7eb-124b-11ed-8a84-000d3a196655','8851111141067','โซฟี แผ่นอนามัย ปีกกลางวัน ซึมซับเร็ว 22ซม. 5 ชิ้น',327,8,61,209,514,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f868-124b-11ed-8a84-000d3a196655','8851111152049','โซฟี แผ่นอนามัย แบบกระชับ สำหรับกลางวัน 4 ชิ้น ',327,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893f8e1-124b-11ed-8a84-000d3a196655','8851111153053','โซฟี ผ้าอนามัย คูลลิ่ง เฟรซ สลิม 14 ชิ้น',327,8,61,209,105,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f980-124b-11ed-8a84-000d3a196655','8851111153084','โซฟี ผ้าอนามัย คูลลิ่ง เฟรซ สลิม 4 ชิ้น',327,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893f9fc-124b-11ed-8a84-000d3a196655','8851111153176','โซฟี แผ่นอนามัยคูลลิ่งเฟรซ สารแตงกวา 23ซม. 4 ชิ้น',327,8,61,209,209,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3782,7 +3782,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7893fc79-124b-11ed-8a84-000d3a196655','8851111159062','โซฟี แผ่นอนามัยคูลลิ่งเฟรซ สารแตงกวา 29ซม. 4 ชิ้น',327,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893fd17-124b-11ed-8a84-000d3a196655','8851111159154','โซฟี คูลลิ่งเฟรช เอ็กซ์ตร้า 29ซม 12ชิ้น',327,8,61,209,80,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893fd93-124b-11ed-8a84-000d3a196655','8851111160013','โซฟี คูลลิ่งเฟรช ผ้าอนามัยแบบกลางคืน 35ซม',327,8,61,209,555,6,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7893fe09-124b-11ed-8a84-000d3a196655','8851111162017','โซฟี แผ่นอนามัย สำหรับกลางคืน 35ซม. 4 ชิ้น',327,8,61,209,461,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7893fe7f-124b-11ed-8a84-000d3a196655','8851111162055','โซฟี แผ่นอนามัย สำหรับกลางคืน 35ซม. 8 ชิ้น',327,8,61,209,617,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78940061-124b-11ed-8a84-000d3a196655','8851111164011','ลอริเอะ แบบกระชับ กลางคืน 42cm. 4 ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3793,7 +3793,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789402e6-124b-11ed-8a84-000d3a196655','8851111200153','Sofy แผ่นอนามัย คอมฟอร์ท เฟรช มีกลิ่นหอม',327,8,61,209,204,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78940362-124b-11ed-8a84-000d3a196655','8851111201075','Sofy แผ่นอนามัย คอมฟอร์ท เฟรช ไม่มีน้ำหอม',327,8,61,209,204,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789403da-124b-11ed-8a84-000d3a196655','8851111261017','โซฟี แผ่นอนามัย Pure Care Aroma 20 ชิ้น',327,8,61,209,210,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78940450-124b-11ed-8a84-000d3a196655','8851111270019','โซฟี แผ่นอนามัย คูลลิ่ง เฟรซ แบบบาง 16 ชิ้น',327,8,61,209,140,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789404c5-124b-11ed-8a84-000d3a196655','8851111270033','โซฟี แผ่นอนามัย คูลลิ่ง เฟรซ แบบบาง 32 ชิ้น',327,8,61,209,329,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894053d-124b-11ed-8a84-000d3a196655','8851111270088',' Sofy แผ่นอนามัย คูลลิ่งเฟรช 16ชิ้น มีกลิ่นหอม',327,8,61,209,140,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3804,7 +3804,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894081e-124b-11ed-8a84-000d3a196655','8851818054998','ลอรีเอะ แผ่นอนามัยกลางคืน Extra Protec 35ซม. 4ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789408b2-124b-11ed-8a84-000d3a196655','8851818055001','ลอรีเอะ แผ่นอนามัยกลางคืน Extra Protec 35ซม. 8ชิ้น',813,8,61,209,617,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894092e-124b-11ed-8a84-000d3a196655','8851818056442','ลอริเอะ กลางคืน ซอร์ฟ&เซฟ 30ซม 3+1ชิ้น',813,8,61,209,461,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78940b12-124b-11ed-8a84-000d3a196655','8851818056459','ลอริเอะ ผ้าอนามัย30 ซม 6ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78940bfc-124b-11ed-8a84-000d3a196655','8851818074866','ลอริเอะ ซุปเปอร์อัลตร้าสลิม0.1 9ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78940c7a-124b-11ed-8a84-000d3a196655','8851818092235','ลอริเอะ เนเชอรัล สลิม 22ซม',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3815,7 +3815,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78940f2c-124b-11ed-8a84-000d3a196655','8851818191761','ลอรีเอะ ผ้าอนามัย กลางวัน สลิมไม่มีปีก 20 ชิ้น',813,8,61,209,210,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78940fa6-124b-11ed-8a84-000d3a196655','8851818191778','ลอรีเอะ แผ่นอนามัย กลางวัน สลิมมีปีก 4 ชิ้น',813,8,61,209,461,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78943cce-124b-11ed-8a84-000d3a196655','8851818191785','ลอรีเอะ ผ้าอนามัย กลางวัน สลิมมีปีก 8 ชิ้น',813,8,61,209,617,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78943dc6-124b-11ed-8a84-000d3a196655','8851818191792','ลอรีเอะ ผ้าอนามัย กลางวัน สลิมมีปีก 16 ชิ้น',813,8,61,209,140,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78943e40-124b-11ed-8a84-000d3a196655','8851818191815','ลอรีเอะ ผ้าอนามัย กลางวัน แมกซี่ไม่มีปีก 5 ชิ้น',813,8,61,209,514,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78943eb4-124b-11ed-8a84-000d3a196655','8851818191822','ลอรีเอะ ผ้าอนามัย กลางวัน แม็กซี่ไม่มีปีก 10 ชิ้น',813,8,61,209,54,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3826,7 +3826,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789440fe-124b-11ed-8a84-000d3a196655','8851818191914','ลอริเอะ ซอฟท์แอนด์เซฟ กลางคืน 30cm. 8ชิ้น',813,8,61,209,617,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894419b-124b-11ed-8a84-000d3a196655','8851818191921','ลอรีเอะ แผ่นอนามัย กลางคืน Soft&Safe 30ซม. 16 ชิ้น',813,8,61,209,140,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944212-124b-11ed-8a84-000d3a196655','8851818216938','ลอรีเอะ แผ่นอนามัย Day super Unltra slim 4 ชิ้น',813,8,61,209,461,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78944286-124b-11ed-8a84-000d3a196655','8851818229464','ลอรีเอะ แผ่นอนามัย กลางวัน Anti-Bacteria 7 ชิ้น',813,8,61,209,589,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789442f8-124b-11ed-8a84-000d3a196655','8851818229587','ลอริเอะ กลางคืน ซุปเปอร์อัลตร้าสลิมคูล 0.1',813,8,61,209,555,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944393-124b-11ed-8a84-000d3a196655','8851818321007','ลอริเอะ อัลตร้าสลิม กลางคืน 30cm. 4 ชิ้น ',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3837,7 +3837,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789445d6-124b-11ed-8a84-000d3a196655','8851818544413','ลอรีเอะ แผ่นอนามัย เดลี่แอคทีฟ เฟรซฟลอรัล 20ชิ้น',813,8,61,209,210,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894464d-124b-11ed-8a84-000d3a196655','8851818557376','ลอรีเอะ ผ้าอนามัย กลางวัน Ultra Slim Cool 8 ชิ้น',813,8,61,209,617,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789446c1-124b-11ed-8a84-000d3a196655','8851818557574','ลอรีเอะ แผ่นอนามัย กลางวัน cool 7 ชิ้น',813,8,61,209,589,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78944735-124b-11ed-8a84-000d3a196655','8851818593329','ลอรีเอะ ผ้าอนามัย กลางวัน สลิมมีปีก 25ซม. 4 ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789447ab-124b-11ed-8a84-000d3a196655','8851818631403','ลอริเอะ ซุปเปอร์อัลตร้าสลิม 22.5ซม',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894481d-124b-11ed-8a84-000d3a196655','8851818729742','ลอรีเอะ ผ้าอนามัย กลางวัน Ultra Slim Cool 3 ชิ้น',813,8,61,209,385,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3848,7 +3848,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78944b12-124b-11ed-8a84-000d3a196655','8992727004145','ลอรีเอะ แผ่นอนามัยกลางคืน Soft & Safe 35ซม. 4ชิ้น',813,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944b83-124b-11ed-8a84-000d3a196655','8992727004152','ลอรีเอะ แผ่นอนามัย กลางคืน Soft & Safe 8 ชิ้น',813,8,61,209,617,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944c12-124b-11ed-8a84-000d3a196655','8851111158010','โซฟี แผ่นอนามัยคูลลิ่งเฟรซ สารแตงกวา 25ซม. 6 ชิ้น',327,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78944c88-124b-11ed-8a84-000d3a196655','8690536812288','Molfix ผ้าอ้อมเด็กสำเร็จรูป M 38ชิ้น',346,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944cfc-124b-11ed-8a84-000d3a196655','8690536812295','Molfix ผ้าอ้อมเด็กสำเร็จรูป L 32ชิ้น',346,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78944d71-124b-11ed-8a84-000d3a196655','8690536812301','Molfix ผ้าอ้อมเด็กสำเร็จรูปXL 28ชิ้น',346,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3859,7 +3859,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78944fa8-124b-11ed-8a84-000d3a196655','8850709200650','เบบี้เลิฟ playpants L 13 ชิ้น',163,8,61,209,92,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945032-124b-11ed-8a84-000d3a196655','8850709200667','เบบี้เลิฟ playpants XL 11 ชิ้น',163,8,61,209,64,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789450a7-124b-11ed-8a84-000d3a196655','8850709200674','เบบี้เลิฟ playpants XXL 9 ชิ้น',163,8,61,209,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894511a-124b-11ed-8a84-000d3a196655','8850709200896','เบบี้เลิฟ playpants M 20 ชิ้น',163,8,61,209,204,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894518b-124b-11ed-8a84-000d3a196655','8850709200919','เบบี้เลิฟ playpants XL 14 ชิ้น',163,8,61,209,105,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945213-124b-11ed-8a84-000d3a196655','8850709761120','เบบี้เลิฟ เดย์ไนท์ ผ้าอ้อมเด็ก M 4ชิ้น',163,8,67,219,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3870,7 +3870,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789455bd-124b-11ed-8a84-000d3a196655','8851111400225','มามี่โพโค extra dry skin XL 15ชิ้น',762,8,61,209,121,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945633-124b-11ed-8a84-000d3a196655','8851111400539','มามี่โพโค extra dry skin XXL 2 ชิ้น',762,8,61,209,291,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789456a6-124b-11ed-8a84-000d3a196655','8851111401550','มามี่โพโค extra dry skin girl XXL 10+1 ชิ้น',762,8,61,209,32,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78945717-124b-11ed-8a84-000d3a196655','8851111401642','Mamypoko premium extra dry 4 ชิ้น',762,8,61,209,456,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894578a-124b-11ed-8a84-000d3a196655','8851111412129','มามี่โพโค แพ้นท์ กางเกงผ้าอ้อมเด็ก 3 - 4 ชิ้น ',762,8,61,209,296,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945819-124b-11ed-8a84-000d3a196655','8851111417018','มามี่โพโค แพ้นท์ รุ้นแฮปปี้เดย์แอนด์ไนท์ S 4 ชิ้น',762,8,61,209,456,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3881,7 +3881,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78945a89-124b-11ed-8a84-000d3a196655','8851111419265','มามี่โพโค แพ้นท์ รุ่นแฮปปี้เดย์แอนด์ไนท์ L 14 ชิ้น',762,8,61,209,105,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945afc-124b-11ed-8a84-000d3a196655','8851111420230','มามี่โพโค แพ้นท์ รุ่นแฮปปี้เดย์แอนด์ไนท์ XL 13ชิ้น',762,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945b70-124b-11ed-8a84-000d3a196655','8851111420285','มามี่โพโค แพ้นท์ รุ่นแฮปปี้เดย์แอนด์ไนท์ XL 3ชิ้น',762,8,61,209,381,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78945be3-124b-11ed-8a84-000d3a196655','8851111421022','มามี่โพโค แพ้นท์ รุ่นแฮปปี้เดย์แอนด์ไนท์XXL 11ชิ้น',762,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945d19-124b-11ed-8a84-000d3a196655','8851111421060','มามี่โพโค แพ้นท์ รุ่นแฮปปี้เดย์แอนด์ไนท์ XXL 3ชิ้น',762,8,61,209,381,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78945da7-124b-11ed-8a84-000d3a196655','8851111421190','มามี่โพโค เดย์ไนท์XXL 11ชิ้น',762,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3892,7 +3892,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78946008-124b-11ed-8a84-000d3a196655','9557327007843','ดรายเพอร์ส Classic Pantz L 3 ชิ้น',568,8,61,209,381,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894607c-124b-11ed-8a84-000d3a196655','9557327007850','ดรายเพอร์ส Classic Pantz XL 3 ชิ้น',568,8,61,209,381,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789460f0-124b-11ed-8a84-000d3a196655','9557327007959','ดรายเพอร์ส classicPantz M 58ชิ้น',568,8,61,209,505,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78946162-124b-11ed-8a84-000d3a196655','4902430689328','ยิลเลตต์ มัคทรี ใบมีดโกน บรรจุ 2 ชิ้น',784,7,49,166,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789461d8-124b-11ed-8a84-000d3a196655','4902430733021','ยิลเลตต์ บลู 3×4 ชิ้น',784,7,49,166,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78946249-124b-11ed-8a84-000d3a196655','4902430788205','ยิลเลตต์ มัคทรี+',784,7,49,166,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3903,7 +3903,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789465fd-124b-11ed-8a84-000d3a196655','7702018997633','มีดโกน ยิลเลตต์ ซูเปอร์ติน ทู',784,7,49,166,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78946670-124b-11ed-8a84-000d3a196655','8850184120009','ยิลเล็ตต์ ซูเปอร์ คลิ๊ก',784,7,49,166,587,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789466fd-124b-11ed-8a84-000d3a196655','8888826016175','มีดโกน ยิลเลตต์ เวกเตอร์',784,7,49,166,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78946774-124b-11ed-8a84-000d3a196655','8888826016182','ยิลเล็ตต์ แว็คเตอร์',784,7,49,166,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78946e7c-124b-11ed-8a84-000d3a196655','8992765301008','ยิลเล็ตต์ ซูเปอร์ติน ทู',784,7,49,166,587,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78946f11-124b-11ed-8a84-000d3a196655','4800888193896','โคลสอัพ แปรงสีฟัน',320,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3914,7 +3914,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789471af-124b-11ed-8a84-000d3a196655','4891338027694','ดาร์ลี่ ยาสีฟัน สูตร Salt Fresh 140 กรัม',577,7,46,155,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947223-124b-11ed-8a84-000d3a196655','4891338028882','ดาร์ลี่ ยาสีฟัน สูตร Salt Fresh 75 กรัม',577,7,46,155,579,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947298-124b-11ed-8a84-000d3a196655','4891338032612','ดาร์ลี่ ยาสีฟัน สูตร Salt Charcoal 140 กรัม',577,7,46,155,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894730b-124b-11ed-8a84-000d3a196655','4891338032674','ดาร์ลี่ ยาสีฟัน สูตร Salt Charcoal 35 กรัม',577,7,46,155,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894737f-124b-11ed-8a84-000d3a196655','4891338034517','ดาร์ลี่ ยาสีฟัน สูตร Salt Charcoal 75 กรัม',577,7,46,155,579,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789473f5-124b-11ed-8a84-000d3a196655','4891338035736','ดาร์ลี่ ยาสีฟัน สูตร Salt Herbal 140 กรัม',577,7,46,155,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3925,7 +3925,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78947673-124b-11ed-8a84-000d3a196655','6920354817748','คอลเกต ยาสีฟันสตรอเบอร์รี่ เจล 40 กรัม',461,7,46,155,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789476e7-124b-11ed-8a84-000d3a196655','8850002000254','ซอลล์ ยาสีฟัน สูตรออริจินัล 40 กรัม',533,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894777c-124b-11ed-8a84-000d3a196655','8850002008915','ซอลล์ ยาสีฟัน สูตรออริจินัล 90 กรัม',533,7,46,155,623,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789477f9-124b-11ed-8a84-000d3a196655','8850002008922','ซอลล์ ยาสีฟัน สูตรออริจินัล 160 กรัม',533,7,46,155,130,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947895-124b-11ed-8a84-000d3a196655','8850002008939','ซอลล์ ยาสีฟัน Original 160 กรัม x 2',533,7,46,155,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894790b-124b-11ed-8a84-000d3a196655','8850002008946','ซอลล์ ยาสีฟัน สูตรเฟรซ 40 กรัม',533,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3936,7 +3936,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78947b69-124b-11ed-8a84-000d3a196655','8850002015241','โคโดโมยาสีฟันเจลองุ่น 40 กรัม',316,7,46,155,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947be3-124b-11ed-8a84-000d3a196655','8850002017283','ซิสเทมมา แปรงจัดฟัน M',551,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947c56-124b-11ed-8a84-000d3a196655','8850002017306','ซิสเทมมา แปรงจัดฟัน S',551,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78947cca-124b-11ed-8a84-000d3a196655','8850002017474','ซิสเท็มมา ไอซี่ มินต์ 40 กรัม',551,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947d3e-124b-11ed-8a84-000d3a196655','8850002017498','ซิสเท็มมา ไอซี่ มินต์ 90 กรัม',551,7,46,155,623,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78947db3-124b-11ed-8a84-000d3a196655','8850002017511','ซิสเท็มมา ไอซี่ มินต์ 160 กรัม',551,7,46,155,130,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3947,7 +3947,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78948200-124b-11ed-8a84-000d3a196655','8850002019003','แปรงสีฟัน systema L',551,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948273-124b-11ed-8a84-000d3a196655','8850002020429','ซิสเท็มมา เชอร์รี่ บลอสซั่ม 40 กรัม',551,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789482ea-124b-11ed-8a84-000d3a196655','8850002020443','ซิสเท็มมา เชอร์รี่ บลอสซั่ม 90 กรัม',551,7,46,155,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894835f-124b-11ed-8a84-000d3a196655','8850002020467','ซิสเท็มมา เชอร์รี่ บลอสซั่ม 160 กรัม',551,7,46,155,130,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789483f2-124b-11ed-8a84-000d3a196655','8850006202012','คอลเกต ยาสีฟัน สูตร Fresh Cool Mint 170 กรัม',461,7,46,155,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948504-124b-11ed-8a84-000d3a196655','8850006202562','คอลเกต ยาสีฟัน สูตร Fresh Cool Mint 150 กรัม×2',461,7,46,155,116,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3958,7 +3958,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789488ea-124b-11ed-8a84-000d3a196655','8850006233016','คอลเกต ยาสีฟัน สูตร Proven Cavity Protect 90 กรัม',461,7,46,155,623,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894895c-124b-11ed-8a84-000d3a196655','8850006234280','คอลเกต ยาสีฟัน Great regular flavor 35 กรัม',461,7,46,155,399,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948a01-124b-11ed-8a84-000d3a196655','8850006272015','คอลเกต ยาสีฟัน สูตร Double Cool Stripe 140 กรัม ',461,7,46,155,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78948a76-124b-11ed-8a84-000d3a196655','8850006273012','คอลเกต ยาสีฟัน สูตร Proven Cavity Protect 80 กรัม',461,7,46,155,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948ae8-124b-11ed-8a84-000d3a196655','8850006274019','คอลเกต ยาสีฟัน สูตร double cool stripe 35 กรัม',461,7,46,155,353,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948b57-124b-11ed-8a84-000d3a196655','8850006306871','คอลเกต น้ำยาบ้วนปาก สูตร Panjaved 250 มล. ',461,7,46,155,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3969,7 +3969,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78948e97-124b-11ed-8a84-000d3a196655','8850006322512','คอลเกต ยาสีฟัน สูตร Salt Herbal 35 กรัม',461,7,46,155,353,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948f0d-124b-11ed-8a84-000d3a196655','8850006324769','คอลเกต เกลือเฟรชมิ้นท์ 80g',461,7,46,155,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78948f7f-124b-11ed-8a84-000d3a196655','8850006324776','คอลเกต ยาสีฟัน สูตร Salt Xtra Fresh 150 กรัม',461,7,46,155,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78948ff2-124b-11ed-8a84-000d3a196655','8850006324783','คอลเกต ยาสีฟัน สูตร Fresh Cool Mint 150 กรัม x 2',461,7,46,155,116,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78949062-124b-11ed-8a84-000d3a196655','8850006325612','คอลเกต ยาสีฟัน สูตร Advance Fresh 30 กรัม',461,7,46,155,311,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789490d3-124b-11ed-8a84-000d3a196655','8850006325636','คอลเกต ยาสีฟัน สูตร Total Advance Fresh 150 กรัม',461,7,46,155,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3980,7 +3980,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78949336-124b-11ed-8a84-000d3a196655','8850006332498','คอลเกต แปรงสีฟัน กัมคลีน นุ่ม',461,7,46,155,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789493c3-124b-11ed-8a84-000d3a196655','8850006341292','คอลเกต โททอล ชาร์โคล ดีพ คลีน ครีม ยาสีฟัน 150กรัม',461,7,46,155,114,10,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78949438-124b-11ed-8a84-000d3a196655','8850006341339','คอลเกต ยาสีฟัน สูตร Charcoal Deep Clean 80 กรัม',461,7,46,155,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789494ad-124b-11ed-8a84-000d3a196655','8850006341537','คอลเกต ยาสีฟัน สูตร Salt Charcoal 150 กรัม x 2',461,7,46,155,116,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894966b-124b-11ed-8a84-000d3a196655','8850006341544','คอลเกต ยาสีฟัน สูตร Salt Charcoal 150 กรัม',461,7,46,155,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789496ed-124b-11ed-8a84-000d3a196655','8850006341551','คอลเกต ยาสีฟัน สูตรเกลือ ถ่านชาร์โคล ขนาด 80 กรัม',461,7,46,155,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -3991,7 +3991,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78949994-124b-11ed-8a84-000d3a196655','8850006343616','คอลเกต ยาสีฟัน สูตร Salt Double Clean 150 กรัม',461,7,46,155,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78949a0b-124b-11ed-8a84-000d3a196655','8850006343623','คอลเกต ยาสีฟัน สูตร Salt Double Clean 150 กรัม x 2',461,7,46,155,116,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78949a7d-124b-11ed-8a84-000d3a196655','8850006930069','คอลเกต ยาสีฟัน สูตร Total Advance Fresh 60 กรัม',461,7,46,155,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78949af3-124b-11ed-8a84-000d3a196655','8850006930762','คอลเกต ยาสีฟัน Great regular flavor 150 กรัมx3',461,7,46,155,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894a7e0-124b-11ed-8a84-000d3a196655','8850006930786','คอลเกต ยาสีฟัน สูตร Fresh Cool Mint 150 กรัม×3',461,7,46,155,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894a8be-124b-11ed-8a84-000d3a196655','8850006930977','คอลเกต ยาสีฟัน รสบับเบิ้ลฟรุต 40 กรัม',461,7,46,155,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4002,7 +4002,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894aafa-124b-11ed-8a84-000d3a196655','8850006940792','คอลเกต ยาสีฟัน สูตรเกลือ ถ่านชาร์โคล 100 กรัม',461,7,46,155,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ab6e-124b-11ed-8a84-000d3a196655','8850006940853','คอลเกต ยาสีฟัน สูตร Advance Fresh 80 กรัม',461,7,46,155,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ac01-124b-11ed-8a84-000d3a196655','8850006941867','คอลเกต ยาสีฟัน รสสตรอเบอร์รี่ 40 กรัม',461,7,46,155,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894ac78-124b-11ed-8a84-000d3a196655','8850006943298','คอลเกต ยาสีฟัน สมุนไพรดีท็อกซ์ รสซิตรัส มิ้นท์ 34 กรัม',461,7,46,155,341,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894acec-124b-11ed-8a84-000d3a196655','8850006944257','คอลเกต ยาสีฟัน Great regular flavor 100 กรัม',461,7,46,155,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ad5d-124b-11ed-8a84-000d3a196655','8850006946138','คอลเกต ยาสีฟัน สูตร Fresh Cool Mint 100 กรัม',461,7,46,155,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4013,7 +4013,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894afc1-124b-11ed-8a84-000d3a196655','8850090400424','เซ็นโซดายน์ เจนทัลไวเทนนิ่ง 160g.',120,7,46,155,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894b032-124b-11ed-8a84-000d3a196655','8850348110013','ดอกบัวคู่ ยาสีฟันสมุนไพรสูตรดั้งเดิม 100 กรัม',572,7,46,155,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894b0a6-124b-11ed-8a84-000d3a196655','8850348110051','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเฟรชแอนด์คูล 100 กรัม',572,7,46,155,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894b118-124b-11ed-8a84-000d3a196655','8850348110129','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเอเวอร์เฟรช 40 กรัม',572,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894b18b-124b-11ed-8a84-000d3a196655','8850348110143','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเอเวอร์เฟรช 100 กรัม',572,7,46,155,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894b200-124b-11ed-8a84-000d3a196655','8850348110167','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเอเวอร์เฟรช 150 กรัม',572,7,46,155,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4024,7 +4024,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894c4f6-124b-11ed-8a84-000d3a196655','8850348118279','ดอกบัวคู่ ยาสีฟัน สูตรเกลือสมุนไพร 150 กรัม x 2',572,7,46,155,116,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894c5ab-124b-11ed-8a84-000d3a196655','8850348118583','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรดั้งเดิม 30 กรัม',572,7,46,155,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894c643-124b-11ed-8a84-000d3a196655','8850348119313','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเซนซิทีฟ 90 กรัม x 2',572,7,46,155,625,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894c6bd-124b-11ed-8a84-000d3a196655','8850348119320','ดอกบัวคู่ ยาสีฟันสมุนไพร สูตรเซนซิทีฟ 140 กรัม x 2',572,7,46,155,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894c72f-124b-11ed-8a84-000d3a196655','8850348130028','ดอกบัวคู่ น้ำยาบ้วนปากสมุนไพร สูตรขิงมะนาว 250กรัม',572,7,46,155,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894c7a2-124b-11ed-8a84-000d3a196655','8850348207010','ดอกบัวคู่สบู่ก้อน 60 กรัม',572,7,46,155,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4035,7 +4035,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894eaad-124b-11ed-8a84-000d3a196655','8850348300018','ดอกบัวคู่ แชมพู ซีรั่ม ผมทำสี และ ดัดผม 180 มล.',572,7,46,155,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894eb31-124b-11ed-8a84-000d3a196655','8850348300391','ดอกบัวคู่ ซีรั่ม ผมทำสีและดัด 450ml',572,7,46,155,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ebdc-124b-11ed-8a84-000d3a196655','8850348300452','ดอกบัวคู่ แชมพูสมุนไพรไหมทอง 450ml.',572,7,46,155,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894ec5a-124b-11ed-8a84-000d3a196655','8850348310000','ดอกบัวคู่ ครีมนวดผม มะกรูดขจัดรังแค 70 มล.',572,7,46,155,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ece6-124b-11ed-8a84-000d3a196655','8850348310031','ดอกบัวคู่ มะกรูด แชมพู 200ml',572,7,46,155,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894ed64-124b-11ed-8a84-000d3a196655','8850348310062','ดอกบัวคู่ แชมพูสมุนไพร มะกรูด 450ml.',572,7,46,155,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4046,7 +4046,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894efc4-124b-11ed-8a84-000d3a196655','8850602031634','ยาสีฟันสมุนไพรจีน ก๊กเลี้ยง',420,7,46,155,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f03c-124b-11ed-8a84-000d3a196655','8850617110010','ทิพย์นิยม ยาสีฟันสมุนไพร สูตร Herbal 160 กรัม',635,7,46,155,130,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f0b3-124b-11ed-8a84-000d3a196655','8850617110027','ทิพย์นิยม ยาสีฟันสมุนไพร 40 กรัม',635,7,46,155,399,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894f182-124b-11ed-8a84-000d3a196655','8850886035014','ฟูลโอคารีล ออริจินัล 35g',740,7,46,155,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f1fd-124b-11ed-8a84-000d3a196655','8851007102516','เซ็นโซดายน์ เดลี่ โพรเทคชั่น 40 กรัม',120,7,46,155,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f28d-124b-11ed-8a84-000d3a196655','8851007195730','เซ็นโซดายน์ ยาสีฟัน มัลติแคร์ 50 g',120,7,46,155,474,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4057,7 +4057,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894f4e7-124b-11ed-8a84-000d3a196655','8851228000240','ดาร์ลี่ ยาสีฟัน สูตร Double Action 35 กรัม',577,7,46,155,353,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f55c-124b-11ed-8a84-000d3a196655','8851228006723','ดาร์ลี่ ยาสีฟัน สูตร Double Action 150×3 กรัม',577,7,46,155,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f5d2-124b-11ed-8a84-000d3a196655','8851228006983','ดาร์ลี่ ยาสีฟัน สูตร Double Action 150 กรัม x 2',577,7,46,155,116,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894f647-124b-11ed-8a84-000d3a196655','8851228007041','ดาร์ลี่ ยาสีฟัน ดับเบิ้ลแอคชั่น 170 ก.',577,7,46,155,145,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f6bd-124b-11ed-8a84-000d3a196655','8851340380350','คอลบาเด้นท์ ยาสีฟัน 35 กรัม',462,7,46,155,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894f733-124b-11ed-8a84-000d3a196655','8851340381609','คอลบาเด้นท์ ยาสีฟัน 160 กรัม',462,7,46,155,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4068,7 +4068,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894f9a5-124b-11ed-8a84-000d3a196655','8857123060051','เทพไทรสดั้งเดิม 30 กรัม',142,7,46,155,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894fa1a-124b-11ed-8a84-000d3a196655','8857123060099','เทพไทย ยาสีฟันสมุนไพร สูตรสเปียร์มิ้นท์ 30 กรัม',142,7,46,155,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894fa90-124b-11ed-8a84-000d3a196655','8857123060129','เทพไทย ยาสีฟันสมุนไพร สูตรมิกซ์ฟรุ๊ต 70 กรัม',142,7,46,155,563,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7894fb10-124b-11ed-8a84-000d3a196655','8857123060464','เทพไทรสดั้งเดิม 70 กรัม',142,7,46,155,563,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894fb86-124b-11ed-8a84-000d3a196655','8857123060730','เทพไทย ยาสีฟันสมุนไพร รสดั้งเดิม 15 กรัม',142,7,46,155,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894fbfb-124b-11ed-8a84-000d3a196655','8857123060747','เทพไทย ยาสีฟันสมุนไพร สูตรมิกซ์ฟรุ๊ต 15 กรัม',142,7,46,155,123,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4079,7 +4079,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7894fe64-124b-11ed-8a84-000d3a196655','8934839120665','โคลสอัพ เมนทอล เฟรซ 160 กรัม',320,7,46,155,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7894fedb-124b-11ed-8a84-000d3a196655','8934839123154','โคลสอัพ ดีพ แอคชั่น 12hr 75g',320,7,46,155,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789506e2-124b-11ed-8a84-000d3a196655','8935236000567','คอลเกต แปรงสีฟัน Gum clean',461,7,46,155,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895077d-124b-11ed-8a84-000d3a196655','8851007196454','เซ็นโซดายน์ ยาสีฟัน Multicare 50 กรัม X3',120,7,46,155,474,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789507f8-124b-11ed-8a84-000d3a196655','3101700001','แม่หญิง โรลออนสารส้ม ',287,7,44,149,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78950f96-124b-11ed-8a84-000d3a196655','4005808654017','นีเวีย เอ็กซ์ตร้า ไวท์เทนนิ่ง สเปรย์ 60ml.',663,7,44,149,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4090,7 +4090,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895124a-124b-11ed-8a84-000d3a196655','42185437','นีเวีย เมน คูล คิก โรลออน 25 มล.',663,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789512c0-124b-11ed-8a84-000d3a196655','42217459','นีเวีย แบล็ค แอนด์ไวท์เรเดียนท์แอนด์สมูท 25 มล.',663,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951339-124b-11ed-8a84-000d3a196655','42418078','นีเวีย เมน คูลคิก โรลออน คูลเฟรช 50 มล.',663,7,44,149,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789513b0-124b-11ed-8a84-000d3a196655','42420224','นีเวีย ไบร์ทเทนนิ่ง แอนด์ สมูท 25 มล.',663,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895142a-124b-11ed-8a84-000d3a196655','42429357','นีเวีย เพิร์ล แอนด์ บิวตี้ เชฟ เลส โรลออน 25 มล.',663,7,44,149,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895151a-124b-11ed-8a84-000d3a196655','4800888142399','เรโซนา โมชั่นซนส์ พาสชัน 10 g',206,7,44,149,51,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4101,7 +4101,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895179e-124b-11ed-8a84-000d3a196655','4800888192530','เรโซนา active defense 25 มล.',206,7,44,149,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951813-124b-11ed-8a84-000d3a196655','4800888203786','เรโซนา แอดวานซ์ ไวท์เทนนิ่ง เฟรช โรส โรลออน 25 มล.',206,7,44,149,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951892-124b-11ed-8a84-000d3a196655','4800888214096','เรโซนา แอดวานซ์ ไบร์ทเทนนิ่ง แอนด์ สเตน โรลออน 25 มล.',206,7,44,149,254,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895191e-124b-11ed-8a84-000d3a196655','8850029004402','ดีโอ เอ็ซ์ตร้าไวท์เทนนิ่ง โรลออน 12 มล.',663,7,44,149,79,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895199a-124b-11ed-8a84-000d3a196655','8850029004464','นีเวีย ดีโอ เมน แบล็ค แอนด์ ไวท์ โรลออน 12ml.',663,7,44,149,79,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951a11-124b-11ed-8a84-000d3a196655','8850029033754','นีเวีย เมน แบล็ค แอนด์ ไวท์ อินวิซิเบิ้ล เฟรช โรลออน 50 มล.',663,7,44,149,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4112,7 +4112,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78951c86-124b-11ed-8a84-000d3a196655','8850029816104','นีเวีย เมน ดราย อิมแพ็ค โรลออน 50 มล.',663,7,44,149,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951cfc-124b-11ed-8a84-000d3a196655','8850029816173','นีเวีย เมน ดราย อิมแพ็ค โรลออน 25 มล.',663,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78951d75-124b-11ed-8a84-000d3a196655','8850092402020','แดนซ์ เลดี้ แพชชั่น เฟลิร์ตติ้ง ดีว่า 20 ml',264,7,44,149,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78952a36-124b-11ed-8a84-000d3a196655','8850092404024','แดนซ์ เพรชชัว มูยส์ฟู โคโลน 20 ml',264,7,44,149,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78953247-124b-11ed-8a84-000d3a196655','8850092405021','แดนซ์ เลดี้ เพชชั่น มอยส์ โคโลน 20 ml',264,7,44,149,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78953314-124b-11ed-8a84-000d3a196655','8850092444020','แดนซ์ ทูอินวัน บอดี้แอนด์แฮร์ เพอร์ฟูม 20 ml',264,7,44,149,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4123,7 +4123,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789535b4-124b-11ed-8a84-000d3a196655','8850092503130','โฟกัส โรลออน อัลติเมท ไวท์ 20 มล.',343,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895365c-124b-11ed-8a84-000d3a196655','8850092507190','โฟกัส คูล แอคทีฟ 20ml',343,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789536d4-124b-11ed-8a84-000d3a196655','8850092509019','โฟกัส โอซซี่ เฟรช คลูลิ่ง 20 ml',343,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789538d0-124b-11ed-8a84-000d3a196655','8850094403308','เทียร่า โรลออนระงับกลิ่นกาย สูตรแห้งสบาบ',145,7,44,149,436,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895394d-124b-11ed-8a84-000d3a196655','8850094626202','เทียร่า โรลออน กลิ่น cherry pink 40 มล.',145,7,44,149,400,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789539c7-124b-11ed-8a84-000d3a196655','8850094636201','เทียร่า โรลออน กลิ่น Blue sky 40 มล.',145,7,44,149,400,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4134,7 +4134,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78953c1f-124b-11ed-8a84-000d3a196655','8851123795005','ทเวลฟ์ พลัส โรลออน เลสเชฟ นูริช 32.5 มล.',620,7,44,149,319,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78953d21-124b-11ed-8a84-000d3a196655','8851123795425','ทเวลฟ์ พลัส โรลออน เลสเชฟ รีนิว 32.5 มล.',620,7,44,149,319,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78953da6-124b-11ed-8a84-000d3a196655','8851123795463','ทเวลฟ์ พลัส โรลออน เลสเชฟ เฟิร์มมิ่ง 32.5 มล.',620,7,44,149,319,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78953e32-124b-11ed-8a84-000d3a196655','8851123795654','ทเวลฟ์พลัส สูตรไวท์เทนนิ่ง 32.5 ml',620,7,44,149,319,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78953eab-124b-11ed-8a84-000d3a196655','8851123795746','ทเวลฟ์ พลัส โรลออน เลสเชฟ สตีลลิ่ง ฮาร์ท 32.5 มล.',620,7,44,149,319,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895549c-124b-11ed-8a84-000d3a196655','8851123809160','ทเวลฟ์พลัส ไวท์เทนนิ่ง พลัส 32.5 g',620,7,44,149,318,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4145,7 +4145,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78955724-124b-11ed-8a84-000d3a196655','8851932412506','Axe ice breaker สเปรย์น้ำหอม 50 มล.',295,7,44,149,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789557a1-124b-11ed-8a84-000d3a196655','8851989010908','โยเกิร์ต โรลออน เอ็กตร้า ไวท์ 25 มล.',223,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895581a-124b-11ed-8a84-000d3a196655','8851989010946','เอเวอร์เซ้นส์ พริ้นเซส มอยซ์ โคโลญ 45 มล.',223,7,44,149,436,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789558b6-124b-11ed-8a84-000d3a196655','8851989011028','เอเวอร์เซ้นส์ เนเชอรัล โคโลญ 45 มล.',223,7,44,149,436,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78955938-124b-11ed-8a84-000d3a196655','8851989011721','เอเวอร์เซ้นส์ เซ็กซี่สวีต 20 ml',223,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789559b0-124b-11ed-8a84-000d3a196655','8851989011745','เอเวอร์เซ้นส์ ชิค มอยช์ โคโลญ 20 มล.',223,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4156,7 +4156,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78955c27-124b-11ed-8a84-000d3a196655','8851989020266','ทรอส ชิงค์ ฟูเอล ดีโอ โรลออน 25 มล.',621,7,44,149,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78955c9e-124b-11ed-8a84-000d3a196655','8851989020297','ทรอส ดีโอ โรลออน เคลียร์ 25 มล.',621,7,44,149,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78955d15-124b-11ed-8a84-000d3a196655','8851989020624','ทรอส คูล สปอร์ต ดีโอ โรลออน 25 มล.',621,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78955d8d-124b-11ed-8a84-000d3a196655','8851989020969','ทรอส ดิโอ โรลออน มัลติโพรเทค 25 มล.',621,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78955e06-124b-11ed-8a84-000d3a196655','8851989021348','ทรอส Moist Pocket Cologne 20 มล.',621,7,44,149,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78955e7b-124b-11ed-8a84-000d3a196655','8851989021355','ทรอส เฟรช & โพรเทค ดีโอ โรลออน 25 มล.',621,7,44,149,256,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4167,7 +4167,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78956232-124b-11ed-8a84-000d3a196655','8851989070865','วีไวต์ แฮปปิเนส พรีเชอ ฟลอรัล ไวท์ โรลออน 20 มล.',847,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789562b7-124b-11ed-8a84-000d3a196655','8851989070957','วีไวต์ แอปปิเนส อินเลิฟ เฟิร์มมิ่ง ไวท์เทนนิ่ง โรลออน 20 มล.',847,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956356-124b-11ed-8a84-000d3a196655','8853827001000','บูเต้ โรลออน คันทรี่ 60 ml',40,7,44,149,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789563e1-124b-11ed-8a84-000d3a196655','8855629000335','มิสทีน โลชั่นบำรุงผิว บัลแกเรียนโยเกิร์ต 500 มล.',40,7,44,149,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895645e-124b-11ed-8a84-000d3a196655','8855629003886','มิชทีน คัพเค้ก เอสพีเอฟ 25 พีเอ10 g',40,7,44,149,51,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789564f5-124b-11ed-8a84-000d3a196655','8855629006405','มิสทีน โลชั่นบำรุงผิว สูตรฮอกไกโด เมล่อน 500 มล.',40,7,44,149,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4178,7 +4178,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78956752-124b-11ed-8a84-000d3a196655','8857102910483','เกรซ ผงระงับกลิ่นกาย กลิ่นซากุระ 35 มล.',92,7,44,149,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789567c9-124b-11ed-8a84-000d3a196655','8857102910513','เกรซ ผงระงับกลิ่นกาย กลิ่นสมุนไพรทานาคา 35 มล.',92,7,44,149,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956842-124b-11ed-8a84-000d3a196655','8857102910995','เกรซ ผงระงับกลิ่นกาย กลิ่นหอมสดชื่น 35 มล.',92,7,44,149,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789568b9-124b-11ed-8a84-000d3a196655','8857123235138','เต่าเหยียบโลก สเปรย์ระงับกลิ่นกาย 50 มล.',139,7,44,149,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895694a-124b-11ed-8a84-000d3a196655','8857123235145','เต่าเหยียบโลก นิวเจน เฟรชแอนด์เฟิร์ม โรลออน 30ml',139,7,44,149,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789569c5-124b-11ed-8a84-000d3a196655','8857200098427','เต่าเหยียบโลก ผงระงับกลิ่นกาย 25 มล.',139,7,44,149,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4189,7 +4189,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78956c20-124b-11ed-8a84-000d3a196655','8858842062135','เบบี้ไบร์ท สเปรย์ผิวกายกลิ่นเบอรรี่ 20 มล.',164,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956c97-124b-11ed-8a84-000d3a196655','8858842062142','เบบี้ไบร์ท สเปรย์ ผิวกาย กลิ่นฟรีเซีย 20 มล.',164,7,44,149,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956d0f-124b-11ed-8a84-000d3a196655','8859178705574','มีสทีน ซีทรู ซุป้ปอร์ ออยล์ คอนโทรล 10 g',40,7,44,149,51,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78956d85-124b-11ed-8a84-000d3a196655','8859178706847','มิสทิน ไวทนิ่ง โรลออน ไวท์ สปา 100 มล.',40,7,44,149,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956dfd-124b-11ed-8a84-000d3a196655','8859178706878','มิสทิน สวีท แอนด์ บิวตี้ฟูล ไวท์เทนนิ่ง โรลออน 100 มล.',40,7,44,149,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78956e90-124b-11ed-8a84-000d3a196655','8859178706908','มิสทีน ไวท์ สปา ไวท์ มัสค์ 100 มล.',40,7,44,149,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4200,7 +4200,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78957fe4-124b-11ed-8a84-000d3a196655','8859178709749','มิสทีน สวีททิน โคโลญจ์ 120ml.',40,7,44,149,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958060-124b-11ed-8a84-000d3a196655','8859178709756','มิสทีน Cologne 120 มล.',40,7,44,149,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958113-124b-11ed-8a84-000d3a196655','8859178709800','มิสทิน ทรู โรส โคโลญจ์ 120 มล.',40,7,44,149,71,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78958193-124b-11ed-8a84-000d3a196655','8859178709961','มิสทีน ไวท์ มัลค์ โคโลญจ์ 120 ml.',40,7,44,149,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958210-124b-11ed-8a84-000d3a196655','8859178712176','มิสทีน โลชั่นบำรุงผิว pineapple 400ml',40,7,44,149,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958288-124b-11ed-8a84-000d3a196655','9300830020218','เรโซนา โมชั่นเซนส์ ชาวเวอรคลีน 150 มล.',206,7,44,149,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4211,7 +4211,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789584ff-124b-11ed-8a84-000d3a196655','4902430251693','เซฟการ์ด สบู่ก้อน หอมสดชื่น 80กรัม',123,7,52,174,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895857b-124b-11ed-8a84-000d3a196655','4902430251730','เซฟการ์ด สบู่กลิ่นหอมดอกไม้ 80 g',123,7,52,174,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789585f7-124b-11ed-8a84-000d3a196655','4902430251754','เซฟการ์ด สบู่กลิ่นหอมสะอาด สดชื่น 80 g',123,7,52,174,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78958671-124b-11ed-8a84-000d3a196655','4902430251778','เซฟการ์ดสบู่ก้อน เพียวไวท์ 80กรัม',123,7,52,174,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789586eb-124b-11ed-8a84-000d3a196655','6941924311978','โบย่า คิวเท็น บอดี้บาธ 300 กรัม',336,7,52,174,307,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958764-124b-11ed-8a84-000d3a196655','7640129890101','อาเซปโซ คลีนไลเนส 80g',921,7,52,174,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4222,7 +4222,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789589e4-124b-11ed-8a84-000d3a196655','7640142772781','อาเซปโซ วิต้าพลัส กลิ่นเมลอน 70 g',921,7,52,174,563,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958ba7-124b-11ed-8a84-000d3a196655','7640142773948','อาเซปโซ สบู่ก้อน สูตร Cool Mental 70กรัม',921,7,52,174,563,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958c2d-124b-11ed-8a84-000d3a196655','8850002006539','โคโดโม แป้งเด็ก extra mild 50g',316,7,52,174,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78958ca5-124b-11ed-8a84-000d3a196655','8850002006591','โคโดโม แป้งเด็ก Gentle Soft 50g',316,7,52,174,474,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958d3e-124b-11ed-8a84-000d3a196655','8850002013629','โคโดโม แป้งเด็ก สูตรเนเชอซอฟท์ สีส้ม 400 กรัม',316,7,43,146,393,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78958dbb-124b-11ed-8a84-000d3a196655','8850002014039','ฟลอเร่ สบู่ผสมขมิ้น 80g',728,7,52,174,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4233,7 +4233,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78959027-124b-11ed-8a84-000d3a196655','8850002017368','โคโดโม แป้งเด็ก เอ็กตร้ามายด์ 2แถม1 400g',316,7,52,174,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895909f-124b-11ed-8a84-000d3a196655','8850002024540','โชกุบุสซึ ครีมอาบน้ำ ฟอร์เมน คูลสปอร์ต 500 มล.',325,7,52,174,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78959119-124b-11ed-8a84-000d3a196655','8850002024564','โชกุบุสซึ ครีบอาบน้ำ สูตรไชนีส มิลล์ เวทช์ 500 มล.',325,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789591a2-124b-11ed-8a84-000d3a196655','8850002024571','โชกุบุสซึ สบู่เหลวผสมผิวส้ม ชนิดเติม 500ml',325,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895921c-124b-11ed-8a84-000d3a196655','8850002024588','โชกุบุสซึ สบู่เหลวกิงโกะ ชนิดเติม 500ml',325,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78959294-124b-11ed-8a84-000d3a196655','8850002851641','โชกุบุสซึ สบู่เหลวไชนิช มิลค์ เวทช์ 100ml',325,7,52,174,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4244,7 +4244,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895950d-124b-11ed-8a84-000d3a196655','8850006534373','โพรเทคส์ สบู่ก้อน สูตรพรอพโพลิส 65g.×4',342,7,52,174,539,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789595a5-124b-11ed-8a84-000d3a196655','8850006574089','แป้งแคร์ สูตรไฮโบ-อัลเลอร์เจนิค คลาสสิค 60 มล.',252,7,52,174,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78959621-124b-11ed-8a84-000d3a196655','8850006582015','แคร์ แป้งเด็ก พิงค์ ซอฟท์ 180g',252,7,43,146,158,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78959699-124b-11ed-8a84-000d3a196655','8850006587010','แคร์ แป้งเด็ก พิงค์ ซอฟท์ 350g',252,7,52,174,346,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78959713-124b-11ed-8a84-000d3a196655','8850006591024','แคร์คิดส์ เฮดทูโท กลิ่นเฟรนด์ลี่เชอร์รี่ 200 มล.',252,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895978c-124b-11ed-8a84-000d3a196655','8850006591031','แคร์ คิดส์ เฮดทูโท กลิ่นนัตตี้ แอปเปิ้ล 200 มล.',252,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4255,7 +4255,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895a80e-124b-11ed-8a84-000d3a196655','8850006593455','แคร์ สบู่ก้อน สูตรจัสมิน คอตต้อน 65 กรัม',252,7,52,174,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895a8b2-124b-11ed-8a84-000d3a196655','8850006593486','แป้งแคร์ สูตรไฮโบ-อัลเลอร์เจนิค 180 มล.',252,7,52,174,118,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895a92e-124b-11ed-8a84-000d3a196655','8850006593493','แป้งแคร์ สูตรไฮโบ-อัลเลอร์เจนิค 60 มล.',252,7,52,174,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895a9a9-124b-11ed-8a84-000d3a196655','8850006600283','โพรเทคส์ แป้งเย็น สูตรบลอสซัม 50กรัม',342,7,43,146,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895aa23-124b-11ed-8a84-000d3a196655','8850006601839','โพรเทคส์ แป้งเย็น สูตรไอซ์ซี่คลู 50g.',342,7,43,146,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895aa9d-124b-11ed-8a84-000d3a196655','8850006602447','โพรเทค ครีมอาบน้ำ สูตรพรอพโพลิส 85ml',342,7,52,174,606,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4266,7 +4266,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895ad01-124b-11ed-8a84-000d3a196655','8850006603161','โพรเทคส์ แป้งเย็น สูตรสดชื่น 140 กรัม',342,7,52,174,99,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895ad7c-124b-11ed-8a84-000d3a196655','8850006603178','โพรเทค แป้งเย็น บลอสซัม 160g',342,7,43,146,130,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895ae17-124b-11ed-8a84-000d3a196655','8850006603185','โพรเทคส์ แป้งเย็น สูตรไอซ์ซี่คลู 160 g',342,7,43,146,130,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895aeba-124b-11ed-8a84-000d3a196655','8850006603529','โพรเทคส์ ครีมอาบน้ำ สูตรฟอร์เมน สปอร์ต 500 มล.',342,7,52,174,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895af38-124b-11ed-8a84-000d3a196655','8850006603802','โพรเทค เมน สปอร์ต 280g',342,7,52,174,275,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895afb0-124b-11ed-8a84-000d3a196655','8850006603826','โพรเทคส์ เมน แป้งเย็น สูตรลดกลิ่นกาย 140 g.',342,7,43,146,99,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4277,7 +4277,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895b216-124b-11ed-8a84-000d3a196655','8850006605257','โพรเทคส์ ไทยเทอ สบู่ สูตรมะขามขมิ้นทานาคา 120 กรัม',342,7,52,174,70,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b3e1-124b-11ed-8a84-000d3a196655','8850006605318','โพรเทคส์ ไทยเทอ สบู่ สูตรวิตามินซีและอี 130 กรัม',342,7,52,174,86,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b463-124b-11ed-8a84-000d3a196655','8850006605585','โพรเทคส์ สมูท แคร์ ครีมอาบน้ำ 450 มล.',342,7,52,174,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895b4dc-124b-11ed-8a84-000d3a196655','8850006605745','โพรเทคส์ ไทยเทอ สบู่ สูตรทองพันและมังคุด 130 กรัม',342,7,52,174,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b555-124b-11ed-8a84-000d3a196655','8850006605790','โพรเทคส์ แป้งเย็น สูตรแมนทอลแคปซูล คูลบลู 280 มล.',342,7,52,174,275,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b5eb-124b-11ed-8a84-000d3a196655','8850006605806','โพรเทค เมนทอลแคปซูล แป้งเย็น 280g',342,7,52,174,275,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4288,7 +4288,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895b841-124b-11ed-8a84-000d3a196655','8850006900192','แคร์ สบู่ก้อน สูตรคลาสสิค 65 กรัม',252,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b8b7-124b-11ed-8a84-000d3a196655','8850006900284','แคร์ สบู่ก้อน สูตรพิงค์ ซอฟท์ 65 กรัม',252,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895b94d-124b-11ed-8a84-000d3a196655','8850006900406','โพรเทคส์ สบู่ เฟรช 65 กรัม',342,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895b9c4-124b-11ed-8a84-000d3a196655','8850006900659','โพรเทคส์ สบู่ก้อน สูตรสมูท แคร์ 65 กรัม',342,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895ba39-124b-11ed-8a84-000d3a196655','8850006901083','โพรเทคส์ สบู่ก้อน สูตรไอซ์ซี่ คูล 65 กรัม',342,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895baaf-124b-11ed-8a84-000d3a196655','8850006901182','โพรเทคส์ สบู่ก้อน สูตรโปรคลีน 65 กรัม',342,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4299,7 +4299,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895bd1c-124b-11ed-8a84-000d3a196655','8850006928134','โพรเทคส์ สบู่ก้อน สูตรโปร มอยซ์เจอร์ 65 กรัม',342,7,52,174,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895bd91-124b-11ed-8a84-000d3a196655','8850006936382','โพรเทคส์ ไทย เทอราพี สบู่น้ำนมข้าว ทานาคา 160 g.',342,7,52,174,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895be1a-124b-11ed-8a84-000d3a196655','8850006936498','โพรเทคส์ ไทย เทอราพี สบู่ซากุระ ทานาคา 145g.',342,7,52,174,103,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895be97-124b-11ed-8a84-000d3a196655','8850006939109','โพรเทคส์ ลาเวนเดอร์ ไอซ์ ฟรีซ เจลอาบน้ำ 450 มล.',342,7,52,174,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895bf12-124b-11ed-8a84-000d3a196655','8850006939116','โพรเทคส์ สบู่ลาเวนเดอร์ ไอซ์ ฟรีซ 65 กรัม',342,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895bf87-124b-11ed-8a84-000d3a196655','8850006942130','โพรเทคส์ ไทย เทอราพี สบู่ส้มแมนดาริน พีช 145 g.',342,7,52,174,103,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4310,7 +4310,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895c1d5-124b-11ed-8a84-000d3a196655','8850007010500','จอห์นสัน แป้งเด็ก คลาสสิก 380 มล.',494,7,43,146,371,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c262-124b-11ed-8a84-000d3a196655','8850007011583','จอห์นสัน แป้งเด็ก Milk + Rice 380 มล.',494,7,43,146,371,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c2da-124b-11ed-8a84-000d3a196655','8850007014492','จอห์นสัน แป้งเด็ก แอคทีฟเฟรส 200 มล.',494,7,52,174,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895c34e-124b-11ed-8a84-000d3a196655','8850007014676','จอห์นสัน แป้งเด็ก บลอสซั่ม 45 กรัม',494,7,52,174,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c3e0-124b-11ed-8a84-000d3a196655','8850007014690','จอห์นสัน แป้งเด็ก คลาสสิค 45 กรัม',494,7,52,174,434,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c458-124b-11ed-8a84-000d3a196655','8850007014799','จอห์นสัน แป้งเด็ก Summer Blooms 380 กรัม',494,7,43,146,370,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4321,7 +4321,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895c6a8-124b-11ed-8a84-000d3a196655','8850007031109','จอห์นสัน เบบี้ โลชั่น 50 ml',494,7,52,174,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c71f-124b-11ed-8a84-000d3a196655','8850007040354','จอห์นสัน แอคทีฟ คิดส์ ชายน์นี่ ดรอป แชมพู200มล',494,8,67,219,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c796-124b-11ed-8a84-000d3a196655','8850007060314','จอห์นสัน เบบี้ ออยล์ 50 ml',494,7,52,174,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895c80a-124b-11ed-8a84-000d3a196655','8850007860013','จอห์นสัน แป้งเด็ก เบบี้แคร์ 50 กรัม',494,7,52,174,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c897-124b-11ed-8a84-000d3a196655','8850094272027','น่ารัก สบู่เหลวอาบและสระ สีฟ้า 140ml',657,7,52,174,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895c90e-124b-11ed-8a84-000d3a196655','8850094272058','น่ารัก สบู่เหลวอาบและสระ สีฟ้า 290ml',657,8,67,219,285,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4332,7 +4332,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895cb5e-124b-11ed-8a84-000d3a196655','8850094292063','น่ารัก สบู่เหลวอาบและสระ สีชมพู 456ml',657,7,52,174,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895cbd3-124b-11ed-8a84-000d3a196655','8850233210033','เภสัช แป้งเย็น มาดาม 50g',195,7,52,174,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895cc52-124b-11ed-8a84-000d3a196655','8850233210040','แป้งเย็นเภสัช กลิ่นมาดาม 100 มล.',195,7,52,174,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895ccc8-124b-11ed-8a84-000d3a196655','8850233210118','แป้งเย็นเภสัช กลิ่นปริ๊นเซส 200 มล.',195,7,43,146,199,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895cd3d-124b-11ed-8a84-000d3a196655','8850233210248','แป้งเย็นเภสัช กลิ่นคามิลล่า 200 มล.',195,7,52,174,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895cdb2-124b-11ed-8a84-000d3a196655','8850233210255','แป้งเย็นเภสัช กลิ่นคามิลล่า 300 กรัม',195,7,43,146,306,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4343,7 +4343,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895d030-124b-11ed-8a84-000d3a196655','8850233260243','เภสัช โลชั่นบำรุงผิว สูตรผสมสารป้องกันแดด 250 มล.',195,7,52,174,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d0a6-124b-11ed-8a84-000d3a196655','8850233260274','โลชั่นเภสัชบอดี้ไวท์เทนนิ่ง สูตรคอลลาเจน 150 มล.',195,7,52,174,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d11c-124b-11ed-8a84-000d3a196655','8850233260298','เภสัช โลชั่นบำรุงผิว สูตรผสมคอลลาเจน 400 มล.',195,7,52,174,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895d191-124b-11ed-8a84-000d3a196655','8850233260335','โลชั่นเภสัชเอ็กซ์ตร้าไวท์ อัลฟ่าอาร์บูตินB3 150มล.',195,7,52,174,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d207-124b-11ed-8a84-000d3a196655','8850233280012','เภสัช โรลออน กลิ่นสวีทตี้ พิ้งค์ 35 มล.',195,7,52,174,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d27c-124b-11ed-8a84-000d3a196655','8850233280029','เภสัช โรลออน กลิ่นสกายเฟรช 35 มล.',195,7,44,149,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4354,7 +4354,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895d4c6-124b-11ed-8a84-000d3a196655','8850237079018','deterderm deo beauty fresh ครีมอาบน้ำ 250ml',582,7,52,174,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d555-124b-11ed-8a84-000d3a196655','8850348270052','ดอกบัวคู่ สบู่ก้อนสมุนไพร สูตรข้าวบาร์เลย์ 55 กรัม',572,7,52,174,495,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d6a6-124b-11ed-8a84-000d3a196655','8850348270090','ดอกบัวคู่ สบู่ก้อนสมุนไพร สูตรว่านจระเข้ 55 กรัม',572,7,52,174,495,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7895d85c-124b-11ed-8a84-000d3a196655','8850360022509','เดทตอล สบู่ก้อน แอนตี้แบคทีเรีย สูตรออริจินัล',131,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d8e0-124b-11ed-8a84-000d3a196655','8850360022516','เดทตอล สบู่ก้อน ออริจินัล 100g.x4',131,7,52,174,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895d95b-124b-11ed-8a84-000d3a196655','8850360022592','เดทตอล สบู่ก้อน แอนตี้แบคทีเรีย สูตรไอซ์ซี่ ครัช 65 g',131,7,52,174,539,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4365,7 +4365,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7895dd57-124b-11ed-8a84-000d3a196655','8850360023087','เดทตอล ผลิตภัณฑ์ฆ่าเชื้อโรคอเนกประสงค์ 500 มล.',131,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7895dde0-124b-11ed-8a84-000d3a196655','8850360025067','เดทตอล สบู่เหลวล้างมือ ออริจินัล แอนตี้แบคทีเรีย 225g.',131,7,52,174,228,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789600ee-124b-11ed-8a84-000d3a196655','8850360025074','เดทตอล เจลอาบน้ำ ออริจินัล แอนตี้แบคทีเรีย 500 กรัม',131,7,52,174,467,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789601da-124b-11ed-8a84-000d3a196655','8850360025739','เดทตอล เจลอาบน้ำแอนตี้แบค สูตรไอซ์ซี่ครัช 500 มล.',131,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896025a-124b-11ed-8a84-000d3a196655','8850360026217','เดทตอล สบู่เหลวล้างมือ สูตรรีเพลนนิชชิ่ง 225 มล.',131,7,52,174,228,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789602d2-124b-11ed-8a84-000d3a196655','8850360026323','เดทตอล สบู่เหลวล้างมือ สูตรออริจินัล 200 มล.',131,7,52,174,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4376,7 +4376,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78960531-124b-11ed-8a84-000d3a196655','8850485060172','ไอศิกา สบู่สมุนไพรทานาคา 100g',411,7,52,174,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789605a7-124b-11ed-8a84-000d3a196655','8850485060516','ไอศิกา สบู่เย็นขมิ้นชัน',411,7,52,174,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896061c-124b-11ed-8a84-000d3a196655','8850602011537','ก๊กเลี้ยง สบู่สมุนไพรจีน',420,7,52,174,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78960691-124b-11ed-8a84-000d3a196655','8850722272184','บีเอ็ม บี กลูต้าไวท์เทนนิ่ง โซฟ 80g.',689,7,52,174,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960706-124b-11ed-8a84-000d3a196655','8850831000609','มังกร สบู่ตรามังกร 172 g',754,7,52,174,147,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896079e-124b-11ed-8a84-000d3a196655','8851123342650','มายด์ คิดส์ กลิ่น สวิทตี้ กีวี่ 200 มล.',586,7,52,174,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4387,7 +4387,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78960a19-124b-11ed-8a84-000d3a196655','8851929010883','พฤกษานกแก้ว สบู่กลิ่นมะลิ 105กรัม',12,7,52,174,41,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960a90-124b-11ed-8a84-000d3a196655','8851929010890','สบู่พฤกษานกแก้ว กลิ่นมะลิ 105×4 กรัม',12,7,52,174,41,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960b06-124b-11ed-8a84-000d3a196655','8851929011378','พฤกษานกแก้ว สบู่กลิ่นบุปผชาติ 105กรัม',12,7,52,174,41,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78960b7b-124b-11ed-8a84-000d3a196655','8851929012504','พฤกษานกแก้ว สบู่กลิ่นลีลาวดี 105กรัม ',12,7,52,174,41,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960bf1-124b-11ed-8a84-000d3a196655','8851929012917','แพรอท ครีบอาบน้ำ สูตรกลิ่นหอมดอกไม้ไทย 500 มล. x 2',12,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960c67-124b-11ed-8a84-000d3a196655','8851929014812','พฤกษานกแก้ว สบู่กลิ่นกุหลาบ 105กรัม',12,7,52,174,41,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4398,7 +4398,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78960ed6-124b-11ed-8a84-000d3a196655','8851929017073','แพรอท เฮอร์เบิล มังคุดสกัด',12,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78960f84-124b-11ed-8a84-000d3a196655','8851929017134','แพรอท เฮอร์เบิล มะนาวคาเวียร์',12,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961001-124b-11ed-8a84-000d3a196655','8851929017899','แพรอท บิวตี้ พลัส เอจจิ้ง แคร์',12,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78961077-124b-11ed-8a84-000d3a196655','8851929018315','สบู่พฤกษานกแก้ว ทานาคา',12,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789610ec-124b-11ed-8a84-000d3a196655','8851929018421','แพรอท เฮอร์เบิล ออร์แกนิค สบู่ก้อน 70 กรัม',12,7,52,174,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961163-124b-11ed-8a84-000d3a196655','8851929019398','สบู่พฤกษานกแก้ว ไวท์ ซากุระ',12,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4409,7 +4409,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789613ce-124b-11ed-8a84-000d3a196655','8851932220989','ซิตร้า โลชั่นบำรุงผิว น้ำผึ้ง&พิมโรสออยล์ 50 มล.',549,7,41,140,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789614a8-124b-11ed-8a84-000d3a196655','8851932221047','ซิตร้า โลชั่น นูริช ไวท์ ยูวี ออร่า 400 มิลลิลิตร',549,7,52,174,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961525-124b-11ed-8a84-000d3a196655','8851932221122','ซิตร้า โลชั่นบำรุงผิว สูตรไข่มุกเกาหลี 50 มล.',549,7,41,140,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896159d-124b-11ed-8a84-000d3a196655','8851932221184','ซิตร้า โลชั่น เพิร์ลลี่ ไวท์ ยูวี 400 มิลลิลิตร',549,7,52,174,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961615-124b-11ed-8a84-000d3a196655','8851932221269','ซิตร้า extrawhite uv คอลลาเจน โลชั่นบำรุงผิว 400ml',549,7,41,140,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896168a-124b-11ed-8a84-000d3a196655','8851932242134','ลักซ์ เมจิกคอล สเปล แพ็ค4X110g',815,7,52,174,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4420,7 +4420,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789618d3-124b-11ed-8a84-000d3a196655','8851932279383','ลักส์ สบู่ก้อน สูตรอควา ดีไลท์ 110 กรัม',815,7,52,174,58,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961948-124b-11ed-8a84-000d3a196655','8851932279390','สบู่ก้อน ลักน์ เวลเวท จัสมิน 110กรัม ',815,7,52,174,58,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789619bf-124b-11ed-8a84-000d3a196655','8851932332347','ลักส์ ครีมอาบน้ำ เมจิกเคิล ออร์คิด ม่วง 500 มล.',815,7,52,174,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78961a34-124b-11ed-8a84-000d3a196655','8851932332422','ลักส์ สบู่เหลว velvet jasmine 500ml',815,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961ac2-124b-11ed-8a84-000d3a196655','8851932350501','สบู่ลักส์ สบู่ก้อน กลิ่น คามิลเลีย 105 กรัม',815,7,52,174,41,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961b3a-124b-11ed-8a84-000d3a196655','8851932350518','ลักซ์ คามิลเลีย ไวท์ แพ็ค4X110g',815,7,52,174,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4431,7 +4431,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78961d86-124b-11ed-8a84-000d3a196655','8851932375269','ลักส์ ครีมอาบน้ำ คาเมลเลียไวท์ 80ml',815,7,52,174,598,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961e1c-124b-11ed-8a84-000d3a196655','8851932377508','ซิตร้า สบู่ ทานาคา  ไบรท์เทนนิ่ง สครับ 110g',549,7,52,174,58,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961e94-124b-11ed-8a84-000d3a196655','8851932377546','ซิตร้า สบู่ ไข่มุก ออร่า ไบรท์เทนนิ่ง สครับ 110 กรัม',549,7,52,174,58,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78961f17-124b-11ed-8a84-000d3a196655','8851932378567','ลักซ์ สบู่ก้อน ซากุระ บลูม 75g',815,7,52,174,563,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78961f8c-124b-11ed-8a84-000d3a196655','8851932378574','ลักส์ สบู่ก้อน สูตรซากุระ บลูม 110 กรัม',815,7,52,174,58,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962165-124b-11ed-8a84-000d3a196655','8851932379045','ลักซ์ ซากุระ บลูม แพ็ค4X110g',815,7,52,174,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4442,7 +4442,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789623e8-124b-11ed-8a84-000d3a196655','8851932390651','สบู่ ซิตร้า มะเขือเทศ+คอลลาเจน ไวท์เทนนิ่ง สครับ110 กรัม',549,7,52,174,58,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962461-124b-11ed-8a84-000d3a196655','8851932390668','สบู่ ซิตร้า ซากุระ ไวท์เทนนิ่ง สครับ',549,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789624da-124b-11ed-8a84-000d3a196655','8851932391283','ซิตร้า โลชั่น สูตรเฟิร์มมิ่งไวท์ 400 มิลลิลิตร',549,7,52,174,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78962551-124b-11ed-8a84-000d3a196655','8851932395014','ลักส์ สบู่ก้อน สูตรซากุระ บลูม 75 กรัม',815,7,52,174,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789625c6-124b-11ed-8a84-000d3a196655','8851932402620','ลักซ์ ยูสุ บลอสซั่ม 75g',815,7,52,174,579,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896263a-124b-11ed-8a84-000d3a196655','8851932402781','ลักส์ สบู่เหลว yuzu blossom 500ml',815,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4453,7 +4453,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789629ed-124b-11ed-8a84-000d3a196655','8851932409537','สบู่ ซิตร้า ซี แอนด์ อี ไวท์เทนนิ่ง สครับ 110g.',549,7,52,174,58,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962a88-124b-11ed-8a84-000d3a196655','8851932415255','ลักส์ สบู่เหลว icy radiance 500ml',815,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962aff-124b-11ed-8a84-000d3a196655','8851932415262','ลักส์ สบู่เหลว cooling glow 500ml',815,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78962b74-124b-11ed-8a84-000d3a196655','8851932422093','วาสลีน เฮลธี้พลัส บอดี้วอชโพรเทค แอนด์ แคร์ 430 มล.',836,7,52,174,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962c14-124b-11ed-8a84-000d3a196655','8851989060163','ดีนี่ นิวบอร์น ผลิตภัณฑ์ซักผ้าเด็ก กลิ่น Lovely sky 600 มล.',586,8,67,219,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962c8c-124b-11ed-8a84-000d3a196655','8851989060194','ดีนี่ นิวบอร์น ผลิตภัณฑ์ล้างขวดนมเด็ก Refill 600 มล.',586,8,67,219,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4464,7 +4464,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78962edb-124b-11ed-8a84-000d3a196655','8851989060392','ดีนี่ นิวบอร์น อ่อนโยนพิเศษ 380มล',586,7,52,174,371,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962f4f-124b-11ed-8a84-000d3a196655','8851989060408','ดีนี่ ซากุระ ฟอร์ นิวบอร์น เฮด & บอดี้ เบบี้วอช 200 มล.',586,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78962fc6-124b-11ed-8a84-000d3a196655','8851989060422','ดีนี่ ออร์แกนิค ซากุระ 380มล.',586,7,52,174,371,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896303a-124b-11ed-8a84-000d3a196655','8851989060545','ดีนี่ ปรับผ้านุ่มนิวบอร์น กลิ่นMorningFresh 600มล.',586,7,52,174,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789630c7-124b-11ed-8a84-000d3a196655','8851989060569','ดีนี่ คิดส์ สูตรเบอร์รี่ เชอร์รี่ 200 มล.',586,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78963288-124b-11ed-8a84-000d3a196655','8851989060576','ดีนี่ คิดส์ สูตรเวรี่ เบอร์รี่ 200 มล.',586,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4475,7 +4475,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789634f1-124b-11ed-8a84-000d3a196655','8851989061528','ดีนี่ ซักผ้าเด็กนิวบอร์น กลิ่นผลไม้ 600 มล.',586,7,52,174,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78963568-124b-11ed-8a84-000d3a196655','8851989061566','ดีนี่ ออร์แกนิค ฟอร์ นิวบอร์น เบบี้โลชั่น 200ml.',586,7,52,174,201,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789635e1-124b-11ed-8a84-000d3a196655','8851989061832','ดีนี่ ออร์แกนิค ฟอร์ นิวบอร์น เฮด&บอดี้ เบบี้วอช 200 มล.',586,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78963658-124b-11ed-8a84-000d3a196655','8851989062273','ดีนี่ คิดส์ บับเบิ้ลบาธ กลิ่นแคนดี้ ฟอส 250 มล.',586,7,52,174,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789636d1-124b-11ed-8a84-000d3a196655','8851989062297','ดีนี่ คิดส์ บับเบิ้ลบาธ สีม่วง 400มล',586,7,52,174,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78963746-124b-11ed-8a84-000d3a196655','8851989062310','ดีนี่ คิดส์ บับเบิ้ลบาธ กลิ่นแคนดี้ ฟอส 400 มล.',586,7,52,174,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4486,7 +4486,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78964504-124b-11ed-8a84-000d3a196655','8851989065236','ดีนี่ แอนตี้ แบคทีเรีย 200มล',586,7,52,174,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896457d-124b-11ed-8a84-000d3a196655','8851989080055','บีไนซ์ ครีมอาบน้ำ สูตรเพอเฟค อีลาสติค 180 มล.',690,7,52,174,159,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789645f9-124b-11ed-8a84-000d3a196655','8851989080109','บีไนซ์ ครีมอาบน้ำ สูตรบิวตี้ฟูลไวท์เทนนิ่ง 180 มล.',690,7,52,174,159,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78964673-124b-11ed-8a84-000d3a196655','8851989080116','บีไนซ์ ครีมอาบน้ำ สูตรเชอร์รี่ เบอร์รี่ 180 มล.',690,7,52,174,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789646ee-124b-11ed-8a84-000d3a196655','8851989080154','บีไนซ์ ครีมอาบน้ำ สูตรคลีนแอนด์แคร์ 180 มล.',690,7,52,174,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896476a-124b-11ed-8a84-000d3a196655','8851989080208','บีไนซ์ สบู่เพื่อจุดซ่อนเร้น ผิวบอบบางพิเศษ 60ml',690,7,52,174,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4497,7 +4497,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789649f0-124b-11ed-8a84-000d3a196655','8851989080611','บีไนซ์ ครีมอาบน้ำ สูตรเพอเฟค อีลาสติค 400 มล.',690,7,52,174,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78964a6b-124b-11ed-8a84-000d3a196655','8851989080628','บีไนซ์ ครีมอาบน้ำ สูตรเชอร์รี่ เบอร์รี่ 400 มล.',690,7,52,174,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78964ae6-124b-11ed-8a84-000d3a196655','8851989081175','บีไนซ์ ครีมอาบน้ำ สูตรมีสทีค ไวท์ 180 มล.',690,7,52,174,159,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78964b62-124b-11ed-8a84-000d3a196655','8851989081182','บีไนซ์ ครีมอาบน้ำ สูตรมีสทีค ไวท์ ชาวเวอร์ 400 มล.',690,7,52,174,394,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78964c76-124b-11ed-8a84-000d3a196655','8851989081199','บีไนซ์ ครีมอาบน้ำ สูตรมีสทีค ไวท์ 450 มล.',690,7,52,174,429,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78964cf8-124b-11ed-8a84-000d3a196655','8852658040400','สบันงา สบู่สมุนไพร ขมิ้นผสมน้ำผึ้ง',873,7,52,174,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4508,7 +4508,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78964f76-124b-11ed-8a84-000d3a196655','8853252009015','เค.บราเทอร์ สโนว์ โลตัส โซฟ 125g ',99,7,52,174,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78964ff0-124b-11ed-8a84-000d3a196655','8858587001048','อิงอร สบู่สมุนไพร สูตรน้ำนมจมูกข้าว 110 กรัม',931,7,52,174,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896506a-124b-11ed-8a84-000d3a196655','8858587001123','อิงอร สบู่สมุนไพร สูตรไพล 160 กรัม',931,7,52,174,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789659a3-124b-11ed-8a84-000d3a196655','8858587001154','อิงอร สบู่สมุนไพร สูตรมะขามแท้ 85 กรัม',931,7,52,174,605,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78965a48-124b-11ed-8a84-000d3a196655','8858587001185','อิงอร สบู่สมุนไพร สูตรแตงกวาผสมว่านหาง 85 กรัม',931,7,52,174,605,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78965ac2-124b-11ed-8a84-000d3a196655','8858587001215','อิงอร สบู่สมุนไพร สูตรขมิ้นชัน 85 กรัม',931,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4519,7 +4519,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78965ebb-124b-11ed-8a84-000d3a196655','8858587006517','อิงอร สบู่สมุนไพร สูตรน้ำนมแพะ 160 กรัม',931,7,52,174,130,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78965f37-124b-11ed-8a84-000d3a196655','8858587006906','อิงอร สบู่สมุนไพร สูตรสมุนไพรกลั่น 160 กรัม',931,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78965fb3-124b-11ed-8a84-000d3a196655','8858587007132','อิงอร สบู่สมุนไพร สูตรน้ำนมจมูกข้าว 85 กรัม',931,7,52,174,605,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896602c-124b-11ed-8a84-000d3a196655','8858587007620','อิงอร สบู่ส้มมะละกอ 160g',931,7,52,174,130,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789660a3-124b-11ed-8a84-000d3a196655','8858741900576','เอแซนเต้ สบู่น้ำนมข้าว คอลลาเจนผสมน้ำผึ้ง',225,7,52,174,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896613f-124b-11ed-8a84-000d3a196655','8858831002166','แอลซี สบู่นมแกะ100g',305,7,52,174,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4530,7 +4530,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789663bc-124b-11ed-8a84-000d3a196655','8858868300327','สิริออน สบู่น้ำนมข้าว 80g',856,7,52,174,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966433-124b-11ed-8a84-000d3a196655','8858868300341','สิริออน สบู่มะขาม 80g',856,7,52,174,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789664ab-124b-11ed-8a84-000d3a196655','8858882901494','จุฬาเฮิร์บ ลองแกน เมลาสม่า เซรั่ม 8 มล.',502,7,52,174,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78966524-124b-11ed-8a84-000d3a196655','8858882901708','จุฬาเฮิร์บ แมริโกลด์ แอคเน่ โซฟ',502,7,52,174,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896659d-124b-11ed-8a84-000d3a196655','8858882901975','จุฬาเฮิร์บ แบล็ค จิงเจอร์ ออลอินวันเซรั่ม',502,7,52,174,616,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966625-124b-11ed-8a84-000d3a196655','8858882902279','จุฬาเฮิร์บ สบู่เบือนฝ้าลำไย',502,7,52,174,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4541,7 +4541,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78966895-124b-11ed-8a84-000d3a196655','9556006012093','จอห์นสัน เบบี้ บาธ สีเหลือง200มล',494,8,67,219,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896690e-124b-11ed-8a84-000d3a196655','9556006014547','จอห์นสัน เบบี้แชมพู 100 ml.',494,7,52,174,38,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966984-124b-11ed-8a84-000d3a196655','9556006060001','จอห์นสัน มิล์ค ไรซ์ เบบี้บาธ200มล',494,8,67,219,201,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789669fd-124b-11ed-8a84-000d3a196655','9556006060346','จอห์นสัน โลชั่น สีขาว 100 มล.',494,7,52,174,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966a73-124b-11ed-8a84-000d3a196655','9556006060360','จอห์นสัน โลชั่น สีขาว 500 มล.',494,7,52,174,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966aeb-124b-11ed-8a84-000d3a196655','9556006061633','จอห์นสัน โลชั่น body care 100ml',494,7,52,174,38,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4552,7 +4552,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78966d44-124b-11ed-8a84-000d3a196655','8852961001242','Onetouch สตรอเบอรี่ 52 มม.',831,9,69,221,297,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966dba-124b-11ed-8a84-000d3a196655','8852961001266','Onetouch มิกช์ 3 52 มม.',831,9,69,221,297,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78966e32-124b-11ed-8a84-000d3a196655','8852961002744','Onetouch โซลูชั่น 52 มม.',831,9,69,221,297,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78966eca-124b-11ed-8a84-000d3a196655','8852961003352','Onetouch แฮปปี้ 52 มม.',831,9,69,221,297,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78968c8a-124b-11ed-8a84-000d3a196655','8852961003406','Onetouch จอยส์ 49 มม.',831,9,69,221,297,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78968d2c-124b-11ed-8a84-000d3a196655','8852961003581','Onetouch แม็กซ์ ดอท 52 มม.',831,9,69,221,297,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4563,7 +4563,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78968f93-124b-11ed-8a84-000d3a196655','8851111601202','ไลฟ์รี่ผ้าอ้อมผู้ใหญ่ L 3ชิ้น',404,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896900b-124b-11ed-8a84-000d3a196655','8851111601226','ไลฟ์รี่ ผ้าอ้อมผู้ใหญ่ L 12ชิ้น',404,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969088-124b-11ed-8a84-000d3a196655','8851111601301','ไลฟ์รี่ผ้าอ้อมผู้ใหญ่ XL 2ชิ้น',404,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78969103-124b-11ed-8a84-000d3a196655','8851111610020','ไลฟ์รี่ ผ้าอ้อมผู้ใหญ่ M 12ชิ้น',404,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896917f-124b-11ed-8a84-000d3a196655','8851111611027','ไลฟ์รี่ ผ้าอ้อมผู้ใหญ่L 12 ชิ้น',404,8,61,209,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789691fa-124b-11ed-8a84-000d3a196655','8851111612024','ไลฟ์รี่ ผ้าอ้อมผู้ใหญ่XL 10ชิ้น',404,8,61,209,54,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4574,7 +4574,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78969480-124b-11ed-8a84-000d3a196655','8850109001130','น้ำมัน เซียง เพียว อิ๊ว 10มล.',127,9,68,220,53,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789694f7-124b-11ed-8a84-000d3a196655','8850172241303','วาเป๊กซ์ เอชอาร์ แก้คัดจมูก ขนาด 5มล.',832,9,68,220,513,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896956f-124b-11ed-8a84-000d3a196655','8850172242010','ยาหม่องชนิดขี้ผึ้ง แซม-บัค 8 กรัม',263,9,68,220,615,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789695e7-124b-11ed-8a84-000d3a196655','8850304081272','นีโอบัน พลาสเตอร์บรรเทาปวด 10 แผ่น',665,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896965e-124b-11ed-8a84-000d3a196655','8850360039842','สเตร็ปซิล น้ำผึ้งมะนาว 2* 8เม็ด',859,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789696d5-124b-11ed-8a84-000d3a196655','8850360039910','สเตร็ปซิล ไอซี เมนทอล 8เม็ด',859,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4585,7 +4585,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78969950-124b-11ed-8a84-000d3a196655','8851123111089','ทัมใจ ยาบรรเทาอาการปวดหัว ปวดฟัน 1 กรัม',632,9,68,220,184,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789699c8-124b-11ed-8a84-000d3a196655','8851124101805','ศิริบัญชา แอลกอฮอล์ 70% 180ml.',855,9,68,220,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969a5b-124b-11ed-8a84-000d3a196655','8851124230307','ศิริบัญชา ไนโตรเจน 60 กรัม',855,9,68,220,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78969ad2-124b-11ed-8a84-000d3a196655','8851124311204','คาลาไมน์ ยาทาแก้ผื่นคัน 120 มล.',473,9,68,220,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969b4a-124b-11ed-8a84-000d3a196655','8851124430608','ยาน้ำแก้ไอตราโยคี 50 มล.',348,9,68,220,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969bc3-124b-11ed-8a84-000d3a196655','8851447010006','โป๊ยเซียน มาร์คทู ยาดม 1.7ml',339,9,68,220,29,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4596,7 +4596,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78969e19-124b-11ed-8a84-000d3a196655','8851473001443','ซาร่า ยาบรรเทาปวดลดไข้ แผง 10 เม็ด',547,9,68,220,256,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969e91-124b-11ed-8a84-000d3a196655','8851473002242','เบบี้ดอล ยาสำหรับทารกบรรเทาอาการท้องอืด 120มล.',165,9,68,220,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969f08-124b-11ed-8a84-000d3a196655','8851473007339','นีโอติก้า บาล์ม ครีม 30กรัม',664,9,68,220,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78969f7f-124b-11ed-8a84-000d3a196655','8851473008732','ยาลดกรด ชนิดแผง 10 เม็ด แอนตาซิล',298,9,68,220,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78969ffa-124b-11ed-8a84-000d3a196655','8851473009159','ยาลดกรด ชนิดน้ำ แอนตาซิล',298,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a076-124b-11ed-8a84-000d3a196655','8851847000010','ยาธาตุน้ำขาว ตรากระต่ายบิน 50มล.',422,9,68,220,477,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4607,7 +4607,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896a433-124b-11ed-8a84-000d3a196655','8852197110046','ยาหม่องตราถ้วยทอง 12g.',619,9,68,220,78,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a4b6-124b-11ed-8a84-000d3a196655','8852294021016','มายบาซิน ยาอมบรรเทาอาการเจ็บคอ รสมะนาว 10 เม็ด',764,9,68,220,54,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a54d-124b-11ed-8a84-000d3a196655','8852294022013','มายบาซิน ยาอมบรรเทาอาการเจ็บคอ ส้ม 10 เม็ด',764,9,68,220,54,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896a5cc-124b-11ed-8a84-000d3a196655','8852294107017','มายบาซิน ยาอมบรรเทาอาการเจ็บคอ รสมินท์ 10 เม็ด',764,9,68,220,54,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a645-124b-11ed-8a84-000d3a196655','8852673000144','ยาเม็ดแก้ท้องอืด ท้องเฟ้อ AIR-X รสมินท์ แบบแผง',302,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a6ba-124b-11ed-8a84-000d3a196655','8852673000205','ยาเม็ดแก้ท้องอืด ท้องเฟ้อ AIR-X รสส้ม แบบแผง',302,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4618,7 +4618,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896a912-124b-11ed-8a84-000d3a196655','8853042000109','เสือดาวยาแก้ไอน้ำดำ 60มล.',218,9,68,220,521,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a985-124b-11ed-8a84-000d3a196655','8853042001229','คาราไมน์ ตราเสือดาว 120ml.',218,9,68,220,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896a9fc-124b-11ed-8a84-000d3a196655','8853042002011','แอลกอฮอล์ล้างแผล 60 มล.',304,9,68,220,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896aa70-124b-11ed-8a84-000d3a196655','8853084001119','ยาหอม 5 เจดีย์ ขนาด 200 กรัม',905,9,68,220,199,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896aae7-124b-11ed-8a84-000d3a196655','8853084001218','ยาหอม 5 เจดีย์ ขนาด 100 กรัม',905,9,68,220,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ab5c-124b-11ed-8a84-000d3a196655','8853433000329','ยาอมมะแว้ง รสบ๊วย 20 เม็ด',751,9,68,220,210,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4629,7 +4629,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896ada7-124b-11ed-8a84-000d3a196655','8854536000438','แคนตัน เมดิแคร์ ผ้าก็อตสำเร็จรูป 2x2',250,9,68,220,188,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ae1d-124b-11ed-8a84-000d3a196655','8854536000445','แคนตัน เมดิแคร์ ผ้าก็อตสำเร็จรูป',250,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ae93-124b-11ed-8a84-000d3a196655','8854746009993','ผงพิเศษ ตราร่มชูชีพ 10 กรัม',795,9,68,220,51,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896af0c-124b-11ed-8a84-000d3a196655','8855107000017','ทีซี-มัยซิน ยารักษาโกโนเรีย แผง 10 เม็ด',639,9,68,220,54,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896af81-124b-11ed-8a84-000d3a196655','8856482000203','ยานัตถุ์หมอมี 20กรัม',782,9,68,220,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b00d-124b-11ed-8a84-000d3a196655','8857022000196','ยากษัยเส้นตราเด็กในพาน แผง 8 เม็ด',129,9,68,220,617,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4640,7 +4640,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896b258-124b-11ed-8a84-000d3a196655','8858717300041','เกลือแร่ สตรอง-เค 25 กรัม',871,9,68,220,254,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b2d1-124b-11ed-8a84-000d3a196655','8858736900017','ยาสตรีเพ็ญภาค บำรุงโลหิต 300 มล.',180,9,68,220,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b347-124b-11ed-8a84-000d3a196655','8858736900031','ยาสตรีเพ็ญภาค บำรุงโลหิต 180 มล.',180,9,68,220,159,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896b3bb-124b-11ed-8a84-000d3a196655','8858935800118','ยาขมชนิดเม็ดตราใบห่อ แผง 12 เม็ด',383,9,68,220,80,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b43a-124b-11ed-8a84-000d3a196655','8859017615002','อินะเท็น Leep อาหารเสริม โสมรังนก 2Capsule',934,9,68,220,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b4b0-124b-11ed-8a84-000d3a196655','8859122300053','ยาสตรีบัวแก้ว บำรุงโลหิต 160 มล.',678,9,68,220,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4651,7 +4651,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896b6fc-124b-11ed-8a84-000d3a196655','96060063','กาวิสคอนดูอัลแอคชั่น ชนิดเม็ด 10มล.',433,9,68,220,53,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b772-124b-11ed-8a84-000d3a196655','4897049814387','ซัมเมอร์ กระดาษเช็ดหน้า 165 แผ่น',544,8,66,218,133,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b7e6-124b-11ed-8a84-000d3a196655','8850039201945','สก๊อตต์ กระดาษทิชชู่ ป๊อบ อัพ',866,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896b85e-124b-11ed-8a84-000d3a196655','8850039600069','สก๊อตต์ กระดาษทิชชู่ ป๊อบ อัพ 86 แผ่น',866,8,66,218,608,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b8d4-124b-11ed-8a84-000d3a196655','8850046100026','ซิลค์ by cellox 6 ม้วน',10,8,66,218,552,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896b948-124b-11ed-8a84-000d3a196655','8850046221110','ซิลค์ by cellox pop up 120 แผ่น',10,8,66,218,1,11,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4662,7 +4662,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896c076-124b-11ed-8a84-000d3a196655','8850046414734','Maxmo กระดาษทิชชู่ แพ็ค3',275,8,66,218,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c0ed-124b-11ed-8a84-000d3a196655','8850046510016','เบลล์ กระดาษทิชชู่ 1ม้วน',5,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c168-124b-11ed-8a84-000d3a196655','8850360034977','เดทตอล เซนซิทีฟ ผ้าเช็ดทำความสะอาด',131,8,66,218,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896c1e1-124b-11ed-8a84-000d3a196655','8851020101206','เทนเดอร์ กะดาษทิชชูม้วนใหญ่',141,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c25d-124b-11ed-8a84-000d3a196655','8851020101213','เทนเดอร์ กระดาษทิชชู่ 6ฟรี2 ม้วน',141,8,66,218,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c2d3-124b-11ed-8a84-000d3a196655','8851973051450','V-care แปรงสีฟัน kid 2+',846,8,66,218,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4673,7 +4673,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896c521-124b-11ed-8a84-000d3a196655','8858678442064','แบมบู กระดาษเช็ดปาก 500 แผ่น',266,8,66,218,465,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c599-124b-11ed-8a84-000d3a196655','8858678452940','ทัช กระดาษทิชชู่ 6ฟรี2 ม้วน',630,8,66,218,552,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c610-124b-11ed-8a84-000d3a196655','8858678468507','รักษ์ไทย เอ็กตร้า ',804,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896c684-124b-11ed-8a84-000d3a196655','8858956700022','วีวี่ กระดาษทิชชู แพ็ค6',851,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c6f9-124b-11ed-8a84-000d3a196655','8859311599282','คุมะ กระดาษทิชชู่230แผ่น',485,8,66,218,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896c76d-124b-11ed-8a84-000d3a196655','8859311599299','คุมะ กระดาษทิชชู แพ็ค4',485,8,66,218,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4684,7 +4684,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896c9cb-124b-11ed-8a84-000d3a196655','440041014174','เชนไดร้ท ',116,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ca41-124b-11ed-8a84-000d3a196655','440414014124','ยาขดกันยุง ช้างเวป ม่วง',513,8,58,195,1,10,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896cab5-124b-11ed-8a84-000d3a196655','440414014126','ยาขดกันยุง ช้างเวป ส้ม',513,8,58,195,102,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896cb2b-124b-11ed-8a84-000d3a196655','440414014130','ยาขดกันยุง ช้างเวป ซากุระ',513,8,58,195,99,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896cba1-124b-11ed-8a84-000d3a196655','440789014123','ยาจุดกันยุง ห่านฟ้า11 ลาเวนเดอร์',906,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896cc16-124b-11ed-8a84-000d3a196655','440806014165','อาท เจ็ท พิงค์',925,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4695,7 +4695,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896cfec-124b-11ed-8a84-000d3a196655','8850172827019','บาเยอร์ ราคูมิน ไรซ์เบท 100 g',681,8,58,195,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d061-124b-11ed-8a84-000d3a196655','8850175067283','ไบกอน ยาจุดกันยุงกลิ่นดอกลาเวนเดอร์ 12 ขด',396,8,58,195,102,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d24d-124b-11ed-8a84-000d3a196655','8850175067313','ไบกอน กำจัดยุง มด แมลงสาบ หัวฉีดคู่ #23 300 มล',396,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896d2cf-124b-11ed-8a84-000d3a196655','8850175067337','ไบกอน สเปรย์กำจัด ยุง มด แมลงสาบ 600 มล',396,8,58,195,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d34c-124b-11ed-8a84-000d3a196655','8850175067634','ไบกอน หัวฉีดคู่ #23 สูตรไร้สารแต่งกลิ่น 300 มล',396,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d3c8-124b-11ed-8a84-000d3a196655','8850175067658','ไบกอน กำจัดแมลง สูตรไร้สารแต่งกลิ่น 600 มล',396,8,58,195,518,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4706,7 +4706,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896d620-124b-11ed-8a84-000d3a196655','8850175067818','ไบกอน หัวฉีดคู่ #23 กลิ่นดอกลาเวนเดอร์ 300 มล',396,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d696-124b-11ed-8a84-000d3a196655','8850175067832','ไบกอน กำจัดแมลง กลิ่นลาเวนเดอร์ 600 มล',396,8,58,195,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d70d-124b-11ed-8a84-000d3a196655','8850175067993','ไบกอน กำจัดยุง มด แมลงสาบ หัวฉีดคู่ #43 กลิ่น ดีเลมอนนีน 300 มล',396,8,58,195,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896d788-124b-11ed-8a84-000d3a196655','8850175068013','ไบกอน กำจัดแมลง กลิ่นดีเลมอนนีน 600 มล',396,8,58,195,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d804-124b-11ed-8a84-000d3a196655','8850175068228','ไบกอน ยาจุดกันยุงกลิ่นยูคาลิปตัส 120 กรัม',396,8,58,195,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896d87e-124b-11ed-8a84-000d3a196655','8850175071129','ไบกอน ยาจุดกันยุงครัวน้อย 150 กรัม',396,8,58,195,114,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4717,7 +4717,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896db04-124b-11ed-8a84-000d3a196655','8850273105337','อาท เจ็ท เทอร์ไมท์ ไร้สารแต่งกลิ่น 600มล',925,8,58,195,518,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896db7b-124b-11ed-8a84-000d3a196655','8850273114513','อาท เจ็ท บลูกำจัดแมลงสาบ แมลงคลาน  600มล',925,8,58,195,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896dbef-124b-11ed-8a84-000d3a196655','8850273115107','อาท เจ็ท พิงค์ กำจัดยุง แมลงบิน 400 มล.',925,8,58,195,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896dc65-124b-11ed-8a84-000d3a196655','8850273115305','อาท เจ็ท พิงค์   ไร้สารแต่งกลิ่น 600มล',925,8,58,195,518,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896dcd9-124b-11ed-8a84-000d3a196655','8850273115510','อาท กำจัดปลวก กลิ่นลาเวนเดอร์',925,8,58,195,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896dd50-124b-11ed-8a84-000d3a196655','8850273127810','อาท ผลิตภัณฑ์ไร้ยุงชนิดน้ำแบบเติม',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4728,7 +4728,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896e073-124b-11ed-8a84-000d3a196655','8850273141106','อาท แมท12 ป้องกันยุง 10 ชิ้น',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e0e9-124b-11ed-8a84-000d3a196655','8850273142202','อาท แมท ไร้กลิ่น',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e15e-124b-11ed-8a84-000d3a196655','8850273147214','อาท แร็ท กลูต้า กาวดักหนู',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896e1d5-124b-11ed-8a84-000d3a196655','8850273151303','อาท แร็ท คิลเลอร์ 80g',925,8,58,195,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e24a-124b-11ed-8a84-000d3a196655','8850273151402','อาท เหยื่อกำจัดหนูสำเร็จรูป',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e2c0-124b-11ed-8a84-000d3a196655','8850273152119','อาท แร็ท กลู ถาดกาวดักหนู100กรัม',925,8,58,195,37,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4739,7 +4739,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896e510-124b-11ed-8a84-000d3a196655','8850273180112','โอเอซิส เจลไล่ยุง ชมพู',364,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e586-124b-11ed-8a84-000d3a196655','8850273180211','โอเอซิส เจลไล่ยุง เหลือง',364,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e5fb-124b-11ed-8a84-000d3a196655','8850273180310','โอเอซิส เจลไล่ยุง ฟ้า',364,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896e679-124b-11ed-8a84-000d3a196655','8850273191316','อาท พลัส ยาจุดกันยุง มะกรูด',925,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e726-124b-11ed-8a84-000d3a196655','8850360031167','ชิลด์ท้อกช์ กำจัดแมลงสาบ ยุง มด 300มล',526,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896e7a2-124b-11ed-8a84-000d3a196655','8850360031181','ชิลด์ท้อกช์ กำจัดยุง กลิ่นลาเวนเดอร์ ',526,8,58,195,518,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4750,7 +4750,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896ea9b-124b-11ed-8a84-000d3a196655','8850360091437','ชิลด์ท้อกช์ สเปรย์กำจัดยุง ไร้สารแต่งกลิ่น 600 มล',526,8,58,195,518,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896eb12-124b-11ed-8a84-000d3a196655','8850360091499','ชิลด์ท้อกช์ สเปรย์กำจัดแมลง ไร้สารแต่งกลิ่น 600 มล',526,8,58,195,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896eb9a-124b-11ed-8a84-000d3a196655','8850535200671','ลูกเหม็น เอทีเอ็ม 90 g',228,8,58,195,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896ec11-124b-11ed-8a84-000d3a196655','8851495000202','เชนไดร์ท สเปรย์ป้องกันและกำจัดแมลง 450 มล',116,8,58,195,429,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ec87-124b-11ed-8a84-000d3a196655','8851495000431','เชนไดร์ท สเปรย์ป้องกันและกำจัดแมลง 600 มล',116,8,58,195,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896ed02-124b-11ed-8a84-000d3a196655','8851495001421','เชนไดร์ท สเปรย์ป้องกันและกำจัดแมลง 300 มล',116,8,58,195,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4761,7 +4761,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896ef61-124b-11ed-8a84-000d3a196655','8851688775047','ช้างเวป สเปรย์กำจัดยุง400มล',513,8,58,195,394,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896efd7-124b-11ed-8a84-000d3a196655','8851688775054','เวป กำจัดยุง มด แมลงสาบ ',213,8,58,195,560,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896f04d-124b-11ed-8a84-000d3a196655','8851688775061','vape สเปรย์กำจัดยุง 400 มล',213,8,58,195,394,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896f0c1-124b-11ed-8a84-000d3a196655','8851688775078','เวป กำจัดยุง',213,8,58,195,560,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896f137-124b-11ed-8a84-000d3a196655','8851688775290','เวป กำจัดยุง มด แมลงสาบ หัวคู่ ลาเวนเดอร์',213,8,58,195,560,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896f1af-124b-11ed-8a84-000d3a196655','8851748000102','ซันเจี่ย ผงกำจัดแมลง 30g.',536,8,58,195,311,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4772,7 +4772,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7896f425-124b-11ed-8a84-000d3a196655','8851826061216','ก.ย.15 โลชั่นทากันยุง 40 มล',419,8,58,195,400,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896f49b-124b-11ed-8a84-000d3a196655','8851826062114','ก.ย.15 สเปรย์กันยุง กลิ่นลาเวนเดอร์ 40 มล',419,8,58,195,400,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7896fe94-124b-11ed-8a84-000d3a196655','8851826063111','ก.ย.15 กลิ่น เฟรช บลอสชั่น 8 กรัม',419,8,58,195,615,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7896ff90-124b-11ed-8a84-000d3a196655','8851826063210','ก.ย.15 มิ้ลกี้ โลชั่นทากันยุง 50 กรัม',419,8,58,195,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970010-124b-11ed-8a84-000d3a196655','8851826064118','ก.ย.15 ยาจุดกันยุง 50 กรัม',419,8,58,195,114,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970086-124b-11ed-8a84-000d3a196655','8851826067119','ก.ย.15 กลิ่น มายด์ ลิลลี่ 8 กรัม',419,8,58,195,615,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4783,7 +4783,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78970425-124b-11ed-8a84-000d3a196655','8852521100163','คินโซ เพาเวอร์วี สูตรกลิ่นอ่อน 300 ml',478,8,58,195,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789704a4-124b-11ed-8a84-000d3a196655','8852521100194','คินโซ เพาเวอร์วี สูตรไร้สารแต่งกลิ่น 300 ml',478,8,58,195,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970522-124b-11ed-8a84-000d3a196655','8852521100224','คินโซ เพาเวอร์วี สูตรกลิ่นอ่อน สีเขียว 300 ml',478,8,58,195,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789705a0-124b-11ed-8a84-000d3a196655','8852526600019','ห่านฟ้า ยาจุดกันยุง 144 กรัม',906,8,58,195,102,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897062e-124b-11ed-8a84-000d3a196655','8853687001011','NO Rat กาววิทยาศาสตร์ดักจับหนู 80กรัม',68,8,58,195,597,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789706a3-124b-11ed-8a84-000d3a196655','8853808000022','ตุ๊กแก ยาจุดกันยุง 120กรัม ',617,8,58,195,70,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4794,7 +4794,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789708f5-124b-11ed-8a84-000d3a196655','8854713001944','คายาริ อัลตร้า ยาจุดกันยุง ',464,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970990-124b-11ed-8a84-000d3a196655','8858786256065','เรนเจอร์ สเก้าท์ ยาจุดกันยุง 10 ขด',208,8,58,195,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970a0e-124b-11ed-8a84-000d3a196655','8858786256270','เรนเจอร์ สเก้าท์ ยาจุดกันยุง 215กรัม',208,8,58,195,215,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78970a88-124b-11ed-8a84-000d3a196655','8858786256447','เรนเจอร์สเก้าท์ ที ควันน้อย กลิ่นซากุระ',208,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970b01-124b-11ed-8a84-000d3a196655','8859147500070','มะลิขาว ยาจุดกันยุง ชนิดขดเหลี่ยม',753,8,58,195,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970b7c-124b-11ed-8a84-000d3a196655','8992772051026','ซอฟเฟล ทากันยุง กลิ่นฟลอร่า 8 กรัม',531,8,58,195,616,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4805,7 +4805,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78970dd7-124b-11ed-8a84-000d3a196655','8992772065177','ซอฟเฟล สเปรย์กันยุง กลิ่นฟลอร่า 80 มล',531,8,58,195,598,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970e4e-124b-11ed-8a84-000d3a196655','9556111994970',' ยาจุดกันยุง ชิลด์ท้อกซ์ ควันน้อย190 กรัม',526,8,58,195,347,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970ec6-124b-11ed-8a84-000d3a196655','4904530586538','โตชิบา ถ่าน AAA รุ่นซุปเปอร์เฮฟวี่',333,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78970f3e-124b-11ed-8a84-000d3a196655','4904530591419','โตชิบา ถ่าน AA',333,8,66,218,196,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78970fb3-124b-11ed-8a84-000d3a196655','4984824089198','พานาโซนิค ถ่านอัลคาไลน์ 1.5V AA×2ก้อน',720,8,66,218,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971028-124b-11ed-8a84-000d3a196655','8887549517716','พานาโซนิค หลอดไฟ Soft Warm 25 วัตต์',720,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4816,7 +4816,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897127e-124b-11ed-8a84-000d3a196655','  8859339000791',' ถุงตัดตรง เกรดเอ ตราแพะ 10×15 500g',803,5,52,1,12,3,NULL,NULL,0,1,'00000','2022-08-02 00:00:00',1,NULL,NULL,0),
 	 ('789712f6-124b-11ed-8a84-000d3a196655','01001006014','ถุงพลาสติกหิ้ว ตราปลาทอง 6×14 บรรจุ 1/2 กก.',811,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897136e-124b-11ed-8a84-000d3a196655','4411104015034','ถุงใส บัวหลวง 6×11 นน1/2กก',680,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789713e4-124b-11ed-8a84-000d3a196655','4411104015036','ถุงใสพิเศษสำหรับของร้อน 7×11 นน1/2กก',680,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971487-124b-11ed-8a84-000d3a196655','4411104015037','ถุงใสพิเศษสำหรับใส่ของร้อน 10×15 นน1/2กก',680,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897150d-124b-11ed-8a84-000d3a196655','4411104015040','ถุงร้อนพิเศษสำหรับบรรจุของร้อน 9×14 นน1/2กก',680,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4827,7 +4827,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78971770-124b-11ed-8a84-000d3a196655','8853507000125','ถุงขยะ สมาย แบ๊ค 26 ×34 10 ใบ',881,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789717e5-124b-11ed-8a84-000d3a196655','8853507000163',' ถุงขยะดำอย่างหนา ลดโลกร้อน 22×30 1 กก',811,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897185d-124b-11ed-8a84-000d3a196655','8853507000200','ถุงขยะดำอย่างหนา ลดโลกร้อน 28×36 1 กก',811,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789718d4-124b-11ed-8a84-000d3a196655','8857126511000','ถุงร้อนใส 2 1/2×4 ตราม้าบิน 100g',35,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971950-124b-11ed-8a84-000d3a196655','8857126511062','ถุงร้อนใส 4 1/2×8 ตราม้าบิน 2กก',35,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789719c7-124b-11ed-8a84-000d3a196655','8857126511123','ถุงร้อนใส ตราม้าบิน 6×10 1/2กก',35,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4838,7 +4838,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78971c1b-124b-11ed-8a84-000d3a196655','8859339000104','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 6×14 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971c9b-124b-11ed-8a84-000d3a196655','8859339000128','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 8×16 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971d59-124b-11ed-8a84-000d3a196655','8859339000135','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 9×18 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78971dd8-124b-11ed-8a84-000d3a196655','8859339000142','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 12×20 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971e57-124b-11ed-8a84-000d3a196655','8859339000159','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 12×26 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78971eec-124b-11ed-8a84-000d3a196655','8859339000173','ถุงหูหิ้วเกรดเอ ตราม้า 6×11 บรรจุ 1/2 กก.',607,8,63,215,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4849,7 +4849,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78972151-124b-11ed-8a84-000d3a196655','8859339000746','ถุงตัดตรง เกรดเอ ตราแพะ 5x8 500g',597,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789721c8-124b-11ed-8a84-000d3a196655','8859339000753','ถุงตัดตรง เกรดเอ ตราแพะ 6x9 500g',597,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897224b-124b-11ed-8a84-000d3a196655','8859339000760','ถุงตัดตรง เกรดเอ ตราแพะ 7x11 500g',597,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789722c2-124b-11ed-8a84-000d3a196655','8859339000777','ถุงตัดตรง เกรดเอ ตราแพะ 8×12 500g',597,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78972338-124b-11ed-8a84-000d3a196655','8859575510016','ถุงหูหิ้วพลาสติกใสไฮโซ ตราต้นเงิน 6×11 บรรจุ1/2 กก.',34,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789723af-124b-11ed-8a84-000d3a196655','8859575510078','ถุงหูหิ้วพลาสติกใสไฮโซ ชนิด LLDPE ตราต้นเงิน 9×18 บรรจุ 1/2 กก.',34,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4860,7 +4860,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897276e-124b-11ed-8a84-000d3a196655','8850092016210','วิกซอล สมาร์ท น้ำยาล้างห้องน้ำ สูตร DUO Action 900 มล.',838,8,60,204,622,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789727f8-124b-11ed-8a84-000d3a196655','8850092018207','วิกซอล Power น้ำยาทำความสะอาดห้องน้ำ 900 มล. (ดำ)',838,8,60,204,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78972871-124b-11ed-8a84-000d3a196655','8850092019204','วิกซอล Gold น้ำยาทำความสะอาห้องน้ำ 900 มล. (ทอง)',838,8,60,204,622,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789728e9-124b-11ed-8a84-000d3a196655','8850092032357','วิกซอล ทำความสะอาดห้องน้ำ พลังออกซิ (ชมพู) 350 มล.',838,8,60,204,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78972961-124b-11ed-8a84-000d3a196655','8850092032708','วิกซอล ทำสะอาดห้องน้ำ พลังออกซิ (ชมพู) 700 มล.',838,8,60,204,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789735ef-124b-11ed-8a84-000d3a196655','8850092034351','วิกซอล ทำความสะอาดห้องน้ำ พลังออกซิ (ฟ้า) 350 มล.',838,8,60,204,347,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4871,7 +4871,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78973895-124b-11ed-8a84-000d3a196655','8850092102319','วิซ ผลิตภัณฑ์ทำความสะอาดพื้น กลิ่น เลิฟลี่บลูม 800 ml',839,8,60,204,595,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897390e-124b-11ed-8a84-000d3a196655','8850092124137','วิซ ชิลด์เทค ผลิตภัณฑ์ทำความสะอาดพื้น กลิ่น รีเฟรชชิ่ง คูล 800 ml',839,8,60,204,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973987-124b-11ed-8a84-000d3a196655','8850175004684','มิสเตอร์มัสเซิล ถูพื้นขจัดคราบ (ส้ม) 800 มล. ',774,8,60,204,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78973a05-124b-11ed-8a84-000d3a196655','8850175004691','มิสเตอร์ มัสเซิล',774,8,60,204,595,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973a7b-124b-11ed-8a84-000d3a196655','8850175004912','มิสเตอร์ มัซเซิล ทำความสะอาดพื้น 800ml.x2',774,8,60,204,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973af9-124b-11ed-8a84-000d3a196655','8850175007005','มิสเตอร์มัสเซิล ทำความสะอาดกระจก 270 มล',774,8,60,204,270,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4882,7 +4882,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78973d54-124b-11ed-8a84-000d3a196655','8850175046066','เป็ด โปร น้ำยาล้างห้องน้ำ 900 มล.',175,8,60,204,622,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973dcb-124b-11ed-8a84-000d3a196655','8850360031495','ผลิตภัณฑ์ฆ่าเชื้อโรค เดทตอล',131,8,60,204,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973e5c-124b-11ed-8a84-000d3a196655','8850360033321','สเปรย์ฆ่าเชื้อโรค เดทตอล ฟ้า',131,8,60,204,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78973ed9-124b-11ed-8a84-000d3a196655','8850360034304','สเปรย์ฆ่าเชื้อโรค เดทตอล ม่วง',131,8,60,204,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973f51-124b-11ed-8a84-000d3a196655','8850360035301','สเปรย์ฆ่าเชื้อโรค เดือน เหลือง',131,8,60,204,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78973fcb-124b-11ed-8a84-000d3a196655','8851198926601','น้ำยาทำความสะอาด ฮาร์ปิค',944,8,60,204,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4893,7 +4893,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897424e-124b-11ed-8a84-000d3a196655','8851818318915','เมจิคลีน เนเชอรัล เอสเซ้นส์ 800ml.',759,8,60,204,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789742c5-124b-11ed-8a84-000d3a196655','8851818318922','มาจิกคลีน น้ำยาทำความสะอาดพื้น (ขาว ชมพู) 700 มล.',759,8,60,204,560,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974340-124b-11ed-8a84-000d3a196655','8851818318939','มาจิกคลีน น้ำยาทำความสะอาดพื้นผิว (ขาว) 800 มล.',759,8,60,204,595,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78974488-124b-11ed-8a84-000d3a196655','8851818318946','มาจิกคลีน ทำความสะอาดพื้น (ขาว เขียว) 700 มล.',759,8,60,204,560,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897450b-124b-11ed-8a84-000d3a196655','8851818379947','มาจิกคลีน ทำความสะอาด 500 มล. (ชมพู สเปย์)',759,8,60,204,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974587-124b-11ed-8a84-000d3a196655','8851818380646','มาจิกคลีน ทำความสะอาด 500 มล. (เหลือง สเปย์)',759,8,60,204,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4904,7 +4904,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78974815-124b-11ed-8a84-000d3a196655','8851818639102','เมจิคลีน ผลิตภัณฑ์ทำความสะอาดพื้น ลาเวนเดอร์ 500 ml',759,8,60,204,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974892-124b-11ed-8a84-000d3a196655','8851818645301','มาจิคลีน ผลิตภัณฑ์ทำความสะอาดห้องน้ำ สีขาว 850 ml',759,8,60,204,604,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897490d-124b-11ed-8a84-000d3a196655','8851818802452','มาจิกคลีน ทำความสะอาด 500 มล. (ม่วง สเปย์)',759,8,60,204,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78974985-124b-11ed-8a84-000d3a196655','8851818827905','มาจิคลีน ทำความสะอาดห้องน้ำ (เหลือง เล็ก) 425 มล.',759,8,60,204,409,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789749fe-124b-11ed-8a84-000d3a196655','8851818828100','มาจิคลีน พาวเวอร์ สตรอง ผลิตภัณฑ์ทำความสะอาดห้องน้ำ กลิ่นสปาร์คลิ่ง พิ้งค์ 850 มล.',759,8,60,204,604,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974a7b-124b-11ed-8a84-000d3a196655','8851818845961','มาจิคลีน ทำความสะอาดห้องน้ำ (เขียว) 650 มล.',759,8,60,204,538,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4915,7 +4915,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78974d0b-124b-11ed-8a84-000d3a196655','8851818969629','มาจิกคลีน น้ำยาทำความสะอาดพื้น (เหลือง) 700 มล.',759,8,60,204,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974d88-124b-11ed-8a84-000d3a196655','8856909000601','เอยู น้ำยาทำความสะอาดห้องน้ำ (ม่วง เล็ก) 500 มล.',237,8,60,204,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974e00-124b-11ed-8a84-000d3a196655','4902430224574','ดาวน์นี่ ปรับผ้านุ่ม สูตร Sunrise 630 มล.',578,8,55,184,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78974e7f-124b-11ed-8a84-000d3a196655','4902430276320','ดาวน์นี่ แพชชั่น ผลิตภัณฑ์ปรับผ้านุ่ม 20ml',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974ef9-124b-11ed-8a84-000d3a196655','4902430276436','ดาวน์นี่ แพชชั่น ผลิตภัณฑ์ปรับผ้านุ่ม 310 ml',578,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78974f70-124b-11ed-8a84-000d3a196655','4902430276665','ดาวน์นี่ แพชชั่น ปรับผ้านุ่ม 500 มล.',578,8,55,184,468,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4926,7 +4926,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78975344-124b-11ed-8a84-000d3a196655','4902430417822','ดาวน์นี่ พรีเมี่ยม ช่อดอกไม้อันแสนน่ารัก 20ml',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789753be-124b-11ed-8a84-000d3a196655','4902430417860','ดาวน์นี่ ปรับผ้านุ่ม สูตร Premium (ชมพู) 560 มล.',578,8,55,184,498,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975436-124b-11ed-8a84-000d3a196655','4902430417914','ดาวน์นี่ ปรับผ้านุ่ม กลิ่นหอมช่อดอกไม้น่ารัก 310ml',578,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789754b3-124b-11ed-8a84-000d3a196655','4902430418164','ดาวน์นี่ ปรับผ้านุ่ม กลิ่นหอมช่อดอกไม้น่ารัก 120ml',578,8,55,184,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897552e-124b-11ed-8a84-000d3a196655','4902430452724','ดาวน์นี่ สวนดอกไม้พลิ ผลิตภัณฑ์ปรับผ้านุ่ม 360มล.',578,8,55,184,358,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789755ac-124b-11ed-8a84-000d3a196655','4902430452748','ดาวน์นี่ ปรับผ้านุ่ม การ์เด้นบลูม 540 ml',578,8,55,184,491,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4937,7 +4937,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78975825-124b-11ed-8a84-000d3a196655','4902430504522','ดาวน์นี่ มิส-ทีค ผลิตภัณฑ์ปรับผ้านุ่ม 310 ml',578,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897589a-124b-11ed-8a84-000d3a196655','4902430504577','ดาวน์นี่ มิส-ทีค  ผลิตภัณฑ์ปรับผ้านุ่ม 20 มล.',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975915-124b-11ed-8a84-000d3a196655','4902430643085','ดาวน์นี่ Premium parfume fusion 560ml',578,8,55,184,498,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897598b-124b-11ed-8a84-000d3a196655','4902430655736','ดาวน์นี่ ปรับผ้านุ่ม 20 มล. (ชมพู) ซอง',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975a01-124b-11ed-8a84-000d3a196655','4902430655743','ดาวน์นี่ น้ำเดียว สีม่วง 22ml',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975a77-124b-11ed-8a84-000d3a196655','4902430679565','ดาวน์นี่ เบบี้ เจนเทิล 540 ml',578,8,55,184,491,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4948,7 +4948,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78975e17-124b-11ed-8a84-000d3a196655','4902430685238','ดาวน์นี่ ผงซักฟอก ซันไรท์ เฟรช 1440 กรัม',578,8,55,184,101,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975e90-124b-11ed-8a84-000d3a196655','4902430685269','ดาวน์นี่ ผงซักฟอก การ์เด้น บลูม 1440 กรัม',578,8,55,184,101,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975f04-124b-11ed-8a84-000d3a196655','4902430693417','ดาวน์นี่ แดร์ริ่ง ผลิตภัณฑ์ปรับผ้านุ่ม 310 ml',578,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78975f78-124b-11ed-8a84-000d3a196655','4902430695350','ดาวน์นี่ น้ำยาซักผ้าการ์เด้นบลูม 300 มล.',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78975fef-124b-11ed-8a84-000d3a196655','4902430695404','ดาวน์นี่ น้ำยาซักผ้าซันไรท์เฟรชคลีน 300 มล.',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976065-124b-11ed-8a84-000d3a196655','4902430695442','ดาวน์นี่น้ำยาซักผ้า กลิ่นซันไรท์ เฟรช คลีน 550 มล.',578,8,55,184,494,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4959,7 +4959,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789762b6-124b-11ed-8a84-000d3a196655','4902430740883','ดาวน์นี่ ผลิตภัณฑ์ปรับผ้านุ่ม สูตรเข้มข้น 120มล.',578,8,55,184,71,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897632b-124b-11ed-8a84-000d3a196655','4902430779937','ดาวน์นี่ แดริ่ง ดาวน์นี่คลีน ผลิตภัณฑ์ซักผ้า 35 ml',578,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789763bc-124b-11ed-8a84-000d3a196655','4902430780551','ดาวน์นี่ การ์เด้น บลูม คลีน ผลิตภัณฑ์ซักผ้า 35 มล.',578,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78976434-124b-11ed-8a84-000d3a196655','4902430803434','ดาวน์นี่ สวนดอกไม้ผลิ ผลิตภัณฑ์ปรับผ้านุ่ม 120มล.',578,8,55,184,71,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789764a8-124b-11ed-8a84-000d3a196655','4902430803595','ดาวน์นี่ แพชขั่น ผลิตภัณฑ์ปรับผ้านุ่ม 110มล.',578,8,55,184,59,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897651b-124b-11ed-8a84-000d3a196655','4902430815758','ดาวน์นี่ เม็ดเพิ่มความหอมซักผ้า (เขียว) 150 มล.',578,8,55,184,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4970,7 +4970,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78976765-124b-11ed-8a84-000d3a196655','4902430837071','ดาวน์นี่ Premium parfume secret garden 16ml',578,8,55,184,139,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789767d8-124b-11ed-8a84-000d3a196655','4902430838313','ดาวน์นี่ พรีเมี่ยม อความ โอเชี่ยน 110ml',578,8,55,184,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976850-124b-11ed-8a84-000d3a196655','4902430838337','ดาวน์นี่ พรีเมี่ยม ซีเคร็ท การ์เด้น 110ml',578,8,55,184,59,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789768c8-124b-11ed-8a84-000d3a196655','4902430838344','ดาวน์นี่ Premium parfume secret garden 300ml',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897693c-124b-11ed-8a84-000d3a196655','4902430838368','ดาวน์นี่ Premium parfume aqua ocean 300ml',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789769ae-124b-11ed-8a84-000d3a196655','4902430838375','ดาวน์นี่ ปรับผ้านุ่ม สูตรอควโอเชี่ยน 490 มล.',578,8,55,184,451,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4981,7 +4981,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78976bff-124b-11ed-8a84-000d3a196655','4902430867757','ดาวน์นี่ สูตรตากในที่ร่ม 300ml',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976c72-124b-11ed-8a84-000d3a196655','4902430867863','ดาวน์นี่ สำหรับตากผ้าในร่ม ผลิตภัณฑ์ปรับผ้านุ่ม 300 ml',578,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976ce7-124b-11ed-8a84-000d3a196655','4902430867870','ดาวน์นี่ Expert Indoor Dry 510ml',578,8,55,184,478,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78976d59-124b-11ed-8a84-000d3a196655','4902430876995','ดาวน์นี่ ผงซักฟอก 68 กรัม (เขียว)',578,8,55,184,548,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976dec-124b-11ed-8a84-000d3a196655','4902430877015','ดาวน์นี่ สูตรตากในที่ร่ม 720ml',578,8,55,184,568,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78976e64-124b-11ed-8a84-000d3a196655','4902430901369','ดาวน์นี่ ปรับผ้านุ่ม อินดอ ดราฟ 120 ml',578,8,55,184,71,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -4992,7 +4992,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789770b6-124b-11ed-8a84-000d3a196655','4987176078285','ดาวน์นี่ ปรับผ้านุ่ม ลิเวอร์มอร์ ฝรั่งเศส',399,8,55,184,451,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897712a-124b-11ed-8a84-000d3a196655','498717608124','ดาวน์นี่ เจลบอลซักผ้า สีชมพู การ์เด้น บลูม พลัส 328 ml.',578,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789771a4-124b-11ed-8a84-000d3a196655','4987176081254','ดาวน์นี่ เจลบอลซักผ้า สีฟ้า ซันไรท์ เฟรส พลัส 328 ml.',578,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78977218-124b-11ed-8a84-000d3a196655','4987176081261','ดาวน์นี่ เจลบอลซักผ้า สีเขียว ต้านกลิ่นอับพลัส 328 ml.',578,8,55,184,80,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897728f-124b-11ed-8a84-000d3a196655','4987176093783','ดาวน์นี่ ปรับผ้านุ่ม ซันไรส์ เฟรช 530 ml',399,8,55,184,327,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977304-124b-11ed-8a84-000d3a196655','4987176122056','ดาวน์นี่ สงนดอกไม้ผลิ ผลิตภัณฑ์ปรับผ้านุ่ม 25 มล.',578,8,55,184,256,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5003,7 +5003,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78977555-124b-11ed-8a84-000d3a196655','8850002012196','ไฮคลาส ปรับผ้านุ่ม (ส้ม) 550 มล.',415,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789775c8-124b-11ed-8a84-000d3a196655','8850002016804','ไฮคลาส ปรับผ้านุ่ม (ฟ้า) 550 มล.',415,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977640-124b-11ed-8a84-000d3a196655','8850002017467','ไฮคลาส ปรับผ้านุ่ม (ม่วง) 550 มล.',415,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789776b2-124b-11ed-8a84-000d3a196655','8850002022867','ไฮคลาส ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น ฮานา พิงค์เก้ 500 มล.',415,8,55,184,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977726-124b-11ed-8a84-000d3a196655','8850002026322','ไฮคลาสผลิตภัณฑ์ ปรับผ้านุ่ม กลิ่นฮานาบูทีค 500 ml',415,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977799-124b-11ed-8a84-000d3a196655','8850002028654','ไฮคลาส ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่นฮานาโรส 500 ml',415,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5014,7 +5014,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78977b9f-124b-11ed-8a84-000d3a196655','8850092260330','ไฮยีน ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น ซอฟท์ ไวท์ 600 มล.',418,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977c14-124b-11ed-8a84-000d3a196655','8850092263348','ไฮยีน ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น กรีน เนเชอรัล 600 มล.',418,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977c8b-124b-11ed-8a84-000d3a196655','8850092266332','ไฮยีน ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น ไวโอเล็ต ซอฟท์ 600 มล.',418,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78977d04-124b-11ed-8a84-000d3a196655','8850092275709','ไฮยีน เอ็กซ์เพิร์ท แคร์ ซันไรส์ คิส 490 ml',418,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977d7b-124b-11ed-8a84-000d3a196655','8850092277703','ไฮยีน Expert care สปริง แมกโนเลีย ผลิตภัณฑ์ปรับผ้านุ่ม  540 มล.',418,8,55,184,491,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78977df3-124b-11ed-8a84-000d3a196655','8850092291020','ไฮยีน expert care Wonder blossom 20 ml.',418,8,55,184,209,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5025,7 +5025,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897803b-124b-11ed-8a84-000d3a196655','8851123340373','เบบี้มายด์ ปรับผ้านุ่มเด็ก กลิ่นพิงค์ฟลอรัล 300มล.',166,8,55,184,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789780b1-124b-11ed-8a84-000d3a196655','8851818036291','แอทแทค 3ดี ซอฟท์ โรแมนติกเลิฟ 85ml',297,8,55,184,606,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978262-124b-11ed-8a84-000d3a196655','8851818045958','แอทแทค อีซี่ ผงซักฟอก กลิ่นซอฟท์ตี้สวีท 120 กรัม',297,8,55,184,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789782e2-124b-11ed-8a84-000d3a196655','8851818045965','แอทแทค อีซี่ ผงซักฟอก กลิ่น ซอฟท์ตี้ สวีท 280 g',297,8,55,184,275,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897835a-124b-11ed-8a84-000d3a196655','8851818045972','แอทแทค อีซี่ ผงซักฟอก ซอฟท์ตี้ สวีท 750g',297,8,55,184,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789783d2-124b-11ed-8a84-000d3a196655','8851818045989','แอทแทค ผงซักฟอก ซอฟท์ตี้ สวีท 1750 กรัม',297,8,55,184,148,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5036,7 +5036,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897864d-124b-11ed-8a84-000d3a196655','8851818054714','แอทแทค 3ดี แอ็คชั่น 190กรัม',297,8,55,184,174,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789786c1-124b-11ed-8a84-000d3a196655','8851818054851','แอทแทค 3D คลีน แอ็คชั่น ผงซักฟอก 850 กรัม',297,8,55,184,603,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978734-124b-11ed-8a84-000d3a196655','8851818089471','แอทแทค ผงซักฟอก แฮปปี้ สวีท 2700 กรัม',297,8,55,184,267,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789787ac-124b-11ed-8a84-000d3a196655','8851818106918','แอทแทค 3ดี In love 800ml',297,8,55,184,595,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978820-124b-11ed-8a84-000d3a196655','8851818106949','แอทแทค ทรีดี ไบรท์แอนด์ชายน์ 800 g',297,8,55,184,594,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978894-124b-11ed-8a84-000d3a196655','8851818106987','แอทแทค 3ดี แมชชีน 750ml',297,8,55,184,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5047,7 +5047,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78978af0-124b-11ed-8a84-000d3a196655','8851818208933','แอทแทค ผงซักฟอก แฮปปี้ สวีท 1900 กรัม',297,8,55,184,172,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978b68-124b-11ed-8a84-000d3a196655','8851818208971','แอทแทค อีซี่ ผงซักฟอก เซ็กซี่ สวีท 800 กรัม',297,8,55,184,594,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978bdd-124b-11ed-8a84-000d3a196655','8851818208995','แอทแทค ผงซักฟอก แซ็กซี่ สวีท 2700 กรัม',297,8,55,184,267,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78978c53-124b-11ed-8a84-000d3a196655','8851818209015','แอทแทค อีซี่ ผงซักฟอก ซากุระ สวีท 800 กรัม',297,8,55,184,594,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978cc8-124b-11ed-8a84-000d3a196655','8851818209022','แอทแทค ผงซักฟอก ซากุระ สวีท 1900 กรัม',297,8,55,184,172,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78978d3f-124b-11ed-8a84-000d3a196655','8851818209039','แอทแทค ผงซักฟอก ซากุระ สวีท 2700 กรัม',297,8,55,184,267,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5058,7 +5058,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78978f8c-124b-11ed-8a84-000d3a196655','8851818209145','แอทแทค อีซี่ ผงซักฟอก กลิ่นซากุระสวีท 120 กรัม',297,8,55,184,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979021-124b-11ed-8a84-000d3a196655','8851818209152','แอทแทค อีซี่ ผงซักฟอก กลิ่นซากุระสวีท 300 กรัม',297,8,55,184,306,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979098-124b-11ed-8a84-000d3a196655','8851818553125','แอทแทค น้ำยาซักผ้า (ธรรมดา) 770 มล.',297,8,55,184,582,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78979113-124b-11ed-8a84-000d3a196655','8851818553149','แอทแทค 3ดี คลีน แอ็คชั่น สูตรน้ำ 35 ml',297,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897918b-124b-11ed-8a84-000d3a196655','8851818553163','แอทแทค ทรีดี แอนตี้ โอเดอร์ โรแมนติกเลิฟ 720 ml',297,8,55,184,568,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979200-124b-11ed-8a84-000d3a196655','8851818553187','แอทแทค 3ดี ซอฟท์ 35ml',297,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5069,7 +5069,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897944b-124b-11ed-8a84-000d3a196655','8851932188005','คอมฟอร์ท สบาย ปรับผ้านุ่ม สีชมพู ชนิดเติม 580มล.',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789794c2-124b-11ed-8a84-000d3a196655','8851932188012','คอมฟอร์ท สบาย ปรับผ้านุ่ม สีม่วง ชนิดเติม 580มล.',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979538-124b-11ed-8a84-000d3a196655','8851932188098','คอมฟอร์ท สบาย สีชมพู 270ml',458,8,55,184,270,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789795ae-124b-11ed-8a84-000d3a196655','8851932191265','คอมฟอร์ท น้ำยาปรับผ้านุ่ม กลิ่นรีเฟรสชิ่ง บลู แพ็ค 3 ถุง',458,8,55,184,503,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979638-124b-11ed-8a84-000d3a196655','8851932191289','คอมฟอร์ท น้ำยาปรับผ้านุ่มสีชมพู กลิ่นเลิฟลี่ พิ้งค์ แพ็ค 3 ถุง',458,8,55,184,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789796ba-124b-11ed-8a84-000d3a196655','8851932191296','คอมฟอร์ท น้ำยาปรับผ้านุ่มสีม่วง กลิ่นบลูมมิ่ง ไวโอเลต แพ็ค 3 ถุง',458,8,55,184,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5080,7 +5080,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897991a-124b-11ed-8a84-000d3a196655','8851932217163','คอมฟอร์ท น้ำเดียว เดลิเฟรช ผลิตภัณฑ์ปรับผ้านุ่ม  20 ml',458,8,55,184,209,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789799af-124b-11ed-8a84-000d3a196655','8851932219815','คอมฟอร์ท น้ำเดียว เดลี่ เฟรช ผลิตภัณฑ์ปรับผ้านุ่ม 540 มล.',458,8,55,184,491,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979a26-124b-11ed-8a84-000d3a196655','8851932243391','คอมฟอร์ท น้ำเดียว ฟลอรัล เฟรช ผลิตภัณฑ์ปรับผ้านุ่ม 20ml',458,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78979a9b-124b-11ed-8a84-000d3a196655','8851932288071','คอมฟอร์ท สบาย ปรับผ้านุ่ม สีแดง ชนิดเติม 580มล.',458,8,55,184,503,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979b10-124b-11ed-8a84-000d3a196655','8851932288095','คอมฟอร์ท น้ำยาปรับผ้านุ่มสีแดง กลิ่นโรแมนติก เรด แพ็ค 3 ถุง',458,8,55,184,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979b8c-124b-11ed-8a84-000d3a196655','8851932344944','คอมฟอร์ท เพียว ปรับผ้านุ่ม',458,8,55,184,491,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5091,7 +5091,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78979df4-124b-11ed-8a84-000d3a196655','8851932363365','คอมฟอร์ท ลักชัวรี่ เอนชานซ์ 20ml',458,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979e6b-124b-11ed-8a84-000d3a196655','8851932363372','คอมฟอร์ท ลักชัวรี่ ปรับผ้านุ่ม เอนชานท์ 130 มล.',458,8,55,184,87,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979ee0-124b-11ed-8a84-000d3a196655','8851932363389','คอมฟอร์ท ปรับผ้านุ่ม เอนชานท์ 330 ml',458,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78979f54-124b-11ed-8a84-000d3a196655','8851932363396','คอมฟอร์ท ปรับผ้านุ่ม ดาร์ลิง สีม่วง',458,8,55,184,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78979fcb-124b-11ed-8a84-000d3a196655','8851932363433','คอมฟอร์ท ลักชัวรี่ แกลมเมอรัส 20ml',458,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897a043-124b-11ed-8a84-000d3a196655','8851932363457','คอมฟอร์ท ลักชัวรี่ แกลมเมอรัส 330ml',458,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5102,7 +5102,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897a28c-124b-11ed-8a84-000d3a196655','8851932363730','คอมฟอร์ท อัลตร้า เดลิ เฟรช ผลิตภัณฑ์ปรับผ้านุ่ม 20ml',458,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897a30f-124b-11ed-8a84-000d3a196655','8851932363747','คอมฟอร์ท อัลตร้า ฟลอรัลเฟรช ผลิตภัณฑ์ปรับผ้านุ่ม 20มล',458,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897a3a0-124b-11ed-8a84-000d3a196655','8851932376785','คอมฟอร์ท ลักชัวรี่ lux rose 330 ml',458,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897a417-124b-11ed-8a84-000d3a196655','8851932380805','คอมฟอร์ท แดซลิ่ง เอนชานท์เม้น 310ml',458,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897a590-124b-11ed-8a84-000d3a196655','8851932380874','คอมฟอร์ท โกลด์วิ่ง ดาร์ลิ่ง 310ml ',458,8,55,184,314,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897a60b-124b-11ed-8a84-000d3a196655','8851932387071','คอมฟอร์ท น้ำเดียว เดลิ เฟรช 130 ml',458,8,55,184,87,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5113,7 +5113,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897a98f-124b-11ed-8a84-000d3a196655','8851932390880','คอมฟอร์ท เนเชอรัล น้ำยาปรับผ้านุ่ม สีชมพู 580 มล. ',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897aa0a-124b-11ed-8a84-000d3a196655','8851932390903','คอมฟอร์ท เนเชอรัล น้ำยาปรับผ้านุ่ม สีฟ้า 580 มล. ',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897aa82-124b-11ed-8a84-000d3a196655','8851932407380','คอมฟอร์ท ลักชัวรี่ ดีไซร์ 580ml',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897aaf9-124b-11ed-8a84-000d3a196655','8851932407533','คอมฟอร์ท สบาย ปรับผ้านุ่ม สีขาว ชนิดเติม 580มล.',458,8,55,184,503,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ab7a-124b-11ed-8a84-000d3a196655','8851932407540','คอมฟอร์ท น้ำยาปรับผ้านุ่มสีขาว กลิ่นสวีทไวท์ แพ็ค 3 ถุง',458,8,55,184,307,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897abfb-124b-11ed-8a84-000d3a196655','8851932411257','คอมฟอร์ท อัลต้า สูตรเข้มข้น สีชมพู 130ml',458,8,55,184,87,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5124,7 +5124,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897ae5f-124b-11ed-8a84-000d3a196655','8851932411684','คอมฟอร์ท น้ำเดียว ซันไชน์ 22ml',458,8,55,184,232,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897aed6-124b-11ed-8a84-000d3a196655','8851932411691','คอมฟอร์ท ปรับผ้านุ่ม น้ำเดียว ซันชายน์ 600 มล.',578,8,55,184,491,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897af4f-124b-11ed-8a84-000d3a196655','8851932411707','คอมฟอร์ท น้ำเดียว ซันชายน์ ผลิตภัณฑ์ปรับผ้านุ่ม 130 มล.',458,8,55,184,87,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897b043-124b-11ed-8a84-000d3a196655','8851932422239','คอมฟอร์ท แอนตี้แบค ปรับผ้านุ่ม ชนิดเติม 650มล.',458,8,55,184,538,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b0ca-124b-11ed-8a84-000d3a196655','8851932440899','Comfort น้ำยาปรับผ้านุ่ม แพ็คคู่',458,8,55,184,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b143-124b-11ed-8a84-000d3a196655','8851989030388','ไฟน์ไลน์ ผลิตภัณฑ์ปรับผ้านุ่ม Freshy blue 580 มล.',399,8,55,184,503,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5135,7 +5135,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897b4a7-124b-11ed-8a84-000d3a196655','8851989033068','น้ำยาปรับผ้านุ่ม 125 มล. (เขียว)',399,8,55,184,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b524-124b-11ed-8a84-000d3a196655','8851989033495','ไฟน์ไลน์ แอลลิแกนซ์ ซีรีส์ ปรับผ้านุ่ม สูตรเข้มข้น',399,8,55,184,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b59e-124b-11ed-8a84-000d3a196655','8851989033785','ไฟน์ไลน์ ปรับผ้านุ่ม dreaming kiss',399,8,55,184,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897b617-124b-11ed-8a84-000d3a196655','9033808','ไฟน์ไลน์ ปรับผ้านุ่ม blooming fresh',399,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b68e-124b-11ed-8a84-000d3a196655','91128126','ดาวน์นี่ ปรับผ้านุ่ม 20 มล. Premium (ชมพู) ซอง',578,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897b708-124b-11ed-8a84-000d3a196655','2902000097890','น้ำยาล้างจาน ไลปอนเอห',403,8,60,204,468,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5146,7 +5146,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897b963-124b-11ed-8a84-000d3a196655','8850002022577','ไลปอนเอฟ สูตรมะกรูด เอกตร้าคลีน 500 ml',403,8,60,204,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ba0d-124b-11ed-8a84-000d3a196655','8850002032255','โปร ผลิตภัณฑ์ล้างจาน สูตร เบอร์รี่พาวเวอร์ 400 ml',340,8,60,204,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ba85-124b-11ed-8a84-000d3a196655','8850002034273','โปร โพเฟชชั่นนอล 2700 g',340,8,60,204,267,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897bafc-124b-11ed-8a84-000d3a196655','8850002034365','ไลปอนเอฟ เจแปนนีสพีช 500 ml',403,8,60,204,468,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897bb70-124b-11ed-8a84-000d3a196655','8850969371886','โชกุน ผลิตภัณฑ์ล้างจาน 400 ml',324,8,60,204,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897bbeb-124b-11ed-8a84-000d3a196655','8851932004183','ซันไลต์ เลมอนเพาเวอร์ ขจัดคราบมัน/กลิ่นคาว 150กรัม',539,8,60,204,115,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5157,7 +5157,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897be59-124b-11ed-8a84-000d3a196655','8851932187688','โอโม พลัส ไวท์ เฟรช 900 g',366,8,60,204,621,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897bece-124b-11ed-8a84-000d3a196655','8851932230278','โอโม ผงซักฟอก ผ้าขาวและผ้าสี 125g.',366,8,60,204,75,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897bf47-124b-11ed-8a84-000d3a196655','8851932268073','โอโม พลัส แอนตีแบค 210 กรัม',366,8,60,204,213,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897bfbe-124b-11ed-8a84-000d3a196655','8851932268158','โอโม พลัส แอนตี้แบค 900 g',366,8,60,204,621,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c03a-124b-11ed-8a84-000d3a196655','8851932280402','โอโม ผ้าขาวผ้าสี 430 กรัม',366,8,60,204,416,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c0b0-124b-11ed-8a84-000d3a196655','8851932283052','โอโม พลัส ไวท์ เฟรส 210 กรัม',366,8,60,204,213,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5168,7 +5168,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897c306-124b-11ed-8a84-000d3a196655','8851932370998','ซันไลต์ ผลิตภัณฑ์ล้างจาน เลมอนเทอร์โบ 485 ml',539,8,60,204,447,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c387-124b-11ed-8a84-000d3a196655','8851932371025','ซันไลต์ ผลิตภัณฑ์ล้างยาน เลมอน เทอร์โบ 150 ml',539,8,60,204,115,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c3fe-124b-11ed-8a84-000d3a196655','8851932373869','โอโม พลัส พาริส 95 กรัม',366,8,60,204,632,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897c476-124b-11ed-8a84-000d3a196655','8851932373913','โอโม พลัส พาริส 900 กรัม',366,8,60,204,621,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c4ed-124b-11ed-8a84-000d3a196655','8851932374644','โอโม น้ำยาซักผ้า กลิ่นดาวน์นี่เพอร์ฟูม 700ml.',366,8,60,204,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c563-124b-11ed-8a84-000d3a196655','8851932388627','ซันไลต์ เพียว ขวด 145 ml',539,8,60,204,104,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5179,7 +5179,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897c7bd-124b-11ed-8a84-000d3a196655','8851932391047','โอโม พลัส ซากุระ เฟรช 900 กรัม',366,8,60,204,621,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c84e-124b-11ed-8a84-000d3a196655','8851932391054','โอโม ซากุระ เฟรช 400 g',366,8,60,204,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c8c5-124b-11ed-8a84-000d3a196655','8851932391061','โอโม พลัส ซากุระ บลอสซั่ม ผงซักฟอก 1500 กรัม',366,8,60,204,112,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897c93c-124b-11ed-8a84-000d3a196655','8851932391092','โอโม พลัส มอร์นิ่ง บลูม ผงซักฟอก 1500 กรัม',366,8,60,204,112,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897c9b2-124b-11ed-8a84-000d3a196655','8851932392198','ซันไลต์ พลัส เพียว ว่านหางจระเข้ 750 ml',539,8,60,204,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897cb8e-124b-11ed-8a84-000d3a196655','8851932392228','ซันไลต์ เลมอน เทอร์โบ750มล',539,8,60,204,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5190,7 +5190,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897cdf0-124b-11ed-8a84-000d3a196655','8851932409346','โอโม ซันชายน์ 1900g',366,8,60,204,172,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897cf9b-124b-11ed-8a84-000d3a196655','8851932410595','ซันไลต์ สเปรย์ล้างจาน ยูซุ 300ml',539,8,60,204,307,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d020-124b-11ed-8a84-000d3a196655','8851932413183','ซันไลต์ ผลิตภัณฑ์ล้างจาน กลิ่นเลมอน มิ้น 300ml.',539,8,60,204,307,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897d09a-124b-11ed-8a84-000d3a196655','8851932416078','โอโม ซันซายน์ 3000 กรัม',366,8,60,204,303,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d112-124b-11ed-8a84-000d3a196655','8851932420006','ซันไลต์ แอนตี้แบค กลิ่นเลม่อน มิ้น 145ml.',539,8,60,204,104,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d18b-124b-11ed-8a84-000d3a196655','8851932422024','โอโม น้ำยาล้างจาน 3600ml',366,8,60,204,355,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5201,7 +5201,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897d3e5-124b-11ed-8a84-000d3a196655','8856909000465','เอ แอนด์ ยู ผลิตภัณฑ์ล้างจาน 800 มล.',222,8,60,204,595,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d45c-124b-11ed-8a84-000d3a196655','8856909000489','เอ แอนด์ ยู ผลิตภัณฑ์ล้างจาน 3800 มล.',222,8,60,204,369,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d4d4-124b-11ed-8a84-000d3a196655','8856909001202','เอ แอนด์ ยู ผลิตภัณฑ์ล้างจาน(แบเติม) 500 มล.',222,8,60,204,468,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897d576-124b-11ed-8a84-000d3a196655','8859333700024','น้ำยาล้างจาน ว้าว',835,8,60,204,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d5ef-124b-11ed-8a84-000d3a196655','8851818227545','น้ำยาล้างห้องน้ำ มาจิคลีน สีฟ้า 750มล',759,8,60,204,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d669-124b-11ed-8a84-000d3a196655','8851818275072','น้ำยาล้างห้องน้ำ มาจิคลีน สูตรไม่มีกรด 750มล',759,8,60,204,577,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5212,7 +5212,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897d8ee-124b-11ed-8a84-000d3a196655','8850273212912','เฟรชชี่ สเปรย์ปรับอากาศ กลิ่นส้ม300มล',136,8,57,191,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d964-124b-11ed-8a84-000d3a196655','8850273212929','เฟรชชี่ สเปรย์ปรับอากาศ กลิ่นเลมอน',136,8,57,191,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897d9db-124b-11ed-8a84-000d3a196655','8850273212936','เฟรชชี่ สเปรย์ปรับอากาศ กลิ่นฟลอร่า300มล',136,8,57,191,307,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897da51-124b-11ed-8a84-000d3a196655','8850273214817','เดลี่เฟรช น้ำหอมปรับอากาศ กลิ่นซากุระ 250มล.',136,8,57,191,250,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897daca-124b-11ed-8a84-000d3a196655','8850273219416','เฟรชชี่ สเปรย์ปรับอากาศ กลิ่นซากุระ',136,8,57,191,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897db43-124b-11ed-8a84-000d3a196655','8850273220108','เดลี่เฟรช สเปรย์ปรับอากาศ กลิ่นฟลอร่า',93,8,57,191,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5223,7 +5223,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897dda7-124b-11ed-8a84-000d3a196655','8850273226315','โอเอซิส น้ำหอมปรับอากาศ กลิ่นส้ม',136,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897de1d-124b-11ed-8a84-000d3a196655','8850273228104','เดลี่เฟรช สเปรย์ปรับอากาศ',136,8,57,191,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897de93-124b-11ed-8a84-000d3a196655','8850273231104','เดลี่เฟรช เจลหอมปรับอากาศ กลิ่นฟลอรัล70กรัม',136,8,57,191,563,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897df0a-124b-11ed-8a84-000d3a196655','8850273234105','เดลี่เฟรช เจลหอมปรับอากาศ กลิ่นส้ม 70กรัม',136,8,57,191,563,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897df9f-124b-11ed-8a84-000d3a196655','8850273235102','เดลี่เฟรช เจลหอมปรับอากาศ กลิ่น Marine',136,8,57,191,563,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e019-124b-11ed-8a84-000d3a196655','8850273236109','เดลี่เฟรช เจลหอมปรับอากาศ กลิ่นorchard 70กรัม',136,8,57,191,563,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5234,7 +5234,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897e277-124b-11ed-8a84-000d3a196655','8850273244111','เฟรชขี่ เจลหอมปรับอากาศ กลิ่นสตรอเบอรี่',19,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e2ee-124b-11ed-8a84-000d3a196655','8850273261712','เดลี่เฟรช น้ำหอมปรับอากาศ กลิ่นลาเวนเดอร์',136,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e367-124b-11ed-8a84-000d3a196655','8850273261811','เดลี่เฟรช น้ำหอมปรับอากาศ กลิ่นเลมอนโซดา',136,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897e3de-124b-11ed-8a84-000d3a196655','8850273263105','เดลี่เฟรช เจลก้อนหอมปรับอากาศ กลิ่นฟลอรัล',136,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e456-124b-11ed-8a84-000d3a196655','8850273263402','เดลี่เฟรช เจลก้อมหอมปรับอากาศ กลิ่นส้ม',136,8,57,191,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e4d1-124b-11ed-8a84-000d3a196655','8850273272114','เดลี่เฟรช สเปรย์ปรับอากาศ กลิ่นลาเวนเดอร์',136,8,57,191,1,4,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5245,7 +5245,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897e72a-124b-11ed-8a84-000d3a196655','9556073012665','แอมบิเพอร์ เจล เฟรช กลิ่นโรแมนติกโรส',301,8,57,191,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e7a1-124b-11ed-8a84-000d3a196655','9556076004356','แอมบิเพอร์ blue ocean air freshener 300 มล',301,8,57,191,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e817-124b-11ed-8a84-000d3a196655','9556076005445','แอมบิเพอร์ lavender breeze air freshener 300 มล',301,8,57,191,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897e891-124b-11ed-8a84-000d3a196655','9556076008286','แอมบิเพอร์ fresh & light 300 มล',301,8,57,191,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e909-124b-11ed-8a84-000d3a196655','9556076010814','แอมบิเพอร์ fresh & cool 300 มล',301,8,57,191,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897e97e-124b-11ed-8a84-000d3a196655','9556076012672','แอมบิเพอร์ Room Fresh 180 กรัม',301,8,57,191,158,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5256,7 +5256,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897ebf6-124b-11ed-8a84-000d3a196655','9556111983646','แอร์วิค Aqua marine 300 มล',303,8,57,191,306,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ece6-124b-11ed-8a84-000d3a196655','8859205100013',' บรรจุภัณฑ์ OPS 96.0×130.0×41.0mm 100 ชิ้น',82,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ed8c-124b-11ed-8a84-000d3a196655','8859205100020','บรรจุภัณฑ์ OPS 112.0×160.0×37.5mm บรรจุ100ชิ้น',82,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897ee0d-124b-11ed-8a84-000d3a196655','8859205100044','บรรจุภัณฑ์ OPS 122.0×185.5×41.0 บรรจุ100ชิ้น',82,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897ee84-124b-11ed-8a84-000d3a196655','8859205100051','บรรจุภัณฑ์ OPS ขนาด 135×197×44 mm.',82,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897eefa-124b-11ed-8a84-000d3a196655','8859205100464','บรรจุภัณฑ์ OPS 92.5×119.0×60.0mm บรรจุ100ชิ้น',82,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5267,7 +5267,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897f165-124b-11ed-8a84-000d3a196655','4902430786072','ดาวน์นี่ ผงซักฟอกสูตรเข้มข้น สีชมพู 2200 กรัม',578,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f1de-124b-11ed-8a84-000d3a196655','4902430786638','ดาวน์นี่ ผงซักฟอกสูตรเข้มข้น สีเขียว 2200 กรัม',578,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f255-124b-11ed-8a84-000d3a196655','4902430867672','ดาวน์นี่ น้ำยาซักผ้า(เขียว) 550มล.',578,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897f2ce-124b-11ed-8a84-000d3a196655','8850002001138','เปา คัลเลอร์ นาโนเทค 900 g',179,8,55,184,621,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f345-124b-11ed-8a84-000d3a196655','8850002012073','ไฟท์ ผลิตภัณฑ์ขจัดคราบ 220 มล.',398,8,55,184,225,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f4d7-124b-11ed-8a84-000d3a196655','8850002017443','เปา วินวอช พลังเข้มข้น ชนะคราบ 800 g',179,8,55,184,594,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5278,7 +5278,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897f756-124b-11ed-8a84-000d3a196655','8850002022232','108 ช็อป ผงซักฟอก 3500 กรัม',46,8,55,184,342,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f7cf-124b-11ed-8a84-000d3a196655','8850002022805','3 แจ๋ว ผงซักฟอก 350 กรัม',47,8,55,184,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f844-124b-11ed-8a84-000d3a196655','8850002023062','เปาซิล ผงซักฟอก เวอร์นาโน 800 กรัม',179,8,55,184,594,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897f8b9-124b-11ed-8a84-000d3a196655','8850002024038','เปา ซิลเวอร์ นาโน 800 กรัม',179,8,55,184,594,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f92f-124b-11ed-8a84-000d3a196655','8850002024823','เปา วินวอช วิควิด ผลิตภัณฑ์ซักผ้า ชนิดน้ำ ขจัดคราบลึก 700มล.',179,8,55,184,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897f9a6-124b-11ed-8a84-000d3a196655','8850002028593','เปา ซุปเปอร์ ไวท์ ผงซักฟอก 400 กรัม',179,8,55,184,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5289,7 +5289,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7897fbef-124b-11ed-8a84-000d3a196655','8850002032798','เปา ผลิตภัณฑ์ซักผ้า ชนิดน้ำ 700 มล',179,8,55,184,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897fc64-124b-11ed-8a84-000d3a196655','8850002032866','108 ช็อป สามพลังแจ๋ว+แจ่ม ผงซักฟอก  3200 g',46,8,55,184,321,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897fcdb-124b-11ed-8a84-000d3a196655','8850002032880','108 ช็อป ผงซักฟอก 320 กรัม ชมพู',46,8,55,184,323,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7897fd4f-124b-11ed-8a84-000d3a196655','8850002034143','เปา วินวอช Red blossom 800 กรัม',179,8,55,184,594,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897fdc8-124b-11ed-8a84-000d3a196655','8850002034150','เปา วินวอช White Floral 800 กรัม',179,8,55,184,594,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7897fe3d-124b-11ed-8a84-000d3a196655','8850092252458','ไฮยีน น้ำยาซักผ้า สูตร เลิฟลี่บรูม (ชมพู) 700 มล.',418,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5300,7 +5300,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789800a0-124b-11ed-8a84-000d3a196655','8850360104137','แวนิช ขจัดคราบ เมื่อใช้ร่วมกับผงซักฟอก 30 กรัม',292,8,55,184,311,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980115-124b-11ed-8a84-000d3a196655','8851043000517','คราม ตราไก่ 16 กรัม',600,8,55,184,138,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789801a6-124b-11ed-8a84-000d3a196655','8851043001019','ผงฟอกนวล ตราไก่ 39 กรัม',600,8,55,184,379,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898021c-124b-11ed-8a84-000d3a196655','8851043910007','ครามปรับผ้าขาวเข้มข้น ตราไก่ 160 มล.',600,8,55,184,131,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980295-124b-11ed-8a84-000d3a196655','8851237771285','เพียวพลัส ผงซักฟอกสูตรเข้มข้น 500 กรัม',188,8,55,184,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898030d-124b-11ed-8a84-000d3a196655','8851818524323','ไฮเตอร์ คัลเลอร์ ซักผ้าขาวและสี 600 มล. (เขียว)',413,8,55,184,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5311,7 +5311,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78980558-124b-11ed-8a84-000d3a196655','8851818636903','ไฮเตอร์ น้ำยาซักผ้าขาว (เล็ก) 250 มล. (เหลือง)',413,8,55,184,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789805d0-124b-11ed-8a84-000d3a196655','8851818637009','ไฮเตอร์ ซักผ้าขาว 600 มล.',413,8,55,184,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980643-124b-11ed-8a84-000d3a196655','8851818949782','ไฮเตอร์ คัลเลอร์ฆ่าเชื้อแบคทีเรีย 40 กรัม',413,8,55,184,399,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789806b8-124b-11ed-8a84-000d3a196655','8851818952423','ไฮเตอร์ น้ำยาซักผ้าขาว (ฝาม่วง) 500 มล.',413,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898072c-124b-11ed-8a84-000d3a196655','8851932156097','บรีส เอกเซล ผงซักฟอกสูตรเข้มข้น 90g',668,8,55,184,623,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789807a0-124b-11ed-8a84-000d3a196655','8851932171977','บรีส เอกเซล ซิกเนเจอร์ ผงซักฟอก ฟลอรัล บรีส 80 กรัม',668,8,55,184,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5322,7 +5322,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789809f1-124b-11ed-8a84-000d3a196655','8851932203678','บรีส เอกเซล ผงซักฟอกสูตรเข้มข้น 230 กรัม',668,8,55,184,234,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980a65-124b-11ed-8a84-000d3a196655','8851932214926','บรีส เอกเซล คอมฟอร์ท ผงซักฟอกสูตรเข้มข้น 210 กรัม',668,8,55,184,213,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980adb-124b-11ed-8a84-000d3a196655','8851932230490','บรีส เอกเซล ลิควิด น้ำยาซักผ้า สูตรเข้มข้น 750 มล.',668,8,55,184,577,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78980b51-124b-11ed-8a84-000d3a196655','8851932230506','บรีส เอกเซล ลิควิด น้ำยาซักผ้า สูตรเข้มข้น 400 มล.',668,8,55,184,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980bdf-124b-11ed-8a84-000d3a196655','8851932238717','บรีส เอกเซล ผลิตภัณฑ์ซักผ้า 35มล.',668,8,55,184,354,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980c64-124b-11ed-8a84-000d3a196655','8851932272414','บรีส ผลิตภัณฑ์ซักผ้า (ชมพู) ชนิดน้ำ 700 มล',668,8,55,184,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5333,7 +5333,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78980eb0-124b-11ed-8a84-000d3a196655','8851932350921','บรีส เพาเวอร์เทอร์โบ ผงซักฟอก สูตรมาตรฐาน 380 กรัม',668,8,55,184,370,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980f25-124b-11ed-8a84-000d3a196655','8851932356565','โอโม ซันซายน์ ผงซักฟอก 300 กรัม',366,8,55,184,306,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78980f97-124b-11ed-8a84-000d3a196655','8851932377270','บรีส เอกเซล คัลเลอร์ ผงซักฟอกสูตรเข้มข้น 210 กรัม',668,8,55,184,213,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78981011-124b-11ed-8a84-000d3a196655','8851932377478','บรีส เอกเซล ผงซักฟอก 1500 g',668,8,55,184,112,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898108a-124b-11ed-8a84-000d3a196655','8851932377485','บรีส ผงซักฟอก เอกเซล 2000 กรัม',668,8,55,184,196,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789810fd-124b-11ed-8a84-000d3a196655','8851932377706','บรีส เอกเซล ตอมฟอร์ท 80g',668,8,55,184,598,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5344,7 +5344,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898134a-124b-11ed-8a84-000d3a196655','8851932378000','บรีส เอกเซล คอมฟอร์ท ม่วง 380ml',668,8,55,184,371,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789813bf-124b-11ed-8a84-000d3a196655','8851932378031','บรีส เอกเซล ลิควิด คอมฟอร์ท 30 มล.',668,8,55,184,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981433-124b-11ed-8a84-000d3a196655','8851932382205','บรีส เอกเซล ผงซักฟอก 430 g',668,8,55,184,416,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789814a6-124b-11ed-8a84-000d3a196655','8851932382212','บรีส เอกเซล คอมฟอร์ท ผงซักฟอกสูตรเข้มข้น 400 กรัม',668,8,55,184,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898151d-124b-11ed-8a84-000d3a196655','8851932386418','บรีส เพาเวอร์ เฟรชแอนด์บลู สูตรมาตรฐาน 350 กรัม',668,8,55,184,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981592-124b-11ed-8a84-000d3a196655','8851932386432','บรีส เพาเวอร์ เฟรชแอนด์บลู สูตรมาตรฐาน 2500 กรัม',668,8,55,184,247,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5355,7 +5355,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789819f9-124b-11ed-8a84-000d3a196655','8851932415002','บรีส เอกเซล แอคทีฟ เฟรช ผลิตภัณฑ์ซักผ้า 30 มล.',668,8,55,184,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981a7a-124b-11ed-8a84-000d3a196655','8851932415019','บรีส เอกเซล แอคทีฟ เฟรช 700ml',668,8,55,184,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981c32-124b-11ed-8a84-000d3a196655','8851932415316','บรีสเอกเซล แอคทีฟ เฟรช ผงซักฟอกสูตรเข้มข้น 80 กรัม',668,8,55,184,597,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78981cb3-124b-11ed-8a84-000d3a196655','8851932415323','บรีส เอกเซล แอคทีฟเฟรช ผงซักฟอกสูตรเข้มข้น 210 กรัม',668,8,55,184,213,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981d37-124b-11ed-8a84-000d3a196655','8851932415361','บรีส ผงซักฟอก เอกเซลแอคทีพ เฟรช 1400 กรัม',668,8,55,184,6,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78981dae-124b-11ed-8a84-000d3a196655','8851932416047','บรีส เอกเซล ซิกเนอเจอร์ ฟลอรัล บรีส น้ำยาซักผ้า 650 มล.',668,8,55,184,538,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5366,7 +5366,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78982007-124b-11ed-8a84-000d3a196655','8851932424721','บรีส เอกเซล ซิกเนเจอร์ โอเชี่ยน บรีส น้ำยาซักผ้า 650 มล.',668,8,55,184,538,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982080-124b-11ed-8a84-000d3a196655','8851932424752','บรีส เอกเซล ซิกเนเจอร์ รอยัล บรีส 650 มล.',668,8,55,184,538,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789820fa-124b-11ed-8a84-000d3a196655','8851932425391','โอโม พลัส ซีเครท ไบร์ท ชนิดน้ำ 600 มล.',366,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898216f-124b-11ed-8a84-000d3a196655','8851932426022','บรีส เพาเวอร์ สวีท ฟลาวเวอร์ 300 กรัม',668,8,55,184,306,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789821e4-124b-11ed-8a84-000d3a196655','8851932426039','บรีส เพาเวอร์ เฟรช แอนด์ บลูม 300 กรัม',668,8,55,184,306,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898225b-124b-11ed-8a84-000d3a196655','8851932430944','โอโม ซันซายน์ 3,500 กรัม',366,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5377,7 +5377,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78982502-124b-11ed-8a84-000d3a196655','8851989033099','ไฟน์ไลน์  โปรเทค-คลีน ผลิตภัณฑ์ซักผ้า ชนิดน้ำ 700 มล',399,8,55,184,560,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898267d-124b-11ed-8a84-000d3a196655','8851989033105','ไฟน์ไลน์ ผลิตภัณฑ์ซักผ้า สูตรเข้มข้น 700 มล.',399,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982708-124b-11ed-8a84-000d3a196655','8851989033174','น้ำยาปรับผ้านุ่ม sweet floral 400 มล.',399,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898277f-124b-11ed-8a84-000d3a196655','8851989033181','น้ำยาปรับผ้านุ่ม (ม่วง) 400 มล.',399,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789827f4-124b-11ed-8a84-000d3a196655','8851989033273','ไฟน์ไลน์ น้ำยาซักผ้า 580 มล. (ฟ้า)',399,8,55,184,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898286b-124b-11ed-8a84-000d3a196655','8851989033280','ไฟน์ไลน์ พลัส ซันนี่ โกลด์ ผลิตภัณฑ์ซักผ้า 400ml',399,8,55,184,394,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5388,7 +5388,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78982ab6-124b-11ed-8a84-000d3a196655','8850273240014','ซูมิ ตลับดูดกลิ่นตู้เย็น',136,8,57,191,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982b2a-124b-11ed-8a84-000d3a196655','8850273240212','ซูมิ ตลับดูดกลิ่นตู้ทั่วไป',136,8,57,191,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982b9e-124b-11ed-8a84-000d3a196655','8852814000316','ลูกเหม็น เพรส',184,8,57,191,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78982c21-124b-11ed-8a84-000d3a196655','8857200248327','ยางรัด ตราแอปเปิล 500g',599,8,63,215,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982c9b-124b-11ed-8a84-000d3a196655','2084379000005','ชาร์มมิ่ง สเปรย์น้ำหอมฉีดผ้า (กลิ่นซากุระ) 250 มล.',520,8,55,184,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78982d13-124b-11ed-8a84-000d3a196655','2084381500005','น้ำหอมฉีดผ้าชาร์มมิ่งสเปรย์ กลิ่น Poom 250 ml.',520,8,55,184,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5399,7 +5399,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78982f92-124b-11ed-8a84-000d3a196655','8850092204020','ไฮยีน ผลติภัณฑ์ซักผ้าขาว สีฟ้า ขวด250 ml',418,8,55,184,250,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898300a-124b-11ed-8a84-000d3a196655','8850092204075','ไฮยีน น้ำยาซักผ้าขาว 600 มล. (ขาว)',418,8,55,184,518,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983080-124b-11ed-8a84-000d3a196655','8850092213060','ไฮยีน ผลิตภัณฑ์ซักผ้าขาว กลิ่นฟลอรัล 250 ml',418,8,55,184,250,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789830fa-124b-11ed-8a84-000d3a196655','8850092213145','ไฮยีน ผลิตภัณฑ์ซักผ้าขาว กลิ่นฟลอรัล 500 ml',418,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983170-124b-11ed-8a84-000d3a196655','8850092222109','ไฮยีน รีดเรียบ Pink Blossom แบบขวด 550 มล.',418,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789831e8-124b-11ed-8a84-000d3a196655','8850092222512','ไฮยีน ผลิตภัณฑ์รีดเรียบ pink blossom 550ml',418,8,55,184,494,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5410,7 +5410,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78983437-124b-11ed-8a84-000d3a196655','8850092252410','ไฮยีน น้ำยาซักผ้า ชนิดน้ำ เลฟลี่ บลูม 400 มล.',418,8,55,184,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789834ad-124b-11ed-8a84-000d3a196655','8850092253059','ไฮยีน น้ำยาซักผ้า 35 มล. (เขียว) แบบซอง',418,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983524-124b-11ed-8a84-000d3a196655','8850092256050','ไฮยีน expert care ดุโอ แอคทีฟเซ้นท์ 35ml',418,8,55,184,354,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898359c-124b-11ed-8a84-000d3a196655','8850092256418','ไฮยีน ผลิตภัณฑ์ซักผ้า ซันคิส บลูมมิ่ง 400 ml',418,8,55,184,394,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983611-124b-11ed-8a84-000d3a196655','8850092262334','ไฮยีน ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น พิ้งค์ สวีท 600 มล.',418,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983686-124b-11ed-8a84-000d3a196655','8850092264369','ไฮยีน ผลิตภัณฑ์ปรับผ้านุ่ม กลิ่น โอเชี่ยน บลู 600 มล.',418,8,55,184,518,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5421,7 +5421,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789838d0-124b-11ed-8a84-000d3a196655','8850092276102','ไฮยีน ปรับผ้านุ่ม มอร์นิ่งบลูม ซองเล็ก x24',418,8,55,184,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983946-124b-11ed-8a84-000d3a196655','8850092276706','ไฮยีน เอ็กซ์เพิร์ท แคร์ มอร์นิ่ง บลูม 540 ml',418,8,55,184,491,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789839e7-124b-11ed-8a84-000d3a196655','8850092277024','ไฮยีน expert care happy สปริง แมกโนเลีย 20ml',418,8,55,184,209,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78983ae4-124b-11ed-8a84-000d3a196655','8850092280048','ไฮยัน expert care milky touch ผลิตภัณฑ์ปรับผ้านุ่ม 20ml',418,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983b63-124b-11ed-8a84-000d3a196655','8850092280208','ไฮยีน Expert care มิลค์กี้ ทัช ผลิตภัณฑ์ปรับผ้านุ่ม  125 มล.',418,8,55,184,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983bdb-124b-11ed-8a84-000d3a196655','8850092280604','ไฮยีน Expert care มิลค์กี้ ทัช ผลิตภัณฑ์ปรับผ้านุ่ม  540 มล.',418,8,55,184,491,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5432,7 +5432,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78983e2e-124b-11ed-8a84-000d3a196655','8850092285203','น้ำยาปรับผ้านุ่ม 125มล. (ทอง) ',418,8,55,184,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983ea3-124b-11ed-8a84-000d3a196655','8850092285302','ไฮยีน expert care แฮปปี้ซันชายน์ 330 ml',418,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78983f17-124b-11ed-8a84-000d3a196655','8850092285708','ไฮยีน ปรับผ้านุ่ม เข้มข้น (ส้ม มีจุกฝา) 540 มล.',418,8,55,184,491,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78983f8d-124b-11ed-8a84-000d3a196655','8850092292027','ไฮยีน expert care lovely bloom 20ml',418,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78984001-124b-11ed-8a84-000d3a196655','8850092292218','ไฮยีน ปรับผ้านุ่ม เลิฟลี่บลูม 125 ml',418,8,55,184,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789841d4-124b-11ed-8a84-000d3a196655','8850092292300','ไฮยีน expert care เลิฟลี่ บลูม 330 ml',418,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5443,7 +5443,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78984445-124b-11ed-8a84-000d3a196655','8850092298029','ไฮยีน expert care กลิ่น พีโอนีบลูม 20 ml',418,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898454c-124b-11ed-8a84-000d3a196655','8850092298104','ไฮยีน ปรับผ้านุ่ม พีโอนีบลูม ซองเล็ก x24',418,8,55,184,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789845d4-124b-11ed-8a84-000d3a196655','8850092298210','ไฮยีน ปรับผ้านุ่ม ไลพ์เซรั่ม พีโอนี บลูม125 ml',418,8,55,184,75,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898464b-124b-11ed-8a84-000d3a196655','8850092298302','ไฮยีน expert care พีโอนี บลูม 330 ml',418,8,55,184,333,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78984b6e-124b-11ed-8a84-000d3a196655','8850092298708','ไฮยีน Expert care พีโอนี บลูม ผลิตภัณฑ์ปรับผ้านุ่ม  540 มล.',418,8,55,184,491,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78984c37-124b-11ed-8a84-000d3a196655','8850092312022','ไฮยีน expert care happy so happy  ผลิตภัณฑ์ปรับผ้านุ่ม 20ml',418,8,55,184,209,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5454,7 +5454,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78984e9d-124b-11ed-8a84-000d3a196655','8851989030401','ไฟน์ไลน์ สเปรย์หอมรีดผ้าเรียบ Pink 550 มล.',399,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78984f26-124b-11ed-8a84-000d3a196655','8851989030425','ไฟน์ไลน์ สเปรย์หอมรีดผ้าเรียบ กลิ่น Pleasure pink 500 มล.',399,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78984f9f-124b-11ed-8a84-000d3a196655','8851989030487','ไฟน์ไลน์ น้ำยาสเปย์หอมอัดกรีบ 500มล. (ชมพู)',399,8,55,184,494,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898501c-124b-11ed-8a84-000d3a196655','8851989031248','ไฟน์ไลน์ สเปรย์หอมรีดผ้าเรียบ glam princess 450 มล.',399,8,55,184,250,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985094-124b-11ed-8a84-000d3a196655','8851989031408','ไฟน์ไลน์ โปรเทค-คลีน 30ml',399,8,55,184,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898510b-124b-11ed-8a84-000d3a196655','8851989031699','ไฟน์ไลน์ โปรคลีน 30ml',399,8,55,184,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5465,7 +5465,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78985366-124b-11ed-8a84-000d3a196655','8851989032634','ไฟน์ไลน์ tender scent 20ml',399,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789853dd-124b-11ed-8a84-000d3a196655','8851989032733','ไฟน์ไลน์ sunny pressure 20ml',399,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898545a-124b-11ed-8a84-000d3a196655','8851989032740','ไฟน์ไลน์ เนเชอรัล วินดี้ บรีส 20ml',399,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789854d2-124b-11ed-8a84-000d3a196655','8851989032757','ไฟน์ไลน์ เนเชอรัล water harmony 20ml',399,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985547-124b-11ed-8a84-000d3a196655','8851989032818','ไฟน์ไลน์ เนเชอรัล water harmony 500ml',399,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789855bd-124b-11ed-8a84-000d3a196655','8851989032849','ไฟน์ไลน์ พลัส ซันนี่โกลด์ 300ml',399,8,55,184,304,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5476,7 +5476,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78985834-124b-11ed-8a84-000d3a196655','8851989033341','ไฟน์ไลน์ ดีลักซ์ เพอร์ฟูม 30ml',399,8,55,184,312,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789858ac-124b-11ed-8a84-000d3a196655','8851989033419','ไฟน์ไลน์ แอลลิแกนซ์ ซีรีย์ 500 ml',399,8,55,184,468,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985926-124b-11ed-8a84-000d3a196655','8851989033778','ไฟน์ไลน์ น้ำยาปรับผ้านุ่ม พรีเมี่ยม ออร์แกนิค 20ml',399,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898599f-124b-11ed-8a84-000d3a196655','8853329659003','ชาร์มมิ่ง สเปรย์ น้ำหอมฉีดผ้า (กลิ่นPoom) 20 มล.',520,8,55,184,209,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985a16-124b-11ed-8a84-000d3a196655','8855629657393','น้ำหอมฉีดผ้าชาร์มมิ่งสเปรย์ กลิ่น sakura',520,8,55,184,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985a91-124b-11ed-8a84-000d3a196655','8855629660898','น้ำหอมฉีดผ้าชาร์มมิ่งสเปรย์ กลิ่น poom',520,8,55,184,209,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5487,7 +5487,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78985d10-124b-11ed-8a84-000d3a196655','8852117111078',' เอเวอร์กรีน สำลีก้าน100ก้าน',224,8,66,218,39,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985d8d-124b-11ed-8a84-000d3a196655','8852117121039','เอเวอร์กรีน สำลีแผ่น 50กรัม',224,8,66,218,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985e03-124b-11ed-8a84-000d3a196655','8852117121077','เอเวอร์กรีน สำลีรีดขอบ 100 แผ่น',224,8,66,218,39,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78985e7b-124b-11ed-8a84-000d3a196655','8852117131038','เอเวอร์กรีน สำลี',224,8,66,218,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985ef0-124b-11ed-8a84-000d3a196655','8852117131045','เอเวอร์กรีน สำลีก้อน',224,8,66,218,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78985f66-124b-11ed-8a84-000d3a196655','8859084700069','โซซอฟท์ สำลีก้าน 100 ก้าน',326,8,66,218,39,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5498,7 +5498,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789861d4-124b-11ed-8a84-000d3a196655','8858805210597','หลอดงอสีขาว 6 mm×21cm. 250 เส้น',209,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898624e-124b-11ed-8a84-000d3a196655','8858805210603','หลอดงอสีน้ำตาล 6 mm×21cm. 250 เส้น',209,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789862c4-124b-11ed-8a84-000d3a196655','8997207617198','พานาโซนิค หลอดไฟ LED Neo 7 วัตต์',720,8,64,216,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898633a-124b-11ed-8a84-000d3a196655','KMT-6624W','KMT หลอด LED ประหยัดพลังงาน 24 w',61,8,63,215,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789863b2-124b-11ed-8a84-000d3a196655','KMT-6625W','KMT หลอด LED ประหยัดพลังงาน 25W',61,8,63,215,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898642b-124b-11ed-8a84-000d3a196655','1320500031512','MR.Honey Farmland น้ำผึ้งธรรมชาติ 700 มล.',65,8,66,218,560,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5509,7 +5509,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78986681-124b-11ed-8a84-000d3a196655','8850106095033','TOA กาวลาเท็กซ์ 8 Oz.',79,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789866f9-124b-11ed-8a84-000d3a196655','8850304000013','สก๊อตช์-ไบรต์ แผ่นใยขัด 100 x 150 มม 1 ชิ้น ',865,8,60,204,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78986770-124b-11ed-8a84-000d3a196655','8850304000068','สก๊อตช์-ไบรต์ 3M แผ่นใยขัดพร้อมฟองน้ำ',947,8,60,204,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789867eb-124b-11ed-8a84-000d3a196655','8850304000075','สก๊อตช์-ไบรต์ ขนาดจัมโบ้ 85 x 150 มม 1 ชิ้น',865,8,66,218,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78986864-124b-11ed-8a84-000d3a196655','8850304006541','สก๊อตช์-ไบรต์ ฝอยสเตนเลส 14 กรัม 1 ชิ้น',865,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789868dd-124b-11ed-8a84-000d3a196655','8850304015147','สก๊อตช์-ไบรต์ ฟองน้ำพร้อมตาข่าย',865,8,66,218,182,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5520,7 +5520,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78986b32-124b-11ed-8a84-000d3a196655','8850822140130','พอลก้า แก้ส้นเท้าแตก 10 กรัม',715,8,66,218,51,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78986d14-124b-11ed-8a84-000d3a196655','8850871105005','ยูนิ-ท้อป Diamond steel wool ',790,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78987cff-124b-11ed-8a84-000d3a196655','8850900001933','ซันไบรท์ ฝอยสแตนเลสต์ ขนาดจัมโบ้',15,8,60,204,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78987ea5-124b-11ed-8a84-000d3a196655','8851315000023','คิงคอง แผ่นใยขัดหนาพิเศษ 8.5 x 11 cm',476,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78987f67-124b-11ed-8a84-000d3a196655','8851315000085','มิสเตอร์ สมาร์ท แผ่นใยขัด พร้อมฟองน้ำ ',775,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78987fee-124b-11ed-8a84-000d3a196655','8851315000511','คิงคอง แผ่นใยขัดหนาพิเศษ 18 x 14.5 ',476,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5531,7 +5531,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898825d-124b-11ed-8a84-000d3a196655','8851315004724','มิสเตอร์สมาร์ท ฟรอยสเตนเลส 20 กรัม',775,8,60,204,182,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789882d9-124b-11ed-8a84-000d3a196655','8851552104003','แม็กซ์ ลวดเย็บกระดาษ No.M8-1M',7,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988351-124b-11ed-8a84-000d3a196655','8851932055017','วิม ผงขัด 600g ',844,8,66,218,518,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789883cd-124b-11ed-8a84-000d3a196655','8851938800086','ตราสมอ แปรงทรงเตารีด',610,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898844b-124b-11ed-8a84-000d3a196655','8852240065026','เต็มอิ่ม โดย เจ้าสัว กุนเชียง 70g',138,5,33,96,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789884c4-124b-11ed-8a84-000d3a196655','8854203008750','ปลาทอง วัตถุแต่งกลิ่น กลิ่นวานิลลา 10 กรัม',696,8,66,218,51,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5542,7 +5542,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78988723-124b-11ed-8a84-000d3a196655','8858557000026','ปลาตะเพียนทอง วุ้นผงสำหรับทำขนม 50 กรัม',695,8,66,218,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898879c-124b-11ed-8a84-000d3a196655','8858762400024','แอลดี ล้างเล็บเกรด เอ 60 มล.',306,8,66,218,521,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988816-124b-11ed-8a84-000d3a196655','8888153100202','กีวี ขี้ผึ้งขัดรองเท้า 36g.',435,8,66,218,362,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898888e-124b-11ed-8a84-000d3a196655','8888153100219','กีวี ขี้ผึ้งขัดรองเท้า สีน้ำตาล 36g.',435,8,66,218,362,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988907-124b-11ed-8a84-000d3a196655','9556001132130','ซีรีแล็ค สูตรผสมถั่วเหลือง และผลไม้รวม 120g.',558,8,66,218,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988983-124b-11ed-8a84-000d3a196655','9556001132574','ซีรีแล็ค สูตรเริ่มต้นข้าวสาลี และนม 120g.',558,8,66,218,70,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5553,7 +5553,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78988bff-124b-11ed-8a84-000d3a196655','43376965182002','เครื่องบิน ไม้เสียบอาหาร 6 นิ้ว',100,8,63,215,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988c7b-124b-11ed-8a84-000d3a196655','8850919724557','L-WRAP ฟิ์มพลาสติกถนอมอาหาร',64,8,63,215,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988cf4-124b-11ed-8a84-000d3a196655','8853863004003','STAR PRODUCTS ฟอยล์ ห่ออาหาร ',75,8,63,215,1,3,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78988d6d-124b-11ed-8a84-000d3a196655','8855051024176','EPP ถ้วย 3 Oz',55,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988dec-124b-11ed-8a84-000d3a196655','8855051024237','EPP ฝาเรียบ 75 mm',55,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78988e66-124b-11ed-8a84-000d3a196655','8858802800418','K-52',73,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5564,7 +5564,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789890c3-124b-11ed-8a84-000d3a196655','8858805201113','JT-501',60,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989148-124b-11ed-8a84-000d3a196655','8858805201120','JT-502',60,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789891c0-124b-11ed-8a84-000d3a196655','8858805201144','JT-500',60,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78989237-124b-11ed-8a84-000d3a196655','8858805211310','เรนโบว์สตาร์ หลอดใหญ่',209,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789892af-124b-11ed-8a84-000d3a196655','8858805222002','ตราดอกทานตะวัน กระดาษเคลือบ 12*12 บรรจุ 1 กก.',605,8,63,215,186,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898932d-124b-11ed-8a84-000d3a196655','8858805231233','ตราดอกบัว ช้อนโยเกิร์ต',606,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5575,7 +5575,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898958f-124b-11ed-8a84-000d3a196655','8858969030185','TPP ถ้วยมีลาย',83,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898960a-124b-11ed-8a84-000d3a196655','8859024600091','BA กระดาษโรตี 8*8 บรรจุ 1 กิโลกรัม',49,8,63,215,186,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989681-124b-11ed-8a84-000d3a196655','8859094607143','ฮอร์นบอยฝาเรียบ 75มิล ใส',939,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789896fb-124b-11ed-8a84-000d3a196655','8859146900093','YODO ถ้วยน้ำดื่ม พีพี y-700ใส',89,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989773-124b-11ed-8a84-000d3a196655','8859146900888','YODO ถ้วยน้ำดื่ม พีพี 22 Oz ทรงไข่',89,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789897ea-124b-11ed-8a84-000d3a196655','8859332600264','TL ถ้วยน้ำดื่ม 16 ลอน',78,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5586,7 +5586,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78989a67-124b-11ed-8a84-000d3a196655','98691964523659','เครื่องบิน ไม้เสียบอาหาร 7 นิ้ว',100,8,63,215,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989ae1-124b-11ed-8a84-000d3a196655','8850011051797','เนสท์เล่ ลา ฟรุ๊ตต้า เกรฟ 67g',149,14,84,239,545,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989b57-124b-11ed-8a84-000d3a196655','8850011061253','เนสท์เล่ โมจิ วานิลา 50g',149,14,84,239,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78989bd0-124b-11ed-8a84-000d3a196655','8850011061895','เนสท์เล่ เอ็กซ์ตรีมไอศกรีม กลิ่นวานิลลาราดหน้าด้วยน้ำเชื่อมสตรอเบอร์รี่ 47 กรัม',149,14,84,239,444,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989c57-124b-11ed-8a84-000d3a196655','8850011065169','เนสท์เล่ โมจิ งาดำ 50g',149,14,84,239,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989cd1-124b-11ed-8a84-000d3a196655','8850011068658','เนสท์เล่ไอติมนมเปรี้ยวเยลลี่ส้ม 53g',149,14,84,239,489,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5597,7 +5597,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78989f3a-124b-11ed-8a84-000d3a196655','8850125073807','เนสท์เล่ เอสกี้ แพนด้า 60g',149,14,84,239,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78989fb1-124b-11ed-8a84-000d3a196655','8850125075184','เนสท์เล่ เอสกี้ นมเย็น 50g',149,14,84,239,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a028-124b-11ed-8a84-000d3a196655','8850125084551','เนสท์เล่ ลาฟรุ๊ตต้า โยเกริร์ตลิ้นจี่ 50g',149,14,84,239,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898a0a4-124b-11ed-8a84-000d3a196655','8850125090538','เนสท์เล่ คุกกี้โอริโอ แท่ง 60g',149,14,84,239,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a11b-124b-11ed-8a84-000d3a196655','8850125092907','เนสท์เล่ ซุปเปอร์ช็อกป็อป กลิ่นกล้วย 55 กรัม',149,14,84,239,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a193-124b-11ed-8a84-000d3a196655','8850125097773','เนสท์เล่ คุกกี้โอริโอ บิสกิตโอริโอ 60g',149,14,84,239,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5608,7 +5608,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898a3f9-124b-11ed-8a84-000d3a196655','8850453001633','เนสท์เล่ ช็อกป๊อป วานิลลา 55g',149,14,84,239,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a472-124b-11ed-8a84-000d3a196655','8850453001657','เนสท์เล่ ซุปเปอร์ช็อกป๊อป รสช็อกโกแลต',149,14,84,239,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a4eb-124b-11ed-8a84-000d3a196655','8850453011069','เอสกี้ โคล่า 38g',149,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898a563-124b-11ed-8a84-000d3a196655','8850453015371','เนสท์เล่ ไมโล 51g',149,14,84,239,481,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a5f6-124b-11ed-8a84-000d3a196655','8850453016217','Milo ไอศกรีม รสช็อกโกแลตมอลต์ 55กรัม',149,14,84,239,495,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898a670-124b-11ed-8a84-000d3a196655','8850453017528','เนสท์เล่ แม็กมาไมโล 55g',149,14,84,239,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5619,7 +5619,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898b79a-124b-11ed-8a84-000d3a196655','8851932030618','วอลล์ ไอศกรีมดัดแปลงรสช็อกโกแลต46 g',829,14,84,239,1,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898b834-124b-11ed-8a84-000d3a196655','8851932074025','วอลล์ คัพ กลิ่นวานิลลาและกลิ่นครีม 46 g',829,14,84,239,440,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898b8be-124b-11ed-8a84-000d3a196655','8851932126366','วอลล์ คัพ ช็อกโกแลตชิพ 46 g',829,14,84,239,440,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898b943-124b-11ed-8a84-000d3a196655','8851932145329','ท๊อปเทน รสช็อกโกแลต55 g',829,14,84,239,495,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898b9c2-124b-11ed-8a84-000d3a196655','8851932268820','เนสท์เล่ Paddle pop แตงโม 62g',829,14,84,239,527,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ba3c-124b-11ed-8a84-000d3a196655','8851932299152','วอลล์ รสเชอร์เบตกลิ่นมะนาว 60g แบบถ้วย',829,14,84,239,1,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5630,7 +5630,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898be13-124b-11ed-8a84-000d3a196655','8851932411134','Paddle pop ยักษ์คู่ รสองุ่น',829,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898be8a-124b-11ed-8a84-000d3a196655','8851932413909','วอลล์ คอร์เนตโต ดาร์กช็อกโกแลต บราวนี่ 66g',829,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898bf04-124b-11ed-8a84-000d3a196655','8851932421812',' วอลล์ โมจิ มิลค์ที 35g',829,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898bf7d-124b-11ed-8a84-000d3a196655','8851932421997',' วอลล์ โอวัลติน ไวท์มอลต์ครันชี่72g',829,14,84,239,570,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898bff6-124b-11ed-8a84-000d3a196655','8851932440462','Paddle pop triple choc 51g',829,14,84,239,481,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c06f-124b-11ed-8a84-000d3a196655','8851932444347',' วอลล์ โมจิ มิลค์ที บานาน่า 35 g',829,14,84,239,353,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5641,7 +5641,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898c2f7-124b-11ed-8a84-000d3a196655','8858492003731','ไอศกรีมสตรโบราณ รสเผือก 65 มล.',20,14,84,239,540,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c36c-124b-11ed-8a84-000d3a196655','8858492005100','เอเต้ Boom Boom ไอศครีม รสวานิลลา 65 มล.',20,14,84,239,540,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c3e2-124b-11ed-8a84-000d3a196655','8858492005117','เอเต้ Boom Boom ไอศครีม รสช็อกโกแลต 65 มล.',20,14,84,239,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898c469-124b-11ed-8a84-000d3a196655','8858492005124','แชมเปี้ยน ไอศครีมดัดแปลง รสช็อกโกแลต 100 มล.',20,14,84,239,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c4e1-124b-11ed-8a84-000d3a196655','8858492005148','แชมเปี้ยน ไอศครีมดัดแปลง รสวานิลลา 100 มล.',20,14,84,239,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c55a-124b-11ed-8a84-000d3a196655','8858492005681','Choc Bomb รสช็อกโกแลตชิพ 50ก',20,14,84,239,474,5,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5652,7 +5652,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898c7aa-124b-11ed-8a84-000d3a196655','8858492009832','ไอ ติม นม ฮอกไกโด มิลค์ 50 มล.',20,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c822-124b-11ed-8a84-000d3a196655','8858492009849','เอเต้ ไอ ติม นม รสช็อกโกแลต 50 มล.',20,14,84,239,477,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c8a5-124b-11ed-8a84-000d3a196655','8858492010340','LAVA candy กลิ่นคาราเมลสอดไส้ซอสสตรอเบอร์รี่ 60 มล.',20,14,84,239,539,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898c91d-124b-11ed-8a84-000d3a196655','8858492010371','พี่เบิ้ม กลิ่นส้ม 70 มล.',20,14,84,239,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898c993-124b-11ed-8a84-000d3a196655','8858492010388','เอเต้ ไอศกรีม พี่เบิ้ม กลิ่นโคล่า 70 มล.',20,14,84,239,564,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ca0b-124b-11ed-8a84-000d3a196655','8858492010425','Big Jolly กลิ่นองุ่น 45 มล.',20,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5663,7 +5663,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898cc5e-124b-11ed-8a84-000d3a196655','8859292500024','กูลิโกะ พาแนปป์ องุ่นซันเด 80g',27,14,84,239,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ccd5-124b-11ed-8a84-000d3a196655','8859292500048','กูลิโกะ ไจแอนท์ โคน ดาร์กช็อกโกแลตและถั่วลิสง 80g',27,14,84,239,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898cd6c-124b-11ed-8a84-000d3a196655','8859292500055','กูลิโกะ ไจแอนท์ โคน คุ๊กกี้และดาร์กช็อกโกแลต 80g',27,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898cde8-124b-11ed-8a84-000d3a196655','8859292500062','กูลิโกะ เซเว่นทีนไอซ์ คุุ๊กกี้ไอซ์ 62g',27,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ce5d-124b-11ed-8a84-000d3a196655','8859292500093','กูลิโกะ ไจแอนท์ คราวน์ ริชช็อกโกแอนด์ครัชอัลมอนด์ไอซ์  80g',27,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ced4-124b-11ed-8a84-000d3a196655','8859292500109','กูลิโกะ พาแนปป์ ทริปเปิลช็อกโกแลตซันเด 88g',27,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5674,7 +5674,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898d135-124b-11ed-8a84-000d3a196655','8859292500338','กูลิโกะ ไจแอนท์ คราวน์ สตรอเบอร์รีชีสเค้ก 80g',27,14,84,239,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d1af-124b-11ed-8a84-000d3a196655','8999999556679','Paddle pop มินเนี่ยน คาราเมล รสช็อกโกแลต 60g',829,14,84,239,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d226-124b-11ed-8a84-000d3a196655','4902201209120','เพียวริน่า ไก่ลักผสมในเยลลี่ 70 กรัม',190,8,62,212,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898d29d-124b-11ed-8a84-000d3a196655','4902201211154','เพียวริน่า chicken in jelly 70 กรัม',190,8,62,212,563,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d316-124b-11ed-8a84-000d3a196655','8850125071360','เพียวริน่า อาหารลูกแมว 1.1 กก',190,8,62,212,12,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d38d-124b-11ed-8a84-000d3a196655','8850125071483','เพียวริน่า Party Mix รส Classic 60 กรัม',190,8,62,212,520,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5685,7 +5685,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898d5f0-124b-11ed-8a84-000d3a196655','8850125072855','เพียวริน่า อาหารลูกแมว 400 กรัม',190,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d667-124b-11ed-8a84-000d3a196655','8850125072930','เพียวริน่า อาหารแมว รวมมิตรปลาทะเล 1.2 กก',190,8,62,212,18,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d6dd-124b-11ed-8a84-000d3a196655','8850125072978','เพียวริน่า ฟิสกี้ รสปิ้งย่าง 450 กรัม',190,8,62,212,428,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898d753-124b-11ed-8a84-000d3a196655','8850125072992','เพียวริน่า อาหารแมว ปิ้งย่าง 1.2 กก',190,8,62,212,18,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d7c9-124b-11ed-8a84-000d3a196655','8850125080713','เพียวริน่า อาหารสุนัข รสเนื้อ 450 กรัม',190,8,62,212,428,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898d85c-124b-11ed-8a84-000d3a196655','8850127004922','เพียวริน่า วัน อาหารแมวโต อินดอร์ แอดแวนเทจ 400 กรัม',190,8,62,212,393,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5696,7 +5696,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898dac2-124b-11ed-8a84-000d3a196655','8850477012431','สมาร์ทฮาร์ท อาหารนกขุนทอง บำรุงสมอง 400 กรัม',882,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898db3c-124b-11ed-8a84-000d3a196655','8850477012752','มีโอ ขนมแมวเลีย รสแซลมอน 15 กรัม',778,8,62,212,123,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898dbb2-124b-11ed-8a84-000d3a196655','8850477013704','มีโอ ครีมมี่ ทรีต ขนมแมวเลีย รสโบนิโดะ 15กรัมX4ซอง',778,8,62,212,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898dc32-124b-11ed-8a84-000d3a196655','8850477017030','มีโอ ทรายแมว กลิ่นกาแฟ 5 ลิตร',778,8,62,214,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898dca7-124b-11ed-8a84-000d3a196655','8850477017177','มีโอ ปลาชาร์ดีน 80 กรัม',778,8,62,212,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898dd20-124b-11ed-8a84-000d3a196655','8850477017870','มีโอ อาหารแมว รสไก่และตับ 80 กรัม',778,8,62,212,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5707,7 +5707,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898e0d3-124b-11ed-8a84-000d3a196655','8850477018662','มีโอ อาหารแมว สำหรับแม่และลูกแมว ',778,8,62,212,393,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898e14c-124b-11ed-8a84-000d3a196655','8850477018686','มีโอ อาหารแมวโต รสปลาทะเล 450 กรัม',778,8,62,212,428,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898e225-124b-11ed-8a84-000d3a196655','8850477020658','Zoi dog อาหารสุนัข สำหรับสุนัขโต 1 กก.',532,8,62,212,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898e2a3-124b-11ed-8a84-000d3a196655','8850477025172','มีโอ อาฟารแมวสูงอายุ รสปลาทู ',778,8,62,212,12,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f133-124b-11ed-8a84-000d3a196655','8850477026285','มีโอ ปลาทูน่าผสมไก่ฉีกในน้ำเกรวี่',778,8,62,212,563,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f237-124b-11ed-8a84-000d3a196655','8850477026308','มีโอ ดีไลท์ รสปลาทูน่า ผสมชีสในน้ำเกรวี่ 70 กรัม',778,8,62,212,563,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5718,7 +5718,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898f4f3-124b-11ed-8a84-000d3a196655','8850477051508','มีโอ อาหารลูกแมวเปอร์เซีย ป้องกันขนอุดตัน 400 กรัม',778,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f56d-124b-11ed-8a84-000d3a196655','8850477054158','มีโอ รสปลาทู 1.2 กก.',778,8,62,212,18,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f5e6-124b-11ed-8a84-000d3a196655','8850477054509','มีโอ อาหารแมว ปลาทู',778,8,62,212,428,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898f673-124b-11ed-8a84-000d3a196655','8850477055506','มีโอ อาหารลูกแมว รสปลาทะเล 400 กรัม',778,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f6ec-124b-11ed-8a84-000d3a196655','8850477056503','มีโอ อาหารแมว รสซีฟู้ด',778,8,62,212,428,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898f763-124b-11ed-8a84-000d3a196655','8850477059504','มีโอ อาหารแมวโต รสปลาทูน่า 450 กรัม',778,8,62,212,428,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5729,7 +5729,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898f9c8-124b-11ed-8a84-000d3a196655','8850477583801','มีโอ อาหารแมว รสปลาทูน่าและไก่เยลลี่ 80 กรัม',778,8,62,212,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898fa49-124b-11ed-8a84-000d3a196655','8850477592810','มีโอ อาหารแมว รสปลาทูน่า 80 กรัม',778,8,62,212,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898fac4-124b-11ed-8a84-000d3a196655','8850477803503','สมาร์ทฮาร์ท อาหารสุนัข รสไก่และตับ500 กรัม',882,8,62,212,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7898fb3e-124b-11ed-8a84-000d3a196655','8850477810501','สมาร์ทฮาร์ท อาหารสุนัข รสเนื้ออบ 500 กรัม',882,8,62,212,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898fbb6-124b-11ed-8a84-000d3a196655','8850477812024','สมาร์ทฮาร์ท อาหารสุนัข รสเนื้ออบ1.5 กก',882,8,62,212,26,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898fc2e-124b-11ed-8a84-000d3a196655','8850477820500','สมาร์ทฮาร์ท อาหารสุนัข รสตับรมควัน 500 กรัม',882,8,62,212,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5740,7 +5740,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7898fea2-124b-11ed-8a84-000d3a196655','8850805000024','ซากุระโกลด์ อาหารปลา 50 กรัม',546,8,62,212,474,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ff1c-124b-11ed-8a84-000d3a196655','8850805000031','ซากุระโกลด์ อาหารปลา 100 กรัม',546,8,62,212,37,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7898ff97-124b-11ed-8a84-000d3a196655','8850805001748','ซากุระ อาหารปลา 20 กรัม',546,8,62,212,207,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7899000d-124b-11ed-8a84-000d3a196655','8851024000567','ทีมแรบบิท อาหารสำหรับเลี้ยงกระต่าย 1 กก.',642,8,62,212,186,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990083-124b-11ed-8a84-000d3a196655','8851495000080','เชนการ์ด แชมพูขจัดเห็บหมัด',117,8,62,214,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789900fd-124b-11ed-8a84-000d3a196655','8851495000141','เชนการ์ด แชมพูขจัดเห็บหมัดสุนัขพันธุ์เล็ก',117,8,62,214,1,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5751,7 +5751,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7899034d-124b-11ed-8a84-000d3a196655','8852523006302','เพ็ทเอ็ท ทรายอนามัยแมว ซีแลนด์ 10 ลิตร',182,8,62,214,45,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789903c5-124b-11ed-8a84-000d3a196655','8852523007965','เพ็ทเอ็ท ทรายอนามัยแมว ซีแลนด์ 5 ลิตร',182,8,62,214,509,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7899043b-124b-11ed-8a84-000d3a196655','8853301000215','เพดดีกรี เนื้อวัวอบชิ้นในน้ำเกรวี่พร้อมผัก 80 กรัม',181,8,62,212,597,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789904b2-124b-11ed-8a84-000d3a196655','8853301001915','วิสกัส แมวเด็ก รสปลาทู 450 กรัม',845,8,62,212,428,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990529-124b-11ed-8a84-000d3a196655','8853301130141','เพดดีกรี อาหารสุนัข สูตรสุนัขโตเต็มวัย 500 กรัม',181,8,62,212,467,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789905a5-124b-11ed-8a84-000d3a196655','8853301140645','วิสกัส รสปลาทู 480 กรัม',845,8,62,212,445,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5762,7 +5762,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78990808-124b-11ed-8a84-000d3a196655','8853301530019','เพดดีดรี รสเนื้อวัวในน้ำเกรวี่ 130 กรัม',181,8,62,212,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7899089c-124b-11ed-8a84-000d3a196655','8853301530040','เพดดีกรี รสไก่และตับในน้ำเกรวี่ 130 กรัม',181,8,62,212,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990916-124b-11ed-8a84-000d3a196655','8853301530293','เพดดีกรี รสเนื้อวัวตุ๋นพร้อมผัก 130 กรัม',181,8,62,212,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('7899098d-124b-11ed-8a84-000d3a196655','8853301530309','เพดดีกรี รสตับย่างพร้อมผัก 130 กรัม',181,8,62,212,86,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990a05-124b-11ed-8a84-000d3a196655','8853301550017','วิสกัส อาหารเปียก รสปลาทูน่า 80 กรัม',845,8,62,212,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990a7e-124b-11ed-8a84-000d3a196655','8853301550031','วิสกัส อาหารเปียก รสปลาทู 80กรัม',845,8,62,212,597,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5773,7 +5773,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78990cd6-124b-11ed-8a84-000d3a196655','8856929001244','ทันเดอร์ อาหารแมว 500 g',631,8,62,212,467,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990d4f-124b-11ed-8a84-000d3a196655','8857127091044','โอปปา อาหารปลาสวยงาม 200 กรัม',369,8,62,212,199,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990dc4-124b-11ed-8a84-000d3a196655','8858767309971','ซีแซนด์ ทรายแมว กลิ่นเลมอน',554,8,62,214,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78990e3a-124b-11ed-8a84-000d3a196655','8858979701013','มันซ์นี่ รสนม ',757,8,62,212,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990eb1-124b-11ed-8a84-000d3a196655','8858979701440','มันซ์นี่ กระดูกผูก ',757,8,62,212,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78990f26-124b-11ed-8a84-000d3a196655','8859306610053','โอเล่ อาหารสุนัข รสเนื้อ 1กก.',362,8,62,212,1,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5784,7 +5784,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7899117c-124b-11ed-8a84-000d3a196655','9310022866500','วิสกัส รสปลาทูน่า 480 กรัม',845,8,62,212,445,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789911f2-124b-11ed-8a84-000d3a196655','9334214025612','คิดตี้แคท อาหารแมว รสปลาทู 350 กรัม',477,8,62,212,346,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991267-124b-11ed-8a84-000d3a196655','9334214033228','เพดดิกรี อาหารสุนัข รสตับย่าง 400 กรัม',181,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789915ba-124b-11ed-8a84-000d3a196655','9334214035666','วิสกัส สูตรแมวโต รสปลาทู 400 กรัม',845,8,62,212,393,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991642-124b-11ed-8a84-000d3a196655','8851907015886','Master art สีโปสเตอร์',768,8,64,216,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789916dd-124b-11ed-8a84-000d3a196655','8851907109868','Master art ดินสอสีเทียน (เล็ก)',768,8,64,216,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5795,7 +5795,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('7899193d-124b-11ed-8a84-000d3a196655','8850170000148','สายฝน 90 ซองเล็ก',890,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789919b4-124b-11ed-8a84-000d3a196655','8850170000155','กรองทิพย์ 90 เล็ก 1 ซอง',421,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991a2a-124b-11ed-8a84-000d3a196655','8850170000797','SMS Red เล็ก 1 ซอง',74,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78991aa1-124b-11ed-8a84-000d3a196655','8850170000803','SMS Green เล็ก 1 ซอง',74,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991b1a-124b-11ed-8a84-000d3a196655','8850170001794','Wonder S Red เล็ก บุหรี่ 1 ซอง',87,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991b9b-124b-11ed-8a84-000d3a196655','8850170001800','Wonder S Green เล็ก บุหรี่ 1 ซอง',87,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5806,7 +5806,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78991dee-124b-11ed-8a84-000d3a196655','8886419700654','Iscore Blue บุหรี่ 1 ซอง',59,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991e62-124b-11ed-8a84-000d3a196655','8886419700876','Playoff Red 1 ซอง',71,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991ed8-124b-11ed-8a84-000d3a196655','8886419700890','PLAYOFF GREEN 1 ซอง',71,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78991f4d-124b-11ed-8a84-000d3a196655','8886419711070','Iscore 5.0 1 ซอง',59,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78991fc1-124b-11ed-8a84-000d3a196655','8886419711858','Isore 7',59,15,85,240,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992035-124b-11ed-8a84-000d3a196655','95012162','Winston Compact Red 1 ซอง',85,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5817,7 +5817,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78992285-124b-11ed-8a84-000d3a196655','95509747','L&M Green 7.1 บุหรี่ 1 ซอง',62,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789922fa-124b-11ed-8a84-000d3a196655','95510361','L&M Storm 7.1 บุหรี่ 1 ซอง',62,15,85,240,204,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992371-124b-11ed-8a84-000d3a196655','88500157','L&M Red 7.1 ซองแข็ง',62,15,85,240,1,9,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789923e9-124b-11ed-8a84-000d3a196655','00000001','สินค้าราคา 1 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992463-124b-11ed-8a84-000d3a196655','00000002','สินค้าราคา 2 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789924da-124b-11ed-8a84-000d3a196655','00000003','สินค้าราคา 5 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5828,7 +5828,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78992752-124b-11ed-8a84-000d3a196655','00000008','สินค้าราคา 30 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789927ca-124b-11ed-8a84-000d3a196655','00000009','สินค้าราคา 35 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7899283e-124b-11ed-8a84-000d3a196655','00000010','สินค้าราคา 40 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('789928b3-124b-11ed-8a84-000d3a196655','00000011','สินค้าราคา 45 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992927-124b-11ed-8a84-000d3a196655','00000012','สินค้าราคา 50 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7899299b-124b-11ed-8a84-000d3a196655','00000013','สินค้าราคา 100 บาท',104,8,66,218,1,8,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5839,7 +5839,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('78992bff-124b-11ed-8a84-000d3a196655','8858705612170','แมกโนเลีย นม รสจืด 180มล.x4',948,2,8,26,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992c77-124b-11ed-8a84-000d3a196655','8851473000019','แอนตาซิล เยล สำหรับลดกรดและลดแก๊ส เคลือบแผลในกระเพาะอาหาร 240 มล.',298,9,68,220,243,2,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992d02-124b-11ed-8a84-000d3a196655','8859339000234','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 12x26 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78992d82-124b-11ed-8a84-000d3a196655','8859339000180','ถุงหูหิ้วเกรดเอ สำหรับบรรจุของหนัก ตราม้า 6x14 บรรจุ 1/2 กก.',607,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992e02-124b-11ed-8a84-000d3a196655','8859339000029','ถุงหูหิ้วเกรดเอ ตราม้าบิน 6x11 บรรจุ 1/2 กก.',35,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78992e7a-124b-11ed-8a84-000d3a196655','3612020','ถุงหูหิ้วพลาสติกใส ตราต้นเงิน 12x20 บรรจุ1/2 กก.',34,8,63,215,1,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5850,7 +5850,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('789930e0-124b-11ed-8a84-000d3a196655','8857126511215','ถุงร้อนใส 14x22 ตราม้าบิน 1/2กก',35,8,63,215,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78993159-124b-11ed-8a84-000d3a196655','8857126511604','ถุงร้อนใส 18x28 ตราม้าบิน 1/2กก',35,8,63,215,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('789931ed-124b-11ed-8a84-000d3a196655','8857126511130','ถุงร้อนใส 6x11 ตราม้าบิน 1/2กก',35,8,63,215,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('78993269-124b-11ed-8a84-000d3a196655','8857126511093','ถุงร้อนใส 5x9 ตราม้าบิน 1/2กก',35,8,63,215,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('7899333e-124b-11ed-8a84-000d3a196655','8857126511055','ถุงร้อนใส 4 1/2x7 ตราม้าบิน 1/2กก',35,8,63,215,467,7,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
 	 ('78993405-124b-11ed-8a84-000d3a196655','8858711914893','ชีวา เห็ดหอมอบแห้ง 100กรัม',528,5,35,103,37,1,NULL,NULL,0,1,'00000','2022-09-12 11:47:07',1,'1000000000',NULL,0),
@@ -5861,7 +5861,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('811ac2d5-dc60-4904-bc60-5ecad7e54787','yusukeSongsit19','songsit11',99,1,1,1,1,1,'1.0',0,1,0,'testuser1','2022-08-31 20:36:59',1,'1000000000',NULL,0),
 	 ('847fb7e0-d095-4eb3-8948-32e6918770c5','Ram','RAM DDR4(2666) 16GB (8GBX2) KINGSTON FURY BEAST RGB (KF426C16BBAK2/16)',1338,1,1,0,99,1,'0',0,1,1,'songsit3','2023-03-01 10:55:37',1,'1000000019',NULL,0),
 	 ('86749602-a3a9-4c53-a0d5-3c9a09eca36d','dfsafaAS','safadsfsdaf',115,7,60,1,10,11,'4.0',0,1,0,'testuser1','2022-09-02 19:01:14',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('87556d7f-a437-44ae-9749-bbf975937c77','brandTestOat','brandTestOat',1,1,1,1,1,2,'12.0',0,1,1,'dev1','2022-09-05 15:09:57',1,'1000000000',NULL,0),
 	 ('8850011053739','11111','เนสกาแฟ เรดคัพ แบล็ค โรสต์ 80 กรัม',2,1,1,1,1,1,NULL,0,0,0,'testuser1','2022-08-24 12:54:49',1,'1000000000',NULL,0),
 	 ('8a2a719e-a849-4e8a-9811-afabb230f7ce','909090','testInsert1',4,1,12,1,9,9,'1.0',0,1,0,'testuser1','2022-08-31 20:00:42',1,'1000000000',NULL,0),
@@ -5872,7 +5872,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('90d64389-b355-4bad-9e77-979926a18c20','gift','gift vocher',1338,1,1,0,99,1,'0',0,1,1,'songsit3','2023-03-01 10:57:52',1,'1000000019',NULL,0),
 	 ('916f5548-0ced-4333-ba4d-65e97d7ee939','19191919','songst191919',8,2,3,1,1,1,'1.0',0,1,0,'testuser1','2022-08-29 16:26:10',1,'1000000000',NULL,0),
 	 ('9238bda4-0563-4d99-bbdc-a29775db4463','b111','b111',1,1,1,1,12,1,'11.0',0,1,0,'testuser1','2022-09-02 18:55:23',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('9369e2e5-bcec-4768-8bd9-c28143686af3','fgfgd','ttt',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-01-20 14:01:07',1,'1000000000',NULL,0),
 	 ('95fe7d51-fece-4ec5-b492-eaa2ce5b4211','51321','51321',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-01-19 14:42:31',1,'1000000000',NULL,0),
 	 ('967bd6c7-866e-4f10-9da8-f6ca0b6f619b','aaa','aaa',1338,2,5,0,2,1,'0',0,1,1,'dev1','2022-10-26 13:30:00',1,'1000000000',NULL,0),
@@ -5883,7 +5883,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('9ee9b2c3-6c78-4026-885a-764a9a06104d','11111','11111',1338,1,1,0,99,1,'0',0,1,0,'tccvat','2023-02-20 09:44:15',1,'000021',NULL,0),
 	 ('9f8d0640-4d09-4e9b-bff7-c7d6fab17bc0','437568679656317','abcd',18,4,25,62,5,2,'12',0,1,1,'dev1','2022-09-14 18:49:03',1,NULL,NULL,0),
 	 ('a0e456ef-8720-41b1-9175-76fcfebbef7c','102103104105','coacoaOatt',1026,3,29,1,3,1,'155.0',0,1,1,'dev1','2022-09-07 10:37:34',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('a139641c-0e07-43c5-ae94-516a971fc0ec','12yusu','yusukeMilin',1,2,20,1,1,9,'1.0',0,1,0,'testuser1','2022-09-01 19:48:34',1,'1000000000',NULL,0),
 	 ('a3ef16d2-14a1-4543-9ef8-b492e10517d2','437568679656319','abcd',50,4,25,62,4,2,'12',0,1,1,'dev1','2022-09-14 19:11:08',1,NULL,NULL,0),
 	 ('a599b86e-0738-4b64-b5ff-248dba9a637c','23421365219','oatTest4',2332,4,28,79,4,4,'15',0,1,1,'dev1','2022-09-15 13:48:54',1,NULL,NULL,0),
@@ -5894,7 +5894,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('b20311cb-f6d0-4791-8832-c091f7530d55','by003','by003',1,1,1,1,1,1,'12.0',0,1,0,'testuser1','2022-09-02 18:50:26',1,'1000000000',NULL,0),
 	 ('b26d0d10-7d41-41cb-8a3e-e2454f042173','437568679656315','abcd',18,4,25,62,5,2,'12',0,1,1,'dev1','2022-09-14 18:47:12',1,NULL,NULL,0),
 	 ('b2d9d340-b876-4448-a08f-db614df4fd63','abc-abc-123456','sssss',2,8,9,1,10,10,'1.0',0,1,0,'testuser1','2022-08-31 14:37:51',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('b3325c8a-ac46-4423-b689-67b85ad12bb4','437568679656314','abcd',50,4,25,62,4,2,'12',0,1,1,'dev1','2022-09-14 19:12:43',1,NULL,NULL,0),
 	 ('b366529f-1e31-491c-8e6a-039c48042d89','123456789012345','songsit21',5,1,1,1,1,1,'192.0',0,0,0,'dev1','2022-09-15 09:50:46',1,NULL,NULL,0),
 	 ('b88c26d7-840e-4d9c-a7f0-c2d3750c5dc5','6921211104231','cdef',18,4,25,62,5,3,'12',0,1,1,'dev1','2022-09-14 19:45:02',1,NULL,NULL,0),
@@ -5905,7 +5905,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('c6bf47a9-df77-4571-ae03-07deadfed974','/l.ead.me/bBdut9','l_eat_me',1338,1,1,0,99,1,'0',0,0,1,'dev1','2023-03-02 06:33:22',1,'1000000000',NULL,0),
 	 ('c71776ce-f036-496d-8b1d-c7c368cb248d','12123','songsitTestJson1',99,1,1,1,7,7,'1.0',0,1,0,'testuser1','2022-08-31 16:02:59',1,'1000000000',NULL,0),
 	 ('c789f682-3c36-43b1-a817-512d49e718a7','8850157104','เยลลี่บิวตี้',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 09:53:01',1,'000026',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('ca18a230-0e77-428b-9902-911aea487190','12342139048611','ดกก',11,4,25,63,8,8,'5',0,1,1,'dev1','2022-09-15 11:23:54',1,NULL,NULL,0),
 	 ('ca345157-1078-412d-82c3-b21bb26f4818','yusukeSongsitu','songsitTestLogin',99,2,1,1,1,1,'1.0',0,1,0,'testuser1','2022-08-31 19:05:56',1,'1000000000',NULL,0),
 	 ('ca45a071-1320-4371-92f5-5fe8bc352899','asfd','asdfsadf',2,8,65,1,9,9,'5.0',0,1,0,'testuser1','2022-09-02 19:04:35',1,'1000000000',NULL,0),
@@ -5916,7 +5916,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('cd6c6e7b-7e23-41d5-80d1-5768ad53ce9d','www.patumoil.co.th','patum_oil',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-03-02 14:12:57',1,'1000000000',NULL,0),
 	 ('cdcb6556-1091-4956-882e-6195b93191ab','dfsafa','safadsfsdaf',115,7,60,1,10,11,'4.0',0,1,0,'testuser1','2022-09-02 18:59:07',1,'1000000000',NULL,0),
 	 ('ce872c15-0249-4d7a-8592-f4d8be275970','23423162341545','ทดสอบ2',6,1,1,1,4,4,'1.0',0,1,0,'testuser1','2022-08-30 20:37:20',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('ce8ef8fd-272b-4e0c-94d0-9146dda9c33e','72527273070','songsit300',2333,1,1,1,1,1,'192.0',0,1,1,'dev1','2023-02-20 03:46:53',1,'1000000000',NULL,0),
 	 ('d1122f53-170d-4e41-a080-9fdf11421fca','asdf','asdf',2,8,65,1,10,10,'4.0',0,1,0,'testuser1','2022-09-02 18:05:20',1,'1000000000',NULL,0),
 	 ('d263717e-135e-4fe6-b008-f1439d1ac4f6','oatuat','songsitUat',15,3,29,1,11,7,'12.0',0,1,0,'testuser1','2022-09-02 17:42:51',1,'1000000000',NULL,0),
@@ -5927,7 +5927,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('d75aa265-8cde-4b51-96a8-fb862e06b6c4','348957623895764','fdasf',14,7,44,150,8,8,'25',0,1,1,'dev1','2022-09-14 20:29:12',1,NULL,NULL,0),
 	 ('db2a3fb2-4c03-4b5b-a03e-4a3797b020a2','21351265472','ัก้่นระเ้่าสง',479,5,9,1,11,11,'1.0',0,1,0,'testuser1','2022-08-31 13:27:52',1,'1000000000',NULL,0),
 	 ('dbc67cdb-cdcb-4d6c-9a48-66f933ea55b2','cccc','cccc',1338,1,1,0,99,1,'0',0,1,1,'dev1','2022-10-26 14:14:09',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('df8c8770-d891-49ab-ada7-771ca62d44e6','123','123',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-16 10:56:16',1,'000026',NULL,0),
 	 ('e62fa5ea-795a-46a9-adab-88fc0251f925','asfdaa','asdfsadf',2,8,65,1,9,9,'5.0',0,1,0,'testuser1','2022-09-02 19:05:55',1,'1000000000',NULL,0),
 	 ('e6f752aa-246b-4558-8cad-5521d7111165','123421390486153','a',740,8,62,214,1,1,'5',0,1,1,'dev1','2022-09-15 11:26:33',1,NULL,NULL,0),
@@ -5938,7 +5938,7 @@ INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGr
 	 ('ec43f7ec-d74c-49ca-97e2-0c52f4608f9b','mx','12345',1338,1,1,0,99,1,'0',0,1,1,'tccinven3','2023-01-18 12:14:12',1,'000026',NULL,0),
 	 ('ee1b3aae-f06d-4b00-acef-71014ecc185a','prodSizeTest2','prodSizeTest2',2,1,1,1,1,2,'199.0',0,1,0,'dev1','2022-09-03 13:07:27',1,'1000000000',NULL,0),
 	 ('ef120ae1-3354-494f-a1ac-9a9508fd3bb9','6431543173145','ดกด่าาัเ',4,8,9,1,8,8,'1.0',0,1,0,'testuser1','2022-08-31 13:37:41',1,'1000000000',NULL,0);
-INSERT INTO "backendposdata.sku" (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
+INSERT INTO backendposdatasku (SKUID,BarcodePOS,ProductName,BrandID,ProductGroupID,ProductCatID,ProductSubCatID,ProductSizeID,ProductUnit,PackSize,Unit,BanForPracharat,IsVat,CreateBy,CreateDate,IsActive,MerchantID,MapSKU,IsFixPrice) VALUES
 	 ('ef2b5a9b-a5a3-4db7-919e-4e35bc75c123','OatInWZa','โอ๊ตเทพซ่า',1338,1,1,0,99,1,'0',0,1,1,'dev1','2023-01-04 07:01:59',1,NULL,NULL,0),
 	 ('f12e558d-9308-49d0-ab96-bac908806795','234213652341','ึเกก',2328,8,62,213,8,6,'5',0,1,1,'dev1','2022-09-15 11:55:35',1,NULL,NULL,0),
 	 ('f18d2d44-c07d-4d76-95ce-5ede753794d9','456892347658922','test1',5,5,30,87,7,8,'5',0,1,1,'dev1','2022-09-15 11:19:50',1,NULL,NULL,0),
