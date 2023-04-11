@@ -11,13 +11,13 @@ import (
 )
 
 type SKU_branch struct {
-	SKUID      sql.NullString  `json:"skuid"`
-	MerchantID sql.NullString  `json:"merchantid"`
-	BranchID   sql.NullString  `json:"branchid"`
-	Price      sql.NullFloat64 `json:"price"`
-	StartDate  time.Time       `json:"startdate"`
-	EndDate    sql.NullTime    `json:"enddate"`
-	IsActive   sql.NullInt32   `json:"isactive"`
+	SKUID      *string    `json:"skuid"`
+	MerchantID *string    `json:"merchantid"`
+	BranchID   *string    `json:"branchid"`
+	Price      *float64   `json:"price"`
+	StartDate  *time.Time `json:"startdate"`
+	EndDate    *time.Time `json:"enddate"`
+	IsActive   *int32     `json:"isactive"`
 }
 
 func main() {
@@ -42,6 +42,7 @@ func main() {
 		var skus_branch []SKU_branch
 		for rows.Next() {
 			var sku_branch SKU_branch
+
 			err := rows.Scan(&sku_branch.SKUID, &sku_branch.MerchantID, &sku_branch.BranchID, &sku_branch.Price, &sku_branch.StartDate, &sku_branch.EndDate, &sku_branch.IsActive)
 			if err != nil {
 				log.Fatal(err)

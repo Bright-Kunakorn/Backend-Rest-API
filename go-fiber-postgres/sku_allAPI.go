@@ -69,7 +69,6 @@ func main() {
 		}
 		c.JSON(http.StatusOK, skus)
 	})
-	TestGetSKUs(t)
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}
