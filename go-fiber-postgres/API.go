@@ -16,7 +16,7 @@ type SKU_branch struct {
 	BranchID   sql.NullString  `json:"branchid"`
 	Price      sql.NullFloat64 `json:"price"`
 	StartDate  time.Time       `json:"startdate"`
-	EndDate    sql.NullTime       `json:"enddate"`
+	EndDate    sql.NullTime    `json:"enddate"`
 	IsActive   sql.NullInt32   `json:"isactive"`
 }
 type SKU struct {
