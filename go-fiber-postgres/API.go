@@ -128,6 +128,25 @@ func main() {
 		}
 		c.JSON(http.StatusOK, skus)
 	})
+	r.GET("/skus_branch/:id", func(c *gin.Context) {
+		id := c.Param("id")
+		rows, err := db.Query("SELECT * FROM backendposdata_sku_branch_price WHERE skuid='" + id + "'")
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer rows.Close()
+		var skus_branch []SKU_branch
+		for rows.Next() {
+			var sku_branch SKU_branch
+
+			err := rows.Scan(&sku_branch.SKUID, &sku_branch.MerchantID, &sku_branch.BranchID, &sku_branch.Price, &sku_branch.StartDate, &sku_branch.EndDate, &sku_branch.IsActive)
+			if err != nil {
+				log.Fatal(err)
+			}
+			skus_branch = append(skus_branch, sku_branch)
+		}
+		c.JSON(http.StatusOK, skus_branch)
+	})
 
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
