@@ -32,13 +32,13 @@ type SKU struct {
 	PackSize        *string    `json:"packsize"`
 	Unit            *int64     `json:"unit"`
 	BanForPracharat *int64     `json:"banforpracharat"`
-	IsVat           bool       `json:"isvat"`
+	IsVat           *bool      `json:"isvat"`
 	CreateBy        *string    `json:"createby"`
 	CreateDate      *time.Time `json:"createdate"`
 	IsActive        *bool      `json:"isactive"`
 	MerchantID      *string    `json:"merchantid"`
 	MapSKU          *string    `json:"mapsku"`
-	IsFixPrice      bool       `json:"isfixprice"`
+	IsFixPrice      *bool      `json:"isfixprice"`
 }
 
 func main() {
@@ -70,6 +70,7 @@ func main() {
 			}
 			skus_branch = append(skus_branch, sku_branch)
 		}
+		log.Println(len(skus_branch))
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
@@ -91,6 +92,7 @@ func main() {
 			}
 			skus = append(skus, sku)
 		}
+		log.Println(len(skus))
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)

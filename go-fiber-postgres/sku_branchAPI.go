@@ -2,8 +2,10 @@ package main
 
 import (
 	"database/sql"
+	"encoding/json"
 	"log"
 	"net/http"
+	"os"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -50,6 +52,20 @@ func main() {
 			skus_branch = append(skus_branch, sku_branch)
 		}
 		err = rows.Err()
+		if err != nil {
+			log.Fatal(err)
+		}
+		file, err := os.Create("skus_branch.json")
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer file.Close()
+
+		jsonData, err := json.Marshal(skus_branch)
+		if err != nil {
+			log.Fatal(err)
+		}
+		_, err = file.Write(jsonData)
 		if err != nil {
 			log.Fatal(err)
 		}
