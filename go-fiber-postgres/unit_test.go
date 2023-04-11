@@ -23,8 +23,6 @@ func getSKUsBranchID(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "getSKUsID called"})
 }
 
-
-
 func TestGetSKUsBranch(t *testing.T) {
 	req, err := http.NewRequest("GET", "/skus_branch", nil)
 	if err != nil {
