@@ -14,25 +14,25 @@ import (
 )
 
 type SKU struct {
-	SKUID           sql.NullString `json:"skuid"`
-	BarcodePOS      sql.NullString `json:"barcodepos"`
-	ProductName     sql.NullString `json:"productname"`
-	BrandID         sql.NullInt64  `json:"brandid"`
-	ProductGroupID  sql.NullInt64  `json:"productgroupid"`
-	ProductCatID    sql.NullInt64  `json:"productcatid"`
-	ProductSubCatID sql.NullInt64  `json:"productsubcatid"`
-	ProductSizeID   sql.NullInt64  `json:"productsizeid"`
-	ProductUnit     sql.NullInt64  `json:"productunit"`
-	PackSize        sql.NullString `json:"packsize"`
-	Unit            sql.NullInt64  `json:"unit"`
-	BanForPracharat sql.NullInt64  `json:"banforpracharat"`
-	IsVat           bool           `json:"isvat"`
-	CreateBy        sql.NullString `json:"createby"`
-	CreateDate      time.Time      `json:"createdate"`
-	IsActive        bool           `json:"isactive"`
-	MerchantID      sql.NullString `json:"merchantid"`
-	MapSKU          sql.NullString `json:"mapsku"`
-	IsFixPrice      bool           `json:"isfixprice"`
+	SKUID           *string    `json:"skuid"`
+	BarcodePOS      *string    `json:"barcodepos"`
+	ProductName     *string    `json:"productname"`
+	BrandID         *int64     `json:"brandid"`
+	ProductGroupID  *int64     `json:"productgroupid"`
+	ProductCatID    *int64     `json:"productcatid"`
+	ProductSubCatID *int64     `json:"productsubcatid"`
+	ProductSizeID   *int64     `json:"productsizeid"`
+	ProductUnit     *int64     `json:"productunit"`
+	PackSize        *string    `json:"packsize"`
+	Unit            *int64     `json:"unit"`
+	BanForPracharat *int64     `json:"banforpracharat"`
+	IsVat           bool       `json:"isvat"`
+	CreateBy        *string    `json:"createby"`
+	CreateDate      *time.Time `json:"createdate"`
+	IsActive        *bool       `json:"isactive"`
+	MerchantID      *string    `json:"merchantid"`
+	MapSKU          *string    `json:"mapsku"`
+	IsFixPrice      bool       `json:"isfixprice"`
 }
 
 func main() {
