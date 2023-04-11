@@ -55,6 +55,11 @@ func main() {
 	log.Println("Successfully connected to PostgreSQL database!")
 	r := gin.Default()
 	r.GET("/skus_branch", func(c *gin.Context) {
+		var count int
+		err := db.QueryRow("SELECT COUNT(*) FROM backendposdata_sku_branch_price").Scan(&count)
+		if err != nil {
+			log.Fatal(err)
+		}
 		rows, err := db.Query("SELECT * FROM backendposdata_sku_branch_price")
 		if err != nil {
 			log.Fatal(err)
@@ -70,7 +75,7 @@ func main() {
 			}
 			skus_branch = append(skus_branch, sku_branch)
 		}
-		log.Println(len(skus_branch))
+		log.Println(len(skus_branch) == count)
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
@@ -78,6 +83,11 @@ func main() {
 		c.JSON(http.StatusOK, skus_branch)
 	})
 	r.GET("/skus", func(c *gin.Context) {
+		var count int
+		err := db.QueryRow("SELECT COUNT(*) FROM backendposdatasku").Scan(&count)
+		if err != nil {
+			log.Fatal(err)
+		}
 		rows, err := db.Query("SELECT * FROM backendposdatasku")
 		if err != nil {
 			log.Fatal(err)
@@ -92,13 +102,33 @@ func main() {
 			}
 			skus = append(skus, sku)
 		}
-		log.Println(len(skus))
+		log.Println(len(skus) == count)
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
 		}
 		c.JSON(http.StatusOK, skus)
 	})
+
+	r.GET("/skus/:id", func(c *gin.Context) {
+		id := c.Param("id")
+		rows, err := db.Query("SELECT * FROM backendposdatasku WHERE skuid='" + id + "'")
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer rows.Close()
+		var skus []SKU
+		for rows.Next() {
+			var sku SKU
+			err := rows.Scan(&sku.SKUID, &sku.BarcodePOS, &sku.ProductName, &sku.BrandID, &sku.ProductGroupID, &sku.ProductCatID, &sku.ProductSubCatID, &sku.ProductSizeID, &sku.ProductUnit, &sku.PackSize, &sku.Unit, &sku.BanForPracharat, &sku.IsVat, &sku.CreateBy, &sku.CreateDate, &sku.IsActive, &sku.MerchantID, &sku.MapSKU, &sku.IsFixPrice)
+			if err != nil {
+				log.Fatal(err)
+			}
+			skus = append(skus, sku)
+		}
+		c.JSON(http.StatusOK, skus)
+	})
+
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}
