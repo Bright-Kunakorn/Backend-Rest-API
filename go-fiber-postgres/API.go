@@ -48,24 +48,19 @@ func main() {
 		log.Fatal(err)
 	}
 	defer db.Close()
-
 	err = db.Ping()
 	if err != nil {
 		log.Fatal(err)
 	}
 	log.Println("Successfully connected to PostgreSQL database!")
-
 	r := gin.Default()
-
 	r.GET("/skus_branch", func(c *gin.Context) {
 		rows, err := db.Query("SELECT * FROM backendposdata_sku_branch_price")
 		if err != nil {
 			log.Fatal(err)
 		}
 		defer rows.Close()
-
 		var skus_branch []SKU_branch
-
 		for rows.Next() {
 			var sku_branch SKU_branch
 
@@ -75,12 +70,10 @@ func main() {
 			}
 			skus_branch = append(skus_branch, sku_branch)
 		}
-
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		c.JSON(http.StatusOK, skus_branch)
 	})
 	r.GET("/skus", func(c *gin.Context) {
@@ -89,27 +82,21 @@ func main() {
 			log.Fatal(err)
 		}
 		defer rows.Close()
-
 		var skus []SKU
-
 		for rows.Next() {
 			var sku SKU
-
 			err := rows.Scan(&sku.SKUID, &sku.BarcodePOS, &sku.ProductName, &sku.BrandID, &sku.ProductGroupID, &sku.ProductCatID, &sku.ProductSubCatID, &sku.ProductSizeID, &sku.ProductUnit, &sku.PackSize, &sku.Unit, &sku.BanForPracharat, &sku.IsVat, &sku.CreateBy, &sku.CreateDate, &sku.IsActive, &sku.MerchantID, &sku.MapSKU, &sku.IsFixPrice)
 			if err != nil {
 				log.Fatal(err)
 			}
 			skus = append(skus, sku)
 		}
-
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		c.JSON(http.StatusOK, skus)
 	})
-
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}

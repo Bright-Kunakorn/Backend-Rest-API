@@ -42,42 +42,34 @@ func main() {
 		log.Fatal(err)
 	}
 	defer db.Close()
-
 	err = db.Ping()
 	if err != nil {
 		log.Fatal(err)
 	}
 	log.Println("Successfully connected to PostgreSQL database!")
-
 	r := gin.Default()
-
 	r.GET("/skus", func(c *gin.Context) {
 		rows, err := db.Query("SELECT * FROM backendposdatasku")
 		if err != nil {
 			log.Fatal(err)
 		}
 		defer rows.Close()
-
 		var skus []SKU
-
 		for rows.Next() {
 			var sku SKU
-
 			err := rows.Scan(&sku.SKUID, &sku.BarcodePOS, &sku.ProductName, &sku.BrandID, &sku.ProductGroupID, &sku.ProductCatID, &sku.ProductSubCatID, &sku.ProductSizeID, &sku.ProductUnit, &sku.PackSize, &sku.Unit, &sku.BanForPracharat, &sku.IsVat, &sku.CreateBy, &sku.CreateDate, &sku.IsActive, &sku.MerchantID, &sku.MapSKU, &sku.IsFixPrice)
 			if err != nil {
 				log.Fatal(err)
 			}
 			skus = append(skus, sku)
 		}
-
 		err = rows.Err()
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		c.JSON(http.StatusOK, skus)
 	})
-
+	TestGetSKUs(t)
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}
@@ -88,17 +80,11 @@ func TestGetSKUs(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-
 	recorder := httptest.NewRecorder()
-
 	r := gin.Default()
-
 	r.GET("/skus", getSKUs)
-
 	r.ServeHTTP(recorder, req)
-
 	assert.Equal(t, http.StatusOK, recorder.Code)
-
 	assert.Equal(t, "application/json; charset=utf-8", recorder.Header().Get("Content-Type"))
 }
 
