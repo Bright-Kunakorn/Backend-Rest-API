@@ -69,7 +69,14 @@ func main() {
 		for rows.Next() {
 			var sku_branch SKU_branch
 
-			err := rows.Scan(&sku_branch.SKUID, &sku_branch.MerchantID, &sku_branch.BranchID, &sku_branch.Price, &sku_branch.StartDate, &sku_branch.EndDate, &sku_branch.IsActive)
+			err := rows.Scan(
+				&sku_branch.SKUID,
+				&sku_branch.MerchantID,
+				&sku_branch.BranchID,
+				&sku_branch.Price,
+				&sku_branch.StartDate,
+				&sku_branch.EndDate,
+				&sku_branch.IsActive)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -96,7 +103,26 @@ func main() {
 		var skus []SKU
 		for rows.Next() {
 			var sku SKU
-			err := rows.Scan(&sku.SKUID, &sku.BarcodePOS, &sku.ProductName, &sku.BrandID, &sku.ProductGroupID, &sku.ProductCatID, &sku.ProductSubCatID, &sku.ProductSizeID, &sku.ProductUnit, &sku.PackSize, &sku.Unit, &sku.BanForPracharat, &sku.IsVat, &sku.CreateBy, &sku.CreateDate, &sku.IsActive, &sku.MerchantID, &sku.MapSKU, &sku.IsFixPrice)
+			err := rows.Scan(
+				&sku.SKUID,
+				&sku.BarcodePOS,
+				&sku.ProductName,
+				&sku.BrandID,
+				&sku.ProductGroupID,
+				&sku.ProductCatID,
+				&sku.ProductSubCatID,
+				&sku.ProductSizeID,
+				&sku.ProductUnit,
+				&sku.PackSize,
+				&sku.Unit,
+				&sku.BanForPracharat,
+				&sku.IsVat,
+				&sku.CreateBy,
+				&sku.CreateDate,
+				&sku.IsActive,
+				&sku.MerchantID,
+				&sku.MapSKU,
+				&sku.IsFixPrice)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -120,7 +146,27 @@ func main() {
 		var skus []SKU
 		for rows.Next() {
 			var sku SKU
-			err := rows.Scan(&sku.SKUID, &sku.BarcodePOS, &sku.ProductName, &sku.BrandID, &sku.ProductGroupID, &sku.ProductCatID, &sku.ProductSubCatID, &sku.ProductSizeID, &sku.ProductUnit, &sku.PackSize, &sku.Unit, &sku.BanForPracharat, &sku.IsVat, &sku.CreateBy, &sku.CreateDate, &sku.IsActive, &sku.MerchantID, &sku.MapSKU, &sku.IsFixPrice)
+
+			err := rows.Scan(
+				&sku.SKUID,
+				&sku.BarcodePOS,
+				&sku.ProductName,
+				&sku.BrandID,
+				&sku.ProductGroupID,
+				&sku.ProductCatID,
+				&sku.ProductSubCatID,
+				&sku.ProductSizeID,
+				&sku.ProductUnit,
+				&sku.PackSize,
+				&sku.Unit,
+				&sku.BanForPracharat,
+				&sku.IsVat,
+				&sku.CreateBy,
+				&sku.CreateDate,
+				&sku.IsActive,
+				&sku.MerchantID,
+				&sku.MapSKU,
+				&sku.IsFixPrice)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -139,7 +185,14 @@ func main() {
 		for rows.Next() {
 			var sku_branch SKU_branch
 
-			err := rows.Scan(&sku_branch.SKUID, &sku_branch.MerchantID, &sku_branch.BranchID, &sku_branch.Price, &sku_branch.StartDate, &sku_branch.EndDate, &sku_branch.IsActive)
+			err := rows.Scan(
+				&sku_branch.SKUID,
+				&sku_branch.MerchantID,
+				&sku_branch.BranchID,
+				&sku_branch.Price,
+				&sku_branch.StartDate,
+				&sku_branch.EndDate,
+				&sku_branch.IsActive)
 			if err != nil {
 				log.Fatal(err)
 			}
