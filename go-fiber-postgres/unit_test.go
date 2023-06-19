@@ -48,7 +48,6 @@ func TestGetSKUsBranchID(t *testing.T) {
 	assert.Equal(t, http.StatusOK, recorder.Code)
 	assert.Equal(t, "application/json; charset=utf-8", recorder.Header().Get("Content-Type"))
 }
-
 func TestGetSKUs(t *testing.T) {
 	req, err := http.NewRequest("GET", "/skus", nil)
 	if err != nil {
