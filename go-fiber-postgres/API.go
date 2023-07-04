@@ -18,6 +18,7 @@ type SKU_branch struct {
 	EndDate    *time.Time `json:"enddate"`
 	IsActive   *int32     `json:"isactive"`
 }
+
 type SKU struct {
 	SKUID           *string    `json:"skuid"`
 	BarcodePOS      *string    `json:"barcodepos"`
