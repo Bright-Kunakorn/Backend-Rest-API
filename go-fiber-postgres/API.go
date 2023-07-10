@@ -9,6 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"
 )
+
 type SKU_branch struct {
 	SKUID      *string    `json:"skuid"`
 	MerchantID *string    `json:"merchantid"`
