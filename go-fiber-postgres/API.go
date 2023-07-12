@@ -11,6 +11,7 @@ import (
 )
 
 type SKU_branch struct {
+	
 	SKUID      *string    `json:"skuid"`
 	MerchantID *string    `json:"merchantid"`
 	BranchID   *string    `json:"branchid"`
